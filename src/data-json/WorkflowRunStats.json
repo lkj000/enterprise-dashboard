@@ -1,0 +1,4170 @@
+{
+    "esgh-central-settings": {
+        "add-secret-to-repo.yml": {
+            "05/2025": {
+                "total_runs": 169,
+                "success": 155,
+                "failure": 14
+            },
+            "04/2025": {
+                "total_runs": 111,
+                "success": 104,
+                "failure": 5
+            },
+            "03/2025": {
+                "total_runs": 174,
+                "success": 164,
+                "failure": 8
+            },
+            "02/2025": {
+                "total_runs": 119,
+                "success": 114,
+                "failure": 5
+            },
+            "01/2025": {
+                "total_runs": 100,
+                "success": 95,
+                "failure": 5
+            },
+            "12/2024": {
+                "total_runs": 92,
+                "success": 90,
+                "failure": 2
+            },
+            "11/2024": {
+                "total_runs": 124,
+                "success": 118,
+                "failure": 6
+            },
+            "10/2024": {
+                "total_runs": 205,
+                "success": 198,
+                "failure": 7
+            },
+            "09/2024": {
+                "total_runs": 193,
+                "success": 177,
+                "failure": 15
+            },
+            "08/2024": {
+                "total_runs": 157,
+                "success": 142,
+                "failure": 13
+            },
+            "07/2024": {
+                "total_runs": 135,
+                "success": 123,
+                "failure": 12
+            },
+            "06/2024": {
+                "total_runs": 163,
+                "success": 149,
+                "failure": 14
+            },
+            "05/2024": {
+                "total_runs": 313,
+                "success": 300,
+                "failure": 11
+            },
+            "04/2024": {
+                "total_runs": 185,
+                "success": 171,
+                "failure": 14
+            },
+            "03/2024": {
+                "total_runs": 247,
+                "success": 239,
+                "failure": 8
+            },
+            "02/2024": {
+                "total_runs": 176,
+                "success": 165,
+                "failure": 11
+            },
+            "01/2024": {
+                "total_runs": 148,
+                "success": 136,
+                "failure": 12
+            },
+            "12/2023": {
+                "total_runs": 189,
+                "success": 186,
+                "failure": 3
+            }
+        },
+        "add_branch_protection_rules.yml": {
+            "05/2025": {
+                "total_runs": 9,
+                "success": 3,
+                "failure": 6
+            },
+            "04/2025": {
+                "total_runs": 1,
+                "success": 1,
+                "failure": 0
+            },
+            "03/2025": {
+                "total_runs": 6,
+                "success": 6,
+                "failure": 0
+            },
+            "02/2025": {
+                "total_runs": 8,
+                "success": 8,
+                "failure": 0
+            },
+            "01/2025": {
+                "total_runs": 10,
+                "success": 8,
+                "failure": 2
+            },
+            "12/2024": {
+                "total_runs": 6,
+                "success": 5,
+                "failure": 1
+            },
+            "11/2024": {
+                "total_runs": 26,
+                "success": 26,
+                "failure": 0
+            },
+            "10/2024": {
+                "total_runs": 11,
+                "success": 8,
+                "failure": 3
+            },
+            "09/2024": {
+                "total_runs": 44,
+                "success": 34,
+                "failure": 9
+            },
+            "08/2024": {
+                "total_runs": 11,
+                "success": 4,
+                "failure": 7
+            },
+            "07/2024": {
+                "total_runs": 6,
+                "success": 3,
+                "failure": 3
+            },
+            "06/2024": {
+                "total_runs": 7,
+                "success": 2,
+                "failure": 5
+            },
+            "05/2024": {
+                "total_runs": 11,
+                "success": 9,
+                "failure": 2
+            },
+            "04/2024": {
+                "total_runs": 10,
+                "success": 8,
+                "failure": 2
+            },
+            "03/2024": {
+                "total_runs": 12,
+                "success": 9,
+                "failure": 3
+            },
+            "02/2024": {
+                "total_runs": 17,
+                "success": 11,
+                "failure": 6
+            },
+            "01/2024": {
+                "total_runs": 19,
+                "success": 7,
+                "failure": 12
+            },
+            "12/2023": {
+                "total_runs": 13,
+                "success": 10,
+                "failure": 3
+            },
+            "11/2023": {
+                "total_runs": 17,
+                "success": 13,
+                "failure": 4
+            },
+            "10/2023": {
+                "total_runs": 12,
+                "success": 11,
+                "failure": 1
+            },
+            "09/2023": {
+                "total_runs": 70,
+                "success": 54,
+                "failure": 16
+            },
+            "08/2023": {
+                "total_runs": 34,
+                "success": 24,
+                "failure": 10
+            },
+            "07/2023": {
+                "total_runs": 16,
+                "success": 11,
+                "failure": 5
+            },
+            "06/2023": {
+                "total_runs": 16,
+                "success": 10,
+                "failure": 6
+            },
+            "05/2023": {
+                "total_runs": 4,
+                "success": 2,
+                "failure": 2
+            },
+            "04/2023": {
+                "total_runs": 3,
+                "success": 1,
+                "failure": 2
+            }
+        },
+        "rename_branch.yml": {
+            "05/2025": {
+                "total_runs": 7,
+                "success": 6,
+                "failure": 1
+            },
+            "04/2025": {
+                "total_runs": 1,
+                "success": 1,
+                "failure": 0
+            },
+            "03/2025": {
+                "total_runs": 2,
+                "success": 2,
+                "failure": 0
+            },
+            "02/2025": {
+                "total_runs": 9,
+                "success": 9,
+                "failure": 0
+            },
+            "01/2025": {
+                "total_runs": 6,
+                "success": 6,
+                "failure": 0
+            },
+            "12/2024": {
+                "total_runs": 7,
+                "success": 6,
+                "failure": 1
+            },
+            "11/2024": {
+                "total_runs": 22,
+                "success": 18,
+                "failure": 4
+            },
+            "10/2024": {
+                "total_runs": 16,
+                "success": 11,
+                "failure": 5
+            },
+            "09/2024": {
+                "total_runs": 2,
+                "success": 1,
+                "failure": 1
+            },
+            "08/2024": {
+                "total_runs": 52,
+                "success": 49,
+                "failure": 3
+            },
+            "07/2024": {
+                "total_runs": 21,
+                "success": 19,
+                "failure": 2
+            },
+            "06/2024": {
+                "total_runs": 2,
+                "success": 1,
+                "failure": 1
+            },
+            "05/2024": {
+                "total_runs": 29,
+                "success": 25,
+                "failure": 4
+            },
+            "04/2024": {
+                "total_runs": 59,
+                "success": 49,
+                "failure": 10
+            },
+            "03/2024": {
+                "total_runs": 19,
+                "success": 19,
+                "failure": 0
+            },
+            "02/2024": {
+                "total_runs": 23,
+                "success": 12,
+                "failure": 11
+            },
+            "01/2024": {
+                "total_runs": 13,
+                "success": 10,
+                "failure": 3
+            },
+            "12/2023": {
+                "total_runs": 48,
+                "success": 47,
+                "failure": 1
+            },
+            "11/2023": {
+                "total_runs": 2,
+                "success": 2,
+                "failure": 0
+            },
+            "10/2023": {
+                "total_runs": 1,
+                "success": 1,
+                "failure": 0
+            },
+            "08/2023": {
+                "total_runs": 6,
+                "success": 6,
+                "failure": 0
+            },
+            "07/2023": {
+                "total_runs": 4,
+                "success": 3,
+                "failure": 1
+            },
+            "04/2023": {
+                "total_runs": 10,
+                "success": 10,
+                "failure": 0
+            }
+        },
+        "list-repo-secrets.yml": {
+            "05/2025": {
+                "total_runs": 111,
+                "success": 111,
+                "failure": 0
+            },
+            "04/2025": {
+                "total_runs": 77,
+                "success": 77,
+                "failure": 0
+            },
+            "03/2025": {
+                "total_runs": 84,
+                "success": 82,
+                "failure": 1
+            },
+            "02/2025": {
+                "total_runs": 48,
+                "success": 47,
+                "failure": 1
+            },
+            "01/2025": {
+                "total_runs": 56,
+                "success": 54,
+                "failure": 1
+            },
+            "12/2024": {
+                "total_runs": 56,
+                "success": 56,
+                "failure": 0
+            },
+            "11/2024": {
+                "total_runs": 57,
+                "success": 56,
+                "failure": 0
+            },
+            "10/2024": {
+                "total_runs": 64,
+                "success": 64,
+                "failure": 0
+            },
+            "09/2024": {
+                "total_runs": 108,
+                "success": 105,
+                "failure": 3
+            },
+            "08/2024": {
+                "total_runs": 88,
+                "success": 87,
+                "failure": 1
+            },
+            "07/2024": {
+                "total_runs": 47,
+                "success": 47,
+                "failure": 0
+            },
+            "06/2024": {
+                "total_runs": 77,
+                "success": 77,
+                "failure": 0
+            },
+            "05/2024": {
+                "total_runs": 79,
+                "success": 77,
+                "failure": 2
+            },
+            "04/2024": {
+                "total_runs": 71,
+                "success": 70,
+                "failure": 1
+            },
+            "03/2024": {
+                "total_runs": 59,
+                "success": 55,
+                "failure": 4
+            },
+            "02/2024": {
+                "total_runs": 90,
+                "success": 85,
+                "failure": 5
+            },
+            "01/2024": {
+                "total_runs": 64,
+                "success": 62,
+                "failure": 2
+            },
+            "12/2023": {
+                "total_runs": 61,
+                "success": 60,
+                "failure": 1
+            },
+            "11/2023": {
+                "total_runs": 57,
+                "success": 56,
+                "failure": 1
+            },
+            "10/2023": {
+                "total_runs": 72,
+                "success": 71,
+                "failure": 1
+            },
+            "09/2023": {
+                "total_runs": 125,
+                "success": 119,
+                "failure": 6
+            },
+            "08/2023": {
+                "total_runs": 104,
+                "success": 99,
+                "failure": 5
+            },
+            "07/2023": {
+                "total_runs": 130,
+                "success": 126,
+                "failure": 4
+            },
+            "06/2023": {
+                "total_runs": 123,
+                "success": 122,
+                "failure": 1
+            },
+            "05/2023": {
+                "total_runs": 93,
+                "success": 87,
+                "failure": 4
+            },
+            "04/2023": {
+                "total_runs": 59,
+                "success": 50,
+                "failure": 9
+            }
+        },
+        "delete-repo-secret.yml": {
+            "05/2025": {
+                "total_runs": 287,
+                "success": 280,
+                "failure": 7
+            },
+            "03/2025": {
+                "total_runs": 2,
+                "success": 2,
+                "failure": 0
+            },
+            "02/2025": {
+                "total_runs": 2,
+                "success": 2,
+                "failure": 0
+            },
+            "01/2025": {
+                "total_runs": 4,
+                "success": 3,
+                "failure": 1
+            },
+            "12/2024": {
+                "total_runs": 7,
+                "success": 5,
+                "failure": 2
+            },
+            "11/2024": {
+                "total_runs": 6,
+                "success": 6,
+                "failure": 0
+            },
+            "10/2024": {
+                "total_runs": 6,
+                "success": 6,
+                "failure": 0
+            },
+            "09/2024": {
+                "total_runs": 18,
+                "success": 16,
+                "failure": 1
+            },
+            "08/2024": {
+                "total_runs": 13,
+                "success": 13,
+                "failure": 0
+            },
+            "07/2024": {
+                "total_runs": 3,
+                "success": 3,
+                "failure": 0
+            },
+            "06/2024": {
+                "total_runs": 9,
+                "success": 9,
+                "failure": 0
+            },
+            "05/2024": {
+                "total_runs": 5,
+                "success": 5,
+                "failure": 0
+            },
+            "04/2024": {
+                "total_runs": 17,
+                "success": 17,
+                "failure": 0
+            },
+            "02/2024": {
+                "total_runs": 6,
+                "success": 6,
+                "failure": 0
+            },
+            "01/2024": {
+                "total_runs": 84,
+                "success": 84,
+                "failure": 0
+            },
+            "12/2023": {
+                "total_runs": 2,
+                "success": 2,
+                "failure": 0
+            },
+            "11/2023": {
+                "total_runs": 4,
+                "success": 4,
+                "failure": 0
+            },
+            "10/2023": {
+                "total_runs": 4,
+                "success": 4,
+                "failure": 0
+            },
+            "09/2023": {
+                "total_runs": 2,
+                "success": 2,
+                "failure": 0
+            },
+            "08/2023": {
+                "total_runs": 15,
+                "success": 15,
+                "failure": 0
+            },
+            "07/2023": {
+                "total_runs": 6,
+                "success": 6,
+                "failure": 0
+            },
+            "06/2023": {
+                "total_runs": 115,
+                "success": 115,
+                "failure": 0
+            },
+            "05/2023": {
+                "total_runs": 10,
+                "success": 9,
+                "failure": 1
+            },
+            "04/2023": {
+                "total_runs": 16,
+                "success": 14,
+                "failure": 2
+            }
+        },
+        "add-env-secret-to-repo.yml": {
+            "05/2025": {
+                "total_runs": 8,
+                "success": 8,
+                "failure": 0
+            },
+            "04/2025": {
+                "total_runs": 65,
+                "success": 64,
+                "failure": 1
+            },
+            "03/2025": {
+                "total_runs": 11,
+                "success": 11,
+                "failure": 0
+            },
+            "02/2025": {
+                "total_runs": 130,
+                "success": 130,
+                "failure": 0
+            },
+            "01/2025": {
+                "total_runs": 27,
+                "success": 27,
+                "failure": 0
+            },
+            "12/2024": {
+                "total_runs": 15,
+                "success": 13,
+                "failure": 2
+            },
+            "11/2024": {
+                "total_runs": 14,
+                "success": 12,
+                "failure": 2
+            },
+            "10/2024": {
+                "total_runs": 11,
+                "success": 10,
+                "failure": 1
+            },
+            "09/2024": {
+                "total_runs": 9,
+                "success": 9,
+                "failure": 0
+            },
+            "08/2024": {
+                "total_runs": 51,
+                "success": 49,
+                "failure": 2
+            },
+            "07/2024": {
+                "total_runs": 16,
+                "success": 16,
+                "failure": 0
+            },
+            "06/2024": {
+                "total_runs": 8,
+                "success": 5,
+                "failure": 3
+            },
+            "05/2024": {
+                "total_runs": 92,
+                "success": 88,
+                "failure": 3
+            },
+            "04/2024": {
+                "total_runs": 39,
+                "success": 36,
+                "failure": 3
+            },
+            "03/2024": {
+                "total_runs": 8,
+                "success": 7,
+                "failure": 1
+            },
+            "02/2024": {
+                "total_runs": 76,
+                "success": 72,
+                "failure": 4
+            },
+            "01/2024": {
+                "total_runs": 19,
+                "success": 17,
+                "failure": 1
+            },
+            "12/2023": {
+                "total_runs": 25,
+                "success": 20,
+                "failure": 5
+            },
+            "11/2023": {
+                "total_runs": 5,
+                "success": 5,
+                "failure": 0
+            },
+            "10/2023": {
+                "total_runs": 50,
+                "success": 47,
+                "failure": 3
+            },
+            "09/2023": {
+                "total_runs": 21,
+                "success": 21,
+                "failure": 0
+            },
+            "08/2023": {
+                "total_runs": 66,
+                "success": 56,
+                "failure": 10
+            },
+            "07/2023": {
+                "total_runs": 84,
+                "success": 70,
+                "failure": 14
+            },
+            "06/2023": {
+                "total_runs": 178,
+                "success": 167,
+                "failure": 11
+            },
+            "05/2023": {
+                "total_runs": 33,
+                "success": 25,
+                "failure": 8
+            }
+        },
+        "add-team-to-repo.yml": {
+            "05/2025": {
+                "total_runs": 1,
+                "success": 0,
+                "failure": 1
+            },
+            "04/2025": {
+                "total_runs": 7,
+                "success": 0,
+                "failure": 7
+            },
+            "03/2025": {
+                "total_runs": 6,
+                "success": 2,
+                "failure": 4
+            },
+            "02/2025": {
+                "total_runs": 1,
+                "success": 0,
+                "failure": 1
+            },
+            "01/2025": {
+                "total_runs": 1,
+                "success": 0,
+                "failure": 1
+            },
+            "12/2024": {
+                "total_runs": 5,
+                "success": 0,
+                "failure": 5
+            },
+            "10/2024": {
+                "total_runs": 5,
+                "success": 0,
+                "failure": 5
+            },
+            "09/2024": {
+                "total_runs": 1,
+                "success": 1,
+                "failure": 0
+            },
+            "08/2024": {
+                "total_runs": 9,
+                "success": 1,
+                "failure": 8
+            },
+            "07/2024": {
+                "total_runs": 7,
+                "success": 2,
+                "failure": 4
+            },
+            "06/2024": {
+                "total_runs": 8,
+                "success": 3,
+                "failure": 5
+            },
+            "05/2024": {
+                "total_runs": 14,
+                "success": 6,
+                "failure": 8
+            },
+            "04/2024": {
+                "total_runs": 5,
+                "success": 3,
+                "failure": 2
+            },
+            "03/2024": {
+                "total_runs": 6,
+                "success": 0,
+                "failure": 6
+            },
+            "02/2024": {
+                "total_runs": 10,
+                "success": 0,
+                "failure": 10
+            },
+            "12/2023": {
+                "total_runs": 3,
+                "success": 0,
+                "failure": 3
+            },
+            "11/2023": {
+                "total_runs": 1,
+                "success": 1,
+                "failure": 0
+            },
+            "08/2023": {
+                "total_runs": 1,
+                "success": 0,
+                "failure": 1
+            },
+            "07/2023": {
+                "total_runs": 6,
+                "success": 4,
+                "failure": 2
+            },
+            "06/2023": {
+                "total_runs": 1,
+                "success": 0,
+                "failure": 1
+            },
+            "05/2023": {
+                "total_runs": 5,
+                "success": 5,
+                "failure": 0
+            }
+        },
+        "add-associate-user-to-repo.yml": {
+            "05/2025": {
+                "total_runs": 17,
+                "success": 14,
+                "failure": 3
+            },
+            "04/2025": {
+                "total_runs": 19,
+                "success": 16,
+                "failure": 3
+            },
+            "03/2025": {
+                "total_runs": 6,
+                "success": 4,
+                "failure": 2
+            },
+            "02/2025": {
+                "total_runs": 8,
+                "success": 7,
+                "failure": 1
+            },
+            "01/2025": {
+                "total_runs": 4,
+                "success": 4,
+                "failure": 0
+            },
+            "12/2024": {
+                "total_runs": 5,
+                "success": 3,
+                "failure": 2
+            },
+            "11/2024": {
+                "total_runs": 7,
+                "success": 2,
+                "failure": 5
+            },
+            "10/2024": {
+                "total_runs": 13,
+                "success": 6,
+                "failure": 7
+            },
+            "09/2024": {
+                "total_runs": 19,
+                "success": 14,
+                "failure": 5
+            },
+            "08/2024": {
+                "total_runs": 5,
+                "success": 3,
+                "failure": 2
+            },
+            "07/2024": {
+                "total_runs": 18,
+                "success": 18,
+                "failure": 0
+            },
+            "06/2024": {
+                "total_runs": 7,
+                "success": 6,
+                "failure": 1
+            },
+            "05/2024": {
+                "total_runs": 12,
+                "success": 8,
+                "failure": 4
+            },
+            "04/2024": {
+                "total_runs": 7,
+                "success": 5,
+                "failure": 2
+            },
+            "03/2024": {
+                "total_runs": 6,
+                "success": 5,
+                "failure": 1
+            },
+            "02/2024": {
+                "total_runs": 15,
+                "success": 13,
+                "failure": 2
+            },
+            "01/2024": {
+                "total_runs": 4,
+                "success": 4,
+                "failure": 0
+            },
+            "12/2023": {
+                "total_runs": 1,
+                "success": 1,
+                "failure": 0
+            },
+            "11/2023": {
+                "total_runs": 2,
+                "success": 1,
+                "failure": 1
+            },
+            "10/2023": {
+                "total_runs": 1,
+                "success": 0,
+                "failure": 1
+            },
+            "09/2023": {
+                "total_runs": 2,
+                "success": 0,
+                "failure": 2
+            },
+            "08/2023": {
+                "total_runs": 16,
+                "success": 11,
+                "failure": 5
+            },
+            "07/2023": {
+                "total_runs": 3,
+                "success": 3,
+                "failure": 0
+            },
+            "06/2023": {
+                "total_runs": 10,
+                "success": 9,
+                "failure": 1
+            }
+        },
+        "add-team-maintainer.yml": {
+            "05/2025": {
+                "total_runs": 2,
+                "success": 1,
+                "failure": 1
+            },
+            "04/2025": {
+                "total_runs": 12,
+                "success": 12,
+                "failure": 0
+            },
+            "03/2025": {
+                "total_runs": 3,
+                "success": 3,
+                "failure": 0
+            },
+            "02/2025": {
+                "total_runs": 1,
+                "success": 0,
+                "failure": 1
+            },
+            "01/2025": {
+                "total_runs": 21,
+                "success": 18,
+                "failure": 2
+            },
+            "12/2024": {
+                "total_runs": 12,
+                "success": 12,
+                "failure": 0
+            },
+            "11/2024": {
+                "total_runs": 1,
+                "success": 0,
+                "failure": 1
+            },
+            "10/2024": {
+                "total_runs": 7,
+                "success": 4,
+                "failure": 3
+            },
+            "09/2024": {
+                "total_runs": 15,
+                "success": 8,
+                "failure": 7
+            },
+            "08/2024": {
+                "total_runs": 10,
+                "success": 4,
+                "failure": 6
+            },
+            "07/2024": {
+                "total_runs": 5,
+                "success": 2,
+                "failure": 3
+            },
+            "06/2024": {
+                "total_runs": 7,
+                "success": 4,
+                "failure": 3
+            },
+            "05/2024": {
+                "total_runs": 3,
+                "success": 1,
+                "failure": 2
+            },
+            "04/2024": {
+                "total_runs": 11,
+                "success": 5,
+                "failure": 6
+            },
+            "03/2024": {
+                "total_runs": 4,
+                "success": 2,
+                "failure": 2
+            },
+            "02/2024": {
+                "total_runs": 9,
+                "success": 7,
+                "failure": 2
+            },
+            "01/2024": {
+                "total_runs": 13,
+                "success": 11,
+                "failure": 2
+            },
+            "12/2023": {
+                "total_runs": 7,
+                "success": 1,
+                "failure": 6
+            },
+            "11/2023": {
+                "total_runs": 1,
+                "success": 0,
+                "failure": 1
+            },
+            "10/2023": {
+                "total_runs": 17,
+                "success": 9,
+                "failure": 8
+            },
+            "09/2023": {
+                "total_runs": 15,
+                "success": 10,
+                "failure": 5
+            },
+            "08/2023": {
+                "total_runs": 13,
+                "success": 4,
+                "failure": 9
+            },
+            "07/2023": {
+                "total_runs": 3,
+                "success": 1,
+                "failure": 2
+            },
+            "06/2023": {
+                "total_runs": 2,
+                "success": 2,
+                "failure": 0
+            }
+        },
+        "add-variable-to-repo.yml": {
+            "05/2025": {
+                "total_runs": 2,
+                "success": 1,
+                "failure": 1
+            },
+            "04/2025": {
+                "total_runs": 21,
+                "success": 20,
+                "failure": 1
+            },
+            "03/2025": {
+                "total_runs": 2,
+                "success": 2,
+                "failure": 0
+            },
+            "02/2025": {
+                "total_runs": 2,
+                "success": 2,
+                "failure": 0
+            },
+            "01/2025": {
+                "total_runs": 1,
+                "success": 1,
+                "failure": 0
+            },
+            "12/2024": {
+                "total_runs": 7,
+                "success": 3,
+                "failure": 4
+            },
+            "10/2024": {
+                "total_runs": 13,
+                "success": 12,
+                "failure": 1
+            },
+            "09/2024": {
+                "total_runs": 36,
+                "success": 35,
+                "failure": 1
+            },
+            "08/2024": {
+                "total_runs": 6,
+                "success": 3,
+                "failure": 3
+            },
+            "07/2024": {
+                "total_runs": 7,
+                "success": 7,
+                "failure": 0
+            },
+            "06/2024": {
+                "total_runs": 8,
+                "success": 6,
+                "failure": 2
+            },
+            "05/2024": {
+                "total_runs": 9,
+                "success": 8,
+                "failure": 1
+            },
+            "04/2024": {
+                "total_runs": 8,
+                "success": 7,
+                "failure": 1
+            },
+            "03/2024": {
+                "total_runs": 7,
+                "success": 7,
+                "failure": 0
+            },
+            "02/2024": {
+                "total_runs": 23,
+                "success": 21,
+                "failure": 2
+            },
+            "01/2024": {
+                "total_runs": 35,
+                "success": 25,
+                "failure": 8
+            },
+            "12/2023": {
+                "total_runs": 2,
+                "success": 2,
+                "failure": 0
+            },
+            "08/2023": {
+                "total_runs": 6,
+                "success": 4,
+                "failure": 0
+            },
+            "07/2023": {
+                "total_runs": 1,
+                "success": 1,
+                "failure": 0
+            },
+            "06/2023": {
+                "total_runs": 6,
+                "success": 4,
+                "failure": 0
+            }
+        },
+        "update-variable-in-repository.yml": {
+            "05/2025": {
+                "total_runs": 3,
+                "success": 2,
+                "failure": 1
+            },
+            "04/2025": {
+                "total_runs": 54,
+                "success": 51,
+                "failure": 3
+            },
+            "03/2025": {
+                "total_runs": 7,
+                "success": 7,
+                "failure": 0
+            },
+            "02/2025": {
+                "total_runs": 1,
+                "success": 0,
+                "failure": 1
+            },
+            "01/2025": {
+                "total_runs": 2,
+                "success": 2,
+                "failure": 0
+            },
+            "10/2024": {
+                "total_runs": 6,
+                "success": 6,
+                "failure": 0
+            },
+            "09/2024": {
+                "total_runs": 5,
+                "success": 5,
+                "failure": 0
+            },
+            "08/2024": {
+                "total_runs": 1,
+                "success": 1,
+                "failure": 0
+            },
+            "07/2024": {
+                "total_runs": 7,
+                "success": 7,
+                "failure": 0
+            },
+            "06/2024": {
+                "total_runs": 5,
+                "success": 4,
+                "failure": 1
+            },
+            "05/2024": {
+                "total_runs": 7,
+                "success": 7,
+                "failure": 0
+            },
+            "04/2024": {
+                "total_runs": 31,
+                "success": 30,
+                "failure": 1
+            },
+            "03/2024": {
+                "total_runs": 6,
+                "success": 6,
+                "failure": 0
+            },
+            "02/2024": {
+                "total_runs": 35,
+                "success": 31,
+                "failure": 4
+            },
+            "01/2024": {
+                "total_runs": 22,
+                "success": 21,
+                "failure": 1
+            },
+            "08/2023": {
+                "total_runs": 1,
+                "success": 1,
+                "failure": 0
+            },
+            "06/2023": {
+                "total_runs": 4,
+                "success": 4,
+                "failure": 0
+            }
+        },
+        "list-repo-variables.yml": {
+            "05/2025": {
+                "total_runs": 12,
+                "success": 12,
+                "failure": 0
+            },
+            "04/2025": {
+                "total_runs": 70,
+                "success": 70,
+                "failure": 0
+            },
+            "03/2025": {
+                "total_runs": 25,
+                "success": 24,
+                "failure": 0
+            },
+            "02/2025": {
+                "total_runs": 7,
+                "success": 7,
+                "failure": 0
+            },
+            "01/2025": {
+                "total_runs": 14,
+                "success": 13,
+                "failure": 0
+            },
+            "12/2024": {
+                "total_runs": 15,
+                "success": 15,
+                "failure": 0
+            },
+            "11/2024": {
+                "total_runs": 4,
+                "success": 4,
+                "failure": 0
+            },
+            "10/2024": {
+                "total_runs": 15,
+                "success": 13,
+                "failure": 1
+            },
+            "09/2024": {
+                "total_runs": 39,
+                "success": 37,
+                "failure": 2
+            },
+            "08/2024": {
+                "total_runs": 40,
+                "success": 40,
+                "failure": 0
+            },
+            "07/2024": {
+                "total_runs": 15,
+                "success": 14,
+                "failure": 1
+            },
+            "06/2024": {
+                "total_runs": 14,
+                "success": 13,
+                "failure": 1
+            },
+            "05/2024": {
+                "total_runs": 22,
+                "success": 22,
+                "failure": 0
+            },
+            "04/2024": {
+                "total_runs": 18,
+                "success": 18,
+                "failure": 0
+            },
+            "03/2024": {
+                "total_runs": 9,
+                "success": 9,
+                "failure": 0
+            },
+            "02/2024": {
+                "total_runs": 35,
+                "success": 34,
+                "failure": 1
+            },
+            "01/2024": {
+                "total_runs": 32,
+                "success": 32,
+                "failure": 0
+            },
+            "12/2023": {
+                "total_runs": 1,
+                "success": 1,
+                "failure": 0
+            },
+            "11/2023": {
+                "total_runs": 5,
+                "success": 4,
+                "failure": 1
+            },
+            "09/2023": {
+                "total_runs": 4,
+                "success": 4,
+                "failure": 0
+            },
+            "08/2023": {
+                "total_runs": 6,
+                "success": 6,
+                "failure": 0
+            },
+            "07/2023": {
+                "total_runs": 6,
+                "success": 6,
+                "failure": 0
+            },
+            "06/2023": {
+                "total_runs": 6,
+                "success": 4,
+                "failure": 0
+            }
+        },
+        "push_third_party_artifact_to_artifactory.yml": {
+            "05/2025": {
+                "total_runs": 6,
+                "success": 4,
+                "failure": 1
+            },
+            "03/2025": {
+                "total_runs": 5,
+                "success": 4,
+                "failure": 0
+            },
+            "02/2025": {
+                "total_runs": 2,
+                "success": 1,
+                "failure": 0
+            },
+            "01/2025": {
+                "total_runs": 22,
+                "success": 12,
+                "failure": 7
+            },
+            "10/2024": {
+                "total_runs": 2,
+                "success": 1,
+                "failure": 1
+            },
+            "09/2024": {
+                "total_runs": 4,
+                "success": 0,
+                "failure": 3
+            },
+            "08/2024": {
+                "total_runs": 4,
+                "success": 2,
+                "failure": 2
+            },
+            "07/2024": {
+                "total_runs": 10,
+                "success": 5,
+                "failure": 5
+            },
+            "06/2024": {
+                "total_runs": 9,
+                "success": 2,
+                "failure": 4
+            },
+            "05/2024": {
+                "total_runs": 2,
+                "success": 0,
+                "failure": 2
+            },
+            "04/2024": {
+                "total_runs": 3,
+                "success": 0,
+                "failure": 2
+            },
+            "03/2024": {
+                "total_runs": 11,
+                "success": 6,
+                "failure": 3
+            },
+            "02/2024": {
+                "total_runs": 2,
+                "success": 0,
+                "failure": 1
+            },
+            "01/2024": {
+                "total_runs": 1,
+                "success": 1,
+                "failure": 0
+            },
+            "11/2023": {
+                "total_runs": 2,
+                "success": 2,
+                "failure": 0
+            },
+            "10/2023": {
+                "total_runs": 17,
+                "success": 13,
+                "failure": 4
+            },
+            "09/2023": {
+                "total_runs": 8,
+                "success": 4,
+                "failure": 4
+            },
+            "08/2023": {
+                "total_runs": 7,
+                "success": 3,
+                "failure": 4
+            },
+            "07/2023": {
+                "total_runs": 4,
+                "success": 2,
+                "failure": 2
+            },
+            "06/2023": {
+                "total_runs": 10,
+                "success": 1,
+                "failure": 8
+            }
+        },
+        "add-env-variable-to-repo.yml": {
+            "05/2025": {
+                "total_runs": 31,
+                "success": 30,
+                "failure": 0
+            },
+            "04/2025": {
+                "total_runs": 47,
+                "success": 43,
+                "failure": 0
+            },
+            "09/2024": {
+                "total_runs": 6,
+                "success": 6,
+                "failure": 0
+            },
+            "08/2024": {
+                "total_runs": 69,
+                "success": 69,
+                "failure": 0
+            },
+            "07/2024": {
+                "total_runs": 6,
+                "success": 6,
+                "failure": 0
+            },
+            "01/2024": {
+                "total_runs": 3,
+                "success": 2,
+                "failure": 1
+            },
+            "12/2023": {
+                "total_runs": 7,
+                "success": 7,
+                "failure": 0
+            },
+            "11/2023": {
+                "total_runs": 6,
+                "success": 6,
+                "failure": 0
+            },
+            "10/2023": {
+                "total_runs": 2,
+                "success": 2,
+                "failure": 0
+            },
+            "09/2023": {
+                "total_runs": 6,
+                "success": 6,
+                "failure": 0
+            },
+            "08/2023": {
+                "total_runs": 13,
+                "success": 13,
+                "failure": 0
+            },
+            "07/2023": {
+                "total_runs": 9,
+                "success": 9,
+                "failure": 0
+            },
+            "06/2023": {
+                "total_runs": 4,
+                "success": 3,
+                "failure": 1
+            }
+        },
+        "update-env-variable-in-repo.yml": {
+            "05/2025": {
+                "total_runs": 3,
+                "success": 3,
+                "failure": 0
+            },
+            "04/2025": {
+                "total_runs": 4,
+                "success": 4,
+                "failure": 0
+            },
+            "09/2024": {
+                "total_runs": 6,
+                "success": 6,
+                "failure": 0
+            },
+            "08/2024": {
+                "total_runs": 5,
+                "success": 5,
+                "failure": 0
+            },
+            "12/2023": {
+                "total_runs": 1,
+                "success": 1,
+                "failure": 0
+            },
+            "08/2023": {
+                "total_runs": 5,
+                "success": 5,
+                "failure": 0
+            },
+            "07/2023": {
+                "total_runs": 1,
+                "success": 1,
+                "failure": 0
+            },
+            "06/2023": {
+                "total_runs": 1,
+                "success": 1,
+                "failure": 0
+            }
+        },
+        "delete-repo-env-variable.yml": {
+            "05/2025": {
+                "total_runs": 1,
+                "success": 1,
+                "failure": 0
+            },
+            "04/2025": {
+                "total_runs": 6,
+                "success": 4,
+                "failure": 2
+            },
+            "09/2024": {
+                "total_runs": 1,
+                "success": 0,
+                "failure": 1
+            },
+            "07/2024": {
+                "total_runs": 1,
+                "success": 1,
+                "failure": 0
+            },
+            "06/2023": {
+                "total_runs": 3,
+                "success": 2,
+                "failure": 1
+            }
+        },
+        "delete-repo-env-secret.yml": {
+            "05/2025": {
+                "total_runs": 2,
+                "success": 1,
+                "failure": 1
+            },
+            "02/2025": {
+                "total_runs": 4,
+                "success": 4,
+                "failure": 0
+            },
+            "09/2024": {
+                "total_runs": 1,
+                "success": 1,
+                "failure": 0
+            },
+            "08/2024": {
+                "total_runs": 6,
+                "success": 5,
+                "failure": 1
+            },
+            "06/2024": {
+                "total_runs": 1,
+                "success": 1,
+                "failure": 0
+            },
+            "04/2024": {
+                "total_runs": 9,
+                "success": 7,
+                "failure": 2
+            },
+            "10/2023": {
+                "total_runs": 2,
+                "success": 2,
+                "failure": 0
+            },
+            "06/2023": {
+                "total_runs": 3,
+                "success": 3,
+                "failure": 0
+            }
+        },
+        "Append_Modify_code_remote_repository.yml": {
+            "11/2023": {
+                "total_runs": 11,
+                "success": 1,
+                "failure": 9
+            },
+            "06/2023": {
+                "total_runs": 3,
+                "success": 3,
+                "failure": 0
+            }
+        },
+        "rename-repo-name.yml": {
+            "05/2025": {
+                "total_runs": 1,
+                "success": 1,
+                "failure": 0
+            },
+            "04/2025": {
+                "total_runs": 8,
+                "success": 7,
+                "failure": 1
+            },
+            "03/2025": {
+                "total_runs": 10,
+                "success": 10,
+                "failure": 0
+            },
+            "02/2025": {
+                "total_runs": 8,
+                "success": 8,
+                "failure": 0
+            },
+            "01/2025": {
+                "total_runs": 8,
+                "success": 6,
+                "failure": 2
+            },
+            "12/2024": {
+                "total_runs": 5,
+                "success": 5,
+                "failure": 0
+            },
+            "11/2024": {
+                "total_runs": 3,
+                "success": 3,
+                "failure": 0
+            },
+            "10/2024": {
+                "total_runs": 10,
+                "success": 8,
+                "failure": 2
+            },
+            "09/2024": {
+                "total_runs": 6,
+                "success": 6,
+                "failure": 0
+            },
+            "08/2024": {
+                "total_runs": 7,
+                "success": 6,
+                "failure": 1
+            },
+            "07/2024": {
+                "total_runs": 2,
+                "success": 1,
+                "failure": 1
+            },
+            "06/2024": {
+                "total_runs": 11,
+                "success": 10,
+                "failure": 1
+            },
+            "05/2024": {
+                "total_runs": 52,
+                "success": 48,
+                "failure": 4
+            },
+            "04/2024": {
+                "total_runs": 28,
+                "success": 20,
+                "failure": 8
+            },
+            "03/2024": {
+                "total_runs": 12,
+                "success": 10,
+                "failure": 2
+            },
+            "02/2024": {
+                "total_runs": 18,
+                "success": 17,
+                "failure": 1
+            },
+            "01/2024": {
+                "total_runs": 9,
+                "success": 6,
+                "failure": 3
+            },
+            "12/2023": {
+                "total_runs": 16,
+                "success": 14,
+                "failure": 2
+            },
+            "11/2023": {
+                "total_runs": 15,
+                "success": 2,
+                "failure": 13
+            },
+            "10/2023": {
+                "total_runs": 3,
+                "success": 1,
+                "failure": 2
+            },
+            "08/2023": {
+                "total_runs": 7,
+                "success": 6,
+                "failure": 1
+            },
+            "07/2023": {
+                "total_runs": 34,
+                "success": 27,
+                "failure": 4
+            },
+            "06/2023": {
+                "total_runs": 4,
+                "success": 2,
+                "failure": 2
+            }
+        },
+        "search_string_repo_global.yml": {
+            "11/2024": {
+                "total_runs": 2,
+                "success": 1,
+                "failure": 0
+            },
+            "10/2024": {
+                "total_runs": 1,
+                "success": 1,
+                "failure": 0
+            },
+            "07/2024": {
+                "total_runs": 7,
+                "success": 4,
+                "failure": 1
+            },
+            "05/2024": {
+                "total_runs": 1,
+                "success": 0,
+                "failure": 0
+            },
+            "12/2023": {
+                "total_runs": 3,
+                "success": 1,
+                "failure": 0
+            },
+            "10/2023": {
+                "total_runs": 2,
+                "success": 0,
+                "failure": 1
+            },
+            "07/2023": {
+                "total_runs": 12,
+                "success": 8,
+                "failure": 4
+            }
+        },
+        "search_string_in_repo.yml": {
+            "07/2024": {
+                "total_runs": 1,
+                "success": 1,
+                "failure": 0
+            },
+            "05/2024": {
+                "total_runs": 3,
+                "success": 0,
+                "failure": 3
+            }
+        },
+        "rename_and_delete_branch_protection.yml": {
+            "02/2025": {
+                "total_runs": 2,
+                "success": 0,
+                "failure": 2
+            },
+            "09/2024": {
+                "total_runs": 12,
+                "success": 0,
+                "failure": 12
+            },
+            "08/2024": {
+                "total_runs": 1,
+                "success": 0,
+                "failure": 1
+            },
+            "07/2024": {
+                "total_runs": 1,
+                "success": 0,
+                "failure": 1
+            },
+            "05/2024": {
+                "total_runs": 2,
+                "success": 0,
+                "failure": 2
+            },
+            "12/2023": {
+                "total_runs": 2,
+                "success": 0,
+                "failure": 2
+            },
+            "10/2023": {
+                "total_runs": 1,
+                "success": 0,
+                "failure": 1
+            },
+            "08/2023": {
+                "total_runs": 10,
+                "success": 0,
+                "failure": 10
+            }
+        },
+        "delete_branches_from_repos.yml": {
+            "05/2025": {
+                "total_runs": 2,
+                "success": 2,
+                "failure": 0
+            },
+            "03/2025": {
+                "total_runs": 1,
+                "success": 1,
+                "failure": 0
+            },
+            "02/2025": {
+                "total_runs": 11,
+                "success": 10,
+                "failure": 1
+            },
+            "11/2024": {
+                "total_runs": 3,
+                "success": 3,
+                "failure": 0
+            },
+            "09/2024": {
+                "total_runs": 1,
+                "success": 1,
+                "failure": 0
+            },
+            "08/2024": {
+                "total_runs": 1,
+                "success": 1,
+                "failure": 0
+            },
+            "07/2024": {
+                "total_runs": 9,
+                "success": 9,
+                "failure": 0
+            },
+            "06/2024": {
+                "total_runs": 6,
+                "success": 6,
+                "failure": 0
+            },
+            "05/2024": {
+                "total_runs": 7,
+                "success": 7,
+                "failure": 0
+            },
+            "04/2024": {
+                "total_runs": 4,
+                "success": 4,
+                "failure": 0
+            },
+            "03/2024": {
+                "total_runs": 12,
+                "success": 12,
+                "failure": 0
+            },
+            "02/2024": {
+                "total_runs": 15,
+                "success": 15,
+                "failure": 0
+            },
+            "01/2024": {
+                "total_runs": 9,
+                "success": 9,
+                "failure": 0
+            },
+            "11/2023": {
+                "total_runs": 1,
+                "success": 1,
+                "failure": 0
+            },
+            "10/2023": {
+                "total_runs": 4,
+                "success": 3,
+                "failure": 1
+            },
+            "09/2023": {
+                "total_runs": 4,
+                "success": 3,
+                "failure": 1
+            },
+            "08/2023": {
+                "total_runs": 23,
+                "success": 15,
+                "failure": 8
+            }
+        },
+        "add-repo-to-org-secret.yml": {
+            "10/2024": {
+                "total_runs": 3,
+                "success": 0,
+                "failure": 3
+            },
+            "09/2024": {
+                "total_runs": 5,
+                "success": 3,
+                "failure": 2
+            },
+            "08/2024": {
+                "total_runs": 1,
+                "success": 1,
+                "failure": 0
+            },
+            "05/2024": {
+                "total_runs": 2,
+                "success": 0,
+                "failure": 2
+            },
+            "02/2024": {
+                "total_runs": 2,
+                "success": 1,
+                "failure": 0
+            },
+            "01/2024": {
+                "total_runs": 5,
+                "success": 3,
+                "failure": 0
+            },
+            "09/2023": {
+                "total_runs": 1,
+                "success": 1,
+                "failure": 0
+            },
+            "08/2023": {
+                "total_runs": 2,
+                "success": 2,
+                "failure": 0
+            }
+        },
+        "ddops-admin-seed.yml": {
+            "10/2023": {
+                "total_runs": 4,
+                "success": 3,
+                "failure": 0
+            },
+            "09/2023": {
+                "total_runs": 4,
+                "success": 0,
+                "failure": 4
+            },
+            "08/2023": {
+                "total_runs": 3,
+                "success": 0,
+                "failure": 3
+            }
+        },
+        "oneclick-veracode-scan.yml": {
+            "04/2024": {
+                "total_runs": 1,
+                "success": 0,
+                "failure": 0
+            },
+            "12/2023": {
+                "total_runs": 11,
+                "success": 5,
+                "failure": 5
+            },
+            "11/2023": {
+                "total_runs": 5,
+                "success": 4,
+                "failure": 1
+            },
+            "10/2023": {
+                "total_runs": 24,
+                "success": 12,
+                "failure": 11
+            },
+            "09/2023": {
+                "total_runs": 8,
+                "success": 3,
+                "failure": 1
+            }
+        },
+        "adding-repos-aks-org-secrets.yml": {
+            "05/2025": {
+                "total_runs": 3,
+                "success": 3,
+                "failure": 0
+            },
+            "04/2025": {
+                "total_runs": 9,
+                "success": 6,
+                "failure": 2
+            },
+            "03/2025": {
+                "total_runs": 12,
+                "success": 10,
+                "failure": 1
+            },
+            "02/2025": {
+                "total_runs": 25,
+                "success": 23,
+                "failure": 2
+            },
+            "01/2025": {
+                "total_runs": 87,
+                "success": 80,
+                "failure": 5
+            },
+            "12/2024": {
+                "total_runs": 34,
+                "success": 29,
+                "failure": 4
+            },
+            "11/2024": {
+                "total_runs": 28,
+                "success": 21,
+                "failure": 7
+            },
+            "10/2024": {
+                "total_runs": 28,
+                "success": 24,
+                "failure": 3
+            },
+            "09/2024": {
+                "total_runs": 20,
+                "success": 18,
+                "failure": 1
+            },
+            "08/2024": {
+                "total_runs": 32,
+                "success": 31,
+                "failure": 1
+            },
+            "07/2024": {
+                "total_runs": 8,
+                "success": 4,
+                "failure": 4
+            },
+            "06/2024": {
+                "total_runs": 15,
+                "success": 14,
+                "failure": 0
+            },
+            "05/2024": {
+                "total_runs": 36,
+                "success": 31,
+                "failure": 4
+            },
+            "04/2024": {
+                "total_runs": 40,
+                "success": 31,
+                "failure": 8
+            },
+            "03/2024": {
+                "total_runs": 40,
+                "success": 39,
+                "failure": 1
+            },
+            "02/2024": {
+                "total_runs": 21,
+                "success": 20,
+                "failure": 1
+            },
+            "01/2024": {
+                "total_runs": 30,
+                "success": 29,
+                "failure": 1
+            },
+            "12/2023": {
+                "total_runs": 13,
+                "success": 6,
+                "failure": 7
+            },
+            "11/2023": {
+                "total_runs": 3,
+                "success": 1,
+                "failure": 1
+            }
+        },
+        "adding-repos-gke-org-secrets.yml": {
+            "05/2025": {
+                "total_runs": 14,
+                "success": 11,
+                "failure": 2
+            },
+            "04/2025": {
+                "total_runs": 10,
+                "success": 6,
+                "failure": 3
+            },
+            "03/2025": {
+                "total_runs": 8,
+                "success": 8,
+                "failure": 0
+            },
+            "01/2025": {
+                "total_runs": 11,
+                "success": 7,
+                "failure": 3
+            },
+            "12/2024": {
+                "total_runs": 4,
+                "success": 3,
+                "failure": 1
+            },
+            "11/2024": {
+                "total_runs": 9,
+                "success": 8,
+                "failure": 1
+            },
+            "10/2024": {
+                "total_runs": 3,
+                "success": 3,
+                "failure": 0
+            },
+            "09/2024": {
+                "total_runs": 11,
+                "success": 9,
+                "failure": 1
+            },
+            "08/2024": {
+                "total_runs": 4,
+                "success": 4,
+                "failure": 0
+            },
+            "07/2024": {
+                "total_runs": 1,
+                "success": 0,
+                "failure": 0
+            },
+            "06/2024": {
+                "total_runs": 3,
+                "success": 3,
+                "failure": 0
+            },
+            "05/2024": {
+                "total_runs": 2,
+                "success": 1,
+                "failure": 1
+            },
+            "04/2024": {
+                "total_runs": 1,
+                "success": 0,
+                "failure": 0
+            },
+            "03/2024": {
+                "total_runs": 1,
+                "success": 1,
+                "failure": 0
+            },
+            "02/2024": {
+                "total_runs": 2,
+                "success": 2,
+                "failure": 0
+            },
+            "12/2023": {
+                "total_runs": 6,
+                "success": 5,
+                "failure": 1
+            }
+        },
+        "get-repo-teams.yml": {
+            "05/2025": {
+                "total_runs": 4,
+                "success": 4,
+                "failure": 0
+            },
+            "04/2025": {
+                "total_runs": 6,
+                "success": 5,
+                "failure": 1
+            },
+            "03/2025": {
+                "total_runs": 5,
+                "success": 5,
+                "failure": 0
+            },
+            "02/2025": {
+                "total_runs": 8,
+                "success": 8,
+                "failure": 0
+            },
+            "01/2025": {
+                "total_runs": 7,
+                "success": 6,
+                "failure": 1
+            },
+            "12/2024": {
+                "total_runs": 17,
+                "success": 17,
+                "failure": 0
+            },
+            "11/2024": {
+                "total_runs": 53,
+                "success": 52,
+                "failure": 1
+            },
+            "10/2024": {
+                "total_runs": 9,
+                "success": 9,
+                "failure": 0
+            },
+            "09/2024": {
+                "total_runs": 13,
+                "success": 11,
+                "failure": 2
+            },
+            "08/2024": {
+                "total_runs": 16,
+                "success": 16,
+                "failure": 0
+            },
+            "07/2024": {
+                "total_runs": 15,
+                "success": 15,
+                "failure": 0
+            },
+            "06/2024": {
+                "total_runs": 9,
+                "success": 8,
+                "failure": 1
+            },
+            "05/2024": {
+                "total_runs": 29,
+                "success": 23,
+                "failure": 6
+            },
+            "04/2024": {
+                "total_runs": 43,
+                "success": 35,
+                "failure": 7
+            },
+            "03/2024": {
+                "total_runs": 15,
+                "success": 15,
+                "failure": 0
+            },
+            "02/2024": {
+                "total_runs": 36,
+                "success": 33,
+                "failure": 3
+            },
+            "01/2024": {
+                "total_runs": 17,
+                "success": 15,
+                "failure": 1
+            },
+            "12/2023": {
+                "total_runs": 2,
+                "success": 2,
+                "failure": 0
+            }
+        },
+        "Add_BranchProtectionRules_lockbranch.yml": {
+            "07/2024": {
+                "total_runs": 4,
+                "success": 4,
+                "failure": 0
+            },
+            "05/2024": {
+                "total_runs": 17,
+                "success": 16,
+                "failure": 1
+            },
+            "02/2024": {
+                "total_runs": 4,
+                "success": 3,
+                "failure": 1
+            },
+            "01/2024": {
+                "total_runs": 25,
+                "success": 16,
+                "failure": 9
+            }
+        },
+        "Archive_Repo.yml": {
+            "05/2025": {
+                "total_runs": 6,
+                "success": 5,
+                "failure": 1
+            },
+            "04/2025": {
+                "total_runs": 5,
+                "success": 5,
+                "failure": 0
+            },
+            "03/2025": {
+                "total_runs": 1,
+                "success": 1,
+                "failure": 0
+            },
+            "02/2025": {
+                "total_runs": 2,
+                "success": 2,
+                "failure": 0
+            },
+            "01/2025": {
+                "total_runs": 7,
+                "success": 7,
+                "failure": 0
+            },
+            "12/2024": {
+                "total_runs": 42,
+                "success": 38,
+                "failure": 4
+            },
+            "11/2024": {
+                "total_runs": 5,
+                "success": 5,
+                "failure": 0
+            },
+            "10/2024": {
+                "total_runs": 47,
+                "success": 46,
+                "failure": 1
+            },
+            "09/2024": {
+                "total_runs": 6,
+                "success": 4,
+                "failure": 2
+            },
+            "08/2024": {
+                "total_runs": 14,
+                "success": 14,
+                "failure": 0
+            },
+            "07/2024": {
+                "total_runs": 9,
+                "success": 9,
+                "failure": 0
+            },
+            "06/2024": {
+                "total_runs": 10,
+                "success": 10,
+                "failure": 0
+            },
+            "05/2024": {
+                "total_runs": 24,
+                "success": 22,
+                "failure": 2
+            },
+            "04/2024": {
+                "total_runs": 7,
+                "success": 7,
+                "failure": 0
+            },
+            "03/2024": {
+                "total_runs": 9,
+                "success": 9,
+                "failure": 0
+            },
+            "02/2024": {
+                "total_runs": 8,
+                "success": 8,
+                "failure": 0
+            },
+            "01/2024": {
+                "total_runs": 9,
+                "success": 8,
+                "failure": 1
+            }
+        },
+        "github_repo_provisioning.yml": {
+            "02/2024": {
+                "total_runs": 1,
+                "success": 0,
+                "failure": 1
+            }
+        },
+        "update_build_version.yml": {
+            "09/2024": {
+                "total_runs": 1,
+                "success": 1,
+                "failure": 0
+            },
+            "05/2024": {
+                "total_runs": 8,
+                "success": 8,
+                "failure": 0
+            },
+            "04/2024": {
+                "total_runs": 12,
+                "success": 12,
+                "failure": 0
+            },
+            "03/2024": {
+                "total_runs": 5,
+                "success": 5,
+                "failure": 0
+            },
+            "02/2024": {
+                "total_runs": 12,
+                "success": 12,
+                "failure": 0
+            }
+        },
+        "assign-org-secret-repo.yml": {
+            "05/2025": {
+                "total_runs": 2,
+                "success": 0,
+                "failure": 0
+            },
+            "04/2025": {
+                "total_runs": 2,
+                "success": 0,
+                "failure": 1
+            },
+            "03/2025": {
+                "total_runs": 3,
+                "success": 0,
+                "failure": 2
+            },
+            "02/2025": {
+                "total_runs": 2,
+                "success": 0,
+                "failure": 2
+            },
+            "11/2024": {
+                "total_runs": 4,
+                "success": 0,
+                "failure": 4
+            },
+            "10/2024": {
+                "total_runs": 3,
+                "success": 0,
+                "failure": 3
+            },
+            "06/2024": {
+                "total_runs": 1,
+                "success": 0,
+                "failure": 1
+            },
+            "05/2024": {
+                "total_runs": 6,
+                "success": 0,
+                "failure": 6
+            },
+            "04/2024": {
+                "total_runs": 6,
+                "success": 2,
+                "failure": 1
+            }
+        },
+        "delete-repo-variable.yml": {
+            "04/2025": {
+                "total_runs": 4,
+                "success": 3,
+                "failure": 0
+            },
+            "10/2024": {
+                "total_runs": 4,
+                "success": 4,
+                "failure": 0
+            },
+            "09/2024": {
+                "total_runs": 10,
+                "success": 10,
+                "failure": 0
+            },
+            "08/2024": {
+                "total_runs": 5,
+                "success": 5,
+                "failure": 0
+            },
+            "07/2024": {
+                "total_runs": 1,
+                "success": 1,
+                "failure": 0
+            },
+            "06/2024": {
+                "total_runs": 2,
+                "success": 2,
+                "failure": 0
+            },
+            "05/2024": {
+                "total_runs": 6,
+                "success": 4,
+                "failure": 2
+            },
+            "04/2024": {
+                "total_runs": 2,
+                "success": 0,
+                "failure": 1
+            }
+        },
+        "get-repo-permissions-by-user.yml": {
+            "02/2025": {
+                "total_runs": 2,
+                "success": 0,
+                "failure": 2
+            },
+            "01/2025": {
+                "total_runs": 1,
+                "success": 0,
+                "failure": 1
+            },
+            "10/2024": {
+                "total_runs": 1,
+                "success": 0,
+                "failure": 1
+            },
+            "09/2024": {
+                "total_runs": 1,
+                "success": 0,
+                "failure": 1
+            },
+            "08/2024": {
+                "total_runs": 2,
+                "success": 0,
+                "failure": 1
+            },
+            "07/2024": {
+                "total_runs": 2,
+                "success": 0,
+                "failure": 1
+            },
+            "06/2024": {
+                "total_runs": 7,
+                "success": 5,
+                "failure": 1
+            }
+        },
+        "service-principal-secret-update.yml": {
+            "06/2024": {
+                "total_runs": 29,
+                "success": 16,
+                "failure": 7
+            }
+        },
+        "Assign-MPOID.yml": {
+            "09/2024": {
+                "total_runs": 3,
+                "success": 3,
+                "failure": 0
+            }
+        },
+        "create-github-teams.yml": {
+            "04/2025": {
+                "total_runs": 1,
+                "success": 0,
+                "failure": 1
+            },
+            "01/2025": {
+                "total_runs": 1,
+                "success": 0,
+                "failure": 1
+            }
+        }
+    },
+    "esgh-central-settings-public": {
+        "Add_User_To_GitHub_Cloud_Organization.yml": {
+            "05/2025": {
+                "total_runs": 108,
+                "success": 86,
+                "failure": 21
+            },
+            "04/2025": {
+                "total_runs": 150,
+                "success": 101,
+                "failure": 47
+            },
+            "03/2025": {
+                "total_runs": 212,
+                "success": 158,
+                "failure": 51
+            },
+            "02/2025": {
+                "total_runs": 98,
+                "success": 80,
+                "failure": 16
+            },
+            "01/2025": {
+                "total_runs": 129,
+                "success": 105,
+                "failure": 23
+            },
+            "12/2024": {
+                "total_runs": 128,
+                "success": 105,
+                "failure": 16
+            },
+            "11/2024": {
+                "total_runs": 105,
+                "success": 93,
+                "failure": 10
+            },
+            "10/2024": {
+                "total_runs": 129,
+                "success": 110,
+                "failure": 17
+            },
+            "09/2024": {
+                "total_runs": 158,
+                "success": 123,
+                "failure": 35
+            },
+            "08/2024": {
+                "total_runs": 194,
+                "success": 156,
+                "failure": 37
+            },
+            "07/2024": {
+                "total_runs": 229,
+                "success": 158,
+                "failure": 71
+            },
+            "06/2024": {
+                "total_runs": 258,
+                "success": 188,
+                "failure": 69
+            },
+            "05/2024": {
+                "total_runs": 1031,
+                "success": 702,
+                "failure": 329
+            },
+            "04/2024": {
+                "total_runs": 71,
+                "success": 49,
+                "failure": 22
+            }
+        },
+        "branch_list_repo.yml": {
+            "08/2024": {
+                "total_runs": 1,
+                "success": 1,
+                "failure": 0
+            }
+        },
+        "create-project-jira-prod.yml": {
+            "08/2024": {
+                "total_runs": 4,
+                "success": 4,
+                "failure": 0
+            },
+            "07/2024": {
+                "total_runs": 5,
+                "success": 2,
+                "failure": 3
+            }
+        },
+        "github_repo_provisioning.yml": {
+            "05/2025": {
+                "total_runs": 2,
+                "success": 0,
+                "failure": 2
+            },
+            "04/2025": {
+                "total_runs": 13,
+                "success": 0,
+                "failure": 12
+            },
+            "01/2025": {
+                "total_runs": 10,
+                "success": 0,
+                "failure": 10
+            },
+            "12/2024": {
+                "total_runs": 80,
+                "success": 0,
+                "failure": 80
+            },
+            "11/2024": {
+                "total_runs": 19,
+                "success": 0,
+                "failure": 19
+            },
+            "10/2024": {
+                "total_runs": 16,
+                "success": 0,
+                "failure": 16
+            },
+            "09/2024": {
+                "total_runs": 43,
+                "success": 5,
+                "failure": 37
+            },
+            "08/2024": {
+                "total_runs": 11,
+                "success": 7,
+                "failure": 3
+            },
+            "07/2024": {
+                "total_runs": 22,
+                "success": 10,
+                "failure": 12
+            },
+            "06/2024": {
+                "total_runs": 20,
+                "success": 11,
+                "failure": 8
+            },
+            "05/2024": {
+                "total_runs": 61,
+                "success": 33,
+                "failure": 24
+            },
+            "04/2024": {
+                "total_runs": 22,
+                "success": 13,
+                "failure": 9
+            },
+            "03/2024": {
+                "total_runs": 12,
+                "success": 8,
+                "failure": 4
+            }
+        },
+        "oneclick_provisioning_aks.yml": {
+            "07/2024": {
+                "total_runs": 1,
+                "success": 0,
+                "failure": 1
+            },
+            "04/2024": {
+                "total_runs": 10,
+                "success": 4,
+                "failure": 6
+            }
+        }
+    },
+    "esgh-self-service": {
+        "Add_BranchProtectionRules_lockbranch.yml": {
+            "05/2025": {
+                "total_runs": 1,
+                "success": 0,
+                "failure": 1
+            },
+            "04/2025": {
+                "total_runs": 1,
+                "success": 0,
+                "failure": 1
+            },
+            "03/2025": {
+                "total_runs": 2,
+                "success": 0,
+                "failure": 2
+            },
+            "02/2025": {
+                "total_runs": 1,
+                "success": 0,
+                "failure": 0
+            },
+            "01/2025": {
+                "total_runs": 4,
+                "success": 0,
+                "failure": 4
+            },
+            "12/2024": {
+                "total_runs": 1,
+                "success": 0,
+                "failure": 1
+            },
+            "10/2024": {
+                "total_runs": 7,
+                "success": 1,
+                "failure": 6
+            }
+        },
+        "Add_User_To_GitHub_Cloud_Organization.yml": {
+            "06/2025": {
+                "total_runs": 1,
+                "success": 1,
+                "failure": 0
+            },
+            "05/2025": {
+                "total_runs": 295,
+                "success": 202,
+                "failure": 93
+            },
+            "04/2025": {
+                "total_runs": 431,
+                "success": 275,
+                "failure": 156
+            },
+            "03/2025": {
+                "total_runs": 338,
+                "success": 231,
+                "failure": 107
+            },
+            "02/2025": {
+                "total_runs": 241,
+                "success": 180,
+                "failure": 61
+            },
+            "01/2025": {
+                "total_runs": 226,
+                "success": 171,
+                "failure": 55
+            },
+            "12/2024": {
+                "total_runs": 159,
+                "success": 128,
+                "failure": 31
+            },
+            "11/2024": {
+                "total_runs": 139,
+                "success": 106,
+                "failure": 33
+            },
+            "10/2024": {
+                "total_runs": 64,
+                "success": 50,
+                "failure": 14
+            }
+        },
+        "Add_User_to_Github_Enterprise_Organization.yml": {
+            "05/2025": {
+                "total_runs": 72,
+                "success": 71,
+                "failure": 1
+            },
+            "04/2025": {
+                "total_runs": 71,
+                "success": 71,
+                "failure": 0
+            },
+            "03/2025": {
+                "total_runs": 93,
+                "success": 93,
+                "failure": 0
+            },
+            "02/2025": {
+                "total_runs": 63,
+                "success": 58,
+                "failure": 4
+            },
+            "01/2025": {
+                "total_runs": 133,
+                "success": 131,
+                "failure": 2
+            },
+            "12/2024": {
+                "total_runs": 132,
+                "success": 128,
+                "failure": 4
+            },
+            "11/2024": {
+                "total_runs": 3,
+                "success": 3,
+                "failure": 0
+            }
+        },
+        "Archive_Repo.yml": {
+            "05/2025": {
+                "total_runs": 23,
+                "success": 15,
+                "failure": 8
+            },
+            "04/2025": {
+                "total_runs": 15,
+                "success": 11,
+                "failure": 4
+            },
+            "03/2025": {
+                "total_runs": 28,
+                "success": 18,
+                "failure": 10
+            },
+            "02/2025": {
+                "total_runs": 5,
+                "success": 3,
+                "failure": 1
+            },
+            "01/2025": {
+                "total_runs": 9,
+                "success": 4,
+                "failure": 5
+            },
+            "12/2024": {
+                "total_runs": 11,
+                "success": 8,
+                "failure": 3
+            },
+            "11/2024": {
+                "total_runs": 4,
+                "success": 1,
+                "failure": 3
+            },
+            "10/2024": {
+                "total_runs": 9,
+                "success": 5,
+                "failure": 4
+            }
+        },
+        "add-associate-user-to-repo.yml": {
+            "05/2025": {
+                "total_runs": 47,
+                "success": 31,
+                "failure": 16
+            },
+            "04/2025": {
+                "total_runs": 14,
+                "success": 5,
+                "failure": 9
+            },
+            "03/2025": {
+                "total_runs": 22,
+                "success": 13,
+                "failure": 9
+            },
+            "02/2025": {
+                "total_runs": 22,
+                "success": 13,
+                "failure": 9
+            },
+            "01/2025": {
+                "total_runs": 8,
+                "success": 1,
+                "failure": 7
+            },
+            "12/2024": {
+                "total_runs": 2,
+                "success": 1,
+                "failure": 1
+            },
+            "11/2024": {
+                "total_runs": 6,
+                "success": 6,
+                "failure": 0
+            },
+            "10/2024": {
+                "total_runs": 10,
+                "success": 3,
+                "failure": 7
+            }
+        },
+        "add-env-secret-to-repo.yml": {
+            "05/2025": {
+                "total_runs": 15,
+                "success": 8,
+                "failure": 7
+            },
+            "04/2025": {
+                "total_runs": 7,
+                "success": 3,
+                "failure": 4
+            },
+            "03/2025": {
+                "total_runs": 4,
+                "success": 4,
+                "failure": 0
+            },
+            "02/2025": {
+                "total_runs": 1,
+                "success": 1,
+                "failure": 0
+            },
+            "12/2024": {
+                "total_runs": 3,
+                "success": 1,
+                "failure": 2
+            },
+            "11/2024": {
+                "total_runs": 3,
+                "success": 3,
+                "failure": 0
+            },
+            "10/2024": {
+                "total_runs": 10,
+                "success": 4,
+                "failure": 6
+            }
+        },
+        "add-env-variable-to-repo.yml": {
+            "05/2025": {
+                "total_runs": 2,
+                "success": 2,
+                "failure": 0
+            },
+            "04/2025": {
+                "total_runs": 8,
+                "success": 8,
+                "failure": 0
+            },
+            "10/2024": {
+                "total_runs": 3,
+                "success": 3,
+                "failure": 0
+            }
+        },
+        "add-repo-to-org-secret.yml": {
+            "04/2025": {
+                "total_runs": 7,
+                "success": 5,
+                "failure": 2
+            },
+            "03/2025": {
+                "total_runs": 6,
+                "success": 6,
+                "failure": 0
+            },
+            "02/2025": {
+                "total_runs": 13,
+                "success": 13,
+                "failure": 0
+            },
+            "01/2025": {
+                "total_runs": 12,
+                "success": 9,
+                "failure": 3
+            },
+            "12/2024": {
+                "total_runs": 4,
+                "success": 4,
+                "failure": 0
+            },
+            "10/2024": {
+                "total_runs": 7,
+                "success": 2,
+                "failure": 5
+            }
+        },
+        "add-secret-to-repo.yml": {
+            "05/2025": {
+                "total_runs": 51,
+                "success": 50,
+                "failure": 1
+            },
+            "04/2025": {
+                "total_runs": 70,
+                "success": 50,
+                "failure": 20
+            },
+            "03/2025": {
+                "total_runs": 37,
+                "success": 34,
+                "failure": 3
+            },
+            "02/2025": {
+                "total_runs": 27,
+                "success": 23,
+                "failure": 4
+            },
+            "01/2025": {
+                "total_runs": 24,
+                "success": 14,
+                "failure": 9
+            },
+            "12/2024": {
+                "total_runs": 16,
+                "success": 15,
+                "failure": 1
+            },
+            "11/2024": {
+                "total_runs": 8,
+                "success": 8,
+                "failure": 0
+            },
+            "10/2024": {
+                "total_runs": 4,
+                "success": 4,
+                "failure": 0
+            }
+        },
+        "add-team-maintainer.yml": {
+            "05/2025": {
+                "total_runs": 50,
+                "success": 26,
+                "failure": 24
+            },
+            "04/2025": {
+                "total_runs": 29,
+                "success": 18,
+                "failure": 11
+            },
+            "03/2025": {
+                "total_runs": 14,
+                "success": 7,
+                "failure": 7
+            },
+            "02/2025": {
+                "total_runs": 23,
+                "success": 7,
+                "failure": 14
+            },
+            "01/2025": {
+                "total_runs": 4,
+                "success": 1,
+                "failure": 3
+            },
+            "12/2024": {
+                "total_runs": 20,
+                "success": 9,
+                "failure": 11
+            },
+            "11/2024": {
+                "total_runs": 4,
+                "success": 1,
+                "failure": 3
+            },
+            "10/2024": {
+                "total_runs": 5,
+                "success": 2,
+                "failure": 3
+            }
+        },
+        "add-team-to-repo.yml": {
+            "05/2025": {
+                "total_runs": 2,
+                "success": 1,
+                "failure": 1
+            },
+            "04/2025": {
+                "total_runs": 10,
+                "success": 4,
+                "failure": 6
+            },
+            "03/2025": {
+                "total_runs": 42,
+                "success": 29,
+                "failure": 13
+            },
+            "02/2025": {
+                "total_runs": 3,
+                "success": 1,
+                "failure": 2
+            },
+            "01/2025": {
+                "total_runs": 4,
+                "success": 0,
+                "failure": 4
+            },
+            "12/2024": {
+                "total_runs": 6,
+                "success": 1,
+                "failure": 5
+            },
+            "11/2024": {
+                "total_runs": 14,
+                "success": 12,
+                "failure": 2
+            },
+            "10/2024": {
+                "total_runs": 6,
+                "success": 1,
+                "failure": 5
+            }
+        },
+        "add-variable-to-repo.yml": {
+            "05/2025": {
+                "total_runs": 11,
+                "success": 5,
+                "failure": 6
+            },
+            "04/2025": {
+                "total_runs": 11,
+                "success": 8,
+                "failure": 3
+            },
+            "02/2025": {
+                "total_runs": 1,
+                "success": 0,
+                "failure": 0
+            },
+            "01/2025": {
+                "total_runs": 1,
+                "success": 0,
+                "failure": 1
+            },
+            "10/2024": {
+                "total_runs": 1,
+                "success": 1,
+                "failure": 0
+            }
+        },
+        "add_branch_protection_rules.yml": {
+            "05/2025": {
+                "total_runs": 6,
+                "success": 1,
+                "failure": 5
+            },
+            "04/2025": {
+                "total_runs": 8,
+                "success": 3,
+                "failure": 5
+            },
+            "03/2025": {
+                "total_runs": 25,
+                "success": 25,
+                "failure": 0
+            },
+            "01/2025": {
+                "total_runs": 47,
+                "success": 32,
+                "failure": 15
+            },
+            "12/2024": {
+                "total_runs": 4,
+                "success": 0,
+                "failure": 4
+            },
+            "11/2024": {
+                "total_runs": 1,
+                "success": 0,
+                "failure": 1
+            },
+            "10/2024": {
+                "total_runs": 24,
+                "success": 8,
+                "failure": 16
+            }
+        },
+        "adding-repos-aks-org-secrets.yml": {
+            "05/2025": {
+                "total_runs": 35,
+                "success": 30,
+                "failure": 5
+            },
+            "04/2025": {
+                "total_runs": 17,
+                "success": 17,
+                "failure": 0
+            },
+            "03/2025": {
+                "total_runs": 37,
+                "success": 25,
+                "failure": 12
+            },
+            "02/2025": {
+                "total_runs": 7,
+                "success": 5,
+                "failure": 2
+            },
+            "01/2025": {
+                "total_runs": 6,
+                "success": 5,
+                "failure": 1
+            },
+            "12/2024": {
+                "total_runs": 11,
+                "success": 9,
+                "failure": 2
+            },
+            "11/2024": {
+                "total_runs": 8,
+                "success": 5,
+                "failure": 3
+            },
+            "10/2024": {
+                "total_runs": 2,
+                "success": 2,
+                "failure": 0
+            }
+        },
+        "adding-repos-gke-org-secrets.yml": {
+            "05/2025": {
+                "total_runs": 17,
+                "success": 13,
+                "failure": 4
+            },
+            "04/2025": {
+                "total_runs": 13,
+                "success": 12,
+                "failure": 1
+            },
+            "03/2025": {
+                "total_runs": 4,
+                "success": 3,
+                "failure": 1
+            },
+            "02/2025": {
+                "total_runs": 1,
+                "success": 1,
+                "failure": 0
+            },
+            "12/2024": {
+                "total_runs": 4,
+                "success": 2,
+                "failure": 2
+            },
+            "10/2024": {
+                "total_runs": 2,
+                "success": 2,
+                "failure": 0
+            }
+        },
+        "archive-jira-project.yml": {
+            "01/2025": {
+                "total_runs": 9,
+                "success": 6,
+                "failure": 3
+            }
+        },
+        "assign-org-secret-repo.yml": {
+            "05/2025": {
+                "total_runs": 22,
+                "success": 8,
+                "failure": 14
+            },
+            "04/2025": {
+                "total_runs": 6,
+                "success": 4,
+                "failure": 2
+            },
+            "03/2025": {
+                "total_runs": 10,
+                "success": 0,
+                "failure": 10
+            },
+            "02/2025": {
+                "total_runs": 18,
+                "success": 9,
+                "failure": 7
+            },
+            "01/2025": {
+                "total_runs": 14,
+                "success": 11,
+                "failure": 3
+            },
+            "12/2024": {
+                "total_runs": 11,
+                "success": 7,
+                "failure": 4
+            },
+            "11/2024": {
+                "total_runs": 2,
+                "success": 2,
+                "failure": 0
+            }
+        },
+        "confluence_space_create.yml": {
+            "03/2025": {
+                "total_runs": 4,
+                "success": 3,
+                "failure": 1
+            }
+        },
+        "create-github-teams.yml": {
+            "05/2025": {
+                "total_runs": 13,
+                "success": 6,
+                "failure": 7
+            },
+            "04/2025": {
+                "total_runs": 19,
+                "success": 3,
+                "failure": 16
+            },
+            "03/2025": {
+                "total_runs": 23,
+                "success": 13,
+                "failure": 10
+            },
+            "02/2025": {
+                "total_runs": 19,
+                "success": 13,
+                "failure": 6
+            },
+            "01/2025": {
+                "total_runs": 11,
+                "success": 0,
+                "failure": 11
+            }
+        },
+        "create-project-jira-prod.yml": {
+            "04/2025": {
+                "total_runs": 12,
+                "success": 1,
+                "failure": 11
+            },
+            "03/2025": {
+                "total_runs": 2,
+                "success": 1,
+                "failure": 1
+            },
+            "01/2025": {
+                "total_runs": 7,
+                "success": 2,
+                "failure": 4
+            }
+        },
+        "delete-repo-env-secret.yml": {
+            "05/2025": {
+                "total_runs": 2,
+                "success": 0,
+                "failure": 2
+            },
+            "02/2025": {
+                "total_runs": 1,
+                "success": 0,
+                "failure": 0
+            },
+            "10/2024": {
+                "total_runs": 6,
+                "success": 2,
+                "failure": 4
+            }
+        },
+        "delete-repo-env-variable.yml": {
+            "10/2024": {
+                "total_runs": 1,
+                "success": 1,
+                "failure": 0
+            }
+        },
+        "delete-repo-secret.yml": {
+            "05/2025": {
+                "total_runs": 12,
+                "success": 2,
+                "failure": 10
+            },
+            "04/2025": {
+                "total_runs": 2,
+                "success": 1,
+                "failure": 1
+            },
+            "03/2025": {
+                "total_runs": 6,
+                "success": 6,
+                "failure": 0
+            },
+            "01/2025": {
+                "total_runs": 4,
+                "success": 4,
+                "failure": 0
+            },
+            "10/2024": {
+                "total_runs": 6,
+                "success": 3,
+                "failure": 3
+            }
+        },
+        "delete-repo-variable.yml": {
+            "02/2025": {
+                "total_runs": 1,
+                "success": 0,
+                "failure": 0
+            },
+            "01/2025": {
+                "total_runs": 1,
+                "success": 1,
+                "failure": 0
+            },
+            "10/2024": {
+                "total_runs": 1,
+                "success": 1,
+                "failure": 0
+            }
+        },
+        "gcp-sa-key-secure-share.yml": {
+            "05/2025": {
+                "total_runs": 79,
+                "success": 40,
+                "failure": 39
+            },
+            "04/2025": {
+                "total_runs": 160,
+                "success": 96,
+                "failure": 64
+            },
+            "03/2025": {
+                "total_runs": 55,
+                "success": 34,
+                "failure": 21
+            },
+            "02/2025": {
+                "total_runs": 37,
+                "success": 20,
+                "failure": 17
+            },
+            "01/2025": {
+                "total_runs": 8,
+                "success": 1,
+                "failure": 7
+            },
+            "12/2024": {
+                "total_runs": 8,
+                "success": 0,
+                "failure": 8
+            },
+            "11/2024": {
+                "total_runs": 4,
+                "success": 0,
+                "failure": 4
+            }
+        },
+        "gcp-sa-keys-report.yml": {
+            "05/2025": {
+                "total_runs": 2,
+                "success": 2,
+                "failure": 0
+            },
+            "04/2025": {
+                "total_runs": 9,
+                "success": 6,
+                "failure": 3
+            },
+            "03/2025": {
+                "total_runs": 4,
+                "success": 3,
+                "failure": 1
+            },
+            "02/2025": {
+                "total_runs": 3,
+                "success": 2,
+                "failure": 1
+            },
+            "10/2024": {
+                "total_runs": 1,
+                "success": 0,
+                "failure": 0
+            }
+        },
+        "gcp-secret-manager-write.yml": {
+            "05/2025": {
+                "total_runs": 38,
+                "success": 28,
+                "failure": 9
+            },
+            "04/2025": {
+                "total_runs": 25,
+                "success": 15,
+                "failure": 9
+            },
+            "03/2025": {
+                "total_runs": 14,
+                "success": 11,
+                "failure": 3
+            },
+            "02/2025": {
+                "total_runs": 24,
+                "success": 5,
+                "failure": 19
+            },
+            "01/2025": {
+                "total_runs": 3,
+                "success": 1,
+                "failure": 2
+            }
+        },
+        "gcp-vpcsc-violation-report.yml": {
+            "05/2025": {
+                "total_runs": 2,
+                "success": 2,
+                "failure": 0
+            },
+            "04/2025": {
+                "total_runs": 3,
+                "success": 3,
+                "failure": 0
+            },
+            "02/2025": {
+                "total_runs": 40,
+                "success": 38,
+                "failure": 2
+            },
+            "01/2025": {
+                "total_runs": 109,
+                "success": 104,
+                "failure": 5
+            },
+            "12/2024": {
+                "total_runs": 52,
+                "success": 49,
+                "failure": 3
+            },
+            "11/2024": {
+                "total_runs": 69,
+                "success": 64,
+                "failure": 5
+            },
+            "10/2024": {
+                "total_runs": 23,
+                "success": 20,
+                "failure": 2
+            }
+        },
+        "gcp-vpcsc-violation-sql-report.yml": {
+            "04/2025": {
+                "total_runs": 3,
+                "success": 3,
+                "failure": 0
+            },
+            "01/2025": {
+                "total_runs": 1,
+                "success": 1,
+                "failure": 0
+            },
+            "12/2024": {
+                "total_runs": 2,
+                "success": 1,
+                "failure": 1
+            }
+        },
+        "gcp-vpcsc-violation-summary-report.yml": {
+            "04/2025": {
+                "total_runs": 4,
+                "success": 4,
+                "failure": 0
+            },
+            "02/2025": {
+                "total_runs": 56,
+                "success": 56,
+                "failure": 0
+            },
+            "01/2025": {
+                "total_runs": 51,
+                "success": 51,
+                "failure": 0
+            },
+            "12/2024": {
+                "total_runs": 23,
+                "success": 23,
+                "failure": 0
+            },
+            "11/2024": {
+                "total_runs": 24,
+                "success": 19,
+                "failure": 5
+            }
+        },
+        "get-repo-teams.yml": {
+            "05/2025": {
+                "total_runs": 8,
+                "success": 8,
+                "failure": 0
+            },
+            "04/2025": {
+                "total_runs": 13,
+                "success": 10,
+                "failure": 3
+            },
+            "03/2025": {
+                "total_runs": 10,
+                "success": 7,
+                "failure": 3
+            },
+            "02/2025": {
+                "total_runs": 4,
+                "success": 4,
+                "failure": 0
+            },
+            "01/2025": {
+                "total_runs": 3,
+                "success": 2,
+                "failure": 1
+            },
+            "12/2024": {
+                "total_runs": 21,
+                "success": 9,
+                "failure": 11
+            }
+        },
+        "github_repo_provisioning.yml": {
+            "05/2025": {
+                "total_runs": 35,
+                "success": 18,
+                "failure": 17
+            },
+            "04/2025": {
+                "total_runs": 113,
+                "success": 51,
+                "failure": 62
+            },
+            "03/2025": {
+                "total_runs": 48,
+                "success": 26,
+                "failure": 22
+            },
+            "02/2025": {
+                "total_runs": 32,
+                "success": 15,
+                "failure": 16
+            },
+            "01/2025": {
+                "total_runs": 13,
+                "success": 8,
+                "failure": 5
+            },
+            "12/2024": {
+                "total_runs": 10,
+                "success": 1,
+                "failure": 9
+            },
+            "11/2024": {
+                "total_runs": 10,
+                "success": 0,
+                "failure": 9
+            },
+            "10/2024": {
+                "total_runs": 18,
+                "success": 2,
+                "failure": 16
+            },
+            "09/2024": {
+                "total_runs": 15,
+                "success": 1,
+                "failure": 10
+            },
+            "08/2024": {
+                "total_runs": 19,
+                "success": 0,
+                "failure": 17
+            }
+        },
+        "list-repo-secrets.yml": {
+            "05/2025": {
+                "total_runs": 38,
+                "success": 37,
+                "failure": 1
+            },
+            "04/2025": {
+                "total_runs": 26,
+                "success": 25,
+                "failure": 1
+            },
+            "03/2025": {
+                "total_runs": 34,
+                "success": 34,
+                "failure": 0
+            },
+            "02/2025": {
+                "total_runs": 23,
+                "success": 22,
+                "failure": 0
+            },
+            "01/2025": {
+                "total_runs": 11,
+                "success": 11,
+                "failure": 0
+            },
+            "12/2024": {
+                "total_runs": 10,
+                "success": 5,
+                "failure": 3
+            }
+        },
+        "list-repo-variables.yml": {
+            "05/2025": {
+                "total_runs": 15,
+                "success": 15,
+                "failure": 0
+            },
+            "04/2025": {
+                "total_runs": 11,
+                "success": 11,
+                "failure": 0
+            },
+            "03/2025": {
+                "total_runs": 1,
+                "success": 1,
+                "failure": 0
+            },
+            "02/2025": {
+                "total_runs": 7,
+                "success": 7,
+                "failure": 0
+            },
+            "01/2025": {
+                "total_runs": 4,
+                "success": 4,
+                "failure": 0
+            },
+            "12/2024": {
+                "total_runs": 1,
+                "success": 1,
+                "failure": 0
+            }
+        },
+        "oneclick_provisioning_aks.yml": {
+            "02/2025": {
+                "total_runs": 1,
+                "success": 0,
+                "failure": 1
+            },
+            "12/2024": {
+                "total_runs": 1,
+                "success": 0,
+                "failure": 1
+            },
+            "11/2024": {
+                "total_runs": 2,
+                "success": 0,
+                "failure": 2
+            },
+            "10/2024": {
+                "total_runs": 4,
+                "success": 1,
+                "failure": 3
+            },
+            "09/2024": {
+                "total_runs": 4,
+                "success": 2,
+                "failure": 2
+            }
+        },
+        "push_third_party_artifact_to_artifactory.yml": {
+            "05/2025": {
+                "total_runs": 2,
+                "success": 1,
+                "failure": 1
+            },
+            "04/2025": {
+                "total_runs": 4,
+                "success": 3,
+                "failure": 1
+            },
+            "03/2025": {
+                "total_runs": 15,
+                "success": 12,
+                "failure": 2
+            },
+            "10/2024": {
+                "total_runs": 9,
+                "success": 2,
+                "failure": 5
+            }
+        },
+        "rename-repo-name.yml": {
+            "05/2025": {
+                "total_runs": 2,
+                "success": 2,
+                "failure": 0
+            },
+            "04/2025": {
+                "total_runs": 48,
+                "success": 28,
+                "failure": 20
+            },
+            "03/2025": {
+                "total_runs": 9,
+                "success": 4,
+                "failure": 5
+            },
+            "02/2025": {
+                "total_runs": 6,
+                "success": 3,
+                "failure": 3
+            },
+            "01/2025": {
+                "total_runs": 2,
+                "success": 0,
+                "failure": 2
+            },
+            "12/2024": {
+                "total_runs": 3,
+                "success": 2,
+                "failure": 1
+            },
+            "11/2024": {
+                "total_runs": 7,
+                "success": 4,
+                "failure": 2
+            },
+            "10/2024": {
+                "total_runs": 4,
+                "success": 2,
+                "failure": 2
+            },
+            "09/2024": {
+                "total_runs": 11,
+                "success": 0,
+                "failure": 11
+            },
+            "08/2024": {
+                "total_runs": 49,
+                "success": 0,
+                "failure": 49
+            }
+        },
+        "rename_branch.yml": {
+            "05/2025": {
+                "total_runs": 27,
+                "success": 17,
+                "failure": 10
+            },
+            "04/2025": {
+                "total_runs": 18,
+                "success": 12,
+                "failure": 6
+            },
+            "03/2025": {
+                "total_runs": 2,
+                "success": 0,
+                "failure": 2
+            },
+            "02/2025": {
+                "total_runs": 1,
+                "success": 0,
+                "failure": 1
+            },
+            "01/2025": {
+                "total_runs": 4,
+                "success": 2,
+                "failure": 2
+            },
+            "11/2024": {
+                "total_runs": 1,
+                "success": 0,
+                "failure": 1
+            },
+            "10/2024": {
+                "total_runs": 10,
+                "success": 5,
+                "failure": 5
+            }
+        },
+        "search_string_in_repo.yml": {
+            "05/2025": {
+                "total_runs": 17,
+                "success": 12,
+                "failure": 5
+            },
+            "04/2025": {
+                "total_runs": 4,
+                "success": 0,
+                "failure": 4
+            },
+            "03/2025": {
+                "total_runs": 2,
+                "success": 0,
+                "failure": 2
+            },
+            "02/2025": {
+                "total_runs": 3,
+                "success": 0,
+                "failure": 2
+            },
+            "01/2025": {
+                "total_runs": 2,
+                "success": 0,
+                "failure": 2
+            }
+        },
+        "search_string_repo_global.yml": {
+            "05/2025": {
+                "total_runs": 1,
+                "success": 0,
+                "failure": 1
+            },
+            "04/2025": {
+                "total_runs": 1,
+                "success": 0,
+                "failure": 1
+            }
+        },
+        "test_workflow_inputs.yml": {
+            "11/2024": {
+                "total_runs": 1,
+                "success": 1,
+                "failure": 0
+            },
+            "10/2024": {
+                "total_runs": 3,
+                "success": 2,
+                "failure": 1
+            },
+            "09/2024": {
+                "total_runs": 68,
+                "success": 17,
+                "failure": 51
+            },
+            "08/2024": {
+                "total_runs": 109,
+                "success": 84,
+                "failure": 25
+            }
+        },
+        "unprotected_branch.yml": {
+            "05/2025": {
+                "total_runs": 25,
+                "success": 5,
+                "failure": 19
+            },
+            "04/2025": {
+                "total_runs": 34,
+                "success": 10,
+                "failure": 22
+            }
+        },
+        "unsuspend_user_GitHub_Enterprise.yml": {
+            "05/2025": {
+                "total_runs": 54,
+                "success": 54,
+                "failure": 0
+            },
+            "04/2025": {
+                "total_runs": 45,
+                "success": 44,
+                "failure": 0
+            },
+            "03/2025": {
+                "total_runs": 58,
+                "success": 58,
+                "failure": 0
+            },
+            "02/2025": {
+                "total_runs": 59,
+                "success": 57,
+                "failure": 1
+            },
+            "01/2025": {
+                "total_runs": 105,
+                "success": 105,
+                "failure": 0
+            },
+            "12/2024": {
+                "total_runs": 140,
+                "success": 139,
+                "failure": 1
+            },
+            "11/2024": {
+                "total_runs": 3,
+                "success": 3,
+                "failure": 0
+            }
+        },
+        "update-env-variable-in-repo.yml": {
+            "10/2024": {
+                "total_runs": 4,
+                "success": 4,
+                "failure": 0
+            }
+        },
+        "update-variable-in-repository.yml": {
+            "05/2025": {
+                "total_runs": 1,
+                "success": 0,
+                "failure": 1
+            },
+            "02/2025": {
+                "total_runs": 2,
+                "success": 2,
+                "failure": 0
+            },
+            "01/2025": {
+                "total_runs": 1,
+                "success": 0,
+                "failure": 1
+            },
+            "10/2024": {
+                "total_runs": 3,
+                "success": 3,
+                "failure": 0
+            }
+        },
+        "validate_workflow_inputs.yml": {
+            "08/2024": {
+                "total_runs": 7,
+                "success": 7,
+                "failure": 0
+            }
+        },
+        "workflow_yml_parser.yml": {
+            "05/2025": {
+                "total_runs": 9,
+                "success": 8,
+                "failure": 1
+            },
+            "04/2025": {
+                "total_runs": 19,
+                "success": 19,
+                "failure": 0
+            },
+            "03/2025": {
+                "total_runs": 8,
+                "success": 8,
+                "failure": 0
+            },
+            "02/2025": {
+                "total_runs": 4,
+                "success": 3,
+                "failure": 0
+            },
+            "01/2025": {
+                "total_runs": 18,
+                "success": 16,
+                "failure": 2
+            },
+            "12/2024": {
+                "total_runs": 16,
+                "success": 15,
+                "failure": 1
+            },
+            "11/2024": {
+                "total_runs": 7,
+                "success": 7,
+                "failure": 0
+            },
+            "10/2024": {
+                "total_runs": 38,
+                "success": 38,
+                "failure": 0
+            },
+            "09/2024": {
+                "total_runs": 7,
+                "success": 2,
+                "failure": 5
+            },
+            "08/2024": {
+                "total_runs": 20,
+                "success": 15,
+                "failure": 4
+            }
+        }
+    }
+}

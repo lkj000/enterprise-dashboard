@@ -1,0 +1,1293 @@
+[
+    {
+        "/Home":{
+            "title":"Platform DevOps Dashboard Portal",
+            "description":"The Dashboard Portal is a tool developed by the Platform DevOps team which provides an overview of the Software Development, Deployment Process and Project Management in Albertsons Organization. It Aggregates Data from Various Stages of the DevOps Lifecycle and Presents it in a Visual, Easy-to-Understand Format.",
+            "images": [
+                {
+                    "imgtxt":"Github : The section has Self Service Tools (Developers and DevOps Engineer) and GitHub Copilot Data.",
+                    "imgurl":"images/Home/1.png"
+                },
+                {
+                    "imgtxt":"Central Workflows Pages: This section has pages to provide information about the Features available currently and the different features being developed in the Central Workflows.",
+                    "imgurl":"images/Home/2.png"
+                },
+                {
+                    "imgtxt":"CI/CD Pages: This section has pages to provide information about the Repositories and metrics on their CI/CD processes.",
+                    "imgurl":"images/Home/3.png"
+                },
+                {
+                    "imgtxt":"Compliance Pages: This section has pages to show information about all the compliance tools.",
+                    "imgurl":"images/Home/4.png"
+                },
+                {
+                    "imgtxt":"Contribution Pages: This section shows information about the contributions to the GitHub Repositories.",
+                    "imgurl":"images/Home/5.png"
+                },
+                {
+                    "imgtxt":"PPM Reports Pages: This section has different metrics about the Jira Projects in Albertsons.",
+                    "imgurl":"images/Home/6.png"
+                },
+                {
+                    "imgtxt":"Infosec Run: This section shows the Security Matrix.",
+                    "imgurl":"images/Home/7.png"
+                },
+                {
+                    "imgtxt":"Workflows Run: This Tile displays the total number of Workflows run in the last 30 days.",
+                    "imgurl":"images/Home/8.png"
+                },
+                {
+                    "imgtxt":"Runners: This Tile displays the total number of existing Runners.",
+                    "imgurl":"images/Home/9.png"
+                },
+                {
+                    "imgtxt":"GitHub Repositories: This Tile displays the total number of existing Repositories in GitHub Albertsons.",
+                    "imgurl":"images/Home/10.png"
+                },
+                {
+                    "imgtxt":"Repositories Released: This Tile displays the total number of GitHub Repositories that were deployed to production in the last 3 Months.",
+                    "imgurl":"images/Home/11.png"
+                },
+                {
+                    "imgtxt":"Deployment Strategies Chart: This chart displays the no. of applications which are using Central workflows based on different Deployment Strategies.",
+                    "imgurl":"images/Home/12.png"
+                },
+                {
+                    "imgtxt":"Workflow History Chart: This chart displays the total no. of Workflows run every month.",
+                    "imgurl":"images/Home/13.png"
+                },
+                {
+                    "imgtxt":"New Updates: This displays information about Platform Services with updates.",
+                    "imgurl":"images/Home/14.png"
+                },
+                {
+                    "imgtxt":"Maintenance: This displays information about future maintenance to be done to Platform Services.",
+                    "imgurl":"images/Home/15.png"
+                },
+                {
+                    "imgtxt":"Issues/Errors: This displays information about active problems with any Platform Service",
+                    "imgurl":"images/Home/16.png"
+                },
+                {
+                    "imgtxt":"FAQ: Frequentily Asked Questions section.",
+                    "imgurl":"images/Home/17.png"
+                },
+                {   "txturl": "https://devops-dashboard.albertsons.com/Home"   }
+            ]
+        }
+    },
+    {
+        "/GHATools":{
+            "title":"Self-Service",
+            "description": "This page provides self-service tools for DevOps and Developers, offering various workflows. It includes sections for actions such as adding secrets to repositories, managing variables, configuring teams, and integrating third-party artifacts into Artifactory, all while adhering to strict security protocols. Additionally, this self-service page is continuously evolving with new activities.",
+            "images": [
+                {   "imgtxt": "NOTE:"   },
+                {   "imgtxt": "1. Each workflow has a dedicated wiki that provides detailed instructions (by clicking the info icon on the left side)."   },
+                {   "imgtxt": "2. Users can click on the name of the option, which will take them to the workflow, provide the necessary inputs, and start the workflow manually."   },
+                {   
+                    "imgtxt": "3. Users can run workflows directly from this page by clicking the run icon on the right side and allows users to automatically start workflows and provide the necessary inputs.",
+                    "imgurl": "images/GHATools/1.png"
+                },
+                {   "imgtxt":  ""   },
+                {   "imgtxt": "DEVOPS"   },
+                {   "imgtxt":  ""   },
+                {   "imgtxt": "Secrets: Includes managing secrets in a repository or environment by adding, updating, deleting, or listing them, and assigning the repository to an AKS or GKE Cluster Organization Secret."  },
+                {   "imgurl": "images/GHATools/2.png"   },
+                {   "imgurl": "images/GHATools/3.png"   },
+                {   "imgurl": "images/GHATools/4.png"   },
+                {   "imgtxt": "Variables: Allow the user to add, list, update, delete variables and environment variables in the repository."   },
+                {   "imgurl": "images/GHATools/5.png"   },
+                {   "imgurl": "images/GHATools/6.png"   },
+                {   "imgtxt": "Repository : Coordinates workflows for handling user permissions, search operations, branch protection, secret management and environment variables within the organization’s repositories. It also facilitates necessary alterations to the names of repositories and branches."  },
+                {   "imgurl": "images/GHATools/7.png"   },
+                {   "imgurl": "images/GHATools/8.png"   },
+                {   
+                    "imgtxt": "Artifactory: To push Third Party Artifacts to Artifactory —i.e., artifacts required to build microservices but not created by application team.",  
+                    "imgurl": "images/GHATools/9.png"
+                },
+                {   "imgtxt": "Teams : Integrates a user as a maintainer into a team, add a team to the repository with read or write permissions and list all the teams linked with the repository."    },
+                {   "imgurl": "images/GHATools/10.png"   },
+                {   "imgurl": "images/GHATools/11.png"   },
+                {   "imgtxt":  ""   },
+                {   "imgtxt": "DEVELOPERS"   },
+                {   "imgtxt":  ""   },
+                {
+                    "imgtxt": "Repository: Allows creating a repository using AKS Provisioning and GitHub Repository Provisioning workflows.",
+                    "imgurl": "images/GHATools/12.png"
+                },
+                {
+                    "imgtxt": "Access Tools: To get access to GitHub CoPilot, enable the license.",
+                    "imgurl": "images/GHATools/13.png"
+                },
+                {
+                    "imgtxt": "Teams: Allows users to search for specific teams within the organization.",
+                    "imgurl": "images/GHATools/14.png"
+                },
+                {
+                    "imgtxt": "PPM Tools: To create a new project in Jira directly from this workflow.",
+                    "imgurl": "images/GHATools/15.png"
+                },
+                {   "txturl": "https://devops-dashboard.albertsons.com/GHATools"   }
+            ]
+        }
+    },
+    {
+        "/IntakeFormServices": {
+            "title": "Intake Form Services",
+            "description": "This page offers a Jira form for service requests to the Application Services team, allowing users to submit tickets even without Jira access. Once submitted, a Jira ticket is created and sent to the Application Services team for review.",
+            "images": [
+                {
+                    "imgtxt":""
+                },
+                {
+                    "imgtxt":"NOTE:"
+                },
+                {
+                    "imgtxt": "1. Please refer to the latest notice board from the Application Services team for any updates on creating the Jira tickets listed below.",
+                    "imgurl": "images/IntakeFormServices/1.png"
+                },
+                {
+                    "imgurl": "images/IntakeFormServices/2.png"
+                },
+                {
+                    "imgtxt": "2. The JIRA form includes required fields for summary, description, and requested components.",
+                    "imgurl": "images/IntakeFormServices/3.png"
+                },
+                {
+                    "imgtxt": "3. Each card represents a different service request. Users can click on the green button to create a Jira ticket for the selected service. The description of each Jira ticket is below the button on each card.",
+                    "imgurl": "images/IntakeFormServices/4.png"
+                },
+                {   "txturl": "https://devops-dashboard.albertsons.com/IntakeFormServices"   }
+            ]
+        }
+    },
+    {
+        "/IntakeFormIntegration": {
+            "title": "Intake Form Integration",
+            "description": "This page offers a Jira form for integration requests to the Data Integration team, allowing users to submit tickets even without Jira access. Once submitted, a Jira ticket is created and sent to the Data Integration team for review.",
+            "images": [
+                {
+                    "imgtxt":""
+                },
+                {
+                    "imgtxt":"NOTE:"
+                },
+                {
+                    "imgtxt": "1. Please refer to the latest notice board from the Data Integration team for any updates on creating the Jira tickets listed below.",
+                    "imgurl": "images/IntakeFormIntegration/1.png"
+                },
+                {
+                    "imgurl": "images/IntakeFormIntegration/2.png"
+                },
+                {
+                    "imgtxt": "2. The JIRA form includes required fields for summary, description, and requested components.",
+                    "imgurl": "images/IntakeFormIntegration/3.png"
+                },
+                {
+                    "imgtxt": "3. Each button represents a different integration request. Users can click on the green button to create a Jira ticket for the selected integration.",
+                    "imgurl": "images/IntakeFormIntegration/4.png"
+                },
+                {   "txturl": "https://devops-dashboard.albertsons.com/IntakeFormIntegration"   }
+            ]
+        }
+    },
+    {
+        "/CopilotUsers":{
+            "title":"Github Copilot Users",
+            "description":"This page provides insights into the users activity with GitHub Copilot. It includes information such as the active users, inactive users and the overall usage statistics. This data can be useful for understanding how effectively the user is leveraging GitHub Copilot.",
+            "images":[
+                {   "imgtxt": "" },
+                {   "imgtxt": "NOTE:"    },
+                {   "imgtxt": "If you are Using VSCode / Copilot Extension and Dashboard doesn't shows your Activity, follow these Steps."   },
+                {   "imgtxt": "\u20031. Logout from Copilot"    },
+                {   "imgtxt": "\u20032. Uninstall Copilot Extension"   },
+                {   "imgtxt": "\u20033. Re Open VSCode"    },
+                {   "imgtxt": "\u20034. Install Copilot Extension" },
+                {   "imgtxt": "\u20035. Login for Copilot" },
+                {   "imgtxt": "" },
+                {   
+                    "imgtxt": "USER ACTIVITY : This tab provides overall information about the users activity with GitHub Copilot from Portfolio, VP, Director and Line Managers.",
+                    "imgurl": "images/CopilotUsers/1.png"
+                },
+                {   "imgtxt": "Portfolio: Dropdown to select a specific Portfolio."  },
+                {   "imgtxt": "Department: Dropdown to select a specific VP."  },
+                {   "imgtxt": "Team: Dropdown to select a specific Director."  },
+                {   "imgtxt": "Line Managers: Dropdown to select a specific Line Manager.",
+                    "imgurl": "images/CopilotUsers/2.png"
+                },
+                {
+                    "imgtxt": "Status: Switch the User Activity by All Users, Last Activity Days(1-5, 6-10, >10), No Activity(Inactive Users) and License Not Assigned.",
+                    "imgurl": "images/CopilotUsers/3.png"
+                },
+                {
+                    "imgtxt": "Report Level: Switch between the view of users activity from VP, Director or All Users.",
+                    "imgurl": "images/CopilotUsers/4.png"
+                },
+                {   "imgtxt": "Data Tiles:"    },
+                {   "imgtxt": "\u2003\u2022 Total Users: Users in the AD Group(az-esgh-prod-usercopilot)"    },
+                {   "imgtxt": "\u2003\u2022 No. of Users with License: Users enabled the Copilot License."    },
+                {   "imgtxt": "\u2003\u2022 No. of Users without License: Users in AD group but didn't enable the license or removed by the Dormant process(Users without Activity in last 30 days will be removed)."    },
+                {   "imgtxt": "\u2003\u2022 No. of Active Users: Users with the Copilot License and recorded Activity."    },
+                {   "imgtxt": "\u2003\u2022 No. of Active Users(1 to 5 Days): Users with the last Copilot Activity in 1 to 5 days."    },
+                {   "imgtxt": "\u2003\u2022 No. of Active Users(6 to 10 Days): Users with the last Copilot Activity in 6 to 10 days."    },
+                {   "imgtxt": "\u2003\u2022 No. of Active Users(>10 Days): Users with the last Copilot Activity greater than 10 days."    },
+                {   "imgtxt": "\u2003\u2022 No. of Inactive Users with License: Users with the Copilot License and No Activity in Last 30 days."    },
+                {   "imgtxt": "\u2003\u2022 No. of Users without any Commits in Last 30 Days: Users without any commits in GitHub Enterprise repositories Default Branches in last 30 days."    },
+                {
+                    "imgtxt": "\u2003\u2022 No. of Users without any Contribution in Last 30 Days: Users without any Contributions(Commits in Default Branches, Issues, PRs or Default Branches and PR Reviews) in GitHub Enterprise repositories in last 30 days.",
+                    "imgurl": "images/CopilotUsers/5.png"
+                },
+                {
+                    "imgtxt": "CoPilot User Activity Chart: This chart displays the graphical view of users Last Activity Days(1-5, 6-10, >10), No Activity(Inactive Users) and License Not Assigned by Line Managers, The view can be switched between Line Managers, VP and Director using Report Level buttons.",
+                    "imgurl": "images/CopilotUsers/6.png"
+                },
+                {   "imgtxt": "Table Data:"    },
+                {   "imgtxt": "User ID: LDAP Id of the User"   },
+                {   "imgtxt": "Full Name: Full Name of the user assigned to LDAP ID."   },
+                {   "imgtxt": "Title: Title of the user assigned to LDAP ID."   },
+                {   "imgtxt": "Portfolio: Portfolio Assigned to the User."   },
+                {   "imgtxt": "Line Manager: Line Manager Assigned to the User."   },
+                {   "imgtxt": "License Assigned Date: Date on which Copilot License is Enabled(Not Created is for the users that didn't enable the Copilot license or removed by the Dormant process)"   },
+                {   "imgtxt": "Last Copilot Activity: Date in which the last Activity of the User is recorded(No Activity is for the Users with No Activity in Last 30 days or didn't enable the Copilot license or removed by the Dormant process)"   },
+                {   "imgtxt": "No. of Commits in Last 30 days: Total commits by users in GitHub Enterprise repositories Default Branch in last 30 days."   },
+                {   "imgtxt": "No. of PR's in Last 30 days: Total PRs rasied users in GitHub Enterprise repositories to Protected Branch in last 30 days."   },
+                {
+                    "imgtxt": "GitHub Enterprise Status: Status of the User in the GitHub Enterprise.",
+                    "imgurl": "images/CopilotUsers/7.png"
+                },
+                {   "imgtxt": ""  },
+                {
+                    "imgtxt": "COPILOT USAGE: This tab provides report on the usage of GitHub Copilot from Portfolio, VP and Director.",
+                    "imgurl": "images/CopilotUsers/8.png"
+                },
+                {
+                    "imgtxt": "Usage Report: Switch between the Daily Report(28 days or 90 Days using Repot Range), Mid-Month(1st to 15th day of the Previous Month), and Monthly(1st to Last day of the Previous Month).",
+                    "imgurl": "images/CopilotUsers/9.png" 
+                },
+                {   "imgtxt": "Portfolio: Dropdown to select a specific Portfolio."  },
+                {   "imgtxt": "Department: Dropdown to select a specific VP."  },
+                {
+                    "imgtxt": "Team: Dropdown to select a specific Director.",
+                    "imgurl": "images/CopilotUsers/10.png"
+                },
+                {
+                    "imgtxt": "Status: Switch the User Activity by All Users, Last Activity Days(1-5, 6-10, >10), No Activity(Inactive Users) and License Not Assigned.",
+                    "imgurl": "images/CopilotUsers/3.png"
+                },
+                {
+                    "imgtxt": "Report Range: Switch between the view of Usage from Last 28 Days or Last 90 Days on the Daily Report.",
+                    "imgurl": "images/CopilotUsers/11.png"
+                },
+                {   "imgtxt": "Data Tiles:"    },
+                {   "imgtxt": "\u2003\u2022 Current Licensed Seats: Total number of users with the Copilot License Enabled."    },
+                {   "imgtxt": "\u2003\u2022 Date Range: Date Range of the Copilot Usage."    },
+                {   "imgtxt": "\u2003\u2022 Total Suggestions Count: Total number of Suggestions requested by users to GitHub Copilot."    },
+                {   "imgtxt": "\u2003\u2022 Total Acceptance Count: Total number of Suggestions accepted by users given by GitHub Copilot."    },
+                {   "imgtxt": "\u2003\u2022 Acceptance Rate: Percentage of the Suggestions Accepted[ (Total Acceptance Count/Total Suggestions Count)*100 ]"    },
+                {   "imgtxt": "\u2003\u2022 Line of Code Suggested: Total Lines of Code suggested by GitHub Copilot."    },
+                {   "imgtxt": "\u2003\u2022 Line of Code Accepted: Total Lines of Code accepted by users given by GitHub Copilot."    },
+                {   "imgtxt": "\u2003\u2022 Line Acceptance Rate: Percentage of the Lines of Code Accepted[ (Line of Code Accepted/Line of Code Suggested)*100 ]"    },
+                {
+                    "imgtxt": "\u2003\u2022 Daily Average Engagement Per Resource: Average suggestions requested by user to GitHub Copilot [(Total Suggestions Count/Current Licensed Seats) / Days in Report Range 28 or 90]*100",
+                    "imgurl": "images/CopilotUsers/12.png"
+                },
+                {
+                    "imgtxt": "Graphical View of the Total Suggestions Count and Total Acceptance Count given by GitHub Copilot by date.",
+                    "imgurl": "images/CopilotUsers/13.png"
+                },
+                {
+                    "imgtxt": "Graphical View of Engaged/Active Users on GitHub Copilot by date.",
+                    "imgurl": "images/CopilotUsers/14.png"
+                },
+                {
+                    "imgtxt": "Graphical View of the Total Suggestions Coun, Total Acceptance Count, Line of Code Suggested and Line of Code Accepted given by GitHub Copilot for the Top 20 Languages used.",
+                    "imgurl": "images/CopilotUsers/15.png"
+                },
+                {   "txturl": "https://devops-dashboard.albertsons.com/CopilotUsers"   }
+            ]
+        }
+    },
+    {
+        "/Release":{
+            "title":"Central Workflow Release Notes",
+            "description":"This Page displays the different features of different Central Workflows. Different Deployment Strategies available in the Central Workflow currently are AKS, AUT, GKE, Azure, GCP, ART, VM, GenAI, Infrastructure, Database, Power Platform, PCF, Salesforce, Mobile, Databricks, AEM, MQ.",
+            "images":[
+                {
+                    "imgtxt":"",
+                    "imgurl":"images/Release/1.png"
+                },
+                {   "txturl": "https://devops-dashboard.albertsons.com/Release"   }
+            ]
+        }
+    },
+    {
+        "/NewFeatures":{
+            "title":"Upcoming Features (Beta Testing)",
+            "description":"It contains all the central workflow's open issues which are of V3 and V4 so far.",
+            "images":[
+                {
+                    "imgtxt":"",
+                    "imgurl":"images/NewFeatures/1.png"
+                },
+                {   "txturl": "https://devops-dashboard.albertsons.com/NewFeatures"   }
+            ]
+        }
+    },
+    {
+        "/Veracode":{
+            "title":"Veracode",
+            "description":"This page contains total repos fetching from path to production and total number of repositories that has nightly veracode and nightly veracode success count.",
+            "images":[
+                {
+                    "imgtxt":"Veracode Conclusion Definition:"
+                },                
+                {                    
+                    "imgtxt":"Success: Veracode Platform Scan Passed on Default Branch."
+                },
+                {
+                    "imgtxt":"Failure: Veracode Platform Scan Failed on Default Branch."
+                },
+                {
+                    "imgtxt":"Not applicable: Repo Does Not Need Veracode Platform Scan."
+                },
+                {
+                    "imgtxt":"Not present: Repo is New and Needs Veracode Platform Scan. Please Reach Out to PDS Team."
+                },
+                {
+                    "imgtxt":"CI-Failed: The Default Branch Build Failed, Build Should be fix first to Run Veracode Platform Scan."
+                },
+                {
+                    "imgtxt":"It also contains COG, digital, retail & supply chain portfolio's veracode details represented in pie charts.",
+                    "imgurl":"images/Veracode/1.png"
+                },
+                {
+                    "imgtxt":"Path to production table contains details of portfolios , app owner, repository name, deployment strategy, veracode app name, veracode conclusion last run of veracode scan and prod deployment time and date.",
+                    "imgurl":"images/Veracode/2.png"
+                },
+                {   "txturl": "https://devops-dashboard.albertsons.com/Veracode"   }
+            ]
+        }
+    },
+    {
+        "/VeracodeCVE":{
+            "title":"Application Vulnerabilities Veracode (SCA)",
+            "description":"Veracode Scan is a comprehensive application security testing solution that helps identify and fix vulnerabilities in your software.",
+            "images":[
+                {
+                    "imgtxt": "Software Composition Analysis (SCA) identifies open-source components in your software and checks them for known vulnerabilities."
+                },
+                {
+                    "imgtxt":"In this page, we are displaying the Veracode scan results for Albertsons Organization Repositories, which include the options to filter data based on Portfolio, Department, Team and Line Manager.",
+                    "imgurl":"images/VeracodeCVE/1.png"
+                },
+                {
+                    "imgtxt": "When the 'Details' switch is turned on, the table will also show the CVE ID for the respective Repository Vulnerability, which is a hyperlink navigating you to the details of the CVE."
+                },
+                {
+                    "imgtxt":"In the bar chart, you can view the number of Vert High, High, Medium, Low, Very Low category based on the vulnerability type and the selected filters.",
+                    "imgurl":"images/VeracodeCVE/2.png"
+                },
+                {
+                    "imgtxt":"In the bottom table, it shows the details like the Repository (AppName), Portfolio, Department, Team and AppOwner, along with the number of Vulnerabilities for that Application, their CVE ID and their severity respectively.",
+                    "imgurl":"images/VeracodeCVE/3.png"
+                },
+                {
+                    "imgurl":"images/VeracodeCVE/4.png"
+                },
+                {   "txturl": "https://devops-dashboard.albertsons.com/VeracodeCVE"   }
+            ]
+        }
+    },
+    {
+        "/VeracodeExemptions":{
+            "title":"Veracode Exceptions",
+            "description":"This page contains repositories with veracode exception which means if the repo exists with VERACODE_CONTINUEONERROR then the repo is exempted.",
+            "images":[
+                {
+                    "imgtxt":"The pie chart here represents the total of COG, Digital, Retail & Supply Chain Portfolio's individual with and without veracode exemptions."                    
+                },
+                {
+                    "imgtxt":"The Bar chart shows the veracode exemptions based on the 'Departments' category.",
+                    "imgurl":"images/VeracodeExemptions/1.png"
+                },
+                {
+                    "imgtxt":"",
+                    "imgurl":"images/VeracodeExemptions/2.png"
+                },
+                {
+                    "imgtxt":"The Dropdowns can be used to filter the table columns of Portfolio, Departments, App Owner and App Code."                    
+                },
+                {
+                    "imgtxt":"Veracode Exemptions table contains the details of Portfolios ,Departments of the portfolios, App Code, App Owner, Repository Name.",
+                    "imgurl":"images/VeracodeExemptions/3.png"
+                },
+                {   "txturl": "https://devops-dashboard.albertsons.com/VeracodeExemptions"   }
+            ]
+        }
+    },
+    {
+        "/SonarExemptions":{
+            "title":"Sonar Exceptions",
+            "description":"This page contains repositories with Sonar Exception which means if the repo exists with SONAR_CONTINUEONERROR then the repo is exempted.",
+            "images":[
+                {
+                    "imgtxt":"The pie chart here represents the total of COG, Digital, Retail & Supply Chain Portfolio's individual with and without sonar exemptions"                    
+                },
+                {
+                    "imgtxt":"The Bar chart shows the sonar exemptions based on the 'Departments' category.",
+                    "imgurl":"images/SonarExemptions/1.png"
+                },
+                {
+                    "imgtxt":"",
+                    "imgurl":"images/SonarExemptions/2.png"
+                },
+                {   "txturl": "https://devops-dashboard.albertsons.com/SonarExemptions"   }
+            ]
+        }
+    },
+    {
+        "/Compliance":{
+            "title":"Compliance",
+            "description":"This page contains details about the repositories that are not using authorized Albertsons Base Images and shows the application properties file path used in Java repositories.",
+            "images":[
+                {
+                    "imgtxt":"DOCKER: This tab contains repositories and its workflows which are downloading package from internet during build time or not using authorized Albertsons Base Images.",
+                    "imgurl":"images/Compliance/1.png"
+                },
+                {
+                    "imgtxt":"SECRET IN REPOSITORIES PROPERTIES: This tab contains a list of Java repositories that use the application properties file path, including environment-specific properties files.",
+                    "imgurl":"images/Compliance/2.png"
+                },
+                {
+                    "imgtxt":"The Dropdowns can be used to filter the table columns of Portfolio, Department, Team, App Owner and App Code."                  
+                },
+                {
+                    "imgtxt":"The table contains the details of Portfolios, Departments, Teams, App Owners, App Codes, Repositories, and File Paths.",
+                    "imgurl":"images/Compliance/3.png"
+                },
+                {   "txturl": "https://devops-dashboard.albertsons.com/Compliance"   }
+            ]
+        }
+    },
+    {
+        "/RepoSecret":{
+            "title":"Repositories with secrets",
+            "description":"The number of repositories with secrets were identified and displayed. This indicates that sensitive configuration or authentication information were detected in those repositories in violation of information security policy.",
+            "images":[
+                {
+                    "imgtxt":"The Dropdowns can be used to filter the table columns of Portfolio, Department, Team, App Owner and App Code.",                  
+                    "imgurl":"images/RepoSecret/1.png"
+                },
+                {
+                    "imgtxt":"The line chart here represents the total number of repositories with secrets detected over the last 30 days.",
+                    "imgurl":"images/RepoSecret/2.png"
+                },
+                {
+                    "imgtxt":"The pie chart here represents the total number of repositories with detected secrets and without secrets.",
+                    "imgurl":"images/RepoSecret/3.png"
+                },
+                {
+                    "imgtxt":"The table contains details of the Repository URL, File Path, Line Number, Credential Type, Committer, Committed On, Detected On, and Number of Days Since Detection. This information helps in tracking and managing repository credentials effectively.",
+                    "imgurl":"images/RepoSecret/4.png"
+                },
+                {   "txturl": "https://devops-dashboard.albertsons.com/RepoSecret"   }
+            ]
+        }
+    },
+    {
+        "/ArchitectApproval":{
+            "title":"Enterprise Architect Approval",
+            "description":"This page helps in identifying which repositories are compliant with PTX standards and which are not.",
+            "images":[
+                {
+                    "imgtxt": "The pie chart here represents the total of COG, Digital, Retail & Supply Chain Portfolio's individuals with and without PTX. Additionally, clicking on each segment of the pie chart can help filter the table columns for the specific portfolio with and without PTX.",
+                    "imgurl":"images/ArchitectApproval/1.png"
+                },
+                {
+                    "imgtxt":"The table contains details of the Portfolios, App Code, App Name, App Owner, Repository Name, PTX, and Last Production Deployment Date.",
+                    "imgurl":"images/ArchitectApproval/2.png"
+                },
+                {   "txturl": "https://devops-dashboard.albertsons.com/ArchitectApproval"   }
+            ]
+        }
+    },
+    {
+        "/GHARepository":{
+            "title":"GitHub Actions Repository",
+            "description":"This page contains all actions enabled GitHub enterprise repositories. Here we will be able to see all the repository details with filters by Portfolio, Department, App Owner Info, App Code Info, View Set. Under view set we have options called all, workflow and deployment if we select all it will show all the details which are in below image including workflows and deployment but if we select workflow it will show details related to workflows which not includes deployment details, vice versa if we select deployment as a filter.",
+            "images":[
+                {
+                    "imgtxt":"",
+                    "imgurl":"images/GHARepository/1.png"
+                },
+                {
+                    "imgtxt":"",
+                    "imgurl":"images/GHARepository/2.png"
+                },
+                {
+                    "imgtxt":"",
+                    "imgurl":"images/GHARepository/3.png"
+                },
+                {   "txturl": "https://devops-dashboard.albertsons.com/GHARepository"   }
+            ]
+        }
+    },
+    {
+        "/Performance":{
+            "title":"Performance",
+            "description":"This page contains all workflow's details from last 30 days which includes how long workflows ran like minimum, average and maximum run time details and also contains graphical views of all workflows runtime details.",
+            "images":[
+                {
+                    "imgtxt":"",
+                    "imgurl":"images/Performance/1.png"
+                },
+                {
+                    "imgtxt":"Table contains details of App code,App Name,Repo name,archetype,workflow run file, workflow run, Min run id, minimum duration in seconds, median duration in sec, maximum duration in sec, max run id and historic graph.",
+                    "imgurl":"images/Performance/2.png"
+                },
+                {
+                    "imgtxt":"",
+                    "imgurl":"images/Performance/3.png"
+                },
+                {   "txturl": "https://devops-dashboard.albertsons.com/Performance"   }
+            ]
+        }
+    },
+    {
+        "/WorkflowActivity":{
+            "title":"Workflow Activity",
+            "description":"This page provides analytics on the runs of workflows within automation accounts, both collectively and on an individual user basis, over the past five weeks on a weekly basis. Below this overview, users can access their personal workflow run history along with the corresponding manager's information.",
+            "images":[
+                {
+                    "imgtxt":"",
+                    "imgurl":"images/WorkflowActivity/1.png"
+                },
+                {
+                    "imgtxt":"Table contains the details of User ID, Name, Manager and view the total workflow runs.",
+                    "imgurl":"images/WorkflowActivity/2.png"
+                },
+                {   "txturl": "https://devops-dashboard.albertsons.com/WorkflowActivity"   }
+            ]
+        }
+    },
+    {
+        "/Artifactory":{
+            "title":"Artifactory Cleanup Policy",
+            "description":"This page contains three tabs which are policy it contains 'ENTERPRISE STANDARDS - LIFECYCLE POLICY FOR ENTERPRISE ARTIFACTORY' second one is artifacts history in this we can able to see artifacts cleaned up dates and we can able to search with date, third tab is Advanced Search here we can able to search with artifact name.",
+            "images":[
+                {
+                    "imgtxt":"",
+                    "imgurl":"images/Artifactory/1.png"
+                },
+                {
+                    "imgtxt":"",
+                    "imgurl":"images/Artifactory/2.png"
+                },
+                {
+                    "imgtxt":"",
+                    "imgurl":"images/Artifactory/3.png"
+                },
+                {   "txturl": "https://devops-dashboard.albertsons.com/Artifactory"   }
+            ]
+        }
+    },
+    {
+        "/CyberDefenseMatrix":{
+            "title":"Cyber defense matrix",
+            "description":"Cyber Defense Matrix shows which security function(s) and which type(s) of assets a technology support.",
+            "images":[]
+        }
+    },
+    {
+        "/JiraActivity":{
+            "title":"Jira Activity",
+            "description":"",
+            "images":[
+                {
+                    "imgurl": "images/JiraActivity/0.png"
+                },
+                {
+                    "imgtxt": "Enterprise - Total Issues Assigned: The Number of issues assigned at Enterprise level",
+                    "imgurl": "images/JiraActivity/1.png"
+                },
+                {
+                    "imgtxt": "Enterprise - Total Issues Closed: The Number of issues Closed at Enterprise level",
+                    "imgurl": "images/JiraActivity/2.png"
+                },
+                {
+                    "imgtxt": "Enterprise - No. of Resources: The Number of Resources with GitHub Access at Enterprise level",
+                    "imgurl": "images/JiraActivity/3.png"
+                },
+                {
+                    "imgtxt": "Enterprise - Average Issues per Resource: The Average Number of Issues assigned to every user in the Enterprise",
+                    "imgurl": "images/JiraActivity/4.png"
+                },
+                {
+                    "imgtxt": "Enterprise - Total Story Points (Issues): The Number of story points for all the issues in the Enterprise",
+                    "imgurl": "images/JiraActivity/5.png"
+                },
+                {
+                    "imgtxt": "Enterprise - Story Points Closed (Issues): The Number of story points closed in the Enterprise",
+                    "imgurl": "images/JiraActivity/6.png"
+                },
+                {
+                    "imgtxt": "Enterprise - Average Story Points Resolved by Resource (Issues): The Average Number of points closed by every user in the Enterprise",
+                    "imgurl": "images/JiraActivity/7.png"
+                },
+                {
+                    "imgtxt": "Enterprise - Average Issues Resolved per Resource: The Average Number of Issues closed by every user in the Enterprise",
+                    "imgurl": "images/JiraActivity/8.png"
+                },
+                {
+                    "imgtxt": "Enterprise - Average Lead Time (Days): The Average time it takes to finish an Issue in the Enterprise",
+                    "imgurl": "images/JiraActivity/9.png"
+                },
+                {
+                    "imgtxt": "Total Issues Assigned: The Number of Issues assigned at the level of the Line Manager or Portfolio selected",
+                    "imgurl": "images/JiraActivity/10.png"
+                },
+                {
+                    "imgtxt": "Total Issues Closed: The Number of Issues closed at the level of the Line Manager or Portfolio selected",
+                    "imgurl": "images/JiraActivity/11.png"
+                },
+                {
+                    "imgtxt": "Average Issues per Resource: The Average Number of Issues assigned to a Person at the level of the Line Manager or Portfolio selected",
+                    "imgurl": "images/JiraActivity/12.png"
+                },
+                {
+                    "imgtxt": "Average Issues Resolved per Resource: The Average Number of Issues resolved by a Person at the level of the Line Manager or Portfolio selected",
+                    "imgurl": "images/JiraActivity/13.png"
+                },
+                {
+                    "imgtxt": "Total Story Points (Issues): The Number of Story Points for Issues at the level of the Line Manager or Portfolio selected",
+                    "imgurl": "images/JiraActivity/14.png"
+                },
+                {
+                    "imgtxt": "Total Story Points Closed (Issues): The Number of Story Points closed for Issues at the level of the Line Manager or Portfolio selected",
+                    "imgurl": "images/JiraActivity/15.png"
+                },
+                {
+                    "imgtxt": "Average Story Points per Resource (Issues): The Average Number of Story Points for Issues assigned to a person at the level of the Line Manager or Portfolio selected",
+                    "imgurl": "images/JiraActivity/16.png"
+                },
+                {
+                    "imgtxt": "Average Story Points Resolved by Resource (Issues): The Average Number of Story points for Issues resolved by a Person at the level of the Line Manager or Portfolio selected",
+                    "imgurl": "images/JiraActivity/17.png"
+                },
+                {
+                    "imgtxt": "Projects: List of Projects the Line Manager selected is part of",
+                    "imgurl": "images/JiraActivity/18.png"
+                },
+                {
+                    "imgtxt": "No. of Resources: Number of People working at the level of the Line Manager or Portfolio selected",
+                    "imgurl": "images/JiraActivity/19.png"
+                },
+                {
+                    "imgtxt": "Average Lead Time (Days): Average time to solve an Issue at the level of the Line Manager or Portfolio selected",
+                    "imgurl": "images/JiraActivity/20.png"
+                },
+                {
+                    "imgtxt": "Total Stories: The Number of Stories assigned at the level of the Line Manager or Portfolio selected",
+                    "imgurl": "images/JiraActivity/21.png"
+                },
+                {
+                    "imgtxt": "Total Stories Closed: The Number of Stories closed at the level of the Line Manager or Portfolio selected",
+                    "imgurl": "images/JiraActivity/22.png"
+                },
+                {
+                    "imgtxt": "Average Stories per Resource: The Average Number of Stories assigned to a Person at the level of the Line Manager or Portfolio selected",
+                    "imgurl": "images/JiraActivity/23.png"
+                },
+                {
+                    "imgtxt": "Average Stories Resolved per Resource: The Average Number of Stories resolved by a Person at the level of the Line Manager or Portfolio selected",
+                    "imgurl": "images/JiraActivity/24.png"
+                },
+                {
+                    "imgtxt": "Total Story Points (Stories): The Number of Story Points for Stories at the level of the Line Manager or Portfolio selected",
+                    "imgurl": "images/JiraActivity/25.png"
+                },
+                {
+                    "imgtxt": "Total Story Points Closed (Stories): The Number of Story Points closed for Stories at the level of the Line Manager or Portfolio selected",
+                    "imgurl": "images/JiraActivity/26.png"
+                },
+                {
+                    "imgtxt": "Average Story Points per Resource (Stories): The Average Number of Story Points for Stories assigned to a person at the level of the Line Manager or Portfolio selected",
+                    "imgurl": "images/JiraActivity/27.png"
+                },
+                {
+                    "imgtxt": "Average Story Points Resolved by Resource (Stories): The Average Number of Story points for Stories resolved by a Person at the level of the Line Manager or Portfolio selected",
+                    "imgurl": "images/JiraActivity/28.png"
+                },
+                {
+                    "imgtxt": "Portfolio Dropdown: Allows to filter the data by the selected Portfolio",
+                    "imgurl": "images/JiraActivity/29.png"
+                },
+                {
+                    "imgtxt": "Line Managers Dropdown: Allows to filter the data by the selected Line Manager",
+                    "imgurl": "images/JiraActivity/30.png"
+                },
+                {
+                    "imgtxt": "Report Level: Switch between the view of Stories Only, Issues Only or both Issues and Stories.",
+                    "imgurl": "images/JiraActivity/31.png"
+                },
+                {
+                    "imgtxt": "Cycle time is the time taken from the assignment of an Issue to a sprint till the time it is resolved."
+                },
+                {
+                    "imgtxt": "We can find the different metrics for different Teams by selecting the appropriate dropdowns at the top"
+                },
+                {
+                    "imgtxt": "This Line chart displays the 'Daily Stories Closed', 'Cumulative Stories Closed' and 'Average Stories Closed from the past 11 weeks'.",
+                    "imgurl": "images/JiraActivity/32.png"
+                },
+                {
+                    "imgtxt": "The chart will display the update data for 'Daily Stories Closed' till the  latest day of the week and the rest of the upcoming week data would be displayed as '0' in case of 'Daily Stories Closed'. Eg: If the current day of the week today is Wednesday, the 'Daily Stories Closed' data would be displaying data till Wednesday only."
+                },
+                {
+                    "imgxtxt": "Note: This data is refreshed every 24 hrs."
+                },
+                {
+                    "imgtxt": "This Line chart displays the 'Daily Story Pts. Closed', 'Cumulative Story Pts.' and 'Average Story Pts. Closed from the past 11 weeks'.",
+                    "imgurl": "images/JiraActivity/33.png"
+                },
+                {
+                    "imgtxt": "The chart will display the update data for 'Daily Story Points Closed' till the  latest day of the week and the rest of the upcoming week data would be displayed as '0' in case of 'Daily Story Points Closed'. Eg: If the current day of the week today is Wednesday, the 'Daily Story Points Closed' data would be displaying data till Wednesday only."
+                },
+                {
+                    "imgxtxt": "Note: This data is refreshed every 24 hrs."
+                },
+                {
+                    "imgtxt": "Team Progress chart displays the No. of stories in Backlog, No of Stories which are in 'In Progress' state and the No. of Stories which are in 'Done' state of a generic swimlane of JIRA.",
+                    "imgurl": "images/JiraActivity/34.png"
+                },
+                {
+                    "imgtxt": "This Bar chart displays the 'Open', 'Done' and 'Total' stories of the selected Team in the lst 90 days.",
+                    "imgurl": "images/JiraActivity/35.png"
+                },
+                {
+                    "imgtxt": "Weekly Velocity Chart displays the 'Closed Story Points', 'Total Closed Stories', 'Average Closed Stories in the last 11 weeks' and 'Average Closed Story Points' for a specific team",
+                    "imgurl": "images/JiraActivity/36.png"
+                },
+                {   "txturl": "https://devops-dashboard.albertsons.com/JiraActivity"   }
+            ]
+        }
+    },
+    {
+        "/SonarQube":{
+            "title":"SonarQube Results",
+            "description":"This page provides the SonarQube Metric report of all projects (Application) contains the details of Portfolio's, VP, App Owner, Coverage, Duplicated Lines, Reliability Rating, Security Hotspots Rating, Security Rating and Maintainability Rating",
+            "images":[
+                {
+                    "imgtxt":"",
+                    "imgurl":"images/SonarQube/1.png"
+                },
+                {
+                    "imgtxt":"",
+                    "imgurl":"images/SonarQube/2.png"
+                },
+                {   "txturl": "https://devops-dashboard.albertsons.com/SonarQube"   }
+            ]
+        }
+    },
+    {
+        "/SprintActivity": {
+            "title": "Sprint Activity",
+            "description": "This Page provides Information about the Sprints of different Projects.",
+            "images": [
+                {
+                    "imgtxt": "Project Key Dropdown: This provides the Dropdown to select a specific Project based on its key value.",
+                    "imgurl": "images/SprintActivity/1.png"
+                },
+                { 
+                    "imgtxt": "Active Sprint Dropdown: One can select among the active sprints of a specific selected project. By default, it gets the first active sprint listed.",
+                    "imgurl": "images/SprintActivity/2.png"
+                },
+                {
+                    "imgtxt": "Exclude Weekend: This toggle allows you to exclude weekends from the sprint start and end dates, and shows the days left, total capacity, and remaining capacity (tiles) based on excluding weekends.",  
+                    "imgurl": "images/SprintActivity/3.png"
+                },
+                {
+                    "imgtxt": "Copy Link: This button allows you to copy the URL of the current page with the selected project and active sprint.",
+                    "imgurl": "images/SprintActivity/4.png"
+                },
+                {
+                    "imgtxt":"Goal: This is the defined Goal for the Sprint.",
+                    "imgurl": "images/SprintActivity/5.png"
+                },
+                {
+                    "imgtxt": "Active Sprint: This is the selected active sprint. The information displayed in the tiles is with respect to this sprint."
+                },
+                {
+                    "imgtxt": "Start Date: This is the date when the active sprint started. It marks the beginning of the sprint duration."
+                },
+                {
+                    "imgtxt": "End Date: This indicates the planned end date for the active sprint. It signifies when the sprint is scheduled to conclude."
+                },
+                {
+                    "imgtxt": "Number of Days Left: This indicates the remaining days left in the sprint, showing how much time is left until the sprint concludes.",
+                    "imgurl": "images/SprintActivity/6.png"
+                },
+                {
+                    "imgtxt": "Total Capacity: This represents the total number of hours available for the sprint, calculated based on the number of people working on various issues and the length of the sprint."
+                },
+                {
+                    "imgtxt": "Remaining Capacity: This represents the amount of hours left in the sprint, based on the resources and the total capacity."
+                },
+                {
+                    "imgtxt": "No. of Resources: This represents the total number of people actively working on the assigned stories within the sprint."
+                },
+                {
+                    "imgtxt": "Issues Not Started: This represents the number of issues associated with the sprint that have not yet been started.",
+                    "imgurl": "images/SprintActivity/7.png"
+                },
+                {
+                    "imgtxt": "Issues Expired: This represents the number of issues that have a due date which has already passed, indicating tasks that are overdue."
+                },
+                {
+                    "imgtxt": "Total Issues: This represents the total number of issues in the sprint."
+                },
+                {
+                    "imgtxt": "Total Issues Closed: This represents the total number of issues closed in the sprint."
+                },
+                {
+                    "imgtxt": "Total Issue Points: This represents the total number of issue points in the sprint.",
+                    "imgurl": "images/SprintActivity/8.png"
+                },
+                {
+                    "imgtxt": "Total Issue Points Closed: This represents the total number of issue points closed in the sprint."
+                },
+                {
+                    "imgtxt": "Total Stories: This represents the total number of stories in the sprint."
+                },
+                {
+                    "imgtxt": "Total Stories Closed: This represents the total number of stories closed in the sprint."
+                },
+                {
+                    "imgtxt": "Total Story Points: This represents the total number of story points in the sprint.",
+                    "imgurl": "images/SprintActivity/9.png"
+                },
+                {
+                    "imgtxt": "Total Story Points Closed: This represents the total number of story points closed in the sprint."
+                },
+                {
+                    "imgtxt": "Issues Without Estimate: This represents the number of issues in the sprint that do not have an estimated effort or time assigned to them."
+                },
+                {
+                    "imgtxt": "Average Stories Lead Time: This is the average time it takes for an issue to be resolved."
+                },
+                {
+                    "imgtxt": "Scope Creep Issues: This represents the number of issues that were added to the sprint after it started, indicating potential scope creep.",
+                    "imgurl": "images/SprintActivity/10.png"
+                },
+                {
+                    "imgtxt": "Scope Creep Stories: This represents the number of user stories that were added to the sprint after it started, indicating potential scope creep.",
+                    "imgurl": "images/SprintActivity/11.png"
+                },
+                {
+                    "imgtxt": "Burndown Chart (Issues): This line graph shows the sprint duration on the x-axis (from the start date to the end date) and the y-axis represents various metrics including the total issues, closed issues, closed issue points, and cumulative closed issues in this sprint.",
+                    "imgurl": "images/SprintActivity/12.png"
+                },
+                {
+                    "imgtxt": "Burndown Chart (Stories): This line graph shows the sprint duration on the x-axis (from the start date to the end date) and the y-axis represents various metrics including the total stories, closed stories, closed story points, and cumulative closed stories in this sprint.",
+                    "imgurl": "images/SprintActivity/13.png"
+                },
+                {
+                    "imgtxt": "Defect History: This line graph compares active bugs, closed bugs, and created bugs across previous closed sprints.",
+                    "imgurl": "images/SprintActivity/14.png"
+                },
+                {
+                    "imgtxt": "Velocity History: This line graph shows the team's velocity across previous sprints, comparing the average estimated velocity with the average completed velocity.",
+                    "imgurl": "images/SprintActivity/15.png"
+                },
+                {
+                    "imgtxt": "Average Resource Velocity: This chart compares the average resource velocity with the total number of contributors across previous sprints.",
+                    "imgurl": "images/SprintActivity/16.png"
+                },
+                {
+                    "imgtxt": "Spill Over and Scope Creep Issues: This line graph shows the number of spill-over issues and scope creep issues across previous sprints.",
+                    "imgurl": "images/SprintActivity/17.png"
+                },
+                {
+                    "imgtxt": "NOTE: Tables or charts will only be displayed if they contain data."
+                },
+                {
+                    "imgtxt": "Current Sprint Issues: This table shows the detailed information of the issues in the current sprint, including columns for Issue Key, Issue Title, Issue Type, Issue Status, Story Points, Assignee, Reporter, Created Date, and MPO ID.",
+                    "imgurl": "images/SprintActivity/18.png"
+                },
+                {
+                    "imgtxt": "Epics: This table shows detailed information about the epics assigned to the project. It includes columns for Epic Number, Description, Component, Assignee, In Active Sprint, Epic Story Points, Total Issues, Total Closed Issues, Overall Linked Issues In Progress, Total Story Points, Total Closed Story Points, Story Points In Progress, Issues in Active Sprint, Stories in Active Sprint, Created Date, MPO ID, Planned Start Date, Planned End Date, and Resolved Date.",
+                    "imgurl": "images/SprintActivity/19.png"
+                },
+                {
+                    "imgtxt": "Feature: This table shows detailed information about the features assigned to the project. It includes columns for Feature Number, Description, Component, Assignee, In Active Sprint, Feature Story Points, Total Issues, Total Closed Issues, Overall Linked Issues In Progress, Total Story Points, Total Closed Story Points, Story Points In Progress, Issues in Active Sprint, Stories in Active Sprint, Created Date, MPO ID, Planned Start Date, Planned End Date, and Resolved Date.",
+                    "imgurl": "images/SprintActivity/20.png"
+                },
+                {
+                    "imgtxt": "Backlog Jira Assigned (TAB): This table shows detailed information about the issues in the backlog that are assigned to the project. It includes columns for Issue Key, Issue Title, Issue Type, Issue Status, Story Points, Assignee, Reporter, Created Date, and MPO ID.",
+                    "imgurl": "images/SprintActivity/21.png"
+                },
+                {
+                    "imgtxt": "Backlog Jira Unassigned (TAB): This table shows detailed information about the issues in the backlog that are unassigned to the project. It includes columns for Issue Key, Issue Title, Issue Type, Issue Status, Story Points, Reporter, Created Date, and MPO ID.",
+                    "imgurl": "images/SprintActivity/22.png"
+                },
+                {   "txturl": "https://devops-dashboard.albertsons.com/SprintActivity"   }
+            ]
+        }
+    },
+    {
+        "/KanbanBoards": {
+            "title": "Kanban Activity",
+            "description": "This Page provides Information about the Kanban Boards of different Projects in the last 8 weeks.",
+            "images": [
+                {
+                    "imgtxt":"Project Key Dropdown: This provides the Dropdown to select a specific Project based on its key value.",
+                    "imgurl": "images/KanbanBoards/1.png"
+                 },
+                 {
+                    "imgtxt":"Boards Dropdown: One can select amongst the boards of a specific selected Project.",
+                    "imgurl": "images/KanbanBoards/2.png"
+                 },
+                 {
+                    "imgtxt":"Open Issues: This is the Number of Issues still Open",
+                    "imgurl": "images/KanbanBoards/3.png"
+                 },
+                 {
+                    "imgtxt":"Completed Issues: This is the Number of Completed Issues.",
+                    "imgurl": "images/KanbanBoards/4.png"
+                 },
+                 {
+                    "imgtxt":"Blocked Issues: This is the Number of Blocked Issues.",
+                    "imgurl": "images/KanbanBoards/5.png"
+                 },
+                 {
+                    "imgtxt":"Issues not Assigned: This is the Number of Unassigned Issues.",
+                    "imgurl": "images/KanbanBoards/6.png"
+                 },
+                 {
+                    "imgtxt":"Total Issues: This is the total Number of Issues.",
+                    "imgurl": "images/KanbanBoards/7.png"
+                 },
+                 {
+                    "imgtxt":"Issues not Estimated: This is the Number of Issues that are not Estimated.",
+                    "imgurl": "images/KanbanBoards/8.png"
+                 },
+                 {
+                    "imgtxt":"Resources: This is the Total Number of People working on Assigned Issues.",
+                    "imgurl": "images/KanbanBoards/9.png"
+                 },
+                 {
+                    "imgtxt":"Total Points: This is the Total Sum of Story Points on Estimated Issues.",
+                    "imgurl": "images/KanbanBoards/10.png"
+                 },
+                 {   "txturl": "https://devops-dashboard.albertsons.com/KanbanBoards"   }
+           ]
+        }
+    },
+    {
+        "/ProductInitiatives": {
+            "title": "Product Initiatives",
+            "description": "This page provides a comprehensive overview of high-level goals or projects within different product teams. It displays Jira story type 'initiatives', which represent significant objectives broken down into smaller, manageable tasks or stories. This page is designed to help teams track and manage these initiatives effectively, ensuring alignment and progress towards strategic goals.",
+            "images": [
+                {
+                    "imgtxt": "Initiative Dropdowns: These dropdowns allow users to filter data based on specific criteria such as Project Key, Portfolio, Department, Team, and Line Managers.",
+                    "imgurl": "images/ProductInitiatives/1.png"
+                },
+                {
+                    "imgtxt": "Initiative Table: This table displays columns for Initiative Key, Portfolio, Department, Team, Line Manager, Title, Status, Story Points, Created Date, MPO ID, Assignee, Reporter, and Resolution Date.",
+                    "imgurl": "images/ProductInitiatives/2.png"
+                },
+                {   "txturl": "https://devops-dashboard.albertsons.com/ProductInitiatives"   }
+            ]
+        }
+    },
+    {
+        "/DPP": {
+            "title": "Developer Productivity Program",
+            "description": "This page provides detailed insights by leveraging Copilot to enhance productivity through Jira story tracking and GitHub activities. It includes Jira and GitHub activity from the past three months (i.e., 90 days) and Copilot status and utilization metrics from the last four weeks (i.e., 28 days).",
+            "images": [
+                { "imgtxt": "NOTE:"},
+                { "imgtxt": "\u2003\u2022 The timeline of the historical data is dependent on the file size which we can render in DevOps Dashboard"},
+                { "imgtxt": "\u2003\u2022 Data will be updated once everyday"},
+                { "imgtxt": "\u2003\u2022 The changes are dependent on the different API's available for our perusal in JIRA and GitHub" },
+                { "imgtxt": "\u2003\u2022 Tracking and monitoring of the JIRA components/labels are dependent on the data managed by Individual User"},
+                { "imgtxt": ""},
+                { "imgtxt": "1) JIRA METRICS" },
+                { "imgtxt": "\u2003\u2003 (1.a) Jira Story Information: "},
+                { "imgtxt": "\u2003\u2003\u2003 The table provides detailed insights into the following key metrics:" },
+                { "imgtxt": "\u2003\u2003\u2003\u2003\u2022 Issue Type: The classification of the Jira story (e.g., Bug, Task, Story)" },
+                { "imgtxt": "\u2003\u2003\u2003\u2003\u2022 Issue Status: The current progress status of the Jira story (e.g., Open, In Progress, Done)" },
+                { "imgtxt": "\u2003\u2003\u2003\u2003\u2022 Estimated Hours: The time estimated to complete the story" },
+                { "imgtxt": "\u2003\u2003\u2003\u2003\u2022 Logged Hours:  The actual time spent on the story" },
+                { "imgtxt": "\u2003\u2003\u2003\u2003\u2022 Remaining Hours: The time left to complete the story" },
+                { "imgurl": "images/DPP/1.png" },
+                { "imgtxt": "\u2003\u2003 (1.b) Mandatory Components for Jira Stories Utilizing GitHub Copilot: "},
+                { "imgtxt": "\u2003\u2003\u2003 To ensure proper tracking and reporting, the following components must be added to Jira stories to indicate how GitHub Copilot is utilized: " },
+                { "imgtxt": "\u2003\u2003\u2003\u2003\u2022 gc_develop: Indicates that when GitHub Copilot assists in development tasks" },
+                { "imgtxt": "\u2003\u2003\u2003\u2003\u2022 gc_testing: Indicates that when GitHub Copilot assists in testing activities" },
+                { "imgtxt": "\u2003\u2003\u2003\u2003\u2022 gc_document: Indicates that GitHub Copilot assists in documentation efforts" },
+                { "imgtxt": "\u2003\u2003\u2003\u2003\u2022 gc_not_used: Indicates that GitHub Copilot is not utilized for the story" },
+                { "imgtxt": "\u2003\u2003\u2003\u2003\u2022 gc_not_applicable: Indicates that GitHub Copilot is not applied to the story" },
+                { "imgtxt": "\u2003\u2003\u2003\u2003\u2022 service_request : Indicates for tickets that do not require PR creation." },
+                { "imgtxt": "" },
+                { "imgtxt": "1) GITHUB METRICS" },
+                { "imgtxt": "\u2003\u2022 Pull Request (PR) details associated with each Jira story will be displayed only if the Jira story number is included in the PR title, regardless of whether the PR is in an open or closed state" },
+                { "imgtxt": "\u2003\u2022 When the Jira story number is included, the table will display key metrics such as the total number of commits, additions, and deletions linked to the PR for the corresponding Jira story" },
+                { "imgtxt": "\u2003\u2022 If the Jira story number is not included, only the issue type and status of the Jira story will be shown, while PR-related metrics will remain unavailable" },
+                { "imgurl": "images/DPP/2.png" },
+                { "imgurl": "images/DPP/3.png" },
+                { "imgtxt": "" },
+                { "imgtxt": "2) COPILOT METRICS" },
+                { "imgtxt": "\u2003 Additional metrics in the tiles and some of them includes: " },
+                { "imgtxt": "\u2003\u2003\u2022 Current License Seats: The number of active licenses assigned to the team as of today" },
+                { "imgtxt": "\u2003\u2003\u2022 Suggestion Counts: The number of suggestions provided by Copilot" },
+                { "imgtxt": "\u2003\u2003\u2022 Acceptance Counts: The number of suggestions accepted by developers" },
+                { "imgurl": "images/DPP/4.png" },
+                { "imgtxt": "\u2003 The table displays individual Copilot-related information, including:" },
+                { "imgtxt": "\u2003\u2003\u2022 License Assigned Date: The date the Copilot license was assigned (last assigned, in case the license was suspended and then re-enabled)" },
+                { "imgtxt": "\u2003\u2003\u2022 Last Activity Date: The most recent date of Copilot activity" },
+                { "imgurl": "images/DPP/5.png" },
+                { "imgtxt": "" },
+                { "imgtxt": "The table provides detailed information about users, including their titles, as sourced from Microsoft Teams."},
+                { "imgtxt": "Portfolio, Department and Team information is dependent on MS Teams and CMDB information"},
+                { "imgtxt": "Line Manager Copilot data is dependent on the no. of members reporting to the Line Managers in (MS Teams)"},
+                { "imgtxt": "If the Teams data about the user doesn’t have a Line Manager, then the VP, Team and Dept data would show up as 'Not Available'" },
+                { "imgtxt": "If the Teams data about the user is not there (As in the User has left the organization) or no trace in teams, then also, we would be showing his  VP, Team and Dept data would show up as 'Not Available'" },
+                { "imgurl": "images/DPP/6.png"}
+            ]
+        }
+    },
+    {
+        "/Activity": {
+            "title": "Github Activity",
+            "description": "This Page provides Information about the activity in the Github repositories.",
+            "images": [
+                {
+                    "imgtxt": "App Code Activity: Allows to switch to the App Code Activity view.",
+                    "imgurl": "images/GithubActivity/1.png"
+                },
+                {
+                    "imgtxt": "User Activity: Alows to switch to the User Activity view.",
+                    "imgurl": "images/GithubActivity/2.png"
+                },
+                {
+                    "imgtxt": "Portfolio: Dropdown to select a specific Portfolio.",
+                    "imgurl": "images/GithubActivity/3.png"
+                },
+                {
+                    "imgtxt": "Department: Dropdown to select a specific Department.",
+                    "imgurl": "images/GithubActivity/4.png"
+                },
+                {
+                    "imgtxt": "App Owner Info: Dropdown to select a specific App Owner.",
+                    "imgurl": "images/GithubActivity/5.png"
+                },
+                {
+                    "imgtxt": "App Code Info: Dropdown to select a specific App Code.",
+                    "imgurl": "images/GithubActivity/6.png"
+                },
+                {
+                    "imgtxt": "User ID: Dropdown to select a specific User ID.",
+                    "imgurl": "images/GithubActivity/10.png"
+                },
+                {
+                    "imgtxt": "User Status: Dropdown to select a specific User Status.",
+                    "imgurl": "images/GithubActivity/7.png"
+                },
+                {
+                    "imgtxt": "Line Managers: Dropdown to select a specific Line Manager.",
+                    "imgurl": "images/GithubActivity/8.png"
+                },
+                {
+                    "imgtxt": "Show Daily Contribution: This switch will allow to view the daily contribution.",
+                    "imgurl": "images/GithubActivity/9.png"
+                },
+                {
+                    "imgtxt": "App Code Table: This Table shows the contributions by Repository.",
+                    "imgurl": "images/GithubActivity/11.png"
+                },
+                {
+                    "imgtxt": "User Table: This Table shows the contributions by User.",
+                    "imgurl": "images/GithubActivity/12.png"
+                },
+                {   "txturl": "https://devops-dashboard.albertsons.com/Activity"   }
+            ]
+        }
+    },
+    {
+        "/TeamActivity": {
+            "title": "Github Activity",
+            "description": "This Page provides Information about the activity in the Jira Teams in the last 90 days.",
+            "images": [
+                {
+                    "imgtxt": "Portfolio Dropdown: Allows to filter the data by the selected Portfolio",
+                    "imgurl": "images/TeamActivity/1.png"
+                },
+                {
+                    "imgtxt": "Department Dropdown: Allows to filter the data by the selected Department",
+                    "imgurl": "images/TeamActivity/2.png"
+                },
+                {
+                    "imgtxt": "Team Dropdown: Allows to filter the data by the selected Team",
+                    "imgurl": "images/TeamActivity/3.png"
+                },
+                {
+                    "imgtxt": "Line Managers Dropdown: Allows to filter the data by the selected Line Manager",
+                    "imgurl": "images/TeamActivity/4.png"
+                },
+                {
+                    "imgtxt": "Report Level: Switch between the view of Stories Only, Issues Only, or both Issues and Stories in Charts and Table.",
+                    "imgurl": "images/TeamActivity/5.png"
+                },
+                {
+                    "imgtxt": "Show Enterprise Info: Switch between showing Team Only, or Showing Enterprise Info comparison.",
+                    "imgurl": "images/TeamActivity/6.png"
+                },
+                {
+                    "imgtxt": "NOTE: The charts only appear when the dropdowns are selected. If a Business Portfolio or Business-related Manager is chosen, the charts will not be visible."
+                },
+                {
+                    "imgtxt": "Team Productivity Chart (Story/Issue Based) : Compares the productivity of team managers in Jira over the last 90 days by analyzing open and closed stories/issues. In the bar graph, the x-axis shows the Line Managers, and the y-axis shows the number of open and closed stories/issues. The chart appears only when an option is selected from the dropdowns.",
+                    "imgurl": "images/TeamActivity/7.png"
+                },
+                {
+                    "imgtxt": "Team Productivity per Resource Chart (Story/Issue Based) : Compares the productivity of team managers in Jira over the last 90 days by analyzing the average number of closed stories/issues per user. The x-axis shows Line Managers, and the y-axis shows the average number of closed stories/issues per user. The red line represents the enterprise average. The chart appears only when an option is selected from the dropdowns.",
+                    "imgurl": "images/TeamActivity/8.png"
+                },
+                {
+                    "imgtxt": "Weekly Velocity Chart (Story/Issue Based): Compares the velocity of team managers in Jira over the last 90 days by analyzing the total number of closed stories/issues. The x-axis shows the last 11 weeks, and the y-axis shows the number of closed stories/issues per Line Manager. The chart appears only when an option is selected from the Department, Team, and Line Manager dropdowns.",
+                    "imgurl": "images/TeamActivity/9.png"
+                },
+                {
+                    "imgtxt": "Team Activity Table: Displays the activity of a Team in Jira in the last 90 days.",
+                    "imgurl": "images/TeamActivity/10.png"
+                },
+                {   "txturl": "https://devops-dashboard.albertsons.com/TeamActivity"   }       
+            ]
+        }
+    },
+    {
+        "/OrganizationChart": {
+            "title": "Organization Chart",
+            "description": "This page talks about the different Tiers in the Albertsons Organization and the Employees/Reportees under each Line Manager.",
+            "images": [
+                {
+                    "imgtxt": "Tier 1 will be the Vice Presidents and Tier 2, Tier 3 and so on will be the subsequent reportees under them.",
+                    "imgurl": "images/OrganizationChart/1.png"
+                },
+                {
+                    "imgtxt": "The tiles below show the number of Total Employees , Full Time Employees, Contract based Employees and number of JIRA and GitHub Users."
+                },
+                {
+                    "imgtxt": "These tiles change dynamically when you select a specific VP/Line Manager",
+                    "imgurl": "images/OrganizationChart/2.png"
+                },
+                {   "txturl": "https://devops-dashboard.albertsons.com/OrganizationChart"   }
+            ]
+        }
+    },
+    {
+        "/SNOWHistoryUser": {
+            "title": "ServiceNow History User",
+            "description": "The User Activity Dashboard is a centralized tool for monitoring and managing IT service management (ITSM) processes. It provides assignees real-time insights into incidents, changes and requested items (RITMs) in the last 90 days, enabling users to track trends, prioritize tasks, and resolve issues efficiently. This dashboard is ideal for users seeking a holistic user activity view of service operations.",
+            "images": [
+                {
+                    "imgtxt": "Main Panel Selector: Switch between the different types of tickets in ServiceNow History User.",
+                    "imgurl": "images/SNOWHistoryUser/1.png"
+                },
+                {
+                    "imgtxt": "Secondary Panel Selector: CR History has a second panel selector to switch between the view of tickets and the view of tasks.",
+                    "imgurl": "images/SNOWHistoryUser/2.png"
+                },
+                {
+                    "imgtxt": "Collapsible Dropdown Filters: Allows filtering the data for tiles, charts, and tables based on the selected fields.",
+                    "imgurl": "images/SNOWHistoryUser/3.png"
+                },
+                {   "imgtxt": "Tiles: Displays counts of total tickets, open, closed and draft tickets, based on the filter selected."   },
+                {   "imgtxt": "Total Count: Sum of Open, Closed, and Draft tickets."   },
+                {   "imgtxt": "Total Closed: Closed tickets comprise the total based on the states of 'Closed' , 'Resolved' , 'Awaiting Vendor / Resolved' , 'Closed Complete' , 'Closed Incomplete' , and 'Closed Skipped'."  },
+                {   "imgtxt": "Total Draft: Tickets in an unknown state are included."},
+                {
+                    "imgtxt": "Total Open: Includes states such as 'Open', 'In Progress', 'New', and any other states not classified as closed or draft.",
+                    "imgurl": "images/SNOWHistoryUser/4.png"
+                },
+                {
+                    "imgtxt": "Chart: This bar graph visually represents the data from the tiles, including Total Count, Total Closed, Total Draft, and Total Open tickets.",
+                    "imgurl": "images/SNOWHistoryUser/5.png"
+                },
+                {
+                    "imgtxt": "Table: This table displays the history of ServiceNow Tickets over the last 90 days based on the assignee.",
+                    "imgurl": "images/SNOWHistoryUser/6.png"
+                },
+                {   "txturl": "https://devops-dashboard.albertsons.com/SNOWHistoryUser"   }
+            ]
+        }
+    },
+    {
+        "/SNOWHistory": {
+            "Title": "ServiceNow History",
+            "description": "The Team Activity Dashboard is a centralized tool for monitoring and managing IT service management (ITSM) processes. It provides real-time insights into incidents, changes, requested items (RITMs), and group approval history in the last 90 days, enabling teams to track trends, prioritize tasks, and resolve issues efficiently. This dashboard is ideal for IT staff, managers, and stakeholders seeking a holistic team activity view of service operations.",
+            "images": [
+                {
+                    "imgtxt": "Main Panel Selector: Switch between the different types of tickets in ServiceNow History.",
+                    "imgurl": "images/SNOWHistory/1.png"
+                },
+                {
+                    "imgtxt": "Secondary Panel Selector: RIT and CR History has a second panel selector to switch between the view of tickets and the view of tasks.",
+                    "imgurl": "images/SNOWHistory/2.png"
+                },
+                {
+                    "imgtxt": "Collapsible Dropdown Filters: Allows filtering the data for tiles, charts, and tables based on the selected fields.",
+                    "imgurl": "images/SNOWHistory/3.png"
+                },
+                {   "imgtxt": "Tiles: Displays counts of total tickets, open, closed and draft tickets, based on the filter selected."   },
+                {   "imgtxt": "Total Count: Sum of Open, Closed, and Draft tickets."   },
+                {   "imgtxt": "Total Closed: Closed tickets comprise the total based on the states of 'Closed' , 'Resolved' , 'Awaiting Vendor / Resolved' , 'Closed Complete' , 'Closed Incomplete' , and 'Closed Skipped'."  },
+                {   "imgtxt": "Total Draft: Tickets in an unknown state are included."},
+                {
+                    "imgtxt": "Total Open: Includes states such as 'Open', 'In Progress', 'New', and any other states not classified as closed or draft.",
+                    "imgurl": "images/SNOWHistory/4.png"
+                },
+                {
+                    "imgtxt": "Chart: This bar graph visually represents the data from the tiles, including Total Count, Total Closed, Total Draft, and Total Open tickets.",
+                    "imgurl": "images/SNOWHistory/5.png"
+                },
+                {
+                    "imgtxt": "Table: This table displays the history of ServiceNow Tickets over the last 90 days, categorized by team.",
+                    "imgurl": "images/SNOWHistory/6.png"
+                },
+                {   "txturl": "https://devops-dashboard.albertsons.com/SNOWHistory"   }
+            ]
+        }
+    },
+    {
+        "/Planning": {
+            "title": "Planning Page",
+            "description": "This page provides an overview of all Jira projects with active sprints or Kanban boards. It includes epics that have a planned start date or were created on or after the most recent February 15, as well as those with a planned end date or completion on or after the most recent March 15. Features from these projects within the same timeframe are also included. A Gantt chart is available to visually represent the schedules of epics and their associated features.",
+            "images": [
+                {
+                    "imgtxt": "A dropdown allows you to select any project that you would like to get the Gantt chart and data for.",
+                    "imgurl": "images/Planning/1.png"
+                },
+                {
+                    "imgtxt": "A legend right above the generated Gantt Chart is provided that provides the corresponding state of a feature in an epic, add the option to expand the chart to fullscreen..",
+                    "imgurl": "images/Planning/2.png"
+                },
+                {
+                    "imgtxt": "On the left are the Epics, and after that are its corresponding features. The features on the Chart are shown from their start date to their resolution or planned resolution date.",
+                    "imgurl": "images/Planning/3.png"
+                },
+                {
+                    "imgtxt": "If only the planned start date is available, the feature will be displayed from that start date to the next thirty days. If neither the planned start nor end dates are available, the feature will default to showing from today to the next thirty days."
+                },
+                {
+                    "imgtxt": "Lastly, by scrolling further down below, you can find the tables for the epics and features for the selected projects with information relating to each.",
+                    "imgurl": "images/Planning/4.png"
+                },
+                {
+                    "imgurl": "images/Planning/5.png"
+                },
+                {   "txturl": "https://devops-dashboard.albertsons.com/Planning"   }
+            ]
+        }
+    }
+]
