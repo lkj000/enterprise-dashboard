@@ -1,0 +1,10 @@
+.content-text {
+  word-wrap: break-word;
+}
+.faq-link p {
+  color: #00c0f4;
+  font-size: 15px;
+}
+.faq-link {
+  text-decoration: none;
+}

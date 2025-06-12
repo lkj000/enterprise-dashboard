@@ -1,0 +1,9 @@
+.dialog-actions {
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
+}
+
+& .MuiDialog-paper {
+  width: 60%;
+  max-width: none;
+}

@@ -1,0 +1,25 @@
+.dropdown-menu {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.radio-group {
+    border: 0.1px solid #888;
+    border-radius: 4px;
+    padding: 5.5px;
+    margin-left: 15px;
+}
+
+.radio-label {
+    margin-left: 10px !important;
+}
+
+.tooltip-box {
+    flex: 1;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: relative;
+}
+.mermaid-loading {
+    filter: blur(3px);
+}
