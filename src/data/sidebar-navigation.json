@@ -1,0 +1,64 @@
+{
+  "Albertsons": ["Organization Chart"],
+  "Self-Service": ["Self-Service"],
+  "Intake Forms": [
+    "Network and UC",
+    "App Services",
+    "Integration Services",
+    "B2B Platform"
+  ],
+  "KPI Reports": [
+    "GitHub Contributions",
+    "User Activity",
+    "Team Activity",
+    "Sprint Activity",
+    "Kanban Activity",
+    "Planning",
+    "Product Initiatives",
+    "Risk",
+    "User Activity (Service Now)",
+    "Team Activity (Service Now)",
+    "Logs"
+  ],
+  "GitHub": ["GitHub Repositories", "GitHub Copilot Users"],
+  "Central Workflows": ["Release Notes", "Upcoming Features"],
+  "CICD": ["Performance", "Workflow Activity"],
+  "Artifactory": [
+    "Cleanup Policy",
+    "Container Registry",
+    "Xray Vulnerabilities",
+    "CVE Summary"
+  ],
+  "Vulnerability Scan": [
+    "Veracode Weekly Scan",
+    "Application Vulnerabilities",
+    "CVE Summary",
+    "Veracode Exemptions",
+    "Container Vulnerabilities",
+    "CVE Summary (Prisma)"
+  ],
+  "Code Quality": ["SonarQube Results", "Sonar Exemptions"],
+  "Compliance": [
+    "Compliance",
+    "Secrets in Repositories",
+    "GCP Projects",
+    "Service Accounts Expiry",
+    "Certificate Renewal",
+    "EA Permit - PTx"
+  ],
+  "Infosec": ["Cyber Defense Matrix"],
+  "Admin": [
+    "Full Performance",
+    "Runner Tools",
+    "Runner Groups",
+    "Deployment History",
+    "In Progress",
+    "VM Health Check",
+    "Versioning",
+    "Exemption Runners",
+    "Infrastructure Status",
+    "Usage History",
+    "Veracode Exemptions",
+    "Feedback"
+  ]
+}
