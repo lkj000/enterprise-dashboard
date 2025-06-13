@@ -1,0 +1,46 @@
+name: Get Runtime Data By User
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+    paths:
+      - 'src/data-json/allRepoRuntimeData.json'
+
+jobs:
+  process-data:
+    runs-on: [settings]
+
+    steps:
+
+    - name: Run Python Script
+      run: |    
+        git clone https://${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.albertsons.com/albertsons/esgh-platform-dashboard.git
+        cd esgh-platform-dashboard
+        python scripts/getRuntimeDataByUser.py
+        
+    - name: Get file contents (for debugging)
+      run: |
+        cd esgh-platform-dashboard
+        cat src/data-json/allRepoRuntimeDataByUser.json
+        
+    - name: Check for changes
+      id: git-check
+      run: |
+        cd esgh-platform-dashboard
+        echo ::set-output name=changes::$(git status --porcelain)
+
+    - name: Commit and Push
+      if: steps.git-check.outputs.changes != ''
+      run: |
+        cd esgh-platform-dashboard
+        git add src/data-json/allRepoRuntimeDataByUser.json
+        git add src/data-json/allRepoRuntimeDataByUserChart.json
+        git commit -m "${{ github.workflow }}-${{ github.run_number }}"
+        git push origin master
+        
+    - name: No changes to commit
+      if: steps.git-check.outputs.changes == ''
+      run: |
+        echo "No changes to commit."

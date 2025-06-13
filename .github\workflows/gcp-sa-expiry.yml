@@ -1,0 +1,51 @@
+name: GCP SA Expiry
+on:
+ push:
+   branches:
+     - 'GCP'
+   paths:
+     - 'public/data-json/gcp-sa-expiry.json'
+ workflow_dispatch:
+
+jobs:
+  Merge-GCP-Report-SA-Expiry:
+    runs-on: [ settings ]
+    steps:
+    - name: Clean workspace
+      uses: albertsons/esgh-workspace-clean@v2-bash
+
+    - name: Printing workspace cleaned message
+      run: |
+        echo "Workspace cleared for run ID ${{ github.run_number }}"
+    - uses: actions/checkout@v3
+      with: 
+          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+    - name: Run Merge Script
+      env:
+         GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+      run: |
+          git clone --branch GCP https://${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.albertsons.com/albertsons/esgh-platform-dashboard.git
+          cp esgh-platform-dashboard/public/data-json/gcp-sa-expiry.json ${{ github.workspace }}/gcp-sa-expiry.json
+          cd esgh-platform-dashboard
+          git checkout master
+          cd ..
+          #cp esgh-platform-dashboard/appowners_list.json ${{ github.workspace }}/appowners_list.json
+          cp esgh-platform-dashboard/public/data-json/UserData.json ${{ github.workspace }}/UserData.json
+          mv gcp-sa-expiry.json gcp-sa-report.json
+          git clone https://${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.albertsons.com/albertsons/esgh-organization-data.git
+          cp esgh-organization-data/new_appowners_data.json ${{ github.workspace }}/new_appowners_data.json
+          python gcp-sa-expiry.py > gcp-sa-expiry.json
+          cd esgh-platform-dashboard
+          cp ${{ github.workspace }}/gcp-sa-expiry.json ./public/data-json/gcp-sa-expiry.json
+          git pull
+          git add ./public/data-json/gcp-sa-expiry.json
+          git commit -m "GCP SA Expiry Data" || true
+          git push origin master
+                    
+    - name: Clean workspace
+      if: always()
+      uses: albertsons/esgh-workspace-clean@v2-bash
+
+    - name: Printing workspace cleaned message
+      run: |
+        echo "Workspace cleared for run ID ${{ github.run_number }}"

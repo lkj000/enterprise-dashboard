@@ -1,0 +1,99 @@
+# Disabling the workflow because the data is currently nont being used in the dashboard.
+name: Fetch Runners Info 
+on: 
+  workflow_dispatch:
+  schedule: 
+    - cron: '0 8 * * SUN'
+
+jobs: 
+  Compile: 
+    runs-on: [ Portal ]
+    steps: 
+      - name: checkout
+        uses: actions/checkout@v3
+
+      - name: Runner-Package-Script
+        shell: pwsh
+        run: |
+          $comma = ","
+          $Opening = "["
+          $Closing = "]"
+          $uriBase = "https://github.albertsons.com/api/v3"
+          $baseHeader =  @{"Authorization" = "token ${{ secrets.PERSONAL_ACCESS_TOKEN }}" ; "Content-Type" = "application/json" ; "Time-Zone" = "CST"}
+          $runnersinfo = @{}
+          $runnerGroupStr = "runnerGroup: "
+          $fileOpening = "export const Runner = "
+          $OpenCurls = "{`n"
+          $CloseCurls = "`n}"
+          function callGithubAPI {
+              param (
+                  [Parameter(
+                      Position = 0,
+                      Mandatory = $true
+                  )]
+                  [string]
+                  $urlForGithubAPI
+              )
+              $runGetRepository = @{
+                          Uri     = $urlForGithubAPI
+                          Headers = $baseHeader
+              }
+              Invoke-RestMethod @runGetRepository
+          }
+          $AllRunnerGroups = ( "{0}/orgs/albertsons/actions/runner-groups?per_page=100" -f $uriBase )
+          $AllRunnerGroups = $AllRunnerGroups -replace "`n","" -replace "`r","" -replace " ", ""
+          $ContentsAllRunnerGroups = callGithubAPI -urlForGithubAPI $AllRunnerGroups
+          $TotalRunnerGrpCount = $ContentsAllRunnerGroups.runner_groups.length
+          $count = 0
+          $runnerGrpInfo = @{}
+          foreach ($item in $ContentsAllRunnerGroups.runner_groups){
+            if (($item.name -ne "test-only") -and ($item.name -ne "jenkins-windows-pgm010b11") -and ($item.name -ne "core-linux-pgm011689")){
+               $id = $item.id
+               $runnerGrpInfo['index'] = "$count"
+               $runnerGrpInfo['name'] = $item.name
+               $url = ( "https://github.albertsons.com/organizations/albertsons/settings/actions/runner-groups/{0}" -f $id )
+               $runnerGrpInfo['url'] = $url
+               $runnerGroupUrl = ( "{0}/orgs/albertsons/actions/runner-groups/{1}/runners?per_page=100" -f $uriBase,$id )
+               $runnerGroupUrl = $runnerGroupUrl -replace "`n","" -replace "`r","" -replace " ", ""
+               $runnerGroupInfo = callGithubAPI -urlForGithubAPI $runnerGroupUrl
+               $length = $runnerGroupInfo.runners.length
+               $length = $length - 1
+               if ($length -ne -1){
+                 for ($i = 0; $i -le $length; $i++){
+                     $SerialNo = $i + 1
+                     $runnersinfo['id'] = $SerialNo
+                     $runnersinfo['runnerName'] = $runnerGroupInfo.runners.name[$i]
+                     $runnersinfo['label'] = $runnerGroupInfo.runners[$i].labels.name -join ","
+                     $runnerslist += $runnersinfo | ConvertTo-Json
+                     if ($i -ne $length){
+                        $runnerslist += $comma
+                     }
+                 }
+                 $runnerslist = $Opening + $runnerslist + $Closing
+                 $runnerslist = $runnerslist | ConvertFrom-Json
+                 $runnerGrpInfo['runners'] = $runnerslist
+                 $runnersCount = $runnerGrpInfo.runners.count
+                 $runnerGrpInfo = $runnerGrpInfo | ConvertTo-Json
+                 if ($runnersCount -eq 1){
+                    $runnerGrpInfo = $runnerGrpInfo -replace ": {", ": [{" -replace "  },", "  }],"
+                 }
+                 $runnersContent += $runnerGrpInfo
+                 if ($count -ne $TotalRunnerGrpCount){
+                    $runnersContent += $comma
+                 }
+                 $count++
+                 $runnersinfo = @{}
+                 $runnerGrpInfo = @{}
+                 $id = $url = $length = $runnerGroupUrl = $runnerGroupInfo = $runnerslist = $EmptyStringValue
+               }
+            }
+          }
+          $runnersContent = $runnerGroupStr + $Opening + $runnersContent + $Closing
+          $fileContent = $fileOpening + $Opening + $OpenCurls + $runnersContent + $CloseCurls + $Closing
+          $fileContent > ./src/data/runner_old.js
+          
+      - name: commit change
+        run: | 
+          git add .
+          git commit -m "${{ github.workflow }}${{ github.run_number }}"
+          git push --set-upstream https://${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.albertsons.com/${{ github.repository }} master

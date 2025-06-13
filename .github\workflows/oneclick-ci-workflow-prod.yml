@@ -1,0 +1,50 @@
+name: Platform_DashBoard_CI_Workflow_Prod
+
+on:
+  workflow_dispatch:
+
+
+jobs:
+  call-ci-workflow:
+    uses: albertsons/esgh-central-workflow-aks/.github/workflows/oneclick-node-ci-nonprod-autoschedule.yml@v5
+    with:
+      node_version: 18
+      npm_install_command: 'npm install'
+      npm_sonar_command: "npm install && npm run test"
+      sonar_java_version: '11'
+      skipVeracode_scan: "false"
+      ACTIONSFILE: "Actionsfile/dev"
+      TAG: "${{ github.ref_name }}_Prod_${{ github.run_number }}"
+      REACT_APP_PRODUCTION: ${{ vars.REACT_APP_PRODUCTION }}
+      GENERATE_SOURCEMAP: ${{ vars.GENERATE_SOURCEMAP }}
+      REQUIRE_AUTH: ${{ vars.REQUIRE_AUTH_PROD }}
+      AZ_CALLBACK_PATH: ${{ vars.AZ_CALLBACK_PATH }}
+      ANNOUNCEMENT_URL: ${{ vars.REACT_APP_ANNOUNCEMENT_URL }}
+      ORCH_API_ENDPOINT: ${{ vars.REACT_APP_ORCH_API_ENDPOINT_NONPROD }}
+      SAML_ENV_PROPS_PATH: ${{ vars.SAML_ENV_PROPS_PATH }}
+      REACT_SERVER_URL: ${{ vars.REACT_SERVER_URL_PROD }}
+      REACT_APP_RUN_WORKFLOW_ENABLED: ${{ vars.REACT_APP_RUN_WORKFLOW_ENABLED_PROD }}
+      KEYCLOAK_URL: ${{ vars.REACT_APP_KEYCLOAK_URL_PROD }}
+      ACR_API_ENDPOINT: ${{ vars.REACT_APP_ACR_API_ENDPOINT_PROD }}
+    secrets:
+      SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+      SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
+      TL_USERNAME: ${{ secrets.TL_USERNAME }}
+      TL_PASSWORD: ${{ secrets.TL_PASSWORD }}
+      REGISTRY_USER: ${{ secrets.ACR_USER }}
+      REGISTRY_PWD: ${{ secrets.ACR_PWD }}
+      VERACODEID: ${{ secrets.VERACODEID }}
+      VERACODEKEY: ${{ secrets.VERACODEKEY }}
+      SONAR_CONTINUEONERROR_NONPROD: ${{ secrets.SONAR_CONTINUEONERROR_NONPROD }}
+      VERACODE_CONTINUEONERROR_NONPROD: ${{ secrets.VERACODE_CONTINUEONERROR_NONPROD }}
+      PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+      AZ_TENANT_ID: ${{ secrets.AZ_TENANT_ID }}
+      AZ_ISSUER: ${{ secrets.AZ_ISSUER_NONPROD }}
+      AZ_CERT: ${{ secrets.AZ_CERT }}
+      JWT_SECRET: ${{ secrets.JWT_SECRET }}
+      GH_TOKEN: ${{ secrets.GH_TOKEN }}
+      ORCH_AUTH_TOKEN: ${{ secrets.REACT_APP_ORCH_AUTH_TOKEN }}
+      ACR_API_KEY: ${{ secrets.REACT_APP_ACR_API_KEY }}
+      KEYCLOAK_USERNAME: ${{ secrets.REACT_APP_KEYCLOAK_USERNAME_PROD }}
+      KEYCLOAK_PASSWORD: ${{ secrets.REACT_APP_KEYCLOAK_PASSWORD_PROD }}
+      ANNOUNCEMENT_API_KEY: ${{ secrets.ANNOUNCEMENT_API_KEY }}

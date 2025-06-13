@@ -1,0 +1,26 @@
+name: Platform_Dashboard_Update_datajson_files_prod
+
+on:
+  workflow_dispatch:
+   inputs:
+      stage:
+        type: boolean
+        description: 'deploy stage'
+        required: true
+        default: 'true'
+  # schedule:
+  #   - cron: '0 */6 * * *'
+    # - cron: '30 11 * * 1'
+
+jobs:
+  Update_data_json_files_stage:
+    # if: github.event.inputs.stage == 'true'
+    uses: albertsons/esgh-central-workflow-aks/.github/workflows/platform_dashboard_update_data_json_files.yml@v5
+    with:
+      ACTIONSFILE: "Actionsfile/stage"
+      ENV_Name: stage
+      TAG: ${{ github.event.inputs.TAG }}
+      # data_update_branch: ${{ github.ref_name}}
+    secrets:
+      KUBECONFIG: ${{ secrets.ESCO_AKSSHARED_NONPROD_WESTUS_CLUSTER_01 }}
+      DASHBOARD_STORAGE_SAS_TOKEN_URL: ${{ secrets.DASHBOARD_STORAGE_SAS_TOKEN_URL }}

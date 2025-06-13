@@ -1,0 +1,61 @@
+name: Runners Count
+on:
+  workflow_dispatch:
+  schedule: 
+    - cron: '45 8 * * SUN'
+        
+jobs:
+  Get-RunnersCount:
+      runs-on: [ Portal ]
+      steps:
+      - name: checkout
+        uses: actions/checkout@v3
+      - name: Get runners count
+        shell: pwsh
+        run: |
+            $uriBase = "https://github.albertsons.com/api/v3"
+            $baseHeader =  @{"Authorization" = "token ${{ secrets.PERSONAL_ACCESS_TOKEN }}" ; "Content-Type" = "application/json" ; "Time-Zone" = "CST"}
+            function callGithubAPI {
+                param (
+                    [Parameter(
+                        Position = 0,
+                        Mandatory = $true
+                    )]
+                    [string]
+                    $urlForGithubAPI
+                )
+                $runGetRepository = @{
+                            Uri     = $urlForGithubAPI
+                            Headers = $baseHeader
+                }
+                Invoke-RestMethod @runGetRepository
+            }
+
+            $AllWorkflows = ( "{0}/orgs/albertsons/actions/runner-groups?per_page=100" -f $uriBase )
+            $AllWorkflows = $AllWorkflows -replace "`n","" -replace "`r","" -replace " ", ""
+            $ContentsAllWorkflows = callGithubAPI -urlForGithubAPI $AllWorkflows
+            $count = 0
+
+            foreach ($item in $ContentsAllWorkflows.runner_groups){
+                    $name = $item.name
+                    $id = $item.id
+                    $runnerGroup = ( "{0}/orgs/albertsons/actions/runner-groups/{1}/runners?per_page=100" -f $uriBase,$id )
+                    $runnerGroup = $runnerGroup -replace "`n","" -replace "`r","" -replace " ", ""
+                    $runnerGroupInfo = callGithubAPI -urlForGithubAPI $runnerGroup
+                    $runnersCount = $runnerGroupInfo.total_count
+                    write-host "The runner count for runner-group $name is: $runnersCount"
+                    $count = $count + $runnersCount
+            }
+            write-host "The total runners count in our organization: $count"
+
+            $file = './src/data/historyWorkflow.js'
+            $replacestr = "    `"runners_count`": $count,"
+            $find = Get-Content $file | Select-String -pattern 'runners_count:*'
+            write-host $find
+            (Get-Content $file).replace($find, $replacestr) | Set-Content $file
+      - name: commit change
+        continue-on-error: true
+        run: |
+          git add .
+          git commit -m "${{ github.workflow }}-${{ github.run_number }}"
+          git push --set-upstream https://${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.albertsons.com/${{ github.repository }} master

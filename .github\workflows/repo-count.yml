@@ -1,0 +1,44 @@
+name: Repo Count
+on:
+  workflow_dispatch:
+  schedule: 
+    - cron: '30 8 * * SUN'
+        
+jobs:
+  Get-RepoCount:
+      runs-on: [ Portal ]
+      steps:
+      - name: checkout
+        uses: actions/checkout@v3
+      - name: Get repo count
+        shell: pwsh
+        run: |
+            $orgName = "https://github.albertsons.com/api/v3/orgs/albertsons"
+            $baseHeader =  @{"Authorization" = "token ${{ secrets.PERSONAL_ACCESS_TOKEN }}" ; "Content-Type" = "application/json" }
+            $allRepos = @()
+            $page=0
+            #Fetching repos until the count comes back zero
+            do
+            {
+               $page += 1
+               $params = @{'Uri' = ('{0}/repos?page={1}&per_page=100' -f
+                                    $orgName, $page )
+                           'Headers' = $baseHeader
+                           }
+               $repos = Invoke-RestMethod @params
+               $allRepos += $repos
+               $repoCount = $repos.Count
+            } while($repoCount -gt 0)
+            $repoCount = $allRepos.Count
+            write-host "The total repo count: $repoCount"
+            $file = './src/data/historyWorkflow.js'
+            $replacestr = "    `"repo_count`": $repoCount,"
+            $find = Get-Content $file | Select-String -pattern 'repo_count:*'
+            write-host $find
+            (Get-Content $file).replace($find, $replacestr) | Set-Content $file
+      - name: commit change
+        continue-on-error: true
+        run: |
+          git add .
+          git commit -m "${{ github.workflow }}-${{ github.run_number }}"
+          git push --set-upstream https://${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.albertsons.com/${{ github.repository }} master

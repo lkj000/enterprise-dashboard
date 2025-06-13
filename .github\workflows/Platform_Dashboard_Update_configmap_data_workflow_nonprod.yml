@@ -1,0 +1,45 @@
+name: Platform_Dashboard_Update_configmap_data_workflow_nonprod
+
+on:
+ workflow_dispatch:
+   inputs:
+      CongfigMap_name:
+        required: true
+        type: choice
+        options:
+          - announcement
+        default: announcement
+      dev1:
+        type: boolean
+        description: 'deploy dev1'
+        required: false
+        default: 'true'
+      # stage:
+      #   type: boolean
+      #   description: 'deploy stage'
+      #   required: false
+      #   default: 'false'
+
+jobs:
+  Update_configmap_data_workflow_dev1:
+    if: github.event.inputs.dev1 == 'true'
+    uses: albertsons/esgh-central-workflow-aks/.github/workflows/autoschedule_node_configmap-workflow.yml@v5
+    with:
+      ENV_Name: dev1
+      ACTIONSFILE: "Actionsfile/dev1"
+      ConfigMap_name: "announcements"
+      configmap_filename: "announcements.js"
+      # data_update_branch: ${{ github.ref_name}}
+    secrets:
+      KUBECONFIG: ${{ secrets.ESCO_AKSSHARED_NONPROD_WESTUS_CLUSTER_01 }}
+  Update_configmap_data_workflow_dev2:
+    if: github.event.inputs.dev2 == 'true'
+    uses: albertsons/esgh-central-workflow-aks/.github/workflows/autoschedule_node_configmap-workflow.yml@v5
+    with:
+      ENV_Name: dev2
+      ACTIONSFILE: "Actionsfile/dev2"
+      ConfigMap_name: "announcements"
+      configmap_filename: "announcements.js"
+      data_update_branch: ${{ github.ref_name}}
+    secrets:
+      KUBECONFIG: ${{ secrets.ESCO_AKSSHARED_NONPROD_WESTUS_CLUSTER_01 }}

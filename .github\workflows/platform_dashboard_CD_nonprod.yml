@@ -1,0 +1,453 @@
+name: platform_dashboard_CD_nonprod
+
+on:
+  workflow_dispatch:
+    inputs:
+      dev1:
+        type: boolean
+        description: 'deploy dev1'
+        required: false
+        default: 'true'
+      dev2:
+        type: boolean
+        description: 'deploy dev2'
+        required: false
+        default: 'true'
+      dev3:
+        type: boolean
+        description: 'deploy dev3'
+        required: false
+        default: 'true'
+      esghd-dev:
+        type: boolean
+        description: 'deploy esghd-dev'
+        required: false
+        default: 'true'
+      stage2:
+        type: boolean
+        description: 'deploy stage2'
+        required: false
+        default: 'true'
+env: 
+  ACTIONSFILE: ${{ inputs.ACTIONSFILE }}
+  TAG: ${{ inputs.TAG }}
+
+jobs:
+  get_tag_name:
+    runs-on: [ K8S ]
+    outputs:
+      TAG_NAME: ${{ steps.get_tag.outputs.TAG_NAME }}
+      deployment_environment: ${{ steps.get_trigger_actor.outputs.deployment_environment }}
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - name: getting latest tag
+        id: get_tag
+        run: |
+          if [[ ${{ github.ref_name }} == master ]]; then
+          # echo "${{ github.ref_name }} matches allowed deployment tag pattern - ${{ github.ref_name }}"
+          echo "getting latest tag for deployment"
+          # LATEST_TAG=$(git describe --tags --abbrev=0)
+          LATEST_TAG=$(git tag --sort=-creatordate | head -1)
+              if [[ $LATEST_TAG == master_* ]]; then
+              echo "TAG - $LATEST_TAG matches with deployment tag pattern - $LATEST_TAG "
+              TAG_NAME=$LATEST_TAG
+              echo "$TAG_NAME"
+              echo "TAG_NAME=$LATEST_TAG" >> $GITHUB_OUTPUT
+              else
+              echo "provided tag - ${{ github.ref_name }} doesnot matches with latest tag - $LATEST_TAG exiting process"
+              # exit 1
+              fi
+          echo "$TAG_NAME"
+          echo "$TAG_NAME matches allowed deployment tag pattern, will proceed with deployment with tag - $TAG_NAME"
+          else
+          TAG_NAME=${{ github.ref_name }}
+          echo "$TAG_NAME"
+          echo "TAG_NAME=${{ github.ref_name }}" >> $GITHUB_OUTPUT
+          # echo "$TAG_NAME doesnot match allowed deployment tag pattern, exiting process"
+          echo "$TAG_NAME will be deployed"
+          # exit 1
+          fi
+      - name: get_trigger_actor
+        id: get_trigger_actor
+        run: |
+          if [[ ${{ github.actor }} == esd00gh ]]; then
+            deployment_environment=dev
+            echo "environment is - $deployment_environment"
+            echo "deployment_environment=dev" >> $GITHUB_OUTPUT
+          else
+            deployment_environment=dev
+            echo "environment is - $deployment_environment"
+            echo "deployment_environment=dev" >> $GITHUB_OUTPUT
+          fi
+  dev1-deploy:
+    needs: [ get_tag_name ]
+    if: success() && github.event.inputs.dev1 == 'true'
+    uses: albertsons/esgh-central-workflow-aks/.github/workflows/oneclick-deploy-nonprod-autoschedule.yml@v5
+    with:
+      ENV_Name: dev1
+      deployment_environment: dev1
+      ACTIONSFILE: "Actionsfile/dev1"
+      TAG: ${{ needs.get_tag_name.outputs.TAG_NAME }}
+      REACT_APP_PRODUCTION: ${{ vars.REACT_APP_PRODUCTION }}
+      GENERATE_SOURCEMAP: ${{ vars.GENERATE_SOURCEMAP }}
+      REQUIRE_AUTH: false
+      AZ_CALLBACK_PATH: ${{ vars.AZ_CALLBACK_PATH }}
+      ANNOUNCEMENT_URL: ${{ vars.REACT_APP_ANNOUNCEMENT_URL }}
+      ORCH_API_ENDPOINT: ${{ vars.REACT_APP_ORCH_API_ENDPOINT_NONPROD }}
+      SAML_ENV_PROPS_PATH: ${{ vars.SAML_ENV_PROPS_PATH }}
+      REACT_SERVER_URL: ""
+      REACT_APP_RUN_WORKFLOW_ENABLED: ${{ vars.REACT_APP_RUN_WORKFLOW_ENABLED_NONPROD }}
+      KEYCLOAK_URL: ${{ vars.REACT_APP_KEYCLOAK_URL_NONPROD_DEV }}
+      ACR_API_ENDPOINT: ${{ vars.REACT_APP_ACR_API_ENDPOINT_NONPROD }}
+    secrets:
+      REGISTRY_USER: ${{ secrets.ACR_USER }}
+      REGISTRY_PWD: ${{ secrets.ACR_PWD }}
+      KUBECONFIG: ${{ secrets.ESCO_AKSSHARED_NONPROD_WESTUS_CLUSTER_01 }}
+      PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+      AZ_TENANT_ID: ${{ secrets.AZ_TENANT_ID }}
+      AZ_ISSUER: ${{ secrets.AZ_ISSUER_NONPROD }}
+      AZ_CERT: ${{ secrets.AZ_CERT }}
+      JWT_SECRET: ${{ secrets.JWT_SECRET }}
+      GH_TOKEN: ${{ secrets.GH_TOKEN }}
+      ORCH_AUTH_TOKEN: ${{ secrets.REACT_APP_ORCH_AUTH_TOKEN }}
+      ACR_API_KEY: ${{ secrets.REACT_APP_ACR_API_KEY }}
+      KEYCLOAK_USERNAME: ${{ secrets.REACT_APP_KEYCLOAK_USERNAME_NONPROD }}
+      KEYCLOAK_PASSWORD: ${{ secrets.REACT_APP_KEYCLOAK_PASSWORD_NONPROD }}
+      ANNOUNCEMENT_API_KEY: ${{ secrets.ANNOUNCEMENT_API_KEY }}
+  Deploy-Status-check-dev1:
+    needs: dev1-deploy
+    if: success() && github.event.inputs.dev2 == 'true'
+    uses: albertsons/esgh-central-workflow-aks/.github/workflows/Deploy-Status-check.yml@v4
+    with:
+      ACTIONSFILE: "Actionsfile/dev2"
+    secrets:
+      KUBECONFIG: ${{ secrets.ESCO_AKSSHARED_NONPROD_WESTUS_CLUSTER_01 }}
+      PERSONAL_ACCESS_TOKEN : ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+  TRIGGER_EMAIL_WHEN_NEW_IMAGE_DEPLOYED_TO_DEV1:
+    if: ${{ needs.dev1-deploy.result == 'success'}} || ${{ needs.dev1-deploy.result == 'failure'}}
+    needs: [ dev1-deploy, Deploy-Status-check-dev1 ]
+    name: TRIGGER_EMAIL_WHEN_NEW_IMAGE_DEPLOYED
+    runs-on: [ settings ]
+    steps:
+      - name: action-send-mail
+        uses: actions/checkout@v3
+        with:
+            repository: albertsons/esgh-action-mail
+            ref: master
+            token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+            path: ./.github/albertsons/action-send-mail
+      - uses: ./.github/albertsons/action-send-mail
+        with:
+          server_address: mailrouter.safeway.com
+          server_port: 25
+          subject: Platform Dashboard Nonprod Deployed New Image-"${{ needs.get_tag_name.outputs.TAG_NAME }} via ${{ github.workflow }}-${{ github.run_number }}-${{ needs.dev1-deploy.result }}"
+          body: | 
+            A new image - "${{ needs.get_tag_name.outputs.TAG_NAME }} ${{ github.run_number }}" - Deployed to Platform Dashboard using workflow - Platform Dashboard CI/CD Nonprod
+            Envirnoment: dev1
+            Branch: master
+            Tag: ${{ needs.get_tag_name.outputs.TAG_NAME }}
+            Workflow RUN Number : ${{ github.run_number }}
+            Image: albertsons.azurecr.io/platform-dashboard:${{ needs.get_tag_name.outputs.TAG_NAME }} through workflow run - ${{ github.run_number }}
+            Deployment Status: ${{ needs.dev1-deploy.result }}
+            Workflow Name: ${{ github.workflow }}
+            GitHub Actor: ${{ github.actor }}
+          to: Babak.Rahimi@albertsons.com,navachaitanya.kommoju@albertsons.com,rahul.bachhawat@albertsons.com
+          from: Platform.DevOps@albertsons.com
+  dev2-deploy:
+    needs: [ get_tag_name ]
+    if: success() && github.event.inputs.dev2 == 'true'
+    uses: albertsons/esgh-central-workflow-aks/.github/workflows/oneclick-deploy-nonprod-autoschedule.yml@v5
+    with:
+      ENV_Name: dev2
+      ACTIONSFILE: "Actionsfile/dev2"
+      TAG: ${{ needs.get_tag_name.outputs.TAG_NAME }}
+      deployment_environment: dev2
+      REACT_APP_PRODUCTION: ${{ vars.REACT_APP_PRODUCTION }}
+      GENERATE_SOURCEMAP: ${{ vars.GENERATE_SOURCEMAP }}
+      REQUIRE_AUTH: false
+      AZ_CALLBACK_PATH: ${{ vars.AZ_CALLBACK_PATH }}
+      ANNOUNCEMENT_URL: ${{ vars.REACT_APP_ANNOUNCEMENT_URL }}
+      ORCH_API_ENDPOINT: ${{ vars.REACT_APP_ORCH_API_ENDPOINT_NONPROD }}
+      SAML_ENV_PROPS_PATH: ${{ vars.SAML_ENV_PROPS_PATH }}
+      REACT_SERVER_URL: ""
+      REACT_APP_RUN_WORKFLOW_ENABLED: ${{ vars.REACT_APP_RUN_WORKFLOW_ENABLED_NONPROD }}
+      KEYCLOAK_URL: ${{ vars.REACT_APP_KEYCLOAK_URL_NONPROD_DEV }}
+      ACR_API_ENDPOINT: ${{ vars.REACT_APP_ACR_API_ENDPOINT_NONPROD }}
+    secrets:
+      REGISTRY_USER: ${{ secrets.ACR_USER }}
+      REGISTRY_PWD: ${{ secrets.ACR_PWD }}
+      KUBECONFIG: ${{ secrets.ESCO_AKSSHARED_NONPROD_WESTUS_CLUSTER_01 }}
+      PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+      AZ_TENANT_ID: ${{ secrets.AZ_TENANT_ID }}
+      AZ_ISSUER: ${{ secrets.AZ_ISSUER_NONPROD }}
+      AZ_CERT: ${{ secrets.AZ_CERT }}
+      JWT_SECRET: ${{ secrets.JWT_SECRET }}
+      GH_TOKEN: ${{ secrets.GH_TOKEN }}
+      ORCH_AUTH_TOKEN: ${{ secrets.REACT_APP_ORCH_AUTH_TOKEN }}
+      ACR_API_KEY: ${{ secrets.REACT_APP_ACR_API_KEY }}
+      KEYCLOAK_USERNAME: ${{ secrets.REACT_APP_KEYCLOAK_USERNAME_NONPROD }}
+      KEYCLOAK_PASSWORD: ${{ secrets.REACT_APP_KEYCLOAK_PASSWORD_NONPROD }}
+      ANNOUNCEMENT_API_KEY: ${{ secrets.ANNOUNCEMENT_API_KEY }}
+  Deploy-Status-check-dev2:
+    needs: dev2-deploy
+    if: success() && github.event.inputs.dev2 == 'true'
+    uses: albertsons/esgh-central-workflow-aks/.github/workflows/Deploy-Status-check.yml@v4
+    with:
+      ACTIONSFILE: "Actionsfile/dev2"
+    secrets:
+      KUBECONFIG: ${{ secrets.ESCO_AKSSHARED_NONPROD_WESTUS_CLUSTER_01 }}
+      PERSONAL_ACCESS_TOKEN : ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+  TRIGGER_EMAIL_WHEN_NEW_IMAGE_DEPLOYED_TO_DEV2:
+    if: ${{ needs.dev2-deploy.result == 'success'}} || ${{ needs.dev2-deploy.result == 'failure'}}
+    needs: [ dev2-deploy, Deploy-Status-check-dev2 ]
+    name: TRIGGER_EMAIL_WHEN_NEW_IMAGE_DEPLOYED
+    runs-on: [ settings ]
+    steps:
+      - name: action-send-mail
+        uses: actions/checkout@v3
+        with:
+            repository: albertsons/esgh-action-mail
+            ref: master
+            token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+            path: ./.github/albertsons/action-send-mail
+      - uses: ./.github/albertsons/action-send-mail
+        with:
+          server_address: mailrouter.safeway.com
+          server_port: 25
+          subject: Platform Dashboard Nonprod Deployed New Image-"${{ needs.get_tag_name.outputs.TAG_NAME }} via ${{ github.workflow }}-${{ github.run_number }}-${{ needs.dev2-deploy.result }}"
+          body: | 
+            A new image - "${{ needs.get_tag_name.outputs.TAG_NAME }} through workflow run - ${{ github.run_number }}" - Deployed to Platform Dashboard using workflow - Platform Dashboard CI/CD Nonprod
+            Envirnoment: dev2
+            Branch: master
+            Tag: ${{ needs.get_tag_name.outputs.TAG_NAME }}
+            Workflow RUN Number: ${{ github.run_number }}
+            Image: albertsons.azurecr.io/platform-dashboard:${{ needs.get_tag_name.outputs.TAG_NAME }} through workflow run - ${{ github.run_number }}
+            Deployment Status: ${{ needs.dev2-deploy.result }}
+            Workflow Name: ${{ github.workflow }}
+            GitHub Actor: ${{ github.actor }}
+          to: Babak.Rahimi@albertsons.com,navachaitanya.kommoju@albertsons.com,rahul.bachhawat@albertsons.com
+          from: Platform.DevOps@albertsons.com
+  dev3-deploy:
+    needs: [ get_tag_name ]
+    if: success() && github.event.inputs.dev3 == 'true'
+    uses: albertsons/esgh-central-workflow-aks/.github/workflows/oneclick-deploy-nonprod-autoschedule.yml@v5
+    with:
+      ENV_Name: dev3
+      ACTIONSFILE: "Actionsfile/dev3"
+      TAG: ${{ needs.get_tag_name.outputs.TAG_NAME }}
+      deployment_environment: dev3
+      GENERATE_SOURCEMAP: ${{ vars.GENERATE_SOURCEMAP }}
+      REACT_APP_PRODUCTION: ${{ vars.REACT_APP_PRODUCTION }}
+      ANNOUNCEMENT_URL: ${{ vars.REACT_APP_ANNOUNCEMENT_URL }}
+      REQUIRE_AUTH: false
+      AZ_CALLBACK_PATH: ${{ vars.AZ_CALLBACK_PATH }}
+      ORCH_API_ENDPOINT: ${{ vars.REACT_APP_ORCH_API_ENDPOINT_NONPROD }}
+      SAML_ENV_PROPS_PATH: ${{ vars.SAML_ENV_PROPS_PATH }}
+      REACT_SERVER_URL: ""
+      REACT_APP_RUN_WORKFLOW_ENABLED: ${{ vars.REACT_APP_RUN_WORKFLOW_ENABLED_NONPROD }}
+      KEYCLOAK_URL: ${{ vars.REACT_APP_KEYCLOAK_URL_NONPROD_DEV }}
+      ACR_API_ENDPOINT: ${{ vars.REACT_APP_ACR_API_ENDPOINT_NONPROD }}
+    secrets:
+      REGISTRY_USER: ${{ secrets.ACR_USER }}
+      REGISTRY_PWD: ${{ secrets.ACR_PWD }}
+      KUBECONFIG: ${{ secrets.ESCO_AKSSHARED_NONPROD_WESTUS_CLUSTER_01 }}
+      PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+      AZ_TENANT_ID: ${{ secrets.AZ_TENANT_ID }}
+      AZ_ISSUER: ${{ secrets.AZ_ISSUER_NONPROD }}
+      AZ_CERT: ${{ secrets.AZ_CERT }}
+      JWT_SECRET: ${{ secrets.JWT_SECRET }}
+      GH_TOKEN: ${{ secrets.GH_TOKEN }}
+      ORCH_AUTH_TOKEN: ${{ secrets.REACT_APP_ORCH_AUTH_TOKEN }}
+      ACR_API_KEY: ${{ secrets.REACT_APP_ACR_API_KEY }}
+      KEYCLOAK_USERNAME: ${{ secrets.REACT_APP_KEYCLOAK_USERNAME_NONPROD }}
+      KEYCLOAK_PASSWORD: ${{ secrets.REACT_APP_KEYCLOAK_PASSWORD_NONPROD }}
+      ANNOUNCEMENT_API_KEY: ${{ secrets.ANNOUNCEMENT_API_KEY }}
+  Deploy-Status-check-dev3:
+    needs: dev3-deploy
+    if: success() && github.event.inputs.dev3 == 'true'
+    uses: albertsons/esgh-central-workflow-aks/.github/workflows/Deploy-Status-check.yml@v4
+    with:
+      ACTIONSFILE: "Actionsfile/dev3"
+    secrets:
+      KUBECONFIG: ${{ secrets.ESCO_AKSSHARED_NONPROD_WESTUS_CLUSTER_01 }}
+      PERSONAL_ACCESS_TOKEN : ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+  TRIGGER_EMAIL_WHEN_NEW_IMAGE_DEPLOYED_TO_DEV3:
+    if: ${{ needs.dev3deploy.result == 'success'}} || ${{ needs.dev3-deploy.result == 'failure'}}
+    needs: [ dev3-deploy, Deploy-Status-check-dev3 ]
+    name: TRIGGER_EMAIL_WHEN_NEW_IMAGE_DEPLOYED
+    runs-on: [ settings ]
+    steps:
+      - name: action-send-mail
+        uses: actions/checkout@v3
+        with:
+            repository: albertsons/esgh-action-mail
+            ref: master
+            token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+            path: ./.github/albertsons/action-send-mail
+      - uses: ./.github/albertsons/action-send-mail
+        with:
+          server_address: mailrouter.safeway.com
+          server_port: 25
+          subject: Platform Dashboard Nonprod Deployed New Image-"${{ needs.get_tag_name.outputs.TAG_NAME }} via ${{ github.workflow }}-${{ github.run_number }}-${{ needs.dev3-deploy.result }}"
+          body: | 
+            A new image - "${{ needs.get_tag_name.outputs.TAG_NAME }} through workflow run - ${{ github.run_number }}" - Deployed to Platform Dashboard using workflow - Platform Dashboard CI/CD Nonprod
+            Envirnoment: dev3
+            Branch: master
+            Tag: ${{ needs.get_tag_name.outputs.TAG_NAME }}
+            Workflow RUN Number: ${{ github.run_number }}
+            Image: albertsons.azurecr.io/platform-dashboard:${{ needs.get_tag_name.outputs.TAG_NAME }} through workflow run - ${{ github.run_number }}
+            Deployment Status: ${{ needs.dev3-deploy.result }}
+            Workflow Name: ${{ github.workflow }}
+            GitHub Actor: ${{ github.actor }}
+          to: Babak.Rahimi@albertsons.com,navachaitanya.kommoju@albertsons.com,rahul.bachhawat@albertsons.com
+          from: Platform.DevOps@albertsons.com
+  esghd-dev-deploy:
+    needs: [ get_tag_name ]
+    if: success() && github.event.inputs.esghd-dev == 'true'
+    uses: albertsons/esgh-central-workflow-aks/.github/workflows/oneclick-deploy-nonprod-autoschedule.yml@v5
+    with:
+      ENV_Name: esghd-dev
+      ACTIONSFILE: "Actionsfile/esghd-dev"
+      TAG: ${{ needs.get_tag_name.outputs.TAG_NAME }}
+      deployment_environment: dev3
+      REACT_APP_PRODUCTION: ${{ vars.REACT_APP_PRODUCTION }}
+      GENERATE_SOURCEMAP: ${{ vars.GENERATE_SOURCEMAP }}
+      REQUIRE_AUTH: false
+      AZ_CALLBACK_PATH: ${{ vars.AZ_CALLBACK_PATH }}
+      ANNOUNCEMENT_URL: ${{ vars.REACT_APP_ANNOUNCEMENT_URL }}
+      ORCH_API_ENDPOINT: ${{ vars.REACT_APP_ORCH_API_ENDPOINT_NONPROD }}
+      SAML_ENV_PROPS_PATH: ${{ vars.SAML_ENV_PROPS_PATH }}
+      REACT_SERVER_URL: ${{ vars.REACT_SERVER_URL }}
+      REACT_APP_RUN_WORKFLOW_ENABLED: ${{ vars.REACT_APP_RUN_WORKFLOW_ENABLED_NONPROD }}
+      KEYCLOAK_URL: ${{ vars.REACT_APP_KEYCLOAK_URL_NONPROD_DEV }}
+      ACR_API_ENDPOINT: ${{ vars.REACT_APP_ACR_API_ENDPOINT_NONPROD }}
+    secrets:
+      REGISTRY_USER: ${{ secrets.ACR_USER }}
+      REGISTRY_PWD: ${{ secrets.ACR_PWD }}
+      KUBECONFIG: ${{ secrets.ESCO_AKSSHARED_NONPROD_WESTUS_CLUSTER_01 }}
+      PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+      AZ_TENANT_ID: ${{ secrets.AZ_TENANT_ID }}
+      AZ_ISSUER: ${{ secrets.AZ_ISSUER_NONPROD }}
+      AZ_CERT: ${{ secrets.AZ_CERT }}
+      JWT_SECRET: ${{ secrets.JWT_SECRET }}
+      GH_TOKEN: ${{ secrets.GH_TOKEN }}
+      ORCH_AUTH_TOKEN: ${{ secrets.REACT_APP_ORCH_AUTH_TOKEN }}
+      ACR_API_KEY: ${{ secrets.REACT_APP_ACR_API_KEY }}
+      KEYCLOAK_USERNAME: ${{ secrets.REACT_APP_KEYCLOAK_USERNAME_NONPROD }}
+      KEYCLOAK_PASSWORD: ${{ secrets.REACT_APP_KEYCLOAK_PASSWORD_NONPROD }}
+      ANNOUNCEMENT_API_KEY: ${{ secrets.ANNOUNCEMENT_API_KEY }}
+  Deploy-Status-check-esghd-dev:
+    needs: esghd-dev-deploy
+    if: success() && github.event.inputs.esghd-dev == 'true'
+    uses: albertsons/esgh-central-workflow-aks/.github/workflows/Deploy-Status-check.yml@v4
+    with:
+      ACTIONSFILE: "Actionsfile/esghd-dev"
+    secrets:
+      KUBECONFIG: ${{ secrets.ESCO_AKSSHARED_NONPROD_WESTUS_CLUSTER_01 }}
+      PERSONAL_ACCESS_TOKEN : ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+  TRIGGER_EMAIL_WHEN_NEW_IMAGE_DEPLOYED_TO_esghd-dev:
+    if: ${{ needs.esghd-dev-deploy.result == 'success'}} || ${{ needs.esghd-dev-deploy.result == 'failure'}}
+    needs: [ esghd-dev-deploy, Deploy-Status-check-esghd-dev ]
+    name: TRIGGER_EMAIL_WHEN_NEW_IMAGE_DEPLOYED
+    runs-on: [ settings ]
+    steps:
+      - name: action-send-mail
+        uses: actions/checkout@v3
+        with:
+            repository: albertsons/esgh-action-mail
+            ref: master
+            token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+            path: ./.github/albertsons/action-send-mail
+      - uses: ./.github/albertsons/action-send-mail
+        with:
+          server_address: mailrouter.safeway.com
+          server_port: 25
+          subject: Platform Dashboard Nonprod Deployed New Image-"${{ needs.get_tag_name.outputs.TAG_NAME }} via ${{ github.workflow }}-${{ github.run_number }}-${{ needs.esghd-dev-deploy.result }}"
+          body: | 
+            A new image - "${{ needs.get_tag_name.outputs.TAG_NAME }} through workflow run - ${{ github.run_number }}" - Deployed to Platform Dashboard using workflow - Platform Dashboard CI/CD Nonprod
+            Envirnoment: esghd-dev
+            Branch: master
+            Tag: ${{ needs.get_tag_name.outputs.TAG_NAME }}
+            Workflow RUN Number: ${{ github.run_number }}
+            Image: albertsons.azurecr.io/platform-dashboard:${{ needs.get_tag_name.outputs.TAG_NAME }} through workflow run - ${{ github.run_number }}
+            Deployment Status: ${{ needs.esghd-dev-deploy.result }}
+            Workflow Name: ${{ github.workflow }}
+            GitHub Actor: ${{ github.actor }}
+          to: Babak.Rahimi@albertsons.com,navachaitanya.kommoju@albertsons.com,rahul.bachhawat@albertsons.com
+          from: Platform.DevOps@albertsons.com
+  stage2-deploy:
+    needs: [ get_tag_name ]
+    if: success() && github.event.inputs.stage2 == 'true'
+    uses: albertsons/esgh-central-workflow-aks/.github/workflows/oneclick-deploy-nonprod-autoschedule.yml@v5
+    with:
+      ENV_Name: stage2
+      ACTIONSFILE: "Actionsfile/stage2"
+      TAG: ${{ needs.get_tag_name.outputs.TAG_NAME }}
+      deployment_environment: dev3
+      REACT_APP_PRODUCTION: ${{ vars.REACT_APP_PRODUCTION }}
+      GENERATE_SOURCEMAP: ${{ vars.GENERATE_SOURCEMAP }}
+      REQUIRE_AUTH: ${{ vars.REQUIRE_AUTH_NONPROD }}
+      AZ_CALLBACK_PATH: ${{ vars.AZ_CALLBACK_PATH }}
+      ANNOUNCEMENT_URL: ${{ vars.REACT_APP_ANNOUNCEMENT_URL }}
+      ORCH_API_ENDPOINT: ${{ vars.REACT_APP_ORCH_API_ENDPOINT_NONPROD }}
+      SAML_ENV_PROPS_PATH: ${{ vars.SAML_ENV_PROPS_PATH }}
+      REACT_SERVER_URL: ${{ vars.REACT_SERVER_URL }}
+      REACT_APP_RUN_WORKFLOW_ENABLED: ${{ vars.REACT_APP_RUN_WORKFLOW_ENABLED_NONPROD }}
+      KEYCLOAK_URL: ${{ vars.REACT_APP_KEYCLOAK_URL_NONPROD_STAGE }}
+      ACR_API_ENDPOINT: ${{ vars.REACT_APP_ACR_API_ENDPOINT_NONPROD }}
+    secrets:
+      REGISTRY_USER: ${{ secrets.ACR_USER }}
+      REGISTRY_PWD: ${{ secrets.ACR_PWD }}
+      KUBECONFIG: ${{ secrets.ESCO_AKSSHARED_NONPROD_WESTUS_CLUSTER_01 }}
+      PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+      AZ_TENANT_ID: ${{ secrets.AZ_TENANT_ID }}
+      AZ_ISSUER: ${{ secrets.AZ_ISSUER_NONPROD }}
+      AZ_CERT: ${{ secrets.AZ_CERT }}
+      JWT_SECRET: ${{ secrets.JWT_SECRET }}
+      GH_TOKEN: ${{ secrets.GH_TOKEN }}
+      ORCH_AUTH_TOKEN: ${{ secrets.REACT_APP_ORCH_AUTH_TOKEN }}
+      ACR_API_KEY: ${{ secrets.REACT_APP_ACR_API_KEY }}
+      KEYCLOAK_USERNAME: ${{ secrets.REACT_APP_KEYCLOAK_USERNAME_NONPROD }}
+      KEYCLOAK_PASSWORD: ${{ secrets.REACT_APP_KEYCLOAK_PASSWORD_NONPROD }}
+      ANNOUNCEMENT_API_KEY: ${{ secrets.ANNOUNCEMENT_API_KEY }}
+  Deploy-Status-check-stage2:
+    needs: stage2-deploy
+    if: success() && github.event.inputs.stage2 == 'true'
+    uses: albertsons/esgh-central-workflow-aks/.github/workflows/Deploy-Status-check.yml@v4
+    with:
+      ACTIONSFILE: "Actionsfile/stage2"
+    secrets:
+      KUBECONFIG: ${{ secrets.ESCO_AKSSHARED_NONPROD_WESTUS_CLUSTER_01 }}
+      PERSONAL_ACCESS_TOKEN : ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+  TRIGGER_EMAIL_WHEN_NEW_IMAGE_DEPLOYED_TO_STAGE2:
+    if: ${{ needs.stage2-deploy.result == 'success'}} || ${{ needs.stage2-deploy.result == 'failure'}}
+    needs: [ stage2-deploy, Deploy-Status-check-stage2 ]
+    name: TRIGGER_EMAIL_WHEN_NEW_IMAGE_DEPLOYED
+    runs-on: [ settings ]
+    steps:
+      - name: action-send-mail
+        uses: actions/checkout@v3
+        with:
+            repository: albertsons/esgh-action-mail
+            ref: master
+            token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+            path: ./.github/albertsons/action-send-mail
+      - uses: ./.github/albertsons/action-send-mail
+        with:
+          server_address: mailrouter.safeway.com
+          server_port: 25
+          subject: Platform Dashboard Nonprod Deployed New Image-"${{ needs.get_tag_name.outputs.TAG_NAME }} via ${{ github.workflow }}-${{ github.run_number }}-${{ needs.stage2-deploy.result }}"
+          body: | 
+            A new image - "${{ needs.get_tag_name.outputs.TAG_NAME }} through workflow run - ${{ github.run_number }}" - Deployed to Platform Dashboard using workflow - Platform Dashboard CI/CD Nonprod
+            Envirnoment: stage2
+            Branch: master
+            Tag: ${{ needs.get_tag_name.outputs.TAG_NAME }}
+            Workflow RUN Number: ${{ github.run_number }}
+            Image: albertsons.azurecr.io/platform-dashboard:${{ needs.get_tag_name.outputs.TAG_NAME }} through workflow run - ${{ github.run_number }}
+            Deployment Status: ${{ needs.stage2-deploy.result }}
+            Workflow Name: ${{ github.workflow }}
+            GitHub Actor: ${{ github.actor }}
+          to: Babak.Rahimi@albertsons.com,navachaitanya.kommoju@albertsons.com,rahul.bachhawat@albertsons.com
+          from: Platform.DevOps@albertsons.com

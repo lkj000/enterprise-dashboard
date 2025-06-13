@@ -1,0 +1,385 @@
+name: platform_dashboard_CICD_Prod
+
+on:
+  workflow_dispatch:
+    inputs:
+      prod:
+        type: boolean
+        description: 'deploy esgh prod'
+        required: false
+        default: 'true'
+      esghd-prod:
+        type: boolean
+        description: 'deploy esghd prod'
+        required: false
+        default: 'true'
+      validated_dev_build:
+        type: string
+        description: 'Validated dev build before prod deployment, enter true or false'
+        required: true
+        default: 'true'
+  schedule:
+    - cron: '0 6,12 * * *'
+env: 
+  ACTIONSFILE: ${{ inputs.ACTIONSFILE }}
+  TAG: ${{ inputs.TAG }}
+
+jobs:
+  call-ci-workflow:
+    uses: albertsons/esgh-central-workflow-aks/.github/workflows/oneclick-node-ci-nonprod-autoschedule.yml@v5
+    with:
+      node_version: 18
+      npm_install_command: 'npm install'
+      npm_sonar_command: "npm install && npm run test"
+      sonar_java_version: '11'
+      skipVeracode_scan: "false"
+      ACTIONSFILE: "Actionsfile/dev"
+      TAG: "${{ github.ref_name }}_prod_AUTO_${{ github.run_number }}"
+      REACT_APP_PRODUCTION: ${{ vars.REACT_APP_PRODUCTION }}
+      GENERATE_SOURCEMAP: ${{ vars.GENERATE_SOURCEMAP }}
+      REQUIRE_AUTH: ${{ vars.REQUIRE_AUTH_PROD }}
+      AZ_CALLBACK_PATH: ${{ vars.AZ_CALLBACK_PATH }}
+      ANNOUNCEMENT_URL: ${{ vars.REACT_APP_ANNOUNCEMENT_URL }}
+      ORCH_API_ENDPOINT: ${{ vars.REACT_APP_ORCH_API_ENDPOINT_PROD }}
+      SAML_ENV_PROPS_PATH: ${{ vars.SAML_ENV_PROPS_PATH }}
+      REACT_SERVER_URL: ${{ vars.REACT_SERVER_URL_PROD }}
+      REACT_APP_RUN_WORKFLOW_ENABLED: ${{ vars.REACT_APP_RUN_WORKFLOW_ENABLED_PROD }}
+      KEYCLOAK_URL: ${{ vars.REACT_APP_KEYCLOAK_URL_PROD }}
+      ACR_API_ENDPOINT: ${{ vars.REACT_APP_ACR_API_ENDPOINT_PROD }}
+    secrets:
+      SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+      SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
+      TL_USERNAME: ${{ secrets.TL_USERNAME }}
+      TL_PASSWORD: ${{ secrets.TL_PASSWORD }}
+      REGISTRY_USER: ${{ secrets.ACR_USER }}
+      REGISTRY_PWD: ${{ secrets.ACR_PWD }}
+      VERACODEID: ${{ secrets.VERACODEID }}
+      VERACODEKEY: ${{ secrets.VERACODEKEY }}
+      SONAR_CONTINUEONERROR_NONPROD: ${{ secrets.SONAR_CONTINUEONERROR_NONPROD }}
+      VERACODE_CONTINUEONERROR_NONPROD: ${{ secrets.VERACODE_CONTINUEONERROR_NONPROD }}
+      PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+      AZ_TENANT_ID: ${{ secrets.AZ_TENANT_ID }}
+      AZ_ISSUER: ${{ secrets.AZ_ISSUER_PROD }}
+      AZ_CERT: ${{ secrets.AZ_CERT }}
+      JWT_SECRET: ${{ secrets.JWT_SECRET }}
+      GH_TOKEN: ${{ secrets.GH_TOKEN }}
+      ORCH_AUTH_TOKEN: ${{ secrets.REACT_APP_ORCH_AUTH_TOKEN }}
+      ACR_API_KEY: ${{ secrets.REACT_APP_ACR_API_KEY }}
+      KEYCLOAK_USERNAME: ${{ secrets.REACT_APP_KEYCLOAK_USERNAME_PROD }}
+      KEYCLOAK_PASSWORD: ${{ secrets.REACT_APP_KEYCLOAK_PASSWORD_PROD }}
+      ANNOUNCEMENT_API_KEY: ${{ secrets.ANNOUNCEMENT_API_KEY }}
+  get_tag_name:
+    runs-on: [ K8S ]
+    needs: [ call-ci-workflow ]
+    outputs:
+      TAG_NAME: ${{ steps.get_tag.outputs.TAG_NAME }}
+      deployment_environment: ${{ steps.get_trigger_actor.outputs.deployment_environment }}
+      validated_dev_build: ${{ env.VALIDATED_DEV_BUILD }}
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - name: getting latest tag
+        id: get_tag
+        run: |
+          if [[ ${{ github.ref_name }} == master ]]; then
+          echo "${{ github.ref_name }} matches allowed deployment tag pattern - ${{ github.ref_name }}"
+          echo "getting latest tag for deployment"
+          # LATEST_TAG=$(git describe --tags --abbrev=0)
+          # LATEST_TAG=$(git tag --sort=-creatordate | head -1)
+          LATEST_TAG=$(git tag --sort=-creatordate | grep "^master_prod_" | head -1)
+              if [[ $LATEST_TAG == master_* ]]; then
+              echo "provided tag - ${{ github.ref_name }} matches with latest tag - $LATEST_TAG "
+              TAG_NAME=$LATEST_TAG
+              echo "$TAG_NAME"
+              echo "TAG_NAME=$LATEST_TAG" >> $GITHUB_OUTPUT
+              else
+              echo "provided tag - ${{ github.ref_name }} doesnot matches with latest tag - $LATEST_TAG exiting process"
+              # exit 1
+              fi
+          echo "$TAG_NAME"
+          echo "$TAG_NAME matches allowed deployment tag pattern, will proceed with deployment with tag - $TAG_NAME"
+          else
+          TAG_NAME=${{ github.ref_name }}
+          echo "$TAG_NAME"
+          echo "TAG_NAME=${{ github.ref_name }}" >> $GITHUB_OUTPUT
+          # echo "$TAG_NAME doesnot match allowed deployment tag pattern, exiting process"
+          echo "$TAG_NAME will be deployed"
+          # exit 1
+          fi
+      - name: get_trigger_actor
+        id: get_trigger_actor
+        run: |
+          if [[ ${{ github.actor }} =~ ^(esd00gh|nkomm00|achad10|pbeju00)$ ]]; then
+            deployment_environment=production_auto
+            echo "Skipping Approval for Trigger actor - ${{ github.actor }}"
+            echo "deployment_environment=production_auto" >> $GITHUB_OUTPUT
+            echo "$deployment_environment"
+          else
+            deployment_environment=production
+            echo "Required Approval for Trigger actor - ${{ github.actor }}"
+            echo "deployment_environment=production" >> $GITHUB_OUTPUT
+            echo "$deployment_environment"
+          fi
+      - name: Set validated_dev_build for schedule
+        run: echo "VALIDATED_DEV_BUILD=${{ github.event.inputs.validated_dev_build || true }}" >> $GITHUB_ENV
+      - name: print validated_dev_build
+        run: |
+          echo "${VALIDATED_DEV_BUILD}"
+
+  esghd-dev-deploy:
+    needs: [ get_tag_name ]
+    if: ${{ needs.get_tag_name.outputs.validated_dev_build }} == 'true'
+    uses: albertsons/esgh-central-workflow-aks/.github/workflows/oneclick-deploy-nonprod-autoschedule.yml@v5
+    with:
+      ENV_Name: dev
+      ACTIONSFILE: "Actionsfile/esghd-dev"
+      TAG: ${{ needs.get_tag_name.outputs.TAG_NAME }}
+      deployment_environment: dev1
+      REACT_APP_PRODUCTION: ${{ vars.REACT_APP_PRODUCTION }}
+      GENERATE_SOURCEMAP: ${{ vars.GENERATE_SOURCEMAP }}
+      REQUIRE_AUTH: false
+      AZ_CALLBACK_PATH: ${{ vars.AZ_CALLBACK_PATH }}
+      ANNOUNCEMENT_URL: ${{ vars.REACT_APP_ANNOUNCEMENT_URL }}
+      ORCH_API_ENDPOINT: ${{ vars.REACT_APP_ORCH_API_ENDPOINT_PROD }}
+      SAML_ENV_PROPS_PATH: ${{ vars.SAML_ENV_PROPS_PATH }}
+      REACT_SERVER_URL: ""
+      REACT_APP_RUN_WORKFLOW_ENABLED: ${{ vars.REACT_APP_RUN_WORKFLOW_ENABLED_PROD }}
+      KEYCLOAK_URL: ${{ vars.REACT_APP_KEYCLOAK_URL_NONPROD_DEV }}
+      ACR_API_ENDPOINT: ${{ vars.REACT_APP_ACR_API_ENDPOINT_PROD }}
+    secrets:
+      REGISTRY_USER: ${{ secrets.ACR_USER }}
+      REGISTRY_PWD: ${{ secrets.ACR_PWD }}
+      KUBECONFIG: ${{ secrets.ESCO_AKSSHARED_NONPROD_WESTUS_CLUSTER_01 }}
+      PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+      AZ_TENANT_ID: ${{ secrets.AZ_TENANT_ID }}
+      AZ_ISSUER: ${{ secrets.AZ_ISSUER_NONPROD }}
+      AZ_CERT: ${{ secrets.AZ_CERT }}
+      JWT_SECRET: ${{ secrets.JWT_SECRET }}
+      GH_TOKEN: ${{ secrets.GH_TOKEN }}
+      ORCH_AUTH_TOKEN: ${{ secrets.REACT_APP_ORCH_AUTH_TOKEN }}
+      ACR_API_KEY: ${{ secrets.REACT_APP_ACR_API_KEY }}
+      KEYCLOAK_USERNAME: ${{ secrets.REACT_APP_KEYCLOAK_USERNAME_PROD }}
+      KEYCLOAK_PASSWORD: ${{ secrets.REACT_APP_KEYCLOAK_PASSWORD_PROD }}
+      ANNOUNCEMENT_API_KEY: ${{ secrets.ANNOUNCEMENT_API_KEY }}
+  Deploy-Status-check-esghd-dev:
+    needs: esghd-dev-deploy
+    if: success()
+    uses: albertsons/esgh-central-workflow-aks/.github/workflows/Deploy-Status-check.yml@v4
+    with:
+      ACTIONSFILE: "Actionsfile/esghd-dev"
+    secrets:
+      KUBECONFIG: ${{ secrets.ESCO_AKSSHARED_NONPROD_WESTUS_CLUSTER_01 }}
+      PERSONAL_ACCESS_TOKEN : ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+  TRIGGER_EMAIL_WHEN_NEW_IMAGE_DEPLOYED_TO_ESGHD_DEV:
+    if: always()
+    needs: [ get_tag_name, esghd-dev-deploy, Deploy-Status-check-esghd-dev ]
+    name: TRIGGER_EMAIL_WHEN_NEW_IMAGE_DEPLOYED
+    runs-on: [ settings ]
+    steps:
+      - name: action-send-mail
+        uses: actions/checkout@v3
+        with:
+            repository: albertsons/esgh-action-mail
+            ref: master
+            token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+            path: ./.github/albertsons/action-send-mail
+      - uses: ./.github/albertsons/action-send-mail
+        with:
+          server_address: mailrouter.safeway.com
+          server_port: 25
+          subject: Platform Dashboard Dev1 Deployed with Image - ${{ needs.get_tag_name.outputs.TAG_NAME }} via ${{ github.workflow }}-${{ github.run_number }}-${{ needs.prod-deploy.result }}
+          body: | 
+            A new image - ${{ needs.get_tag_name.outputs.TAG_NAME }} deployed through workflow -${{ github.workflow }} with build numebr -${{ github.run_number }} on environment - dev1
+            is completed, please validate and verify all pages in dev1 environment and same build will be deployed to Prod environment soon.
+            Envirnoment: dev1
+            Branch: master
+            Tag: ${{ needs.get_tag_name.outputs.TAG_NAME }}
+            Workflow RUN Number: ${{ github.run_number }}
+            Image: albertsons.azurecr.io/platform-dashboard:${{ needs.get_tag_name.outputs.TAG_NAME }} through workflow run - ${{ github.run_number }}
+            GitHub Actor: ${{ github.actor }}
+          to: Babak.Rahimi@albertsons.com,navachaitanya.kommoju@albertsons.com,rahul.bachhawat@albertsons.com,nivetha.velumani@albertsons.com,mateo.dejesusarbolea@albertsons.com,amena.afreen@albertsons.com,kristineerika.lunas@albertsons.com
+          from: Platform.DevOps@albertsons.com
+  validate-dev-build-with-wait-timer:
+    runs-on: [ K8S ]
+    needs: [call-ci-workflow, get_tag_name, esghd-dev-deploy ]
+    if: always()
+    steps:
+      - name: Running timer for 30 minutes to validated build in dev1
+        id: build-validate-timer
+        run: |
+          if [[ ${{ needs.get_tag_name.outputs.validated_dev_build }} == 'true' ]]; then
+          SLEEP_DURATION=3600
+          progress_bar() {
+              local duration=$1
+              local interval=1
+              local elapsed=0
+              while [ $elapsed -lt $duration ]; do
+                  local percent=$((elapsed * 100 / duration))
+                  local progress=$((percent / 2))
+                  local remaining=$((duration - elapsed))
+                  printf "\r["
+                  for ((i = 0; i < progress; i++)); do
+                      printf "#"
+                  done
+                  for ((i = progress; i < 50; i++)); do
+                      printf " "
+                  done
+                  printf "] %3d%% %02d:%02d" $percent $((remaining / 60)) $((remaining % 60))
+                  sleep $interval
+                  ((elapsed += interval))
+              done
+              printf "\r[##################################################] 100%% 00:00\n"
+          }
+          progress_bar $SLEEP_DURATION
+          else
+          echo "Skipping the timer as validated_dev_build provided as ${{ github.event.inputs.validated_dev_build }}"
+          fi
+  prod-deploy:
+    needs: [ call-ci-workflow, get_tag_name, validate-dev-build-with-wait-timer ]
+    if: success() && needs.validate-dev-build-with-wait-timer.result == 'success'
+    uses: albertsons/esgh-central-workflow-aks/.github/workflows/oneclick-deploy-prod-autoschedule.yml@v5
+    with:
+      ENV_Name: ${{ needs.get_tag_name.outputs.deployment_environment }}
+      deployment_environment: ${{ needs.get_tag_name.outputs.deployment_environment }}
+      ACTIONSFILE: "Actionsfile/stage"
+      TAG: ${{ needs.get_tag_name.outputs.TAG_NAME }}
+      REACT_APP_PRODUCTION: ${{ vars.REACT_APP_PRODUCTION }}
+      GENERATE_SOURCEMAP: ${{ vars.GENERATE_SOURCEMAP }}
+      REQUIRE_AUTH: ${{ vars.REQUIRE_AUTH_PROD }}
+      AZ_CALLBACK_PATH: ${{ vars.AZ_CALLBACK_PATH }}
+      ANNOUNCEMENT_URL: ${{ vars.REACT_APP_ANNOUNCEMENT_URL }}
+      ORCH_API_ENDPOINT: ${{ vars.REACT_APP_ORCH_API_ENDPOINT_PROD }}
+      SAML_ENV_PROPS_PATH: ${{ vars.SAML_ENV_PROPS_PATH }}
+      REACT_SERVER_URL: ${{ vars.REACT_SERVER_URL_PROD }}
+      REACT_APP_RUN_WORKFLOW_ENABLED: ${{ vars.REACT_APP_RUN_WORKFLOW_ENABLED_PROD }}
+      KEYCLOAK_URL: ${{ vars.REACT_APP_KEYCLOAK_URL_PROD }}
+      ACR_API_ENDPOINT: ${{ vars.REACT_APP_ACR_API_ENDPOINT_PROD }}
+    secrets:
+      REGISTRY_USER: ${{ secrets.ACR_USER }}
+      REGISTRY_PWD: ${{ secrets.ACR_PWD }}
+      KUBECONFIG: ${{ secrets.ESCO_AKSSHARED_NONPROD_WESTUS_CLUSTER_01 }}
+      PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+      AZ_TENANT_ID: ${{ secrets.AZ_TENANT_ID }}
+      AZ_ISSUER: ${{ secrets.AZ_ISSUER_PROD }}
+      AZ_CERT: ${{ secrets.AZ_CERT }}
+      JWT_SECRET: ${{ secrets.JWT_SECRET }}
+      GH_TOKEN: ${{ secrets.GH_TOKEN }}
+      ORCH_AUTH_TOKEN: ${{ secrets.REACT_APP_ORCH_AUTH_TOKEN }}
+      ACR_API_KEY: ${{ secrets.REACT_APP_ACR_API_KEY }}
+      KEYCLOAK_USERNAME: ${{ secrets.REACT_APP_KEYCLOAK_USERNAME_PROD }}
+      KEYCLOAK_PASSWORD: ${{ secrets.REACT_APP_KEYCLOAK_PASSWORD_PROD }}
+      ANNOUNCEMENT_API_KEY: ${{ secrets.ANNOUNCEMENT_API_KEY }}
+  Deploy-Status-check-prod:
+    needs: prod-deploy
+    if: success()
+    # if: success() && github.event.inputs.prod == 'true'
+    uses: albertsons/esgh-central-workflow-aks/.github/workflows/Deploy-Status-check.yml@v4
+    with:
+      ACTIONSFILE: "Actionsfile/stage"
+    secrets:
+      KUBECONFIG: ${{ secrets.ESCO_AKSSHARED_NONPROD_WESTUS_CLUSTER_01 }}
+      PERSONAL_ACCESS_TOKEN : ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+  TRIGGER_EMAIL_WHEN_NEW_IMAGE_DEPLOYED_TO_PROD:
+    if: ${{ needs.prod-deploy.result == 'success'}} || ${{ needs.prod-deploy.result == 'failure'}}
+    needs: [ get_tag_name, prod-deploy, Deploy-Status-check-prod ]
+    name: TRIGGER_EMAIL_WHEN_NEW_IMAGE_DEPLOYED
+    runs-on: [ settings ]
+    steps:
+      - name: action-send-mail
+        uses: actions/checkout@v3
+        with:
+            repository: albertsons/esgh-action-mail
+            ref: master
+            token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+            path: ./.github/albertsons/action-send-mail
+      - uses: ./.github/albertsons/action-send-mail
+        with:
+          server_address: mailrouter.safeway.com
+          server_port: 25
+          subject: Platform Dashboard Prod Deployed with Image - ${{ needs.get_tag_name.outputs.TAG_NAME }} via ${{ github.workflow }}-${{ github.run_number }}-${{ needs.prod-deploy.result }}
+          body: | 
+            A new image - ${{ needs.get_tag_name.outputs.TAG_NAME }} deployed through workflow -${{ github.workflow }} with build numebr -${{ github.run_number }} on environment - prod
+            is completed after succesfull deployed on dev1 environment thourth workflow ${{ github.workflow }} with build number - ${{ github.run_number }}
+            Envirnoment: prod
+            Branch: master
+            Tag: ${{ needs.get_tag_name.outputs.TAG_NAME }}
+            Workflow RUN Number: ${{ github.run_number }}
+            Image: albertsons.azurecr.io/platform-dashboard:${{ needs.get_tag_name.outputs.TAG_NAME }} through workflow run - ${{ github.run_number }}
+            GitHub Actor: ${{ github.actor }}
+          to: Babak.Rahimi@albertsons.com,navachaitanya.kommoju@albertsons.com,rahul.bachhawat@albertsons.com,nivetha.velumani@albertsons.com,mateo.dejesusarbolea@albertsons.com,amena.afreen@albertsons.com,kristineerika.lunas@albertsons.com
+          from: Platform.DevOps@albertsons.com
+
+  esghd-prod-deploy:
+    needs: [ call-ci-workflow, get_tag_name, validate-dev-build-with-wait-timer ]
+    if: success() && needs.validate-dev-build-with-wait-timer.result == 'success'
+    uses: albertsons/esgh-central-workflow-aks/.github/workflows/oneclick-deploy-prod-autoschedule.yml@v5
+    with:
+      ENV_Name: ${{ needs.get_tag_name.outputs.deployment_environment }}
+      deployment_environment: ${{ needs.get_tag_name.outputs.deployment_environment }}
+      ACTIONSFILE: "Actionsfile/prod"
+      TAG: ${{ needs.get_tag_name.outputs.TAG_NAME }}
+      REACT_APP_PRODUCTION: ${{ vars.REACT_APP_PRODUCTION }}
+      GENERATE_SOURCEMAP: ${{ vars.GENERATE_SOURCEMAP }}
+      REQUIRE_AUTH: ${{ vars.REQUIRE_AUTH_PROD }}
+      AZ_CALLBACK_PATH: ${{ vars.AZ_CALLBACK_PATH }}
+      ANNOUNCEMENT_URL: ${{ vars.REACT_APP_ANNOUNCEMENT_URL }}
+      ORCH_API_ENDPOINT: ${{ vars.REACT_APP_ORCH_API_ENDPOINT_PROD }}
+      SAML_ENV_PROPS_PATH: ${{ vars.SAML_ENV_PROPS_PATH }}
+      REACT_SERVER_URL: ${{ vars.REACT_SERVER_URL_PROD }}
+      REACT_APP_RUN_WORKFLOW_ENABLED: ${{ vars.REACT_APP_RUN_WORKFLOW_ENABLED_PROD }}
+      KEYCLOAK_URL: ${{ vars.REACT_APP_KEYCLOAK_URL_PROD }}
+      ACR_API_ENDPOINT: ${{ vars.REACT_APP_ACR_API_ENDPOINT_PROD }}
+    secrets:
+      REGISTRY_USER: ${{ secrets.ACR_USER }}
+      REGISTRY_PWD: ${{ secrets.ACR_PWD }}
+      KUBECONFIG: ${{ secrets.ESCO_AKSSHARED_PROD_WESTUS_CLUSTER_01 }}
+      PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+      AZ_TENANT_ID: ${{ secrets.AZ_TENANT_ID }}
+      AZ_ISSUER: ${{ secrets.AZ_ISSUER_PROD }}
+      AZ_CERT: ${{ secrets.AZ_CERT }}
+      JWT_SECRET: ${{ secrets.JWT_SECRET }}
+      GH_TOKEN: ${{ secrets.GH_TOKEN }}
+      ORCH_AUTH_TOKEN: ${{ secrets.REACT_APP_ORCH_AUTH_TOKEN }}
+      ACR_API_KEY: ${{ secrets.REACT_APP_ACR_API_KEY }}
+      KEYCLOAK_USERNAME: ${{ secrets.REACT_APP_KEYCLOAK_USERNAME_PROD }}
+      KEYCLOAK_PASSWORD: ${{ secrets.REACT_APP_KEYCLOAK_PASSWORD_PROD }}
+      ANNOUNCEMENT_API_KEY: ${{ secrets.ANNOUNCEMENT_API_KEY }}
+  Deploy-Status-check-esghd-prod:
+    needs: esghd-prod-deploy
+    if: success()
+    uses: albertsons/esgh-central-workflow-aks/.github/workflows/Deploy-Status-check.yml@v4
+    with:
+      ACTIONSFILE: "Actionsfile/prod"
+    secrets:
+      KUBECONFIG: ${{ secrets.ESCO_AKSSHARED_PROD_WESTUS_CLUSTER_01 }}
+      PERSONAL_ACCESS_TOKEN : ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+  TRIGGER_EMAIL_WHEN_NEW_IMAGE_DEPLOYED_TO_ESGHD_PROD:
+    if: ${{ needs.esghd-prod-deploy.result == 'success'}} || ${{ needs.esghd-prod-deploy.result == 'failure'}}
+    needs: [ get_tag_name, esghd-prod-deploy, Deploy-Status-check-esghd-prod ]
+    name: TRIGGER_EMAIL_WHEN_NEW_IMAGE_DEPLOYED
+    runs-on: [ settings ]
+    steps:
+      - name: action-send-mail
+        uses: actions/checkout@v3
+        with:
+            repository: albertsons/esgh-action-mail
+            ref: master
+            token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+            path: ./.github/albertsons/action-send-mail
+      - uses: ./.github/albertsons/action-send-mail
+        with:
+          server_address: mailrouter.safeway.com
+          server_port: 25
+          subject: Platform Dashboard Prod Deployed with Image - ${{ needs.get_tag_name.outputs.TAG_NAME }} via ${{ github.workflow }}-${{ github.run_number }}-${{ needs.esghd-prod-deploy.result }}
+          body: | 
+            A new image - ${{ needs.get_tag_name.outputs.TAG_NAME }} deployed through workflow -${{ github.workflow }} with build numebr -${{ github.run_number }} on environment - prod
+            is completed after succesfull deployed on dev1 environment thourth workflow ${{ github.workflow }} with build number - ${{ github.run_number }}
+            Envirnoment: esghd-prod
+            Branch: master
+            Tag: ${{ needs.get_tag_name.outputs.TAG_NAME }}
+            Workflow RUN Number: ${{ github.run_number }}
+            Image: albertsons.azurecr.io/platform-dashboard:${{ needs.get_tag_name.outputs.TAG_NAME }} through workflow run - ${{ github.run_number }}
+            GitHub Actor: ${{ github.actor }}
+          to: Babak.Rahimi@albertsons.com,navachaitanya.kommoju@albertsons.com,rahul.bachhawat@albertsons.com,nivetha.velumani@albertsons.com,mateo.dejesusarbolea@albertsons.com,amena.afreen@albertsons.com,kristineerika.lunas@albertsons.com
+          from: Platform.DevOps@albertsons.com

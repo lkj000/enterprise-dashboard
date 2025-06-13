@@ -1,0 +1,40 @@
+name: Apps Deployed in Prod in Last 90 Days
+on:
+  workflow_dispatch:
+  schedule: 
+    - cron: '0 9 * * SUN'
+        
+jobs:
+  Get-AppCountinProd:
+      runs-on: [ Portal ]
+      steps:
+      - name: checkout
+        uses: actions/checkout@v3
+      - name: Get apps count
+        shell: pwsh
+        run: |
+            $content = get-content "./src/data/veracode.js"
+            $content = $content -replace "export const VeracodeData = ", ""
+            $content = $content | ConvertFrom-Json
+            $count = 0
+            $90DaysOldDate = (Get-Date).AddDays(-89)
+
+            foreach ($item in $content){
+                    $lastdeployDate = $item.LastestProdDeployDate
+                    if (($90DaysOldDate -lt $lastdeployDate) -or ($90DaysOldDate -eq $lastdeployDate)){
+                        $count++
+                    }
+            }
+            write-host "90days old date: $90DaysOldDate"
+            write-host "No. of apps deployed in prod are: $count"
+            $file = './src/data/historyWorkflow.js'
+            $replacestr = "    `"prod_repoCount`": $count,"
+            $find = Get-Content $file | Select-String -pattern 'prod_repoCount:*'
+            write-host $find
+            (Get-Content $file).replace($find, $replacestr) | Set-Content $file
+      - name: commit change
+        continue-on-error: true
+        run: |
+          git add .
+          git commit -m "${{ github.workflow }}-${{ github.run_number }}"
+          git push --set-upstream https://${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.albertsons.com/${{ github.repository }} master

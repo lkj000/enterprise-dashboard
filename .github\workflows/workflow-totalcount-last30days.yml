@@ -1,0 +1,54 @@
+name: Last 30 Days Workflow Runs Count
+on:
+  workflow_dispatch:
+  schedule: 
+    - cron: '30 10 * * SUN'
+        
+jobs:
+  Get-StartEnddates:
+      runs-on: [ Portal ]
+      outputs:
+        EndDate: ${{ steps.getDates.outputs.EndDate }}
+        StartDate: ${{ steps.getDates.outputs.StartDate }}
+      steps:
+      - name: Get start and end dates
+        id: getDates
+        shell: pwsh
+        run: |
+            $EndDate = Get-Date -Format yyyy-MM-dd
+            $EndDate = $EndDate -replace " ", ""
+            echo "::set-output name=EndDate::$EndDate"
+            $Date30DaysAgo = (Get-Date).AddDays(-29)
+            $StartDate = Get-Date -Date $Date30DaysAgo -f yyyy-MM-dd
+            $StartDate = $StartDate -replace " ", ""
+            echo "::set-output name=StartDate::$StartDate"
+  
+  Totalcount-Script:
+      needs: Get-StartEnddates
+      uses: albertsons/esgh-platform-dashboard/.github/workflows/workflow-totalcount.yml@master
+      with:
+        StartDate: ${{ needs.Get-StartEnddates.outputs.StartDate }}
+        EndDate: ${{ needs.Get-StartEnddates.outputs.EndDate }}
+      secrets:
+        PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+  
+  UpdateJSFile-Commit:
+      runs-on: [ Portal ]
+      needs: Totalcount-Script
+      steps:
+      - name: Update JS file
+        shell: pwsh
+        run: |
+            $file = './src/data/historyWorkflow.js'
+            $totalCount = ${{ needs.Totalcount-Script.outputs.totalCount }}
+            $replacestr = "    `"workflow_count`": $totalCount,"
+            $find = Get-Content $file | Select-String -pattern 'workflow_count:*'
+            write-host $find
+            (Get-Content $file).replace($find, $replacestr) | Set-Content $file
+      - name: commit change
+        continue-on-error: true
+        run: |
+          git add .
+          git commit -m "${{ github.workflow }}-${{ github.run_number }}"
+          git pull --set-upstream https://${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.albertsons.com/${{ github.repository }} --rebase master
+          git push --set-upstream https://${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.albertsons.com/${{ github.repository }} master

@@ -1,0 +1,55 @@
+name: Get Status Report
+on: 
+  workflow_dispatch: 
+  schedule: 
+    - cron: '15 11 * * FRI'
+
+jobs: 
+  GetStatusReport: 
+    runs-on: [ Portal ]
+    steps: 
+        - name: clean workspace
+          uses: albertsons/esgh-workspace-clean@v2-bash
+        - name: checkout
+          uses: actions/checkout@v3
+        - name: GetStatusReport
+          run: |
+           grep -i "DeploymentStrategy" ./src/data/veracode.js > DeploymentStrategy.txt
+           sed -i 's/,//g' DeploymentStrategy.txt
+           sed -i 's/ "DeploymentStrategy": //g' DeploymentStrategy.txt
+           sed -i 's/"//g' DeploymentStrategy.txt
+           sed -i 's/AZF/AZ/g' DeploymentStrategy.txt
+           sed -i 's/AZ/AZURE/g' DeploymentStrategy.txt
+           sed -i 's/AUT/AUTOMATION/g' DeploymentStrategy.txt
+           sed -i 's/ART/ARTIFACTORY/g' DeploymentStrategy.txt
+           cat DeploymentStrategy.txt | sed s/' '/\\n/g | sort | uniq -c
+           DeploymentStrategyData=$(cat DeploymentStrategy.txt | sed s/' '/\\n/g | sort | uniq -c )
+           readarray -t DeploymentStrategyArray <<< $DeploymentStrategyData
+           unset 'DeploymentStrategyArray[0]'
+           printf 'export const StatusReport = [\n' > ./src/data/StatusReport.js
+           for data in "${DeploymentStrategyArray[@]}"
+           do
+            : 
+            count=$(echo $data | cut -d ' ' -f 1)
+            strategy=$(echo $data | cut -d ' ' -f 2-)
+            if [[  "$strategy" == *"Central"* ||  "$strategy" == *"NonCentral"* ]]
+            then 
+             echo "skipped Central/NonCentral count"
+            else
+              printf '{\n' >> ./src/data/StatusReport.js
+              printf '"DeploymentStrategy": "%s",\n' "$strategy" >> ./src/data/StatusReport.js
+              printf '"Count": %s\n' "$count"  >> ./src/data/StatusReport.js
+              printf '},\n' >> ./src/data/StatusReport.js
+            fi 
+           done
+           printf ']'  >> ./src/data/StatusReport.js
+           #cat ./src/data/StatusReport.js
+           rm  -f DeploymentStrategy.txt
+        
+        - name: commit change
+          continue-on-error: true
+          run: | 
+            git add .
+            git commit -m "${{ github.workflow }}-${{ github.run_number }}"
+            git pull --set-upstream https://${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.albertsons.com/${{ github.repository }} --rebase master
+            git push --set-upstream https://${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.albertsons.com/${{ github.repository }} master

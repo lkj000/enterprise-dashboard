@@ -1,0 +1,11 @@
+{
+    "application_properties": {
+        "APPCODE": "esgh",
+        "APP_NAME": "esgh-platform-dashboard",
+        "REGISTRY_URL": "escoacrprod01.azurecr.io",
+        "NAMESPACE": "esgh-dev3",
+        "HELM_NAME": "helmcharts",
+        "VALUES_PATH": "helmcharts/env/dev3/esgh-platform-dashboard/values.yaml",
+        "CONFIG_PATH": "env/dev3/esgh-platform-dashboard/configmap.yaml"
+    }
+}

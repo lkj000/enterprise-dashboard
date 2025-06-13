@@ -1,0 +1,23 @@
+name: Veracode Daily Mongo - Staging
+on:
+  workflow_dispatch:
+  # schedule: 
+  #   - cron: '30 0 * * *'
+jobs:
+  veracode-weekly-mongo:
+    runs-on: [ settings ]
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: Run Veracode Python Script
+        env:
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+        run: |
+          export PYTHONPATH=$(pwd)
+          python --version
+          python scripts/veracode_script_to_mongo_db_v2.py \
+            --db-name ${{ vars.STAGING_DATABASE_NAME }} \
+            --db-host ${{ vars.STAGING_DATABASE_HOST }} \
+            --db-username ${{ vars.STAGING_DATABASE_USERNAME }} \
+            --db-password ${{ secrets.STAGING_DATABASE_PASSWORD }} \
+            --db-port ${{ vars.STAGING_DATABASE_PORT }}

@@ -1,0 +1,561 @@
+name: Nightly Scripts
+on: 
+  workflow_dispatch: 
+  schedule: 
+     - cron: '30 0 * * *'
+jobs: 
+  commulative-script: 
+    runs-on: [ Portal ]
+    steps: 
+        - name: checkout
+          uses: actions/checkout@v3
+        - name: Compliance-Runs-On
+          shell: pwsh
+          run: | 
+              $ErrorActionPreference = "SilentlyContinue"
+              $uriBase = "https://github.albertsons.com/api/v3"
+              $baseHeader =  @{"Authorization" = "token ${{ secrets.PERSONAL_ACCESS_TOKEN }}" ; "Content-Type" = "application/json" ; "Time-Zone" = "CST" ; "Accept" =  "application/vnd.github+json"} 
+              $UpdatedDate = (Get-Date).ToString("MM/dd/yyyy")
+              
+              $Opening = "export const ComplianceRepo = [ {""updated_date"": ""$UpdatedDate""}, "
+              $ComplianceJson += ' {' 
+              $overall += $Opening
+              function callGithubAPI {
+                  param (
+                      [Parameter(
+                          Position = 0,
+                          Mandatory = $true
+                      )]
+                      [string]
+                      $urlForGithubAPI
+                  )
+                  $runGetRepository = @{
+                      Uri     = $urlForGithubAPI
+                      Headers = $baseHeader        
+                  }
+                  Invoke-RestMethod @runGetRepository
+              }
+              $AllSearch = ( "{0}/search/code?q=runs-on" -f $uriBase )
+              $ContentsAllSearch = callGithubAPI -urlForGithubAPI $AllSearch
+              $ComplianceJson += 'runson: ['
+              function appendExcelByCoord {
+                  param (
+                      [Parameter(
+                          Position = 0,
+                          Mandatory = $true
+                      )]
+                      [string]
+                      $verticalCoordinates,
+                      [Parameter(
+                          Position = 1,
+                          Mandatory = $true
+                      )]
+                      $horizontalCoordinates,
+                      [Parameter(
+                          Position = 2,
+                          Mandatory = $true
+                      )]
+                      $outputAtCoordinates
+                  )
+                  $Coord = "$verticalCoordinates$horizontalCoordinates : $verticalCoordinates$horizontalCoordinates"
+                  $Coord = $Coord -replace " ", ""
+                  $Excel | Set-CellValue -Coordinates $Coord -Value $OutputAtCoordinates
+              }
+              # $count = 1
+              $totalCount = $ContentsAllSearch.total_count
+              $numIntiative = [math]::ceiling($totalCount/100)
+              $l = "desc"
+              $index = 1
+              for ($i = 0; $i -le 2; $i++){
+                  for ($m = 0; $m -le $numIntiative; $m++){
+                      $m
+                      $AllSearch = ( "{0}/search/code?q=runs-on&per_page=100&page={1}&sort=indexed&order={2}" -f $uriBase, $m, $l)
+                      $ContentsAllSearch = callGithubAPI -urlForGithubAPI $AllSearch
+                      
+                      foreach($item in $ContentsAllSearch.items){
+                        if($item.repository.full_name -like "*albertsons*"){
+                          $RepositoryName = $item.repository.name
+                        
+                          if(-not ($RunsOnCheck -like "*$RepositoryName*")){
+                          if((-not ($RepositoryName -like "*esgh-*")) -and (-not ($RepositoryName -like "*esff-*")) -and (-not ($RepositoryName -like "Platform-Dashboard")) -and (-not ($RepositoryName -like "esgh-github-actions-workflows-common")) -and (-not ($RepositoryName -like "platform-github-reports")) -and (-not ($RepositoryName -like "platform-devops-common")) ){
+                              $RepositoryName
+                              $AllWorkflows = ( "{0}/repos/albertsons/{1}/actions/workflows?per_page=100" -f $uriBase,$RepositoryName )
+                              $AllWorkflows = $AllWorkflows -replace "`n","" -replace "`r","" -replace " ", ""
+                              $ContentsAllWorkflows = callGithubAPI -urlForGithubAPI $AllWorkflows
+                              # $totalWKCount = $ContentsAllWorkflows.total_count
+                              # $numWKIntiative = [math]::ceiling($totalWKCount/100)
+                              $string0find = '$checkRunsON = Get-Content .\workflow.yaml | Out-String -Stream | Select-String -Pattern "runs-on:"'
+                              $string1find = '$checkRunsON = $checkRunsON -replace "runs-on:", "" -replace "- runs-on:", "" -replace " ", "" -replace "$", ""  -replace "`n","" -replace "`r","" -replace [regex]::escape($string0find), "" -replace [regex]::escape($string1find), "" -replace [regex]::escape($string2find), ""'
+                              $string2find = '$checkRunsON = $checkRunsON -replace "runs-on:", "" -replace "- runs-on:", "" -replace " ", "" -replace "$", "" -replace "`n","" -replace "`r",""'
+                              $string3find = 'string0find='
+                              $string4find = 'string1find='
+                              $string5find = 'string2find='
+                              :RunnerLabels foreach ($Workflows in $ContentsAllWorkflows.workflows){
+                                  $workflowsPath = $Workflows.path
+                                  $uriWorkflowFile = ( "{0}/repos/albertsons/{1}/contents/{2}" -f $uriBase, $RepositoryName,$workflowsPath)
+                                  $uriWorkflowFile = $uriWorkflowFile -replace "`n","" -replace "`r","" -replace " ", ""
+                                  $workflowFileContent = callGithubAPI -urlForGithubAPI $uriWorkflowFile
+                                  
+                                  $workflowResults = Invoke-WebRequest $workflowFileContent.download_url
+                                  $workflowResults.Content > workflow.yaml
+                                  $workflowpath = $workflows.path 
+                                  $workflowpath = $workflowpath -replace ".github/workflows/", ""
+                                  $checkRunsON = Get-Content .\workflow.yaml | Out-String -Stream | Select-String -Pattern "runs-on:" 
+                                  $checkRunsON = $checkRunsON -replace [regex]::escape($string0find), "" -replace [regex]::escape($string1find), "" -replace [regex]::escape($string2find), ""
+                                  $checkRunsON = $checkRunsON -replace "runs-on:", "" -replace "- runs-on:", "" -replace " ", "" -replace "$", "" -replace "`n","" -replace "`r",""
+                                  if($checkRunsON -ne ""){
+                                      $finallabel += $checkRunsON + "   -   "  
+                                      $finalpaths += $workflowpath + "   -   "
+                                  }
+                                  rm workflow.yaml
+                                  $checkRunsON = ""
+                              }
+                              $finallabel = $finallabel | Out-String
+                              $finallabel = $finallabel -replace "'", "" -replace "`"","" -replace "\$","" -replace "`n","" -replace "`r","" -replace [regex]::escape($string3find), "" -replace [regex]::escape($string4find), "" -replace [regex]::escape($string5find), ""
+                              $finalpaths
+                              $finallabel
+                              $RunsOnContent += "{"
+                              $RunsOnContent += ('index: "{0}",' -f $index)
+                              $RunsOnContent += ('name: "{0}",' -f $RepositoryName)
+                              $RunsOnContent += ('fileName: "{0}",' -f $finalpaths)
+                              $RunsOnContent += ('label: "{0}",' -f $finallabel)
+                              $RunsOnContent += ('url: "https://github.albertsons.com/albertsons/{0}"' -f $RepositoryName)
+                              $RunsOnContent += "},"
+                              $index++
+                          }
+                          }
+                          $RunsOnCheck += $RepositoryName
+                          $finallabel = ""
+                          $finalpaths = ""
+                      }
+                  }   
+                  }
+                  $l = "asc"
+              }
+              $ComplianceJson += $RunsOnContent
+              $ComplianceJson += "],"
+              $scanningForDockerApt = ( "{0}/search/code?q=apt-get+language:Dockerfile" -f $uriBase)
+              $scanningForDockerApt = $scanningForDockerApt -replace "`n","" -replace "`r","" -replace " ", ""
+              $dockerScanComp = callGithubAPI -urlForGithubAPI $scanningForDockerApt
+              $ComplianceJson += 'docker: ['
+              $DockerTotalCount = $dockerScanComp.total_count
+              $DockerNumIntiative = [math]::ceiling($DockerTotalCount/100)
+              $t = "desc"
+              $index1 = 1
+              for ($r = 0; $r -le 2; $r++){
+                  for ($e= 0; $e -le $DockerNumIntiative; $e++){
+                      $DockerAllSearch = ( "{0}/search/code?q=apt-get+language:Dockerfile&per_page=100&page={1}&sort=indexed&order={2}" -f $uriBase, $e, $t)
+                      $DockerContentsSearch = callGithubAPI -urlForGithubAPI $DockerAllSearch
+                      foreach($item in $DockerContentsSearch.items){
+                          $DockerRepositoryName = $item.repository.name
+                          $DockerFileName = $item.name
+                        if(-not ($DockerOnCheck -like "*$DockerRepositoryName*")){
+                          $DockerContent += "{"
+                          $DockerContent += ('index: "{0}",' -f $index1)
+                          $DockerContent += ('name: "{0}",' -f $DockerRepositoryName)
+                          $DockerContent += ('fileName: "{0}",' -f $DockerFileName)
+                          $DockerContent += ('url: "https://github.albertsons.com/albertsons/{0}"' -f $DockerRepositoryName)
+                          $DockerContent += "},"
+                          $index1++
+                        }
+                          $DockerOnCheck += $DockerRepositoryName
+                      }
+                  }
+              }
+              $ComplianceJson += $DockerContent
+              $ComplianceJson += "]}];"
+              $overall += $ComplianceJson
+              $overall > ./src/data/complianceRepo.js
+        - name: Release-Notes
+          shell: pwsh
+          run: | 
+              $uriBase = "https://github.albertsons.com/api/v3"
+              $baseHeader =  @{"Authorization" = "token  ${{ secrets.PERSONAL_ACCESS_TOKEN }}" ; "Content-Type" = "application/json" ; "Time-Zone" = "CST"} 
+              $Opening = "export const release = ["
+              $Closing = "]"
+              $Comma = ","
+              $i = 1
+              $repoName = "esgh-central-workflow-aks","esgh-central-workflow-aut", "esgh-central-workflow-art", "esgh-central-workflow-vm", "esgh-central-workflow-azf", "esgh-central-workflow-gke", "esgh-central-workflow-power", "esgh-central-workflow-mq", "esgh-central-workflow-databricks", "esgh-central-workflow-aem", "esgh-central-workflow-gcp", "esgh-central-workflow-mobile", "esgh-central-workflow-GenAI", "esgh-central-workflow-infrastructure", "esgh-central-workflow-salesforce", "esgh-central-workflow-dbs"
+              $ReleaseNotesJson += $Opening
+              $ReleaseNotesJson += ' { workflow: [' 
+              function callGithubAPI {
+                  param (
+                      [Parameter(
+                          Position = 0,
+                          Mandatory = $true
+                      )]
+                      [string]
+                      $urlForGithubAPI
+                  )
+                  $runGetRepository = @{
+                      Uri     = $urlForGithubAPI
+                      Headers = $baseHeader        
+                  }
+                  Invoke-RestMethod @runGetRepository
+              }
+              foreach ($repo in $reponame){
+                $ReleaseNotesJson += "{"
+                $ReleaseNotesJson += ( '"value": "{0}",' -f $i )
+                
+                $scanningForIssues = ( '{0}/repos/albertsons/{1}/issues?per_page=100&state=closed&labels=portal' -f $uriBase,$repo)
+                $IssuesScanComp = callGithubAPI -urlForGithubAPI $scanningForIssues
+                if( $IssuesScanComp.labels.name -like "portal" ){
+                    if($issuesScanComp.labels.name -like "v*"){
+                        foreach ($IssuesLabels in $IssuesScanComp.labels.name){
+                            if( $IssuesLabels -like "v*"){
+                                if(-not ($checkBranchDuplicate -like "*$IssuesLabels*")){
+                                    $count += 1 
+                                    if($count -gt 1){
+                                        $whichBranch += " "
+                                    }
+                                    $whichBranch += $IssuesLabels 
+                                }
+                            
+                                $checkBranchDuplicate += " " + $IssuesLabels
+                            }
+                        }
+                    }
+                }
+                
+                $whichBranch = $whichBranch.split(" ") | Sort-Object -Descending
+                
+                
+                foreach($branch in $whichBranch){
+                    $repo
+                    $branch
+                    $IssueBasedONLabels = ( '{0}/repos/albertsons/{1}/issues?per_page=100&state=closed&labels=portal,{2}' -f $uriBase,$repo,$branch)
+                    $IssueLabelComp = callGithubAPI -urlForGithubAPI $IssueBasedONLabels
+                    $IssueLabelComp.title.count
+                    $IssueLabelComp.title
+                    $BranchContent += "{" 
+                    $BranchContent += ('"title": "{0}",' -f $branch)
+                    $BranchContent += '"content": ['
+                    foreach ($title in $IssueLabelComp.title){
+                        $BranchContent += "{"
+                        $BranchContent += ('"issue" : "{0}"' -f $title)
+                        $BranchContent += "},"
+                    }
+                    $BranchContent += $Closing
+                    $BranchContent += "}," 
+                    
+                }
+                $ReleaseNotesJson += ( '"url": "{0}",' -f $repo )
+                $ReleaseNotesJson += ( '"count": {0},' -f $count )
+                $ReleaseNotesJson += '"repo": ['
+                $ReleaseNotesJson += $BranchContent
+                $ReleaseNotesJson += $Closing
+                $ReleaseNotesJson += "}"
+                if($i -lt 16){
+                    $ReleaseNotesJson += $Comma
+                }
+                $BranchContent = ""
+                $count = 0 
+                $checkBranchDuplicate = ""
+                $whichBranch = ""
+                $i = $i + 1
+              }
+              $ReleaseNotesJson += "]}];"
+              $ReleaseNotesJson > ./src/data/release.js
+        - name: Road-Map-Issues 
+          shell: pwsh
+          run: | 
+              $uriBase = "https://github.albertsons.com/api/v3"
+              $baseHeader =  @{"Authorization" = "token ${{ secrets.PERSONAL_ACCESS_TOKEN }}" ; "Content-Type" = "application/json" ; "Time-Zone" = "CST"} 
+              $Opening = "export const roadmap = ["
+              $Closing = "]"
+              $Comma = ","
+              $i = 1
+              $repoName = "esgh-central-workflow-aks","esgh-central-workflow-aut", "esgh-central-workflow-art", "esgh-central-workflow-vm", "esgh-central-workflow-azf", "esgh-central-workflow-gke", "esgh-central-workflow-power", "esgh-central-workflow-mq", "esgh-central-workflow-databricks", "esgh-central-workflow-aem", "esgh-central-workflow-gcp", "esgh-central-workflow-mobile", "esgh-central-workflow-GenAI", "esgh-central-workflow-infrastructure", "esgh-central-workflow-salesforce", "esgh-central-workflow-dbs"
+              $ReleaseNotesJson += $Opening
+              $ReleaseNotesJson += ' { workflow: [' 
+              function callGithubAPI {
+                  param (
+                      [Parameter(
+                          Position = 0,
+                          Mandatory = $true
+                      )]
+                      [string]
+                      $urlForGithubAPI
+                  )
+                  $runGetRepository = @{
+                      Uri     = $urlForGithubAPI
+                      Headers = $baseHeader        
+                  }
+                  Invoke-RestMethod @runGetRepository
+              }
+              foreach ($repo in $reponame){
+              $ReleaseNotesJson += "{"
+              $ReleaseNotesJson += ( '"value": "{0}",' -f $i )
+              
+              $scanningForIssues = ( '{0}/repos/albertsons/{1}/issues?per_page=100&state=open&labels=portal' -f $uriBase,$repo)
+              $IssuesScanComp = callGithubAPI -urlForGithubAPI $scanningForIssues
+              if( $IssuesScanComp.labels.name -like "portal" ){
+                  if($issuesScanComp.labels.name -like "v*"){
+                      foreach ($IssuesLabels in $IssuesScanComp.labels.name){
+                          if( $IssuesLabels -like "v*"){
+                              if(-not ($checkBranchDuplicate -like "*$IssuesLabels*")){
+                                  $count += 1 
+                                  if($count -gt 1){
+                                      $whichBranch += " "
+                                  }
+                                  $whichBranch += $IssuesLabels 
+                              }
+                          
+                              $checkBranchDuplicate += " " + $IssuesLabels
+                          }
+                      }
+                  }
+              }
+              
+              $whichBranch = $whichBranch.split(" ") | Sort-Object
+              
+              $repo
+              foreach($branch in $whichBranch){
+                  $branch
+                  $IssueBasedONLabels = ( '{0}/repos/albertsons/{1}/issues?per_page=100&state=open&labels=portal,{2}' -f $uriBase,$repo,$branch)
+                  $IssueLabelComp = callGithubAPI -urlForGithubAPI $IssueBasedONLabels
+                  $IssueLabelComp.title.count
+                  $IssueLabelComp.title
+                  $BranchContent += "{" 
+                  $BranchContent += ('"title": "{0}",' -f $branch)
+                  $BranchContent += '"content": ['
+                  foreach ($title in $IssueLabelComp.title){
+                      $BranchContent += "{"
+                      $BranchContent += ('"issue" : "{0}"' -f $title)
+                      $BranchContent += "},"
+                  }
+                  $BranchContent += $Closing
+                  $BranchContent += "}," 
+                  
+              }
+              $ReleaseNotesJson += ( '"count": {0},' -f $count )
+              $ReleaseNotesJson += '"repo": ['
+              $ReleaseNotesJson += $BranchContent
+              $ReleaseNotesJson += $Closing
+              $ReleaseNotesJson += "}"
+              if($i -lt 16){
+                  $ReleaseNotesJson += $Comma
+              }
+              $BranchContent = ""
+              $count = 0 
+              $checkBranchDuplicate = ""
+              $whichBranch = ""
+              $i = $i + 1
+              }
+              $ReleaseNotesJson += "]}];"
+              $ReleaseNotesJson > ./src/data/roadmap.js
+        - name: Veracode-Script
+          shell: pwsh
+          run: |
+              $object = get-content "./src/data/workflowList.js" -Raw
+              $objectLine = $object | Where-Object { $_ -match "WorkflowList =" }
+              $jsonString = $objectLine -replace "export const WorkflowList = ", "" -replace ";", ""
+              $jsonString = $jsonString -replace ",\]","]"
+              $content = $jsonString | ConvertFrom-Json
+              $ErrorActionPreference = "SilentlyContinue"
+              $Opening = "export const VeracodeData = ["
+              $Closing = "]"
+              $Comma = ","
+              $i = 0
+              $uriBase = "https://github.albertsons.com/api/v3"
+              $baseHeader =  @{"Authorization" = "token ${{ secrets.PERSONAL_ACCESS_TOKEN }}" ; "Content-Type" = "application/json" ; "Time-Zone" = "CST"} 
+              $VeracodeJson += $Opening
+              function callGithubAPI {
+                  param (
+                      [Parameter(
+                          Position = 0,
+                          Mandatory = $true
+                      )]
+                      [string]
+                      $urlForGithubAPI
+                  )
+                  $runGetRepository = @{
+                      Uri     = $urlForGithubAPI
+                      Headers = $baseHeader        
+                  }
+                  Invoke-RestMethod @runGetRepository
+              }
+              Foreach($ObjectGroup in $content){ 
+                  $repoName = $ObjectGroup.RepositoryName
+                  $GetPortfolio = $ObjectGroup.Portfolio
+                  $GetPortfolio = $GetPortfolio -replace 'Retail & Supply Chain (Maria Latushkin)', 'Digital (Ramiya Iyer)'
+                  #$GetPortfolio = $GetPortfolio -replace 'cloud-platform-and-engineering|observability|intelligent-automation|client-services|enterprise-architecture|network-services|cloud-and-it-operations|developer-enablement|it-operations', 'COG (Jim Saber)'
+                  #$GetPortfolio = $GetPortfolio -replace 'merchandising|digital-marketing|data-management|pharmacy-health-and-wellness|digital-customer-experience|digital-fulfillment|digital-loyalty|digital-collective|digital-shopper-experience|corporate-services|workforce-talent-and-payroll-mgmt', 'Digital (Ramiya Iyer)'
+                  #$GetPortfolio = $GetPortfolio -replace 'supply-chain|retail-operations|customer-service', 'Retail & Supply Chain (Maria Latushkin)'
+                  #$GetPortfolio = $GetPortfolio -replace 'information-security|security-technology', 'Information Security (Aaron Hughes)'
+                  $DeploymentStrategyURL = ( "{0}/repos/{1}/actions/variables/GHA_DEPLOYMENT_STRATEGY" -f $uriBase,$repoName )
+                  $DeploymentStrategyValue = callGithubAPI -urlForGithubAPI $DeploymentStrategyURL
+                  $GetDeploymentStrategy = $DeploymentStrategyValue.value
+                  if  ($GetDeploymentStrategy -eq $null)
+                  {
+                    $GetDeploymentStrategy = "NonCentral"
+                  }
+                  $Build_StrategiesURL = ( "{0}/repos/{1}/actions/variables/GHA_BUILD_STRATEGIES" -f $uriBase,$repoName )
+                  $Build_StrategiesValue = callGithubAPI -urlForGithubAPI $Build_StrategiesURL
+                  $GetBuild_Strategies = $Build_StrategiesValue.value
+                  if  ($GetBuild_Strategies -eq $null)
+                  {
+                    $GetBuild_Strategies = "NonCentral"
+                  }
+                  #$GetStatus = $ObjectGroup.PathToProductionStatus
+                  $GetAppOwner = $ObjectGroup.appOwner
+                  $GetPortfolioVP = $ObjectGroup.PortfolioVP
+                  $VeracodeHashTablContents = @{}
+                  if($repoName -ne ""){ 
+                      $AllWorkflows = ( "{0}/repos/{1}/actions/workflows" -f $uriBase,$repoName )
+                      $AllWorkflows = $AllWorkflows -replace "`n","" -replace "`r","" -replace " ", ""
+                      $ContentsAllWorkflows = callGithubAPI -urlForGithubAPI $AllWorkflows
+                      $scanningForVeracode = ( "{0}/search/code?q=nigthly_veracode_scan+repo:{1}" -f $uriBase,$repoName)
+                      $scanningForVeracode = $scanningForVeracode -replace "`n","" -replace "`r","" -replace " ", ""
+                      $VeracodeScanComp = callGithubAPI -urlForGithubAPI $scanningForVeracode
+                      $GetDeploymentStrategy
+                      $VeracodeScanComp
+                      if ($VeracodeScanComp.total_count -eq 0){
+                          write-host True
+                          $scanningForVeracode = ( "{0}/search/code?q=nightly_veracode_scan+repo:{1}" -f $uriBase,$repoName)
+                          $scanningForVeracode = $scanningForVeracode -replace "`n","" -replace "`r","" -replace " ", ""
+                          $VeracodeScanComp = callGithubAPI -urlForGithubAPI $scanningForVeracode
+                      }
+                      $VeracodeScanComp
+                      $veracodeWorkflowName = $veracodeScanComp.items.name
+                      $GetPortfolio = $GetPortfolio -replace "\n", ""
+                      $GetPortfolioVP = $GetPortfolioVP -replace "\n", ""
+                      #$GetStatus = $GetStatus -replace "\n", ""
+                      $GetAppOwner = $GetAppOwner -replace "\n", ""
+                      #$GetDeploymentStrategy = $GetDeploymentStrategy -replace "\n", "" -replace "\n4", ""
+                      $VeracodeHashTablContents['RepositoryName'] = $repoName
+                      $VeracodeHashTablContents['id'] = $i
+                      $VeracodeHashTablContents['Portfolio'] = $GetPortfolio
+                      $VeracodeHashTablContents['PortfolioVP'] = $GetPortfolioVP
+                      #$VeracodeHashTablContents['PathToProductionStatus'] = $GetStatus
+                      $VeracodeHashTablContents['DeploymentStrategy'] = $GetDeploymentStrategy
+                      $VeracodeHashTablContents['Build_Strategies'] = $GetBuild_Strategies
+                      $VeracodeHashTablContents['ApplicationOwner'] = $GetAppOwner
+                      $URL = ( "https://github.albertsons.com/{0}" -f $repoName)
+                      $VeracodeHashTablContents['url'] = $URL
+                      if ($VeracodeScanComp.total_count -gt 0) {
+                          $VeracodeHashTablContents['VeracodePresent'] = "True"
+                          $veracodeWorkflowLastRun = ( "{0}/repos/{1}/actions/workflows/{2}/runs?per_page=1" -f $uriBase,$repoName,$veracodeWorkflowName )
+                          $veracodeLastRun = callGithubAPI -urlForGithubAPI $veracodeWorkflowLastRun
+                          #$veracodeRunDate = $veracodeLastRun.workflow_runs.run_started_at.GetDateTimeFormats()[12]
+                          $veracodeConclusionVariableUrl = ( "{0}/repos/{1}/actions/variables?per_page=30" -f $uriBase,$repoName )
+                          $veracodeConclusionVariable = callGithubAPI -urlForGithubAPI $veracodeConclusionVariableUrl
+                          $length = $veracodeConclusionVariable.variables.count
+                          $length = $length - 1
+                          $variableValue = " "
+                          $dateVariableValue = " "
+                          $variableNames = @("VERACODE_PLATFORM", "VERACODE_ANALYSIS_DATE")
+                          foreach ($variableName in $variableNames) {
+                              $variable = $veracodeConclusionVariable.variables | Where-Object { $_.name -eq $variableName }
+                              if ($variable) {
+                                  if ($variableName -eq "VERACODE_PLATFORM") {
+                                      $variableValue = $variable.value
+                                  }
+                                  if ($variableName -eq "VERACODE_ANALYSIS_DATE") {
+                                      $dateVariableValue = $variable.value
+                                  }
+                              } else {
+                                  if ($variableName -eq "VERACODE_PLATFORM") {
+                                      $variableValue = " "
+                                  }
+                                  if ($variableName -eq "VERACODE_ANALYSIS_DATE") {
+                                      $dateVariableValue = " "
+                                  }
+                              }
+                          }      
+                          Write-Host "Repository $repoName"
+                          Write-Host "VERACODE_PLATFORM $variableValue"
+                          Write-Host "VERACODE_ANALYSIS_DATE $dateVariableValue"
+                          #$veracodeConclusion = $veracodelastRun.workflow_runs.conclusion
+                          $veracodeConclusion = $variableValue
+                          $veracodeLastRun
+                          $veracodeWorkflowLastRun 
+                          $veracodeRunDate  = $dateVariableValue
+                          $veracodeConclusion
+                          $VeracodeHashTablContents['VeracodeLastRunDate'] = $veracodeRunDate
+                          $VeracodeHashTablContents['VeracodeConclusion'] = $veracodeConclusion.Trim()
+                      }
+                      $VeracodeScanComp = $veracodeWorkflowName = $veracodeWorkflowLastRun = $veracodeLastRun = $veracodeRunDate = $veracodeConclusion = $EmptyStringValue
+                      :VeracodeAppName foreach ($WorkflowsPath in $ContentsAllWorkflows.workflows.path){
+                          $uriWorkflowFile = ( "{0}/repos/{1}/contents/{2}" -f $uriBase, $repoName,$workflowsPath)
+                          $uriWorkflowFile = $uriWorkflowFile -replace "`n","" -replace "`r","" -replace " ", ""
+                          $workflowFileContent = callGithubAPI -urlForGithubAPI $uriWorkflowFile
+                          $workflowResults = Invoke-WebRequest $workflowFileContent.download_url
+                          $workflowResults.Content > workflow.yaml 
+                          $CheckWorkflowVeracodePresent = Get-Content .\workflow.yaml | Out-String -Stream | Select-String -Pattern "name:"
+                          if(($CheckWorkflowVeracodePresent -like "*nigthly_veracode_scan*") -or ($CheckWorkflowVeracodePresent -like "*nightly_veracode_scan*") -or ($CheckWorkflowVeracodePresent -like "*veracode-scan*")){
+                              $WorkflowVeracodeAppNameExcept = Get-Content .\workflow.yaml | Out-String -Stream | Select-String -Pattern "VERACODE_APPNAME:"
+                              $WorkflowVeracodeAppNameExcept = $WorkflowVeracodeAppNameExcept -replace "VERACODE_APPNAME:", "" -replace " ", ""
+                              $VeracodeHashTablContents['VeracodeAppName'] = $WorkflowVeracodeAppNameExcept
+                              $CheckWorkflowVeracodePresent = $NullResponse
+                              $workflowFileContent = $workflowResults = $EmptyStringValue
+                              Break VeracodeAppName
+                          }
+                          
+                      }
+                      #FetchLastProdDeployment
+                      $AllWorkflows = ( "{0}/repos/{1}/deployments?environment=production" -f $uriBase,$repoName )
+                      $AllWorkflows = $AllWorkflows -replace "`n","" -replace "`r","" -replace " ", ""
+                      $ContentsAllWorkflows = callGithubAPI -urlForGithubAPI $AllWorkflows
+                      $lastProdDeployDate = $ContentsAllWorkflows[0].created_at.GetDateTimeFormats()[12]
+                      if ($lastProdDeployDate -ne $EmptyStringValue){
+                         $VeracodeHashTablContents['LastestProdDeployDate'] = $lastProdDeployDate
+                      }
+                      
+                      if ($lastProdDeployDate -eq $EmptyStringValue){
+                         $AllWorkflows = ( "{0}/repos/{1}/deployments?environment=prod" -f $uriBase,$repoName )
+                         $AllWorkflows = $AllWorkflows -replace "`n","" -replace "`r","" -replace " ", ""
+                         $ContentsAllWorkflows = callGithubAPI -urlForGithubAPI $AllWorkflows
+                         $lastProdDeployDate = $ContentsAllWorkflows[0].created_at.GetDateTimeFormats()[12]
+                         if ($lastProdDeployDate -ne $EmptyStringValue){
+                            $VeracodeHashTablContents['LastestProdDeployDate'] = $lastProdDeployDate
+                         }
+                      }
+                      if ($lastProdDeployDate -eq $EmptyStringValue){
+                         $AllWorkflows = ( "{0}/repos/{1}/deployments?environment=release" -f $uriBase,$repoName )
+                         $AllWorkflows = $AllWorkflows -replace "`n","" -replace "`r","" -replace " ", ""
+                         $ContentsAllWorkflows = callGithubAPI -urlForGithubAPI $AllWorkflows
+                         $lastProdDeployDate = $ContentsAllWorkflows[0].created_at.GetDateTimeFormats()[12]
+                         $VeracodeHashTablContents['LastestProdDeployDate'] = $lastProdDeployDate
+                      }
+                      $lastProdDeployDate = $EmptyStringValue
+                      
+                     $VERACODE_PLATFORM_URL = ( "{0}/repos/{1}/actions/variables/VERACODE_PLATFORM" -f $uriBase,$repoName )
+                     $VERACODE_PLATFORM_VALUE = callGithubAPI -urlForGithubAPI $VERACODE_PLATFORM_URL
+                     $veracodeConclusion = $VERACODE_PLATFORM_VALUE.value
+                     write-host $veracodeConclusion
+                     if( $veracodeConclusion -eq $null -Or $veracodeConclusion -eq  " " )
+                     {
+                       $veracodeConclusion = "Not present"
+                       write-host $veracodeConclusion
+                     } 
+                     $VeracodeHashTablContents['VeracodeConclusion'] = $veracodeConclusion.Trim()
+                     $veracodeConclusion = $EmptyStringValue
+                      
+                      if($i -ne "0"){
+                          $VeracodeJson += $Comma 
+                      }
+                      $VeracodeJson += $VeracodeHashTablContents | ConvertTo-Json 
+                      $i++
+                      write-host $i
+                  }
+              }
+              $VeracodeJson += $Closing 
+              $VeracodeJson > ./src/data/veracode.js
+              rm workflow.yaml
+        - name: commit change
+          continue-on-error: true
+          run: | 
+            git add .
+            git commit -m "${{ github.workflow }}-${{ github.run_number }}"
+            git pull --set-upstream https://${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.albertsons.com/${{ github.repository }} --rebase master
+            git push --set-upstream https://${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.albertsons.com/${{ github.repository }} master
+    
+#         - name: Dev Deploy
+#           run: | 
+#             curl -L \
+#             -X POST \
+#             -H "Accept: application/vnd.github+json" \
+#             -H "Authorization: Bearer ${{ secrets.PERSONAL_ACCESS_TOKEN }}" \
+#             https://github.albertsons.com/api/v3/repos/albertsons/esgh-platform-dashboard/actions/workflows/client-deploy.yml/dispatches \
+#             -d '{"ref":"master","inputs":{"dev":"true"}}'

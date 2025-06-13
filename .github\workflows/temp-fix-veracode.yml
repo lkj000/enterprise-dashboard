@@ -1,0 +1,21 @@
+name: Temp fix Veracode
+on:
+  workflow_dispatch:
+  workflow_run:
+    workflows: ["Nightly Scripts"]
+    types:
+      - completed
+
+jobs:
+  FixVeracode:
+    name: FixVeracode
+    runs-on: [ settings ]
+    steps:
+    - name: checkout
+      uses: actions/checkout@v3
+    - name: Fix Veracode
+      run: |
+        python temp_fix_for_veracodejs.py
+        git add src/data/veracode.js
+        git commit -m "Temp fix for Veracode"
+        git push --set-upstream https://${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.albertsons.com/${{ github.repository }} master

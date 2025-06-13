@@ -1,0 +1,42 @@
+name: Platform_Dashboard_Update_data_files_nonprod
+
+on:
+  workflow_dispatch:
+   inputs:
+      dev1:
+        type: boolean
+        description: 'deploy dev'
+        required: false
+        default: 'true'
+      dev2:
+        type: boolean
+        description: 'deploy dev2'
+        required: false
+        default: 'true'
+  # schedule:
+  #   - cron: '0 */6 * * *'
+
+jobs:
+  Update_data_files_dev1:
+    # if: github.event.inputs.dev1 == 'true'
+    uses: albertsons/esgh-central-workflow-aks/.github/workflows/platform_dashboard_update_datafiles.yml@v5
+    with:
+      ACTIONSFILE: "Actionsfile/dev1"
+      ENV_Name: dev1
+      TAG: ${{ github.event.inputs.TAG }}
+      # data_update_branch: ${{ github.ref_name}}
+    secrets:
+      KUBECONFIG: ${{ secrets.ESCO_AKSSHARED_NONPROD_WESTUS_CLUSTER_01 }}
+      DASHBOARD_STORAGE_SAS_TOKEN_URL: ${{ secrets.DASHBOARD_STORAGE_SAS_TOKEN_URL }}
+
+  Update_data_files_dev2:
+    # if: github.event.inputs.dev2 == 'true'
+    uses: albertsons/esgh-central-workflow-aks/.github/workflows/platform_dashboard_update_datafiles.yml@v5
+    with:
+      ACTIONSFILE: "Actionsfile/dev2"
+      ENV_Name: dev2
+      TAG: ${{ github.event.inputs.TAG }}
+      # data_update_branch: ${{ github.ref_name}}
+    secrets:
+      KUBECONFIG: ${{ secrets.ESCO_AKSSHARED_NONPROD_WESTUS_CLUSTER_01 }}
+      DASHBOARD_STORAGE_SAS_TOKEN_URL: ${{ secrets.DASHBOARD_STORAGE_SAS_TOKEN_URL }}

@@ -1,0 +1,31 @@
+name: Platform_Dashboard_Update_configmap_data_workflow_prod
+
+on:
+  workflow_dispatch:
+   inputs:
+      ConfigMap_name:
+        required: true
+        type: choice
+        options:
+          - announcement
+        default: announcement
+      stage:
+        type: boolean
+        description: 'deploy stage'
+        required: true
+        default: 'true'
+  # schedule:
+  #   - cron: '0 */4 * * *'
+
+jobs:
+  Update_configmap_data_workflow_stage:
+    # if: github.event.inputs.stage == 'true'
+    uses: albertsons/esgh-central-workflow-aks/.github/workflows/autoschedule_node_configmap-workflow.yml@v5
+    with:
+      ENV_Name: stage
+      ACTIONSFILE: "Actionsfile/stage"
+      ConfigMap_name: "announcements"
+      configmap_filename: "announcements.js"
+      # data_update_branch: ${{ github.ref_name}}
+    secrets:
+      KUBECONFIG: ${{ secrets.ESCO_AKSSHARED_NONPROD_WESTUS_CLUSTER_01 }}

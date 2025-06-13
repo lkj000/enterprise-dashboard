@@ -1,0 +1,15 @@
+name: nightly_veracode_scan
+
+on:
+  workflow_dispatch:
+
+jobs:
+  call-ci-workflow:
+    uses: albertsons/esgh-central-workflow-veracode/.github/workflows/nightly_veracode_tar.yml@v1
+    with:
+      VERACODE_APPNAME: "esgh-platform-dashboard"
+      NODE_VERSION: "18"
+    secrets:
+      VERACODEID: ${{ secrets.VERACODEID }}
+      VERACODEKEY: ${{ secrets.VERACODEKEY }}
+      PERSONAL_ACCESS_TOKEN:  ${{ secrets.PERSONAL_ACCESS_TOKEN }}
