@@ -1,0 +1,410 @@
+[
+  {
+    "date": "2024-01-22",
+    "automation_user_count": 8787,
+    "other_users_count": 41954,
+    "total_count": 50741
+  },
+  {
+    "date": "2024-01-29",
+    "automation_user_count": 9428,
+    "other_users_count": 51124,
+    "total_count": 60552
+  },
+  {
+    "date": "2024-02-05",
+    "automation_user_count": 9515,
+    "other_users_count": 52503,
+    "total_count": 62018
+  },
+  {
+    "date": "2024-02-12",
+    "automation_user_count": 9541,
+    "other_users_count": 54156,
+    "total_count": 63697
+  },
+  {
+    "date": "2024-02-19",
+    "automation_user_count": 10014,
+    "other_users_count": 57008,
+    "total_count": 67022
+  },
+  {
+    "date": "2024-02-26",
+    "automation_user_count": 10155,
+    "other_users_count": 57472,
+    "total_count": 67627
+  },
+  {
+    "date": "2024-03-04",
+    "automation_user_count": 10306,
+    "other_users_count": 56738,
+    "total_count": 67044
+  },
+  {
+    "date": "2024-03-11",
+    "automation_user_count": 10549,
+    "other_users_count": 56329,
+    "total_count": 66878
+  },
+  {
+    "date": "2024-03-18",
+    "automation_user_count": 10525,
+    "other_users_count": 55362,
+    "total_count": 65887
+  },
+  {
+    "date": "2024-03-25",
+    "automation_user_count": 10401,
+    "other_users_count": 54684,
+    "total_count": 65085
+  },
+  {
+    "date": "2024-04-01",
+    "automation_user_count": 10194,
+    "other_users_count": 54528,
+    "total_count": 64722
+  },
+  {
+    "date": "2024-04-08",
+    "automation_user_count": 9754,
+    "other_users_count": 54587,
+    "total_count": 64341
+  },
+  {
+    "date": "2024-04-15",
+    "automation_user_count": 9559,
+    "other_users_count": 55535,
+    "total_count": 65094
+  },
+  {
+    "date": "2024-04-22",
+    "automation_user_count": 9583,
+    "other_users_count": 56688,
+    "total_count": 66271
+  },
+  {
+    "date": "2024-04-29",
+    "automation_user_count": 9310,
+    "other_users_count": 57361,
+    "total_count": 66671
+  },
+  {
+    "date": "2024-05-06",
+    "automation_user_count": 9310,
+    "other_users_count": 57361,
+    "total_count": 66671
+  },
+  {
+    "date": "2024-06-10",
+    "automation_user_count": 8717,
+    "other_users_count": 59879,
+    "total_count": 68596
+  },
+  {
+    "date": "2024-06-17",
+    "automation_user_count": 8134,
+    "other_users_count": 62037,
+    "total_count": 70171
+  },
+  {
+    "date": "2024-06-24",
+    "automation_user_count": 7654,
+    "other_users_count": 60843,
+    "total_count": 68497
+  },
+  {
+    "date": "2024-07-01",
+    "automation_user_count": 7638,
+    "other_users_count": 57558,
+    "total_count": 65196
+  },
+  {
+    "date": "2024-07-08",
+    "automation_user_count": 7451,
+    "other_users_count": 56953,
+    "total_count": 64404
+  },
+  {
+    "date": "2024-07-15",
+    "automation_user_count": 7782,
+    "other_users_count": 60433,
+    "total_count": 68215
+  },
+  {
+    "date": "2024-07-22",
+    "automation_user_count": 8157,
+    "other_users_count": 58814,
+    "total_count": 66971
+  },
+  {
+    "date": "2024-07-29",
+    "automation_user_count": 8157,
+    "other_users_count": 58814,
+    "total_count": 66971
+  },
+  {
+    "date": "2024-08-05",
+    "automation_user_count": 7955,
+    "other_users_count": 62499,
+    "total_count": 70454
+  },
+  {
+    "date": "2024-08-12",
+    "automation_user_count": 8051,
+    "other_users_count": 59988,
+    "total_count": 68039
+  },
+  {
+    "date": "2024-08-19",
+    "automation_user_count": 8269,
+    "other_users_count": 59473,
+    "total_count": 67742
+  },
+  {
+    "date": "2024-08-26",
+    "automation_user_count": 8524,
+    "other_users_count": 59188,
+    "total_count": 67712
+  },
+  {
+    "date": "2024-09-02",
+    "automation_user_count": 8506,
+    "other_users_count": 57242,
+    "total_count": 65748
+  },
+  {
+    "date": "2024-09-09",
+    "automation_user_count": 8757,
+    "other_users_count": 56513,
+    "total_count": 65270
+  },
+  {
+    "date": "2024-09-16",
+    "automation_user_count": 8806,
+    "other_users_count": 57140,
+    "total_count": 65946
+  },
+  {
+    "date": "2024-09-23",
+    "automation_user_count": 8710,
+    "other_users_count": 57368,
+    "total_count": 66078
+  },
+  {
+    "date": "2024-09-30",
+    "automation_user_count": 8693,
+    "other_users_count": 58764,
+    "total_count": 67457
+  },
+  {
+    "date": "2024-10-07",
+    "automation_user_count": 8715,
+    "other_users_count": 58398,
+    "total_count": 67113
+  },
+  {
+    "date": "2024-10-14",
+    "automation_user_count": 8715,
+    "other_users_count": 58398,
+    "total_count": 67113
+  },
+  {
+    "date": "2024-10-21",
+    "automation_user_count": 8715,
+    "other_users_count": 58398,
+    "total_count": 67113
+  },
+  {
+    "date": "2024-10-28",
+    "automation_user_count": 8715,
+    "other_users_count": 58398,
+    "total_count": 67113
+  },
+  {
+    "date": "2024-11-04",
+    "automation_user_count": 8715,
+    "other_users_count": 58398,
+    "total_count": 67113
+  },
+  {
+    "date": "2024-11-11",
+    "automation_user_count": 242,
+    "other_users_count": 1126,
+    "total_count": 1368
+  },
+  {
+    "date": "2024-11-18",
+    "automation_user_count": 517,
+    "other_users_count": 2397,
+    "total_count": 2914
+  },
+  {
+    "date": "2024-11-25",
+    "automation_user_count": 9414,
+    "other_users_count": 45925,
+    "total_count": 55339
+  },
+  {
+    "date": "2024-12-02",
+    "automation_user_count": 9553,
+    "other_users_count": 45111,
+    "total_count": 54664
+  },
+  {
+    "date": "2024-12-09",
+    "automation_user_count": 9032,
+    "other_users_count": 43982,
+    "total_count": 53014
+  },
+  {
+    "date": "2024-12-16",
+    "automation_user_count": 8567,
+    "other_users_count": 42282,
+    "total_count": 50849
+  },
+  {
+    "date": "2024-12-23",
+    "automation_user_count": 8095,
+    "other_users_count": 41217,
+    "total_count": 49312
+  },
+  {
+    "date": "2024-12-30",
+    "automation_user_count": 7608,
+    "other_users_count": 36894,
+    "total_count": 44502
+  },
+  {
+    "date": "2025-01-06",
+    "automation_user_count": 7683,
+    "other_users_count": 38168,
+    "total_count": 45851
+  },
+  {
+    "date": "2025-01-13",
+    "automation_user_count": 7683,
+    "other_users_count": 38168,
+    "total_count": 45851
+  },
+  {
+    "date": "2025-01-20",
+    "automation_user_count": 7683,
+    "other_users_count": 38168,
+    "total_count": 45851
+  },
+  {
+    "date": "2025-01-27",
+    "automation_user_count": 7130,
+    "other_users_count": 53683,
+    "total_count": 60813
+  },
+  {
+    "date": "2025-02-03",
+    "automation_user_count": 7089,
+    "other_users_count": 53740,
+    "total_count": 60829
+  },
+  {
+    "date": "2025-02-10",
+    "automation_user_count": 7050,
+    "other_users_count": 52934,
+    "total_count": 59984
+  },
+  {
+    "date": "2025-02-17",
+    "automation_user_count": 9191,
+    "other_users_count": 79884,
+    "total_count": 89075
+  },
+  {
+    "date": "2025-02-24",
+    "automation_user_count": 9105,
+    "other_users_count": 79091,
+    "total_count": 88196
+  },
+  {
+    "date": "2025-03-03",
+    "automation_user_count": 9023,
+    "other_users_count": 77632,
+    "total_count": 86655
+  },
+  {
+    "date": "2025-03-10",
+    "automation_user_count": 9263,
+    "other_users_count": 78391,
+    "total_count": 87654
+  },
+  {
+    "date": "2025-03-17",
+    "automation_user_count": 9532,
+    "other_users_count": 78724,
+    "total_count": 88256
+  },
+  {
+    "date": "2025-03-24",
+    "automation_user_count": 9532,
+    "other_users_count": 78724,
+    "total_count": 88256
+  },
+  {
+    "date": "2025-03-31",
+    "automation_user_count": 9768,
+    "other_users_count": 73204,
+    "total_count": 82972
+  },
+  {
+    "date": "2025-04-07",
+    "automation_user_count": 9768,
+    "other_users_count": 73204,
+    "total_count": 82972
+  },
+  {
+    "date": "2025-04-14",
+    "automation_user_count": 9616,
+    "other_users_count": 73524,
+    "total_count": 83140
+  },
+  {
+    "date": "2025-04-21",
+    "automation_user_count": 9673,
+    "other_users_count": 74992,
+    "total_count": 84665
+  },
+  {
+    "date": "2025-04-28",
+    "automation_user_count": 9679,
+    "other_users_count": 75417,
+    "total_count": 85096
+  },
+  {
+    "date": "2025-05-05",
+    "automation_user_count": 9650,
+    "other_users_count": 76813,
+    "total_count": 86463
+  },
+  {
+    "date": "2025-05-12",
+    "automation_user_count": 9650,
+    "other_users_count": 76813,
+    "total_count": 86463
+  },
+  {
+    "date": "2025-05-19",
+    "automation_user_count": 9255,
+    "other_users_count": 78568,
+    "total_count": 87823
+  },
+  {
+    "date": "2025-05-26",
+    "automation_user_count": 8889,
+    "other_users_count": 81342,
+    "total_count": 90231
+  },
+  {
+    "date": "2025-06-02",
+    "automation_user_count": 8889,
+    "other_users_count": 81342,
+    "total_count": 90231
+  }
+]

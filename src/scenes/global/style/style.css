@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+.signature {
+  font-family: 'Pacifico', cursive;
+}
+
+.cloud-border {
+  border: 2px solid #ccc;
+  border-radius: 50px;
+  padding: 0px;
+  cursor: pointer;
+  box-shadow: 0 0 5px rgba(88, 71, 71, 0.1);
+}
+
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.typing-text {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+
+  animation: typing 4s steps(40, end), blink-caret 0.75s step-end ;
+}
+
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: transparent;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.typing-line {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+
+  width: 0;
+  animation: typing 2s steps(40, end) forwards;
+}
+
+#line1 {
+  animation-delay: 1s;
+}
+
+#line2 {
+  animation-delay: 3s;
+}
+
+#line3 {
+  animation-delay: 5s;
+}
+
+#line4 {
+  animation-delay: 7s;
+}
+
+#line5 {
+  animation-delay: 9s;
+}
+
+#line6 {
+  animation-delay: 11s;
+}
+
+#line7 {
+  animation-delay: 13s;
+}
+
+#line8 {
+  animation-delay: 15s;
+}
+#line9 {
+  animation-delay: 16s;
+}

@@ -1,0 +1,327 @@
+{
+  "title": "Application Services Platform",
+  "subTitle": "Intake Request Form",
+  "notes": [
+    {
+      "type": "alert",
+      "severity": "warning",
+      "content": [
+        "<b>App Services Integration SLA :</b><br/>",
+        "Requests are addressed based on priority and age in backlog",
+        "<ul><li>Priority is determined by App Services Integration Product Team</li><li>Non-urgent work will be addressed in a \"first come, first serve\" practice</li></ul>"
+      ]
+    },
+    {
+      "type": "alert",
+      "severity": "warning",
+      "content": [
+        "<b>IMPORTANT NOTE :</b><br/>",
+        "For apps that needs to be exposed externally, our team requires PISO details (including name of Architect and Approved Diagram for external clients), name of project manager, and Infosec sign-off.<br/><br/>",
+        "If there is no PISO Approval, then we will need to have the Approved RITs for Risk Assessment and Policy Exception approved by Infosec and Policy Mgmt.<br/><br/>",
+        "Here’s the confluence page for PISO.<br/><br/>",
+        "<a href=\"https://confluence.safeway.com/pages/viewpage.action?spaceKey=ISR&title=Portfolio+Information+Security+Office\" target=\"_blank\" rel=\"noreferrer\">https://confluence.safeway.com/pages/viewpage.action?spaceKey=ISR&title=Portfolio+Information+Security+Office</a><br/>"
+      ]
+    }
+  ],
+  "data": [
+    {
+      "tabTitle": "Customer Request",
+      "tabContent": [
+        {
+          "tabTitle": "Snow Requests",
+          "formData": [
+            {
+              "element": [
+                {
+                  "type": "content",
+                  "content": [
+                    "<h2>When to submit ServiceNow Request ?</h2>",
+                    "<div style=\"marginLeft: 40px\">If the ask/requirement is due to an Incident, Problem Management Related, or related to any of forms below, please <a href=\"https://safeway.service-now.com/esc\" target=\"_blank\" rel=\"noreferrer\">SUBMIT ServiceNow</a>.</div><br/>",
+                    "<h2>ServiceNow Forms</h2>",
+                    "<h3 style=\"marginLeft: 40px\">Create PAAS - Azure App Gateway</h3>",
+                    "<ul style=\"marginLeft: 40px\"><li>Azure App gateway provisioning</li><li>Azure Application Gateway is a web traffic load balancer that enables you to manage traffic to your web applications. Application Gateway can make routing decisions based on additional attributes of an HTTP request.</li><li>This is in-take request form which creates the Azure application gateway automatically.</li></ul>",
+                    "<ul style=\"marginLeft: 40px\"><li>Azure Application Programming Interface management (APIM) provisioning</li><li>Azure Application Programming Interface management provisioning. This is for managing and routing the api calls to the back end rest services.</li></ul>"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tabTitle": "General JIRA Requests",
+          "formData": [
+            {
+              "button": [
+                {
+                  "buttonTitle": "JIRA REQUEST: General Investigation",
+                  "jiraTicketSummary": "APIM - New API:",
+                  "jiraTicketDescription": "POC: (insert full name and email)\nArchitecture Diagram with architect and Info-Sec approval\n\nList of Service Names:\nList of Environments (Choose from the list): Dev, QA, Acceptance, Perf, Stage, Prod\nConsumers of API: (Internal/External)\n\nProduct Name:\nProduct Policies:\nPolicies per Service:\n\nCookie Processing Logic\nCan the Cookie logic be the same for all services? (Y/N)\nCookie to be deleted after cookie processing logic: (Y/N)\nCookie Overload/Size:\n\nCORS/IPWhiteList/Safeway for all services and all environments:\nNeed for subscription key or IP whitelist:\nClient Certs to be added in API policy:\nBaseURLs for all services and all environments:\nabs/devpub/<product_NAME>/<service_name>service\n\nEndpoints for all services and all environments:\nApplication GitHub Repo:\n3 LDAP IDs (Architect and 2 Leads) for access to generate key:\nSwagger complying to Open API specification 2.0 and above Swagger API JSON file ( https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md ) to be validated via https://editor.swagger.io/",
+                  "jiraLinkIssue": "APIM-5314",
+                  "jiraLinkIssueType": "Child"
+                }
+              ],
+              "element": [
+                {
+                  "type": "alert",
+                  "severity": "info",
+                  "content": [
+                    "<b>WHEN TO SUBMIT A JIRA STORY  :</b><br/>",
+                    "Any requests that are not submitted through Service Now. <i>If you don't have Jira or Confluence access, please submit a <a href=\"https://safeway.service-now.com/esc\" target=\"_blank\" rel=\"noreferrer\">JIRA Confluence Access Request</a></i>."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tabTitle": "AppGW: Certificate Renewals",
+          "formData": [
+            {
+              "button": [
+                {
+                  "buttonTitle": "JIRA REQUEST: SSL Certificate Renewal",
+                  "jiraTicketSummary": "Cert Renewal:",
+                  "jiraTicketDescription": "Application Code/Name:\nCommon Name:\nApplication Gateway Name:\nEnvironment:\nKey Vault:\nCurrent Certificate name and expiration date:\nCertificate endpoint [client certificate OR authentication certificate]:\nNew Certificate name and location:\n\nRenewal RITM:\nScheduled Update of AppGW:\nCTASK:",
+                  "jiraLinkIssue": "APIM-5315",
+                  "jiraLinkIssueType": "Child"
+                }
+              ],
+              "element": [
+                {
+                  "type": "content",
+                  "content": [
+                    "<h2>Process:</h2>",
+                    "<p>As a best practice, please request to renew the certificate 30 days in advance of its expiration to make sure the process is completed on time without the P2 incident.</p>",
+                    "<ol><li>Dev team (requester) to create JIRA (based on the Blueprint) story in TM26751 Samurai and to reach out to Cloud.Platform.Service.Enablement for acknowledgment and to determine the priority of it.</li><li>Based on the inputs in JIRA story, the App Services Integration Team will review the JIRA story to identify the priority of the configuration needed and collaborate with requester for any additional questions or inquiries.</li><li>requester to send the new certificate via secure email to the App.Services.Platform OR to be saved in Venafi tool.</li><li>Requester to create a change request via SNOW and fill up the info needed, also to create a task for App.Services.Platform to do the configuration needed.</li><li>App.Services.Platform to fill out the information needed from the configuration side of it in Tasks.</li><li>App.Services.Platform, to notify the requester about the time of change, so requester can test pre and post the change.</li><li>App.Services.Platform to do the change needed and have requester to test for validations.</li></ol>"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tabTitle": "APIM: Onboard New API Submission",
+          "formData": [
+            {
+              "button": [
+                {
+                  "buttonTitle": "JIRA REQUEST: APIM - ONBOARD NEW API",
+                  "jiraTicketSummary": "APIM Ad-Hoc Request:",
+                  "jiraTicketDescription": "As a: (state your role) \nI need: (State the action, functionality, help desired) \nSo that: (State the desired outcome/benefit from the above request) \n",
+                  "jiraLinkIssue": "APIM-5316",
+                  "jiraLinkIssueType": "Child"
+                }
+              ],
+              "element": [
+                {
+                  "type": "content",
+                  "content": [
+                    "<h2>Process:</h2>",
+                    "<p>Pre-Deployment Tasks</p>",
+                    "<ol><li>App team to create Jira for cloud platform service enablement team in APIM Jira dashboard.</li><li>Connect with app team for blueprinting session to understand the application and share the APIM - blueprinting document.</li><li>The APIM-blueprinting document must be created by the app team as a child page in confluence.</li><li>The App team must share the swagger in Json format via email or attach it to Jira.</li><li>The Swagger must comply to Open API specification 2.0 and Swagger API must be validated.</li><li>cloud platform service enablement team should be given access to application GitHub repo.</li></ol>",
+                    "<p><a href=\"https://confluence.safeway.com/display/AGIPS/New+APIM+API+Onboarding\" target=\"_blank\" rel=\"noreferrer\">APIM Blueprint document</a></p>",
+                    "<ul style=\"display: table\"><li style=\"display: table-row\">Swagger validator <span style=\"display: table-cell; padding-right: 1rem; padding-left: 2rem;\">:</span><a href=\"https://editor.swagger.io/\" target=\"_blank\" rel=\"noreferrer\">https://editor.swagger.io/</a></li><li style=\"display:table-row\">OpenAPI Specification <span style=\"display:table-cell; padding-right: 1rem; padding-left: 2rem;\">:</span><a href=\"https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md\" target=\"_blank\" rel=\"noreferrer\">https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md</a></li></ul>"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tabTitle": "APIM & AppGW: Customize API Configuration",
+          "formData": [
+            {
+              "button": [
+                {
+                  "buttonTitle": "JIRA REQUEST: APIM - Customize API Configuration",
+                  "jiraTicketSummary": "APIM - Customize API Config:",
+                  "jiraTicketDescription": "API name:\nAPIM Instance name:\nEnvironment:\nConfiguration that needs to be changed:\nConfiguration Value (Before):\nConfiguration Value (After):\nPurpose of the change:",
+                  "jiraLinkIssue": "APIM-5317",
+                  "jiraLinkIssueType": "Child"
+                },
+                {
+                  "buttonTitle": "JIRA REQUEST: AppGW - Customize API Configuration",
+                  "jiraTicketSummary": "AppGW - Customize API Config:",
+                  "jiraTicketDescription": "API name:\nApplication Gateway name:\nEnvironment:\nConfiguration that needs to be changed:\nConfiguration Value (Before):\nConfiguration Value (After):\nPurpose of the change:",
+                  "jiraLinkIssue": "APIM-5317",
+                  "jiraLinkIssueType": "Child"
+                }
+              ],
+              "element": [
+                {
+                  "type": "content",
+                  "content": [
+                    "<h2>Process:</h2>",
+                    "<ul><li>Dev team (requester) to create JIRA (based on the Blueprint) story in TM26062 Samurai (Use above button) and to reach out to App.Services.Platform for acknowledgment and to determine the priority of it.</li><li>Based on the inputs in JIRA story, App.Services.Platform will review the JIRA story to identify the priority of the configuration needed, and collaborate with requester for any additional questions or inquiries.</li><li>App.Services.Platform to create CHG request and fill out the information needed from the configuration side of it.</li><li>App.Services.Platform, to notify the requester about the time of change, so requester can test pre and post the change.</li><li>App.Services.Platform to do the change needed and have requester to test for validations</li></ul>"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tabTitle": "AppGW: New API Pool & AppGW",
+          "formData": [
+            {
+              "button": [
+                {
+                  "buttonTitle": "JIRA REQUEST: AppGW - NEW API POOL & AppGW",
+                  "jiraTicketSummary": "App Pool & AppGW:",
+                  "jiraTicketDescription": "ATTENTION: If you are fine with default settings, it is not necessary to answer all items, except when it says -required-\n\nBACKEND POOLS\nSSL Cert: - Required\n\nLISTENERS\nFrontend IP: Public\nHostname: dns name to service\nAdditional Settings: Basic or Multisite\nError Page URL: Y/N\nSSL Cert: Required\n\nHTTP SETTINGS\nBackend Protocol: http or https\nBackend Port: Depends on app\nHostname Override: Y/N\nSSL Cert: Required\n\nBACKEND TARGETS:\nBackend target: Required\nhttps settings: Required\nPath Base Rules: Required",
+                  "jiraLinkIssue": "APIM-5318",
+                  "jiraLinkIssueType": "Child"
+                }
+              ],
+              "element": [
+                {
+                  "type": "content",
+                  "content": [
+                    "<b>Please provide the below along with the blueprint items mentioned in above:</b>",
+                    "<ul><li>Approved Architecture Diagram:</li><li>Application name:</li><li>List of environments (in increasing order of hierarchy): Dev, QA, Acceptance, Perf, Stage, Prod</li><li>Who is the client?</li><li>Where is the client located (external, backstage, retail)?</li><li>Where is the client request going to (apim, vm, aks, etc)?</li><li>Fully qualified domain name?</li></ul>",
+                    "<br/>",
+                    "<h2>Process:</h2>",
+                    "<ol><li>Dev team (requester) to create JIRA (based on the Blueprint) story in TM26062 Samurai (Use above button) and to reach out to App.Services.Platform for acknowledgment and to determine the priority of it.</li><li>Based on the inputs in JIRA story, App.Services.Platform will review the JIRA story to identify the priority of the configuration needed, and collaborate with requester for any additional questions or inquiries.</li><li>App.Services.Platform to create CHG request and fill out the information needed from the configuration side of it.</li><li>App.Services.Platform, to notify the requester about the time of change, so requester can test pre and post the change.</li><li>App.Services.Platform to do the change needed and have requester to test for validations</li></ol>"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tabTitle": "Application DR Request",
+          "formData": [
+            {
+              "button": [
+                {
+                  "buttonTitle": "JIRA REQUEST: DR SUPPORT",
+                  "jiraTicketSummary": "DR Support for Application Portfolio Teams",
+                  "jiraTicketDescription": "App Code:\nDR category 0/1/2/3 :\nIs the application DR certified in STV1 ?\nAPI Name:\nAPI Backend URL:\n\nDR method active-active active-passive:\nEnvironment:\nClient Facing External/Internal:\nApplication Host name:\n\nApp Gateway Name:\n\nIs the application configured using SHG Yes/No:\nExpected timeline:\nOwner/SME:\nDR Architecture diagram:\n",
+                  "jiraLinkIssue": "APIM-4936",
+                  "jiraLinkIssueType": "Child"
+                }
+              ],
+              "element": [
+                {
+                  "type": "content",
+                  "content": [
+                    "<h2>Process:</h2>",
+                    "<ul><li>Dev team (requester) to create JIRA (based on the details provided) story in TM26062 Samurai (Use above button) and to reach out to App.Services.Platform for acknowledgment and to determine the priority of it.</li><li>Based on the inputs in JIRA story, App.Services.Platform will review the JIRA story to identify the priority of the configuration needed, and collaborate with requester for any additional questions or inquiries.</li><li>App.Services.Platform to create CHG request and fill out the information needed from the configuration side of APIM and AppGW.</li><li>The requester needs to have an approved changed request with CTASK assigned to our team for application team to conduct the DR test.</li></ul>",
+                    "<i><b>Note</b> - All DR Production requests must be approved by Amir Mustafa.</i>"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tabTitle": "Migrate & consolidate AppGW to V2 SKU with Cost Savings",
+          "formData": [
+            {
+              "button": [
+                {
+                  "buttonTitle": "JIRA REQUEST: MIGRATE & CONSOLIDATE AppGW-V2",
+                  "jiraTicketSummary": "Migrate & consolidate AppGW to V2 SKU",
+                  "jiraTicketDescription": "Application Code/Name:\nDNS or Common Name:\nApplication Gateway V1 Name:\nEnvironment:\nKeyVault used:\nCurrent Certificate name and expiration date:\n",
+                  "jiraLinkIssue": "APIM-5240",
+                  "jiraLinkIssueType": "Child"
+                }
+              ],
+              "element": [
+                {
+                  "type": "content",
+                  "content": [
+                    "<h2>Process:</h2>",
+                    "<ol><li>Submit a Support Request:</li><p style=\"marginLeft: 10px; marginTop: 0px; marginBottom: 5px;\">Initiate the process by submitting a GW v2 Repointing Support Request.</p><li>Engineer Assignment and Information Update:</li><p style=\"marginLeft: 10px; marginTop: 0px; marginBottom: 5px;\">Our assigned engineer will update the story with the assigned Application Gateway (AppGW) IP address and request any additional information needed from the customer.</p><li>Configuration Finalization:</li><p style=\"marginLeft: 10px; marginTop: 0px; marginBottom: 5px;\">The assigned engineer will complete any remaining configurations required for your application on the AppGW V2.</p><li>SSL Certificate Renewal:</li><p style=\"marginLeft: 10px; marginTop: 0px; marginBottom: 5px;\">Customers are responsible for renewing their SSL certificates in the Key Vault if necessary. You are welcome to use the Application Gateway Key Vault (already configured with the AppGW). If you prefer to use your own application Key Vault, specific steps must be followed by our team to complete the necessary integration.</p><li>DNS Change Coordination:</li><p style=\"marginLeft: 10px; marginTop: 0px; marginBottom: 5px;\">In collaboration with our team, if a DNS change is necessary, the customer will initiate the RITM and ensure it complies with information security requirements to avoid exposing our Application Gateways to the public.</p><li>Testing and Validation:</li><p style=\"marginLeft: 10px; marginTop: 0px; marginBottom: 5px;\">Customers are responsible for testing and validating their respective migrated applications in the newly migrated V2 environment with the collaboration of our team.</p></ol>"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tabTitle": "API Gateway Hub Portal",
+          "formData": [
+            {
+              "button": [
+                {
+                  "buttonTitle": "JIRA REQUEST: API GATEWAY HUB PORTAL",
+                  "jiraTicketSummary": "API Gateway Hub Portal",
+                  "jiraTicketDescription": "Access to the Azure API Gateway Hub Portal is granted according to Azure AD groups and the products each group manages. To obtain access, the following process is followed:\n\nAccess Request Procedure\nManager's Responsibility: Submit a JIRA request containing the necessary details for Azure AD group access.\nRequired Information:\nApplication stack name:\nManager Name:\nEnvironment:\nAD Group name:\nPortfolio name:\nProduct name(s) owned by the AD Group:\nBusiness justification:\n",
+                  "jiraLinkIssue": "APIM-5248",
+                  "jiraLinkIssueType": "Child"
+                }
+              ],
+              "element": [
+                {
+                  "type": "content",
+                  "content": [
+                    "<h2>Process:</h2>",
+                    "<ul><li>Product names can be provided in an Excel sheet file and attached to the JIRA request.</li><li>In the future, If the application team onboards new APIs, and these APIs are added to products that your AD group already has access to, no action is required from your end. You will automatically have access to these APIs. However, if the new APIs are onboarded to a new product, you will need to submit a Jira request to gain access to the newly created product.</li></ul>"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tabTitle": "Product Team",
+      "tabContent": [
+        {
+          "button": [
+            {
+              "buttonTitle": "Enable Autoscaling for AppGW V2",
+              "jiraTicketSummary": "Enable Autoscaling for AppGW V2",
+              "jiraTicketDescription": "",
+              "jiraLinkIssue": "APIM-5242",
+              "jiraLinkIssueType": "Child"
+            },
+            {
+              "buttonTitle": "Set Up Self-hosted gateway Monitoring via Grafana",
+              "jiraTicketSummary": "Set Up Self-hosted gateway Monitoring via Grafana",
+              "jiraTicketDescription": "",
+              "jiraLinkIssue": "APIM-5243",
+              "jiraLinkIssueType": "Child"
+            },
+            {
+              "buttonTitle": "External STV2 to the Enterprise STV2.",
+              "jiraTicketSummary": "Consolidate and migrate External STV2 to the Enterprise STV2.",
+              "jiraTicketDescription": "",
+              "jiraLinkIssue": "APIM-5245",
+              "jiraLinkIssueType": "Child"
+            },
+            {
+              "buttonTitle": "Implement Intelligent API Compliance Solution",
+              "jiraTicketSummary": "Implement Intelligent API Compliance Solution",
+              "jiraTicketDescription": "",
+              "jiraLinkIssue": "APIM-5246",
+              "jiraLinkIssueType": "Child"
+            },
+            {
+              "buttonTitle": "Implement Disaster Recovery for APIM stv2",
+              "jiraTicketSummary": "Implement Disaster Recovery for APIM stv2",
+              "jiraTicketDescription": "",
+              "jiraLinkIssue": "APIM-5247",
+              "jiraLinkIssueType": "Child"
+            },
+            {
+              "buttonTitle": "Enable Multi-Data Center Support for APIM",
+              "jiraTicketSummary": "Enable Multi-Data Center Support for APIM",
+              "jiraTicketDescription": "",
+              "jiraLinkIssue": "APIM-5249",
+              "jiraLinkIssueType": "Child"
+            },
+            {
+              "buttonTitle": "Enable Advanced Policies in APIM stv2",
+              "jiraTicketSummary": "Enable Advanced Policies in APIM stv2",
+              "jiraTicketDescription": "",
+              "jiraLinkIssue": "APIM-5250",
+              "jiraLinkIssueType": "Child"
+            }
+          ]
+        }
+      ] 
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "totalStoryPoints": 256484.0,
+  "userCount": 3812,
+  "totalJiraCount": 161985,
+  "totalStoryPointsClosed": 194222.6,
+  "total_stories": 76650,
+  "total_stories_points": 162406.9,
+  "total_closed_story": 57436,
+  "total_closed_story_points": 122988.8,
+  "totalLeadDays": "4460376d 13h",
+  "totalStoryLeadDays": "1902266d 1h",
+  "averageLeadDays": "36d 6h",
+  "averageStoryLeadDays": "33d 2h",
+  "totalCycleTime": "1829981d 20h",
+  "totalStoryCycleTime": "787573d 23h",
+  "averageCycleTime": "18d 9h",
+  "averageStoryCycleTime": "15d 3h",
+  "totalClosedStories": 122994,
+  "average_issues_done_per_user": "32.26",
+  "average_issues_per_user": "42.49",
+  "average_stories_done_per_user": "15.07",
+  "average_stories_per_user": "20.11",
+  "average_story_points_closed_per_user": "32.26",
+  "average_story_points_closed_per_user_issues": "50.95",
+  "average_story_points_per_user": "42.6",
+  "average_story_points_per_user_issues": "67.28",
+  "daily_data": [
+    {
+      "date": "2025-06-08",
+      "issues_closed": 25,
+      "issue_points_closed": 37.0,
+      "stories_closed": 15,
+      "story_points_closed": 27.0
+    },
+    {
+      "date": "2025-06-09",
+      "issues_closed": 1489,
+      "issue_points_closed": 2237.2,
+      "stories_closed": 642,
+      "story_points_closed": 1314.2
+    },
+    {
+      "date": "2025-06-10",
+      "issues_closed": 582,
+      "issue_points_closed": 840.5,
+      "stories_closed": 267,
+      "story_points_closed": 511.5
+    }
+  ],
+  "current_week_sum_data": {
+    "issues_closed": 2096,
+    "issue_points_closed": 3114.7,
+    "stories_closed": 924,
+    "story_points_closed": 1852.7
+  }
+}

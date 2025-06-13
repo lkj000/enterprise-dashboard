@@ -1,0 +1,284 @@
+{
+    "DevOps": [
+        {
+            "title": "Secrets",
+            "content": {
+                "GitHub": [
+                    {
+                        "text": "Add or Update Secret in Repository",
+                        "url": "https://github.albertsons.com/albertsons/esgh-self-service/actions/workflows/add-secret-to-repo.yml",
+                        "wiki": "https://github.albertsons.com/albertsons/esgh-self-service/wiki/Add-secret-to-repo"
+                    },
+                    {
+                        "text": "Assign Repo to GKE Cluster Org Secret",
+                        "url": "https://github.albertsons.com/albertsons/esgh-self-service/actions/workflows/adding-repos-gke-org-secrets.yml",
+                        "wiki": "https://github.albertsons.com/albertsons/esgh-self-service/wiki/Adding-repos-gke-org-secrets"
+                    },
+                    {
+                        "text": "List Repository Secrets",
+                        "url": "https://github.albertsons.com/albertsons/esgh-self-service/actions/workflows/list-repo-secrets.yml",
+                        "wiki": "https://github.albertsons.com/albertsons/esgh-self-service/wiki/List-repo-secrets"
+                    },
+                    {
+                        "text": "Delete Environment Secret in Repository",
+                        "url": "https://github.albertsons.com/albertsons/esgh-self-service/actions/workflows/delete-repo-env-secret.yml",
+                        "wiki": "https://github.albertsons.com/albertsons/esgh-self-service/wiki/Delete-repo-env-secret"
+                    },
+                    {
+                        "text": "Add or Update Environment Secret to Repository",
+                        "url": "https://github.albertsons.com/albertsons/esgh-self-service/actions/workflows/add-env-secret-to-repo.yml",
+                        "wiki": "https://github.albertsons.com/albertsons/esgh-self-service/wiki/Add-env-secret-to-repo"
+                    },
+                    {
+                        "text": "Assign Org Secret to Repository",
+                        "url": "https://github.albertsons.com/albertsons/esgh-self-service/actions/workflows/assign-org-secret-repo.yml",
+                        "wiki": "https://github.albertsons.com/albertsons/esgh-self-service/wiki/Assign-org-secret-repo"
+                    },
+                    {
+                        "text": "Delete Repository Secret",
+                        "url": "https://github.albertsons.com/albertsons/esgh-self-service/actions/workflows/delete-repo-secret.yml",
+                        "wiki": "https://github.albertsons.com/albertsons/esgh-self-service/wiki/Delete-repo-secret"
+                    },
+                    {
+                        "text": "GCP Assign Repo",
+                        "url": "https://github.albertsons.com/albertsons/esgh-self-service/actions/workflows/add-repo-to-org-secret.yml",
+                        "wiki": "https://github.albertsons.com/albertsons/esgh-self-service/wiki/Add-repo-to-org-secret"
+                    },
+                    {
+                        "text": "Assign Repo to AKS Cluster Org Secret",
+                        "url": "https://github.albertsons.com/albertsons/esgh-self-service/actions/workflows/adding-repos-aks-org-secrets.yml",
+                        "wiki": "https://github.albertsons.com/albertsons/esgh-self-service/wiki/Adding-repos-aks-org-secrets"
+                    }
+                ],
+                "GCP": [
+                    {
+                        "text": "GCP SA Key Expiry Report",
+                        "url": "https://github.albertsons.com/albertsons/esgh-self-service/actions/workflows/gcp-sa-keys-report.yml",
+                        "wiki": "https://github.albertsons.com/albertsons/esgh-self-service/wiki/Gcp-sa-keys-report"
+                    },
+                    {
+                        "text": "GCP VPC SC Violation Summary Report",
+                        "url": "https://github.albertsons.com/albertsons/esgh-self-service/actions/workflows/gcp-vpcsc-violation-summary-report.yml",
+                        "wiki": "https://github.albertsons.com/albertsons/esgh-self-service/wiki/Gcp-vpcsc-violation-summary-report"
+                    },
+                    {
+                        "text": "GCP SA Key Secure Share",
+                        "url": "https://github.albertsons.com/albertsons/esgh-self-service/actions/workflows/gcp-sa-key-secure-share.yml",
+                        "wiki": "https://github.albertsons.com/albertsons/esgh-self-service/wiki/Gcp-sa-key-secure-share"
+                    },
+                    {
+                        "text": "GCP VPC SC Violation SQL Report",
+                        "url": "https://github.albertsons.com/albertsons/esgh-self-service/actions/workflows/gcp-vpcsc-violation-sql-report.yml",
+                        "wiki": "https://github.albertsons.com/albertsons/esgh-self-service/wiki/Gcp-vpcsc-violation-sql-report"
+                    },
+                    {
+                        "text": "GCP Secret Write Workflow",
+                        "url": "https://github.albertsons.com/albertsons/esgh-self-service/actions/workflows/gcp-secret-manager-write.yml",
+                        "wiki": "https://github.albertsons.com/albertsons/esgh-self-service/wiki/Gcp-secret-manager-write"
+                    },
+                    {
+                        "text": "GCP VPC SC Violation Report",
+                        "url": "https://github.albertsons.com/albertsons/esgh-self-service/actions/workflows/gcp-vpcsc-violation-report.yml",
+                        "wiki": "https://github.albertsons.com/albertsons/esgh-self-service/wiki/Gcp-vpcsc-violation-report"
+                    }
+                ]
+            }
+        },
+        {
+            "title": "Variables",
+            "content": {
+                "GitHub": [
+                    {
+                        "text": "List Repository Variables",
+                        "url": "https://github.albertsons.com/albertsons/esgh-self-service/actions/workflows/list-repo-variables.yml",
+                        "wiki": "https://github.albertsons.com/albertsons/esgh-self-service/wiki/List-repo-variables"
+                    },
+                    {
+                        "text": "Update Variable in Repository",
+                        "url": "https://github.albertsons.com/albertsons/esgh-self-service/actions/workflows/update-variable-in-repository.yml",
+                        "wiki": "https://github.albertsons.com/albertsons/esgh-self-service/wiki/Update-variable-in-repository"
+                    },
+                    {
+                        "text": "Add Repository Variable",
+                        "url": "https://github.albertsons.com/albertsons/esgh-self-service/actions/workflows/add-variable-to-repo.yml",
+                        "wiki": "https://github.albertsons.com/albertsons/esgh-self-service/wiki/Add-variable-to-repo"
+                    },
+                    {
+                        "text": "Update Environment Variable in Repository",
+                        "url": "https://github.albertsons.com/albertsons/esgh-self-service/actions/workflows/update-env-variable-in-repo.yml",
+                        "wiki": "https://github.albertsons.com/albertsons/esgh-self-service/wiki/Update-env-variable-in-repo"
+                    },
+                    {
+                        "text": "Delete Repository Variable",
+                        "url": "https://github.albertsons.com/albertsons/esgh-self-service/actions/workflows/delete-repo-variable.yml",
+                        "wiki": "https://github.albertsons.com/albertsons/esgh-self-service/wiki/Delete-repo-variable"
+                    },
+                    {
+                        "text": "Add Environment Variable",
+                        "url": "https://github.albertsons.com/albertsons/esgh-self-service/actions/workflows/add-env-variable-to-repo.yml",
+                        "wiki": "https://github.albertsons.com/albertsons/esgh-self-service/wiki/Add-env-variable-to-repo"
+                    },
+                    {
+                        "text": "Delete Environment Variable in Repository",
+                        "url": "https://github.albertsons.com/albertsons/esgh-self-service/actions/workflows/delete-repo-env-variable.yml",
+                        "wiki": "https://github.albertsons.com/albertsons/esgh-self-service/wiki/Delete-repo-env-variable"
+                    }
+                ]
+            }
+        },
+        {
+            "title": "Repository",
+            "content": {
+                "GitHub": [
+                    {
+                        "text": "Repo Search",
+                        "url": "https://github.albertsons.com/albertsons/esgh-self-service/actions/workflows/search_string_in_repo.yml",
+                        "wiki": "https://github.albertsons.com/albertsons/esgh-self-service/wiki/Search-String-In-Repo"
+                    },
+                    {
+                        "text": "Global Search",
+                        "url": "https://github.albertsons.com/albertsons/esgh-self-service/actions/workflows/search_string_repo_global.yml",
+                        "wiki": "https://github.albertsons.com/albertsons/esgh-self-service/wiki/Search-String-Repo-Global"
+                    },
+                    {
+                        "text": "Add Associate User to Repository",
+                        "url": "https://github.albertsons.com/albertsons/esgh-self-service/actions/workflows/add-associate-user-to-repo.yml",
+                        "wiki": "https://github.albertsons.com/albertsons/esgh-self-service/wiki/Add-associate-user-to-repo"
+                    },
+                    {
+                        "text": "Rename Branch",
+                        "url": "https://github.albertsons.com/albertsons/esgh-self-service/actions/workflows/rename_branch.yml",
+                        "wiki": "https://github.albertsons.com/albertsons/esgh-self-service/wiki/Rename-Branch"
+                    },
+                    {
+                        "text": "Archive Repository",
+                        "url": "https://github.albertsons.com/albertsons/esgh-self-service/actions/workflows/Archive_Repo.yml",
+                        "wiki": "https://github.albertsons.com/albertsons/esgh-self-service/wiki/Archive-Repo"
+                    },
+                    {
+                        "text": "Lock Branch in Repository",
+                        "url": "https://github.albertsons.com/albertsons/esgh-self-service/actions/workflows/Add_BranchProtectionRules_lockbranch.yml",
+                        "wiki": "https://github.albertsons.com/albertsons/esgh-self-service/wiki/Add-Branchprotectionrules-Lockbranch"
+                    },
+                    {
+                        "text": "Add Branch Protection Rule to Repository",
+                        "url": "https://github.albertsons.com/albertsons/esgh-self-service/actions/workflows/add_branch_protection_rules.yml",
+                        "wiki": "https://github.albertsons.com/albertsons/esgh-self-service/wiki/Add-Branch-Protection-Rules"
+                    },
+                    {
+                        "text": "Remove Branch Protection Rule to a Repository",
+                        "url": "https://github.albertsons.com/albertsons/esgh-self-service/actions/workflows/unprotected_branch.yml",
+                        "wiki": "https://github.albertsons.com/albertsons/esgh-self-service/wiki/Unprotected-Branch"
+                    },
+                    {
+                        "text": "Rename Repository",
+                        "url": "https://github.albertsons.com/albertsons/esgh-self-service/actions/workflows/rename-repo-name.yml",
+                        "wiki": "https://github.albertsons.com/albertsons/esgh-self-service/wiki/Rename-repo-name"
+                    }
+                ]
+            }
+        },
+        {
+            "title": "Teams",
+            "content": {
+                "GitHub": [
+                    {
+                        "text": "Add Teams to Repository",
+                        "url": "https://github.albertsons.com/albertsons/esgh-self-service/actions/workflows/add-team-to-repo.yml",
+                        "wiki": "https://github.albertsons.com/albertsons/esgh-self-service/wiki/Add-team-to-repo"
+                    },
+                    {
+                        "text": "List Teams in Repository",
+                        "url": "https://github.albertsons.com/albertsons/esgh-self-service/actions/workflows/get-repo-teams.yml",
+                        "wiki": "https://github.albertsons.com/albertsons/esgh-self-service/wiki/Get-repo-teams"
+                    },
+                    {
+                        "text": "Create GitHub Teams",
+                        "url": "https://github.albertsons.com/albertsons/esgh-self-service/actions/workflows/create-github-teams.yml",
+                        "wiki": "https://github.albertsons.com/albertsons/esgh-self-service/wiki/Create-github-teams"
+                    },
+                    {
+                        "text": "Add Maintainer",
+                        "url": "https://github.albertsons.com/albertsons/esgh-self-service/actions/workflows/add-team-maintainer.yml",
+                        "wiki": "https://github.albertsons.com/albertsons/esgh-self-service/wiki/Add-team-maintainer"
+                    }
+                ]
+            }
+        },
+        {
+            "title": "Artifactory",
+            "content": {
+                "Artifactory": [
+                    {
+                        "text": "Push Third Party Artifacts",
+                        "url": "https://github.albertsons.com/albertsons/esgh-self-service/actions/workflows/push_third_party_artifact_to_artifactory.yml",
+                        "wiki": "https://github.albertsons.com/albertsons/esgh-self-service/wiki/Push-Third-Party-Artifact-To-Artifactory"
+                    }
+                ]
+            }
+        }
+    ],
+    "Developer": [
+        {
+            "title": "PPM Tools",
+            "content": {
+                "GitHub": [
+                    {
+                        "text": "Archive Project In Jira Prod",
+                        "url": "https://github.albertsons.com/albertsons/esgh-self-service/actions/workflows/archive-jira-project.yml",
+                        "wiki": "https://github.albertsons.com/albertsons/esgh-self-service/wiki/Archive-jira-project"
+                    },
+                    {
+                        "text": "Create New Jira Project",
+                        "url": "https://github.albertsons.com/albertsons/esgh-self-service/actions/workflows/create-project-jira-prod.yml",
+                        "wiki": "https://github.albertsons.com/albertsons/esgh-self-service/wiki/Create-project-jira-prod"
+                    },
+                    {
+                        "text": "Create Space In Prod Confluence",
+                        "url": "https://github.albertsons.com/albertsons/esgh-self-service/actions/workflows/confluence_space_create.yml",
+                        "wiki": "https://github.albertsons.com/albertsons/esgh-self-service/wiki/Confluence-Space-Create"
+                    }
+                ]
+            }
+        },
+        {
+            "title": "Access Tools",
+            "content": {
+                "GitHub": [
+                    {
+                        "text": "Unsuspend GitHub Enterprise User",
+                        "url": "https://github.albertsons.com/albertsons/esgh-self-service/actions/workflows/unsuspend_user_GitHub_Enterprise.yml",
+                        "wiki": "https://github.albertsons.com/albertsons/esgh-self-service/wiki/Unsuspend-User-Github-Enterprise"
+                    },
+                    {
+                        "text": "Add User to Github Enterprise Organization",
+                        "url": "https://github.albertsons.com/albertsons/esgh-self-service/actions/workflows/Add_User_to_Github_Enterprise_Organization.yml",
+                        "wiki": "https://github.albertsons.com/albertsons/esgh-self-service/wiki/Add-User-To-Github-Enterprise-Organization"
+                    },
+                    {
+                        "text": "Enable/Unsuspend Copilot License",
+                        "url": "https://github.albertsons.com/albertsons/esgh-self-service/actions/workflows/Add_User_To_GitHub_Cloud_Organization.yml",
+                        "wiki": "https://github.albertsons.com/albertsons/esgh-self-service/wiki/Add-User-To-Github-Cloud-Organization"
+                    }
+                ]
+            }
+        },
+        {
+            "title": "Repository",
+            "content": {
+                "GitHub": [
+                    {
+                        "text": "GitHub Repo Provisioning",
+                        "url": "https://github.albertsons.com/albertsons/esgh-self-service/actions/workflows/github_repo_provisioning.yml",
+                        "wiki": "https://github.albertsons.com/albertsons/esgh-self-service/wiki/Github-Repo-Provisioning"
+                    },
+                    {
+                        "text": "AKS Provisioning",
+                        "url": "https://github.albertsons.com/albertsons/esgh-self-service/actions/workflows/oneclick_provisioning_aks.yml",
+                        "wiki": "https://github.albertsons.com/albertsons/esgh-self-service/wiki/Oneclick-Provisioning-Aks"
+                    }
+                ]
+            }
+        }
+    ]
+}

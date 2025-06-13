@@ -1,0 +1,12 @@
+[{"made_sla": "true", "state": "pending", "assigned_to": "", "count": 9, "manager": ""},
+{"made_sla": "true", "state": "open", "assigned_to": "", "count": 11527, "manager": ""},
+{"made_sla": "true", "state": "work in progress", "assigned_to": "", "count": 15, "manager": ""},
+{"made_sla": "true", "state": "closed complete", "assigned_to": "", "count": 123628, "manager": ""},
+{"made_sla": "true", "state": "closed complete", "assigned_to": "Agneesh Priyadarshi", "count": 20, "manager": "Ankur Raj"},
+{"made_sla": "true", "state": "closed complete", "assigned_to": "Norman Aquino", "count": 2, "manager": "Elmo Bringas"},
+{"made_sla": "true", "state": "closed complete", "assigned_to": "Manjunath Balakrishna", "count": 18, "manager": "Ankur Raj"},
+{"made_sla": "true", "state": "closed incomplete", "assigned_to": "", "count": 4984, "manager": ""},
+{"made_sla": "true", "state": "closed incomplete", "assigned_to": "Agneesh Priyadarshi", "count": 3, "manager": "Ankur Raj"},
+{"made_sla": "true", "state": "closed incomplete", "assigned_to": "Manjunath Balakrishna", "count": 1, "manager": "Ankur Raj"},
+{"made_sla": "true", "state": "closed skipped", "assigned_to": "", "count": 44, "manager": ""}
+]

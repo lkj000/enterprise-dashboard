@@ -1,0 +1,23 @@
+[
+    {
+        "Portfolio": "Digital (Ramiya Iyer)",
+        "Department": "Karthik Iyer",
+        "AppCode": "PSSC",
+        "AppOwner": "Greg Hartnett",
+        "Repository": "albertsons/pssc-sales-integrator"
+    },
+    {
+        "Portfolio": "Digital (Ramiya Iyer)",
+        "Department": "Balaji Nambi",
+        "AppCode": "RXWA",
+        "AppOwner": "Goldi Goel",
+        "Repository": "albertsons/rxwa-ewd-notifier-svc"
+    },
+    {
+        "Portfolio": "Digital (Ramiya Iyer)",
+        "Department": "Balaji Nambi",
+        "AppCode": "RXWA",
+        "AppOwner": "Goldi Goel",
+        "Repository": "albertsons/rxwa-ui-foundation-lib-rb"
+    }
+]

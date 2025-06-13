@@ -1,0 +1,4465 @@
+{
+    "updated_date": "06/10/2025",
+    "pie_chart": {
+        "compromised_repos": "40",
+        "total_repos": "5745"
+    },
+    "time_seriers_graph_archive": [
+        {
+            "date": "2023-11-01",
+            "total_secrets": "242"
+        },
+        {
+            "date": "2023-11-02",
+            "total_secrets": "239"
+        },
+        {
+            "date": "2023-11-03",
+            "total_secrets": "241"
+        },
+        {
+            "date": "2023-11-04",
+            "total_secrets": "232"
+        },
+        {
+            "date": "2023-11-05",
+            "total_secrets": "231"
+        },
+        {
+            "date": "2023-11-06",
+            "total_secrets": "232"
+        },
+        {
+            "date": "2023-11-07",
+            "total_secrets": "229"
+        },
+        {
+            "date": "2023-11-08",
+            "total_secrets": "231"
+        },
+        {
+            "date": "2023-11-09",
+            "total_secrets": "228"
+        },
+        {
+            "date": "2023-11-10",
+            "total_secrets": "228"
+        },
+        {
+            "date": "2023-11-11",
+            "total_secrets": "228"
+        },
+        {
+            "date": "2023-11-12",
+            "total_secrets": "228"
+        },
+        {
+            "date": "2023-11-13",
+            "total_secrets": "228"
+        },
+        {
+            "date": "2023-11-14",
+            "total_secrets": "229"
+        },
+        {
+            "date": "2023-11-15",
+            "total_secrets": "230"
+        },
+        {
+            "date": "2023-11-16",
+            "total_secrets": "238"
+        },
+        {
+            "date": "2023-11-17",
+            "total_secrets": "235"
+        },
+        {
+            "date": "2023-11-18",
+            "total_secrets": "238"
+        },
+        {
+            "date": "2023-11-19",
+            "total_secrets": "238"
+        },
+        {
+            "date": "2023-11-20",
+            "total_secrets": "238"
+        },
+        {
+            "date": "2023-11-21",
+            "total_secrets": "234"
+        },
+        {
+            "date": "2023-11-22",
+            "total_secrets": "234"
+        },
+        {
+            "date": "2023-11-23",
+            "total_secrets": "232"
+        },
+        {
+            "date": "2023-11-24",
+            "total_secrets": "233"
+        },
+        {
+            "date": "2023-11-25",
+            "total_secrets": "233"
+        },
+        {
+            "date": "2023-11-26",
+            "total_secrets": "233"
+        },
+        {
+            "date": "2023-11-27",
+            "total_secrets": "233"
+        },
+        {
+            "date": "2023-11-28",
+            "total_secrets": "233"
+        },
+        {
+            "date": "2023-11-29",
+            "total_secrets": "233"
+        },
+        {
+            "date": "2023-11-30",
+            "total_secrets": "233"
+        },
+        {
+            "date": "2023-12-01",
+            "total_secrets": "236"
+        },
+        {
+            "date": "2023-12-02",
+            "total_secrets": "235"
+        },
+        {
+            "date": "2023-12-03",
+            "total_secrets": "235"
+        },
+        {
+            "date": "2023-12-04",
+            "total_secrets": "235"
+        },
+        {
+            "date": "2023-12-05",
+            "total_secrets": "250"
+        },
+        {
+            "date": "2023-12-06",
+            "total_secrets": "251"
+        },
+        {
+            "date": "2023-12-07",
+            "total_secrets": "252"
+        },
+        {
+            "date": "2023-12-08",
+            "total_secrets": "252"
+        },
+        {
+            "date": "2023-12-09",
+            "total_secrets": "252"
+        },
+        {
+            "date": "2023-12-10",
+            "total_secrets": "252"
+        },
+        {
+            "date": "2023-12-11",
+            "total_secrets": "252"
+        },
+        {
+            "date": "2023-12-12",
+            "total_secrets": "252"
+        },
+        {
+            "date": "2023-12-13",
+            "total_secrets": "252"
+        },
+        {
+            "date": "2023-12-14",
+            "total_secrets": "252"
+        },
+        {
+            "date": "2023-12-15",
+            "total_secrets": "253"
+        },
+        {
+            "date": "2023-12-16",
+            "total_secrets": "253"
+        },
+        {
+            "date": "2023-12-17",
+            "total_secrets": "254"
+        },
+        {
+            "date": "2023-12-18",
+            "total_secrets": "254"
+        },
+        {
+            "date": "2023-12-19",
+            "total_secrets": "254"
+        },
+        {
+            "date": "2023-12-20",
+            "total_secrets": "257"
+        },
+        {
+            "date": "2023-12-21",
+            "total_secrets": "259"
+        },
+        {
+            "date": "2023-12-22",
+            "total_secrets": "261"
+        },
+        {
+            "date": "2023-12-23",
+            "total_secrets": "261"
+        },
+        {
+            "date": "2023-12-24",
+            "total_secrets": "261"
+        },
+        {
+            "date": "2023-12-25",
+            "total_secrets": "260"
+        },
+        {
+            "date": "2023-12-26",
+            "total_secrets": "261"
+        },
+        {
+            "date": "2023-12-27",
+            "total_secrets": "259"
+        },
+        {
+            "date": "2023-12-28",
+            "total_secrets": "251"
+        },
+        {
+            "date": "2023-12-29",
+            "total_secrets": "256"
+        },
+        {
+            "date": "2023-12-30",
+            "total_secrets": "256"
+        },
+        {
+            "date": "2023-12-31",
+            "total_secrets": "256"
+        },
+        {
+            "date": "2024-01-01",
+            "total_secrets": "194"
+        },
+        {
+            "date": "2024-01-04",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2024-01-10",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2024-01-11",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2024-01-12",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2024-01-13",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2024-01-14",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2024-01-15",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2024-01-16",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2024-01-17",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2024-01-18",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2024-01-19",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2024-01-20",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2024-01-21",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2024-01-22",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2024-01-23",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2024-01-24",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2024-01-25",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2024-01-26",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2024-01-27",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2024-01-28",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2024-01-29",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2024-01-30",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2024-01-31",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2024-02-01",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2024-02-02",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2024-02-03",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2024-02-04",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2024-02-05",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2024-02-06",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2024-02-07",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2024-02-08",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2024-02-09",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2024-02-10",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2024-02-11",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2024-02-12",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2024-02-13",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2024-02-14",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2024-02-15",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2024-02-16",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2024-02-17",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2024-02-18",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2024-02-19",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2024-02-20",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2024-02-21",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2024-02-22",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2024-02-23",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2024-02-24",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2024-02-25",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2024-02-26",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2024-02-27",
+            "total_secrets": "36"
+        },
+        {
+            "date": "2024-02-28",
+            "total_secrets": "43"
+        },
+        {
+            "date": "2024-02-29",
+            "total_secrets": "40"
+        },
+        {
+            "date": "2024-03-01",
+            "total_secrets": "19"
+        },
+        {
+            "date": "2024-03-02",
+            "total_secrets": "24"
+        },
+        {
+            "date": "2024-03-03",
+            "total_secrets": "32"
+        },
+        {
+            "date": "2024-03-04",
+            "total_secrets": "33"
+        },
+        {
+            "date": "2024-03-05",
+            "total_secrets": "38"
+        },
+        {
+            "date": "2024-03-06",
+            "total_secrets": "70"
+        },
+        {
+            "date": "2024-03-07",
+            "total_secrets": "38"
+        },
+        {
+            "date": "2024-03-08",
+            "total_secrets": "48"
+        },
+        {
+            "date": "2024-03-09",
+            "total_secrets": "22"
+        },
+        {
+            "date": "2024-03-10",
+            "total_secrets": "53"
+        },
+        {
+            "date": "2024-03-11",
+            "total_secrets": "34"
+        },
+        {
+            "date": "2024-03-12",
+            "total_secrets": "39"
+        },
+        {
+            "date": "2024-03-13",
+            "total_secrets": "33"
+        },
+        {
+            "date": "2024-03-14",
+            "total_secrets": "77"
+        },
+        {
+            "date": "2024-03-15",
+            "total_secrets": "67"
+        },
+        {
+            "date": "2024-03-16",
+            "total_secrets": "18"
+        },
+        {
+            "date": "2024-03-17",
+            "total_secrets": "74"
+        },
+        {
+            "date": "2024-03-18",
+            "total_secrets": "24"
+        },
+        {
+            "date": "2024-03-19",
+            "total_secrets": "31"
+        },
+        {
+            "date": "2024-03-20",
+            "total_secrets": "25"
+        },
+        {
+            "date": "2024-03-21",
+            "total_secrets": "46"
+        },
+        {
+            "date": "2024-03-22",
+            "total_secrets": "37"
+        },
+        {
+            "date": "2024-03-23",
+            "total_secrets": "36"
+        },
+        {
+            "date": "2024-03-24",
+            "total_secrets": "18"
+        },
+        {
+            "date": "2024-03-25",
+            "total_secrets": "56"
+        },
+        {
+            "date": "2024-03-26",
+            "total_secrets": "46"
+        },
+        {
+            "date": "2024-03-27",
+            "total_secrets": "19"
+        },
+        {
+            "date": "2024-03-28",
+            "total_secrets": "72"
+        },
+        {
+            "date": "2024-03-29",
+            "total_secrets": "33"
+        },
+        {
+            "date": "2024-03-30",
+            "total_secrets": "18"
+        },
+        {
+            "date": "2024-03-31",
+            "total_secrets": "41"
+        },
+        {
+            "date": "2024-04-01",
+            "total_secrets": "15"
+        },
+        {
+            "date": "2024-04-02",
+            "total_secrets": "41"
+        },
+        {
+            "date": "2024-04-03",
+            "total_secrets": "33"
+        },
+        {
+            "date": "2024-04-04",
+            "total_secrets": "41"
+        },
+        {
+            "date": "2024-04-05",
+            "total_secrets": "73"
+        },
+        {
+            "date": "2024-04-06",
+            "total_secrets": "20"
+        },
+        {
+            "date": "2024-04-07",
+            "total_secrets": "65"
+        },
+        {
+            "date": "2024-04-08",
+            "total_secrets": "52"
+        },
+        {
+            "date": "2024-04-09",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2024-04-10",
+            "total_secrets": "36"
+        },
+        {
+            "date": "2024-04-11",
+            "total_secrets": "62"
+        },
+        {
+            "date": "2024-04-12",
+            "total_secrets": "66"
+        },
+        {
+            "date": "2024-04-12",
+            "total_secrets": "296"
+        },
+        {
+            "date": "2024-04-13",
+            "total_secrets": "293"
+        },
+        {
+            "date": "2024-04-14",
+            "total_secrets": "292"
+        },
+        {
+            "date": "2024-04-15",
+            "total_secrets": "292"
+        },
+        {
+            "date": "2024-04-16",
+            "total_secrets": "293"
+        },
+        {
+            "date": "2024-04-17",
+            "total_secrets": "293"
+        },
+        {
+            "date": "2024-04-18",
+            "total_secrets": "290"
+        },
+        {
+            "date": "2024-04-19",
+            "total_secrets": "290"
+        },
+        {
+            "date": "2024-04-20",
+            "total_secrets": "291"
+        },
+        {
+            "date": "2024-04-21",
+            "total_secrets": "292"
+        },
+        {
+            "date": "2024-04-22",
+            "total_secrets": "292"
+        },
+        {
+            "date": "2024-04-23",
+            "total_secrets": "292"
+        },
+        {
+            "date": "2024-04-24",
+            "total_secrets": "293"
+        },
+        {
+            "date": "2024-04-25",
+            "total_secrets": "293"
+        },
+        {
+            "date": "2024-04-26",
+            "total_secrets": "292"
+        },
+        {
+            "date": "2024-04-27",
+            "total_secrets": "292"
+        },
+        {
+            "date": "2024-04-28",
+            "total_secrets": "292"
+        },
+        {
+            "date": "2024-04-29",
+            "total_secrets": "292"
+        },
+        {
+            "date": "2024-04-30",
+            "total_secrets": "291"
+        },
+        {
+            "date": "2024-05-01",
+            "total_secrets": "294"
+        },
+        {
+            "date": "2024-05-02",
+            "total_secrets": "290"
+        },
+        {
+            "date": "2024-05-03",
+            "total_secrets": "294"
+        },
+        {
+            "date": "2024-05-04",
+            "total_secrets": "294"
+        },
+        {
+            "date": "2024-05-05",
+            "total_secrets": "294"
+        },
+        {
+            "date": "2024-05-06",
+            "total_secrets": "294"
+        },
+        {
+            "date": "2024-05-07",
+            "total_secrets": "294"
+        },
+        {
+            "date": "2024-05-08",
+            "total_secrets": "295"
+        },
+        {
+            "date": "2024-05-09",
+            "total_secrets": "296"
+        },
+        {
+            "date": "2024-05-10",
+            "total_secrets": "298"
+        },
+        {
+            "date": "2024-05-11",
+            "total_secrets": "298"
+        },
+        {
+            "date": "2024-05-12",
+            "total_secrets": "297"
+        },
+        {
+            "date": "2024-05-13",
+            "total_secrets": "297"
+        },
+        {
+            "date": "2024-05-14",
+            "total_secrets": "285"
+        },
+        {
+            "date": "2024-05-15",
+            "total_secrets": "284"
+        },
+        {
+            "date": "2024-05-16",
+            "total_secrets": "284"
+        },
+        {
+            "date": "2024-05-17",
+            "total_secrets": "284"
+        },
+        {
+            "date": "2024-05-18",
+            "total_secrets": "285"
+        },
+        {
+            "date": "2024-05-19",
+            "total_secrets": "287"
+        },
+        {
+            "date": "2024-05-20",
+            "total_secrets": "287"
+        },
+        {
+            "date": "2024-05-21",
+            "total_secrets": "287"
+        },
+        {
+            "date": "2024-05-22",
+            "total_secrets": "287"
+        },
+        {
+            "date": "2024-05-23",
+            "total_secrets": "287"
+        },
+        {
+            "date": "2024-05-24",
+            "total_secrets": "288"
+        },
+        {
+            "date": "2024-05-25",
+            "total_secrets": "288"
+        },
+        {
+            "date": "2024-05-26",
+            "total_secrets": "288"
+        },
+        {
+            "date": "2024-05-27",
+            "total_secrets": "288"
+        },
+        {
+            "date": "2024-05-28",
+            "total_secrets": "288"
+        },
+        {
+            "date": "2024-05-29",
+            "total_secrets": "287"
+        },
+        {
+            "date": "2024-05-30",
+            "total_secrets": "287"
+        },
+        {
+            "date": "2024-05-31",
+            "total_secrets": "290"
+        },
+        {
+            "date": "2024-06-01",
+            "total_secrets": "294"
+        },
+        {
+            "date": "2024-06-02",
+            "total_secrets": "290"
+        },
+        {
+            "date": "2024-06-03",
+            "total_secrets": "291"
+        },
+        {
+            "date": "2024-06-04",
+            "total_secrets": "292"
+        },
+        {
+            "date": "2024-06-05",
+            "total_secrets": "294"
+        },
+        {
+            "date": "2024-06-06",
+            "total_secrets": "295"
+        },
+        {
+            "date": "2024-06-07",
+            "total_secrets": "295"
+        },
+        {
+            "date": "2024-06-08",
+            "total_secrets": "295"
+        },
+        {
+            "date": "2024-06-09",
+            "total_secrets": "295"
+        },
+        {
+            "date": "2024-06-10",
+            "total_secrets": "293"
+        },
+        {
+            "date": "2024-06-11",
+            "total_secrets": "295"
+        },
+        {
+            "date": "2024-06-12",
+            "total_secrets": "297"
+        },
+        {
+            "date": "2024-06-13",
+            "total_secrets": "297"
+        },
+        {
+            "date": "2024-06-14",
+            "total_secrets": "297"
+        },
+        {
+            "date": "2024-06-15",
+            "total_secrets": "297"
+        },
+        {
+            "date": "2024-06-16",
+            "total_secrets": "250"
+        },
+        {
+            "date": "2024-06-17",
+            "total_secrets": "248"
+        },
+        {
+            "date": "2024-06-18",
+            "total_secrets": "249"
+        },
+        {
+            "date": "2024-06-25",
+            "total_secrets": "250"
+        },
+        {
+            "date": "2024-06-26",
+            "total_secrets": "250"
+        },
+        {
+            "date": "2024-06-27",
+            "total_secrets": "251"
+        },
+        {
+            "date": "2024-06-28",
+            "total_secrets": "255"
+        },
+        {
+            "date": "2024-06-29",
+            "total_secrets": "254"
+        },
+        {
+            "date": "2024-06-30",
+            "total_secrets": "256"
+        },
+        {
+            "date": "2024-07-01",
+            "total_secrets": "258"
+        },
+        {
+            "date": "2024-07-02",
+            "total_secrets": "257"
+        },
+        {
+            "date": "2024-07-03",
+            "total_secrets": "256"
+        },
+        {
+            "date": "2024-07-04",
+            "total_secrets": "257"
+        },
+        {
+            "date": "2024-07-05",
+            "total_secrets": "261"
+        },
+        {
+            "date": "2024-07-06",
+            "total_secrets": "266"
+        },
+        {
+            "date": "2024-07-07",
+            "total_secrets": "264"
+        },
+        {
+            "date": "2024-07-08",
+            "total_secrets": "264"
+        },
+        {
+            "date": "2024-07-09",
+            "total_secrets": "270"
+        },
+        {
+            "date": "2024-07-10",
+            "total_secrets": "272"
+        },
+        {
+            "date": "2024-07-11",
+            "total_secrets": "272"
+        },
+        {
+            "date": "2024-07-12",
+            "total_secrets": "273"
+        },
+        {
+            "date": "2024-07-13",
+            "total_secrets": "278"
+        },
+        {
+            "date": "2024-07-14",
+            "total_secrets": "278"
+        },
+        {
+            "date": "2024-07-15",
+            "total_secrets": "278"
+        },
+        {
+            "date": "2024-07-16",
+            "total_secrets": "278"
+        },
+        {
+            "date": "2024-07-16",
+            "total_secrets": "278"
+        },
+        {
+            "date": "2024-07-17",
+            "total_secrets": "278"
+        },
+        {
+            "date": "2024-07-17",
+            "total_secrets": "278"
+        },
+        {
+            "date": "2024-07-18",
+            "total_secrets": "278"
+        },
+        {
+            "date": "2024-07-18",
+            "total_secrets": "278"
+        },
+        {
+            "date": "2024-07-19",
+            "total_secrets": "279"
+        },
+        {
+            "date": "2024-07-19",
+            "total_secrets": "279"
+        },
+        {
+            "date": "2024-07-20",
+            "total_secrets": "279"
+        },
+        {
+            "date": "2024-07-20",
+            "total_secrets": "279"
+        },
+        {
+            "date": "2024-07-21",
+            "total_secrets": "279"
+        },
+        {
+            "date": "2024-07-21",
+            "total_secrets": "279"
+        },
+        {
+            "date": "2024-07-22",
+            "total_secrets": "279"
+        },
+        {
+            "date": "2024-07-22",
+            "total_secrets": "279"
+        },
+        {
+            "date": "2024-07-23",
+            "total_secrets": "279"
+        },
+        {
+            "date": "2024-07-23",
+            "total_secrets": "279"
+        },
+        {
+            "date": "2024-07-24",
+            "total_secrets": "279"
+        },
+        {
+            "date": "2024-07-24",
+            "total_secrets": "279"
+        },
+        {
+            "date": "2024-07-25",
+            "total_secrets": "281"
+        },
+        {
+            "date": "2024-07-25",
+            "total_secrets": "281"
+        },
+        {
+            "date": "2024-07-26",
+            "total_secrets": "282"
+        },
+        {
+            "date": "2024-07-26",
+            "total_secrets": "282"
+        },
+        {
+            "date": "2024-07-27",
+            "total_secrets": "282"
+        },
+        {
+            "date": "2024-07-27",
+            "total_secrets": "282"
+        },
+        {
+            "date": "2024-07-28",
+            "total_secrets": "282"
+        },
+        {
+            "date": "2024-07-28",
+            "total_secrets": "282"
+        },
+        {
+            "date": "2024-07-29",
+            "total_secrets": "280"
+        },
+        {
+            "date": "2024-07-29",
+            "total_secrets": "280"
+        },
+        {
+            "date": "2024-07-30",
+            "total_secrets": "280"
+        },
+        {
+            "date": "2024-07-30",
+            "total_secrets": "280"
+        },
+        {
+            "date": "2024-07-31",
+            "total_secrets": "278"
+        },
+        {
+            "date": "2024-07-31",
+            "total_secrets": "278"
+        },
+        {
+            "date": "2024-08-01",
+            "total_secrets": "283"
+        },
+        {
+            "date": "2024-08-01",
+            "total_secrets": "283"
+        },
+        {
+            "date": "2024-08-02",
+            "total_secrets": "282"
+        },
+        {
+            "date": "2024-08-02",
+            "total_secrets": "282"
+        },
+        {
+            "date": "2024-08-03",
+            "total_secrets": "282"
+        },
+        {
+            "date": "2024-08-03",
+            "total_secrets": "282"
+        },
+        {
+            "date": "2024-08-04",
+            "total_secrets": "292"
+        },
+        {
+            "date": "2024-08-04",
+            "total_secrets": "292"
+        },
+        {
+            "date": "2024-08-05",
+            "total_secrets": "292"
+        },
+        {
+            "date": "2024-08-05",
+            "total_secrets": "292"
+        },
+        {
+            "date": "2024-08-06",
+            "total_secrets": "292"
+        },
+        {
+            "date": "2024-08-06",
+            "total_secrets": "292"
+        },
+        {
+            "date": "2024-08-07",
+            "total_secrets": "292"
+        },
+        {
+            "date": "2024-08-07",
+            "total_secrets": "292"
+        },
+        {
+            "date": "2024-08-08",
+            "total_secrets": "292"
+        },
+        {
+            "date": "2024-08-08",
+            "total_secrets": "292"
+        },
+        {
+            "date": "2024-08-09",
+            "total_secrets": "292"
+        },
+        {
+            "date": "2024-08-09",
+            "total_secrets": "292"
+        },
+        {
+            "date": "2024-08-10",
+            "total_secrets": "292"
+        },
+        {
+            "date": "2024-08-10",
+            "total_secrets": "292"
+        },
+        {
+            "date": "2024-08-11",
+            "total_secrets": "292"
+        },
+        {
+            "date": "2024-08-11",
+            "total_secrets": "292"
+        },
+        {
+            "date": "2024-08-12",
+            "total_secrets": "292"
+        },
+        {
+            "date": "2024-08-12",
+            "total_secrets": "292"
+        },
+        {
+            "date": "2024-08-13",
+            "total_secrets": "292"
+        },
+        {
+            "date": "2024-08-13",
+            "total_secrets": "292"
+        },
+        {
+            "date": "2024-08-14",
+            "total_secrets": "291"
+        },
+        {
+            "date": "2024-08-14",
+            "total_secrets": "291"
+        },
+        {
+            "date": "2024-08-15",
+            "total_secrets": "291"
+        },
+        {
+            "date": "2024-08-15",
+            "total_secrets": "291"
+        },
+        {
+            "date": "2024-08-16",
+            "total_secrets": "292"
+        },
+        {
+            "date": "2024-08-16",
+            "total_secrets": "292"
+        },
+        {
+            "date": "2024-08-17",
+            "total_secrets": "291"
+        },
+        {
+            "date": "2024-08-17",
+            "total_secrets": "291"
+        },
+        {
+            "date": "2024-08-18",
+            "total_secrets": "291"
+        },
+        {
+            "date": "2024-08-18",
+            "total_secrets": "291"
+        },
+        {
+            "date": "2024-08-19",
+            "total_secrets": "288"
+        },
+        {
+            "date": "2024-08-19",
+            "total_secrets": "288"
+        },
+        {
+            "date": "2024-08-20",
+            "total_secrets": "287"
+        },
+        {
+            "date": "2024-08-20",
+            "total_secrets": "287"
+        },
+        {
+            "date": "2024-08-21",
+            "total_secrets": "288"
+        },
+        {
+            "date": "2024-08-21",
+            "total_secrets": "288"
+        },
+        {
+            "date": "2024-08-22",
+            "total_secrets": "290"
+        },
+        {
+            "date": "2024-08-22",
+            "total_secrets": "290"
+        },
+        {
+            "date": "2024-08-23",
+            "total_secrets": "294"
+        },
+        {
+            "date": "2024-08-23",
+            "total_secrets": "294"
+        },
+        {
+            "date": "2024-08-24",
+            "total_secrets": "295"
+        },
+        {
+            "date": "2024-08-24",
+            "total_secrets": "295"
+        },
+        {
+            "date": "2024-08-25",
+            "total_secrets": "295"
+        },
+        {
+            "date": "2024-08-25",
+            "total_secrets": "295"
+        },
+        {
+            "date": "2024-08-26",
+            "total_secrets": "295"
+        },
+        {
+            "date": "2024-08-26",
+            "total_secrets": "295"
+        },
+        {
+            "date": "2024-08-27",
+            "total_secrets": "295"
+        },
+        {
+            "date": "2024-08-27",
+            "total_secrets": "295"
+        },
+        {
+            "date": "2024-08-28",
+            "total_secrets": "496"
+        },
+        {
+            "date": "2024-08-28",
+            "total_secrets": "496"
+        },
+        {
+            "date": "2024-08-29",
+            "total_secrets": "395"
+        },
+        {
+            "date": "2024-08-29",
+            "total_secrets": "395"
+        },
+        {
+            "date": "2024-08-30",
+            "total_secrets": "394"
+        },
+        {
+            "date": "2024-08-30",
+            "total_secrets": "394"
+        },
+        {
+            "date": "2024-08-31",
+            "total_secrets": "394"
+        },
+        {
+            "date": "2024-08-31",
+            "total_secrets": "394"
+        },
+        {
+            "date": "2024-09-01",
+            "total_secrets": "399"
+        },
+        {
+            "date": "2024-09-01",
+            "total_secrets": "399"
+        },
+        {
+            "date": "2024-09-02",
+            "total_secrets": "400"
+        },
+        {
+            "date": "2024-09-02",
+            "total_secrets": "400"
+        },
+        {
+            "date": "2024-09-03",
+            "total_secrets": "397"
+        },
+        {
+            "date": "2024-09-03",
+            "total_secrets": "397"
+        },
+        {
+            "date": "2024-09-04",
+            "total_secrets": "397"
+        },
+        {
+            "date": "2024-09-04",
+            "total_secrets": "397"
+        },
+        {
+            "date": "2024-09-05",
+            "total_secrets": "393"
+        },
+        {
+            "date": "2024-09-05",
+            "total_secrets": "393"
+        },
+        {
+            "date": "2024-09-06",
+            "total_secrets": "393"
+        },
+        {
+            "date": "2024-09-06",
+            "total_secrets": "393"
+        },
+        {
+            "date": "2024-09-07",
+            "total_secrets": "393"
+        },
+        {
+            "date": "2024-09-07",
+            "total_secrets": "393"
+        },
+        {
+            "date": "2024-09-08",
+            "total_secrets": "392"
+        },
+        {
+            "date": "2024-09-08",
+            "total_secrets": "392"
+        },
+        {
+            "date": "2024-09-09",
+            "total_secrets": "392"
+        },
+        {
+            "date": "2024-09-09",
+            "total_secrets": "392"
+        },
+        {
+            "date": "2024-09-10",
+            "total_secrets": "392"
+        },
+        {
+            "date": "2024-09-10",
+            "total_secrets": "392"
+        },
+        {
+            "date": "2024-09-11",
+            "total_secrets": "392"
+        },
+        {
+            "date": "2024-09-11",
+            "total_secrets": "392"
+        },
+        {
+            "date": "2024-09-12",
+            "total_secrets": "393"
+        },
+        {
+            "date": "2024-09-12",
+            "total_secrets": "393"
+        },
+        {
+            "date": "2024-09-13",
+            "total_secrets": "394"
+        },
+        {
+            "date": "2024-09-13",
+            "total_secrets": "394"
+        },
+        {
+            "date": "2024-09-14",
+            "total_secrets": "394"
+        },
+        {
+            "date": "2024-09-14",
+            "total_secrets": "394"
+        },
+        {
+            "date": "2024-09-15",
+            "total_secrets": "393"
+        },
+        {
+            "date": "2024-09-15",
+            "total_secrets": "393"
+        },
+        {
+            "date": "2024-09-16",
+            "total_secrets": "389"
+        },
+        {
+            "date": "2024-09-16",
+            "total_secrets": "389"
+        },
+        {
+            "date": "2024-09-17",
+            "total_secrets": "387"
+        },
+        {
+            "date": "2024-09-17",
+            "total_secrets": "387"
+        },
+        {
+            "date": "2024-09-18",
+            "total_secrets": "389"
+        },
+        {
+            "date": "2024-09-18",
+            "total_secrets": "389"
+        },
+        {
+            "date": "2024-09-19",
+            "total_secrets": "388"
+        },
+        {
+            "date": "2024-09-19",
+            "total_secrets": "388"
+        },
+        {
+            "date": "2024-09-20",
+            "total_secrets": "389"
+        },
+        {
+            "date": "2024-09-20",
+            "total_secrets": "389"
+        },
+        {
+            "date": "2024-09-21",
+            "total_secrets": "383"
+        },
+        {
+            "date": "2024-09-21",
+            "total_secrets": "383"
+        },
+        {
+            "date": "2024-09-22",
+            "total_secrets": "382"
+        },
+        {
+            "date": "2024-09-22",
+            "total_secrets": "382"
+        },
+        {
+            "date": "2024-09-23",
+            "total_secrets": "382"
+        },
+        {
+            "date": "2024-09-23",
+            "total_secrets": "382"
+        },
+        {
+            "date": "2024-09-24",
+            "total_secrets": "378"
+        },
+        {
+            "date": "2024-09-24",
+            "total_secrets": "378"
+        },
+        {
+            "date": "2024-09-25",
+            "total_secrets": "379"
+        },
+        {
+            "date": "2024-09-25",
+            "total_secrets": "379"
+        },
+        {
+            "date": "2024-09-26",
+            "total_secrets": "374"
+        },
+        {
+            "date": "2024-09-26",
+            "total_secrets": "374"
+        },
+        {
+            "date": "2024-09-27",
+            "total_secrets": "373"
+        },
+        {
+            "date": "2024-09-27",
+            "total_secrets": "373"
+        },
+        {
+            "date": "2024-09-28",
+            "total_secrets": "374"
+        },
+        {
+            "date": "2024-09-28",
+            "total_secrets": "374"
+        },
+        {
+            "date": "2024-09-29",
+            "total_secrets": "373"
+        },
+        {
+            "date": "2024-09-29",
+            "total_secrets": "373"
+        },
+        {
+            "date": "2024-09-30",
+            "total_secrets": "373"
+        },
+        {
+            "date": "2024-09-30",
+            "total_secrets": "373"
+        },
+        {
+            "date": "2024-10-01",
+            "total_secrets": "373"
+        },
+        {
+            "date": "2024-10-01",
+            "total_secrets": "373"
+        },
+        {
+            "date": "2024-10-02",
+            "total_secrets": "378"
+        },
+        {
+            "date": "2024-10-02",
+            "total_secrets": "378"
+        },
+        {
+            "date": "2024-10-03",
+            "total_secrets": "436"
+        },
+        {
+            "date": "2024-10-03",
+            "total_secrets": "436"
+        },
+        {
+            "date": "2024-10-04",
+            "total_secrets": "437"
+        },
+        {
+            "date": "2024-10-04",
+            "total_secrets": "437"
+        },
+        {
+            "date": "2024-10-05",
+            "total_secrets": "441"
+        },
+        {
+            "date": "2024-10-05",
+            "total_secrets": "441"
+        },
+        {
+            "date": "2024-10-06",
+            "total_secrets": "439"
+        },
+        {
+            "date": "2024-10-06",
+            "total_secrets": "439"
+        },
+        {
+            "date": "2024-10-07",
+            "total_secrets": "436"
+        },
+        {
+            "date": "2024-10-07",
+            "total_secrets": "436"
+        },
+        {
+            "date": "2024-10-08",
+            "total_secrets": "437"
+        },
+        {
+            "date": "2024-10-08",
+            "total_secrets": "437"
+        },
+        {
+            "date": "2024-10-09",
+            "total_secrets": "437"
+        },
+        {
+            "date": "2024-10-09",
+            "total_secrets": "437"
+        },
+        {
+            "date": "2024-10-10",
+            "total_secrets": "435"
+        },
+        {
+            "date": "2024-10-10",
+            "total_secrets": "435"
+        },
+        {
+            "date": "2024-10-11",
+            "total_secrets": "439"
+        },
+        {
+            "date": "2024-10-11",
+            "total_secrets": "439"
+        },
+        {
+            "date": "2024-10-12",
+            "total_secrets": "437"
+        },
+        {
+            "date": "2024-10-12",
+            "total_secrets": "437"
+        },
+        {
+            "date": "2024-10-13",
+            "total_secrets": "435"
+        },
+        {
+            "date": "2024-10-13",
+            "total_secrets": "435"
+        },
+        {
+            "date": "2024-10-14",
+            "total_secrets": "433"
+        },
+        {
+            "date": "2024-10-14",
+            "total_secrets": "433"
+        },
+        {
+            "date": "2024-10-15",
+            "total_secrets": "434"
+        },
+        {
+            "date": "2024-10-15",
+            "total_secrets": "434"
+        },
+        {
+            "date": "2024-10-16",
+            "total_secrets": "435"
+        },
+        {
+            "date": "2024-10-16",
+            "total_secrets": "435"
+        },
+        {
+            "date": "2024-10-17",
+            "total_secrets": "431"
+        },
+        {
+            "date": "2024-10-17",
+            "total_secrets": "431"
+        },
+        {
+            "date": "2024-10-18",
+            "total_secrets": "439"
+        },
+        {
+            "date": "2024-10-18",
+            "total_secrets": "439"
+        },
+        {
+            "date": "2024-10-21",
+            "total_secrets": "432"
+        },
+        {
+            "date": "2024-10-21",
+            "total_secrets": "432"
+        },
+        {
+            "date": "2024-10-22",
+            "total_secrets": "427"
+        },
+        {
+            "date": "2024-10-22",
+            "total_secrets": "427"
+        },
+        {
+            "date": "2024-10-23",
+            "total_secrets": "422"
+        },
+        {
+            "date": "2024-10-23",
+            "total_secrets": "422"
+        },
+        {
+            "date": "2024-10-24",
+            "total_secrets": "423"
+        },
+        {
+            "date": "2024-10-24",
+            "total_secrets": "423"
+        },
+        {
+            "date": "2024-10-25",
+            "total_secrets": "424"
+        },
+        {
+            "date": "2024-10-25",
+            "total_secrets": "424"
+        },
+        {
+            "date": "2024-10-26",
+            "total_secrets": "426"
+        },
+        {
+            "date": "2024-10-26",
+            "total_secrets": "426"
+        },
+        {
+            "date": "2024-10-27",
+            "total_secrets": "425"
+        },
+        {
+            "date": "2024-10-27",
+            "total_secrets": "425"
+        },
+        {
+            "date": "2024-10-28",
+            "total_secrets": "423"
+        },
+        {
+            "date": "2024-10-28",
+            "total_secrets": "423"
+        },
+        {
+            "date": "2024-10-29",
+            "total_secrets": "419"
+        },
+        {
+            "date": "2024-10-29",
+            "total_secrets": "419"
+        },
+        {
+            "date": "2024-10-30",
+            "total_secrets": "422"
+        },
+        {
+            "date": "2024-10-30",
+            "total_secrets": "422"
+        },
+        {
+            "date": "2024-10-31",
+            "total_secrets": "422"
+        },
+        {
+            "date": "2024-10-31",
+            "total_secrets": "422"
+        },
+        {
+            "date": "2024-11-01",
+            "total_secrets": "420"
+        },
+        {
+            "date": "2024-11-01",
+            "total_secrets": "420"
+        },
+        {
+            "date": "2024-11-03",
+            "total_secrets": "421"
+        },
+        {
+            "date": "2024-11-03",
+            "total_secrets": "421"
+        },
+        {
+            "date": "2024-11-04",
+            "total_secrets": "415"
+        },
+        {
+            "date": "2024-11-04",
+            "total_secrets": "415"
+        },
+        {
+            "date": "2024-11-05",
+            "total_secrets": "414"
+        },
+        {
+            "date": "2024-11-05",
+            "total_secrets": "414"
+        },
+        {
+            "date": "2024-11-06",
+            "total_secrets": "423"
+        },
+        {
+            "date": "2024-11-06",
+            "total_secrets": "423"
+        },
+        {
+            "date": "2024-11-07",
+            "total_secrets": "421"
+        },
+        {
+            "date": "2024-11-07",
+            "total_secrets": "421"
+        },
+        {
+            "date": "2024-11-08",
+            "total_secrets": "421"
+        },
+        {
+            "date": "2024-11-08",
+            "total_secrets": "421"
+        },
+        {
+            "date": "2024-11-09",
+            "total_secrets": "419"
+        },
+        {
+            "date": "2024-11-09",
+            "total_secrets": "419"
+        },
+        {
+            "date": "2024-11-10",
+            "total_secrets": "422"
+        },
+        {
+            "date": "2024-11-10",
+            "total_secrets": "422"
+        },
+        {
+            "date": "2024-11-11",
+            "total_secrets": "420"
+        },
+        {
+            "date": "2024-11-11",
+            "total_secrets": "420"
+        },
+        {
+            "date": "2024-11-12",
+            "total_secrets": "422"
+        },
+        {
+            "date": "2024-11-12",
+            "total_secrets": "422"
+        },
+        {
+            "date": "2024-11-13",
+            "total_secrets": "425"
+        },
+        {
+            "date": "2024-11-13",
+            "total_secrets": "425"
+        },
+        {
+            "date": "2024-11-14",
+            "total_secrets": "426"
+        },
+        {
+            "date": "2024-11-14",
+            "total_secrets": "426"
+        },
+        {
+            "date": "2024-11-15",
+            "total_secrets": "424"
+        },
+        {
+            "date": "2024-11-15",
+            "total_secrets": "424"
+        },
+        {
+            "date": "2024-11-17",
+            "total_secrets": "422"
+        },
+        {
+            "date": "2024-11-17",
+            "total_secrets": "422"
+        },
+        {
+            "date": "2024-11-18",
+            "total_secrets": "423"
+        },
+        {
+            "date": "2024-11-18",
+            "total_secrets": "423"
+        },
+        {
+            "date": "2024-11-19",
+            "total_secrets": "422"
+        },
+        {
+            "date": "2024-11-19",
+            "total_secrets": "422"
+        },
+        {
+            "date": "2024-11-20",
+            "total_secrets": "421"
+        },
+        {
+            "date": "2024-11-20",
+            "total_secrets": "421"
+        },
+        {
+            "date": "2024-11-21",
+            "total_secrets": "421"
+        },
+        {
+            "date": "2024-11-21",
+            "total_secrets": "421"
+        },
+        {
+            "date": "2024-11-22",
+            "total_secrets": "421"
+        },
+        {
+            "date": "2024-11-22",
+            "total_secrets": "421"
+        },
+        {
+            "date": "2024-11-23",
+            "total_secrets": "420"
+        },
+        {
+            "date": "2024-11-23",
+            "total_secrets": "420"
+        },
+        {
+            "date": "2024-11-24",
+            "total_secrets": "420"
+        },
+        {
+            "date": "2024-11-24",
+            "total_secrets": "420"
+        },
+        {
+            "date": "2024-11-25",
+            "total_secrets": "424"
+        },
+        {
+            "date": "2024-11-25",
+            "total_secrets": "424"
+        },
+        {
+            "date": "2024-11-26",
+            "total_secrets": "419"
+        },
+        {
+            "date": "2024-11-26",
+            "total_secrets": "419"
+        },
+        {
+            "date": "2024-11-27",
+            "total_secrets": "421"
+        },
+        {
+            "date": "2024-11-27",
+            "total_secrets": "421"
+        },
+        {
+            "date": "2024-11-28",
+            "total_secrets": "421"
+        },
+        {
+            "date": "2024-11-28",
+            "total_secrets": "421"
+        },
+        {
+            "date": "2024-11-29",
+            "total_secrets": "425"
+        },
+        {
+            "date": "2024-11-29",
+            "total_secrets": "425"
+        },
+        {
+            "date": "2024-11-30",
+            "total_secrets": "425"
+        },
+        {
+            "date": "2024-11-30",
+            "total_secrets": "425"
+        },
+        {
+            "date": "2024-12-01",
+            "total_secrets": "423"
+        },
+        {
+            "date": "2024-12-01",
+            "total_secrets": "423"
+        },
+        {
+            "date": "2024-12-02",
+            "total_secrets": "423"
+        },
+        {
+            "date": "2024-12-02",
+            "total_secrets": "423"
+        },
+        {
+            "date": "2024-12-03",
+            "total_secrets": "423"
+        },
+        {
+            "date": "2024-12-03",
+            "total_secrets": "423"
+        },
+        {
+            "date": "2024-12-04",
+            "total_secrets": "423"
+        },
+        {
+            "date": "2024-12-04",
+            "total_secrets": "423"
+        },
+        {
+            "date": "2024-12-05",
+            "total_secrets": "423"
+        },
+        {
+            "date": "2024-12-05",
+            "total_secrets": "423"
+        },
+        {
+            "date": "2024-12-06",
+            "total_secrets": "422"
+        },
+        {
+            "date": "2024-12-06",
+            "total_secrets": "422"
+        },
+        {
+            "date": "2024-12-07",
+            "total_secrets": "423"
+        },
+        {
+            "date": "2024-12-07",
+            "total_secrets": "423"
+        },
+        {
+            "date": "2024-12-08",
+            "total_secrets": "420"
+        },
+        {
+            "date": "2024-12-08",
+            "total_secrets": "420"
+        },
+        {
+            "date": "2024-12-09",
+            "total_secrets": "424"
+        },
+        {
+            "date": "2024-12-09",
+            "total_secrets": "424"
+        },
+        {
+            "date": "2024-12-10",
+            "total_secrets": "421"
+        },
+        {
+            "date": "2024-12-10",
+            "total_secrets": "421"
+        },
+        {
+            "date": "2024-12-11",
+            "total_secrets": "422"
+        },
+        {
+            "date": "2024-12-11",
+            "total_secrets": "422"
+        },
+        {
+            "date": "2024-12-12",
+            "total_secrets": "422"
+        },
+        {
+            "date": "2024-12-12",
+            "total_secrets": "422"
+        },
+        {
+            "date": "2024-12-12",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2024-12-12",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2024-12-12",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2024-12-12",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2024-12-12",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2024-12-12",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2024-12-12",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2024-12-12",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2024-12-12",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2024-12-12",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2024-12-12",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2024-12-12",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2024-12-13",
+            "total_secrets": "423"
+        },
+        {
+            "date": "2024-12-13",
+            "total_secrets": "423"
+        },
+        {
+            "date": "2024-12-14",
+            "total_secrets": "430"
+        },
+        {
+            "date": "2024-12-14",
+            "total_secrets": "430"
+        },
+        {
+            "date": "2024-12-15",
+            "total_secrets": "431"
+        },
+        {
+            "date": "2024-12-15",
+            "total_secrets": "431"
+        },
+        {
+            "date": "2024-12-16",
+            "total_secrets": "431"
+        },
+        {
+            "date": "2024-12-16",
+            "total_secrets": "431"
+        },
+        {
+            "date": "2024-12-17",
+            "total_secrets": "433"
+        },
+        {
+            "date": "2024-12-17",
+            "total_secrets": "433"
+        },
+        {
+            "date": "2024-12-18",
+            "total_secrets": "431"
+        },
+        {
+            "date": "2024-12-18",
+            "total_secrets": "431"
+        },
+        {
+            "date": "2024-12-19",
+            "total_secrets": "432"
+        },
+        {
+            "date": "2024-12-19",
+            "total_secrets": "432"
+        },
+        {
+            "date": "2024-12-20",
+            "total_secrets": "428"
+        },
+        {
+            "date": "2024-12-20",
+            "total_secrets": "428"
+        },
+        {
+            "date": "2024-12-21",
+            "total_secrets": "428"
+        },
+        {
+            "date": "2024-12-21",
+            "total_secrets": "428"
+        },
+        {
+            "date": "2024-12-22",
+            "total_secrets": "426"
+        },
+        {
+            "date": "2024-12-22",
+            "total_secrets": "426"
+        },
+        {
+            "date": "2024-12-23",
+            "total_secrets": "422"
+        },
+        {
+            "date": "2024-12-23",
+            "total_secrets": "422"
+        },
+        {
+            "date": "2024-12-24",
+            "total_secrets": "424"
+        },
+        {
+            "date": "2024-12-24",
+            "total_secrets": "424"
+        },
+        {
+            "date": "2024-12-25",
+            "total_secrets": "423"
+        },
+        {
+            "date": "2024-12-25",
+            "total_secrets": "423"
+        },
+        {
+            "date": "2024-12-26",
+            "total_secrets": "427"
+        },
+        {
+            "date": "2024-12-26",
+            "total_secrets": "427"
+        },
+        {
+            "date": "2024-12-27",
+            "total_secrets": "424"
+        },
+        {
+            "date": "2024-12-27",
+            "total_secrets": "424"
+        },
+        {
+            "date": "2024-12-28",
+            "total_secrets": "428"
+        },
+        {
+            "date": "2024-12-28",
+            "total_secrets": "428"
+        },
+        {
+            "date": "2024-12-29",
+            "total_secrets": "423"
+        },
+        {
+            "date": "2024-12-29",
+            "total_secrets": "423"
+        },
+        {
+            "date": "2024-12-30",
+            "total_secrets": "423"
+        },
+        {
+            "date": "2024-12-30",
+            "total_secrets": "423"
+        },
+        {
+            "date": "2024-12-31",
+            "total_secrets": "423"
+        },
+        {
+            "date": "2024-12-31",
+            "total_secrets": "423"
+        },
+        {
+            "date": "2025-01-01",
+            "total_secrets": "422"
+        },
+        {
+            "date": "2025-01-01",
+            "total_secrets": "422"
+        },
+        {
+            "date": "2025-01-02",
+            "total_secrets": "423"
+        },
+        {
+            "date": "2025-01-02",
+            "total_secrets": "423"
+        },
+        {
+            "date": "2025-01-03",
+            "total_secrets": "425"
+        },
+        {
+            "date": "2025-01-03",
+            "total_secrets": "425"
+        },
+        {
+            "date": "2025-01-04",
+            "total_secrets": "425"
+        },
+        {
+            "date": "2025-01-04",
+            "total_secrets": "425"
+        },
+        {
+            "date": "2025-01-05",
+            "total_secrets": "427"
+        },
+        {
+            "date": "2025-01-05",
+            "total_secrets": "427"
+        },
+        {
+            "date": "2025-01-06",
+            "total_secrets": "427"
+        },
+        {
+            "date": "2025-01-06",
+            "total_secrets": "427"
+        },
+        {
+            "date": "2025-01-07",
+            "total_secrets": "425"
+        },
+        {
+            "date": "2025-01-07",
+            "total_secrets": "425"
+        },
+        {
+            "date": "2025-01-08",
+            "total_secrets": "429"
+        },
+        {
+            "date": "2025-01-08",
+            "total_secrets": "429"
+        },
+        {
+            "date": "2025-01-09",
+            "total_secrets": "426"
+        },
+        {
+            "date": "2025-01-09",
+            "total_secrets": "426"
+        },
+        {
+            "date": "2025-01-10",
+            "total_secrets": "428"
+        },
+        {
+            "date": "2025-01-10",
+            "total_secrets": "428"
+        },
+        {
+            "date": "2025-01-11",
+            "total_secrets": "428"
+        },
+        {
+            "date": "2025-01-11",
+            "total_secrets": "428"
+        },
+        {
+            "date": "2025-01-12",
+            "total_secrets": "425"
+        },
+        {
+            "date": "2025-01-12",
+            "total_secrets": "425"
+        },
+        {
+            "date": "2025-01-13",
+            "total_secrets": "426"
+        },
+        {
+            "date": "2025-01-13",
+            "total_secrets": "426"
+        },
+        {
+            "date": "2025-01-14",
+            "total_secrets": "429"
+        },
+        {
+            "date": "2025-01-14",
+            "total_secrets": "429"
+        },
+        {
+            "date": "2025-01-15",
+            "total_secrets": "429"
+        },
+        {
+            "date": "2025-01-15",
+            "total_secrets": "429"
+        },
+        {
+            "date": "2025-01-16",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2025-01-16",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2025-01-17",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2025-01-17",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2025-01-17",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2025-01-17",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2025-01-17",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2025-01-17",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2025-01-17",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2025-01-17",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2025-01-17",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2025-01-17",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2025-01-17",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2025-01-17",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2025-01-18",
+            "total_secrets": "428"
+        },
+        {
+            "date": "2025-01-18",
+            "total_secrets": "428"
+        },
+        {
+            "date": "2025-01-19",
+            "total_secrets": "430"
+        },
+        {
+            "date": "2025-01-19",
+            "total_secrets": "430"
+        },
+        {
+            "date": "2025-01-20",
+            "total_secrets": "430"
+        },
+        {
+            "date": "2025-01-20",
+            "total_secrets": "430"
+        },
+        {
+            "date": "2025-01-21",
+            "total_secrets": "430"
+        },
+        {
+            "date": "2025-01-21",
+            "total_secrets": "430"
+        },
+        {
+            "date": "2025-01-22",
+            "total_secrets": "429"
+        },
+        {
+            "date": "2025-01-22",
+            "total_secrets": "429"
+        },
+        {
+            "date": "2025-01-23",
+            "total_secrets": "430"
+        },
+        {
+            "date": "2025-01-23",
+            "total_secrets": "430"
+        },
+        {
+            "date": "2025-01-24",
+            "total_secrets": "431"
+        },
+        {
+            "date": "2025-01-24",
+            "total_secrets": "431"
+        },
+        {
+            "date": "2025-01-25",
+            "total_secrets": "433"
+        },
+        {
+            "date": "2025-01-25",
+            "total_secrets": "433"
+        },
+        {
+            "date": "2025-01-26",
+            "total_secrets": "429"
+        },
+        {
+            "date": "2025-01-26",
+            "total_secrets": "429"
+        },
+        {
+            "date": "2025-01-27",
+            "total_secrets": "433"
+        },
+        {
+            "date": "2025-01-27",
+            "total_secrets": "433"
+        },
+        {
+            "date": "2025-01-28",
+            "total_secrets": "432"
+        },
+        {
+            "date": "2025-01-28",
+            "total_secrets": "432"
+        },
+        {
+            "date": "2025-01-29",
+            "total_secrets": "434"
+        },
+        {
+            "date": "2025-01-29",
+            "total_secrets": "434"
+        },
+        {
+            "date": "2025-01-30",
+            "total_secrets": "431"
+        },
+        {
+            "date": "2025-01-30",
+            "total_secrets": "431"
+        },
+        {
+            "date": "2025-01-31",
+            "total_secrets": "432"
+        },
+        {
+            "date": "2025-01-31",
+            "total_secrets": "432"
+        },
+        {
+            "date": "2025-02-01",
+            "total_secrets": "435"
+        },
+        {
+            "date": "2025-02-01",
+            "total_secrets": "435"
+        },
+        {
+            "date": "2025-02-02",
+            "total_secrets": "433"
+        },
+        {
+            "date": "2025-02-02",
+            "total_secrets": "433"
+        },
+        {
+            "date": "2025-02-03",
+            "total_secrets": "434"
+        },
+        {
+            "date": "2025-02-03",
+            "total_secrets": "434"
+        },
+        {
+            "date": "2025-02-04",
+            "total_secrets": "435"
+        },
+        {
+            "date": "2025-02-04",
+            "total_secrets": "435"
+        },
+        {
+            "date": "2025-02-05",
+            "total_secrets": "305"
+        },
+        {
+            "date": "2025-02-05",
+            "total_secrets": "305"
+        },
+        {
+            "date": "2025-02-06",
+            "total_secrets": "306"
+        },
+        {
+            "date": "2025-02-06",
+            "total_secrets": "306"
+        },
+        {
+            "date": "2025-02-07",
+            "total_secrets": "303"
+        },
+        {
+            "date": "2025-02-07",
+            "total_secrets": "303"
+        },
+        {
+            "date": "2025-02-08",
+            "total_secrets": "302"
+        },
+        {
+            "date": "2025-02-08",
+            "total_secrets": "302"
+        },
+        {
+            "date": "2025-02-09",
+            "total_secrets": "300"
+        },
+        {
+            "date": "2025-02-09",
+            "total_secrets": "300"
+        },
+        {
+            "date": "2025-02-10",
+            "total_secrets": "301"
+        },
+        {
+            "date": "2025-02-10",
+            "total_secrets": "301"
+        },
+        {
+            "date": "2025-02-11",
+            "total_secrets": "298"
+        },
+        {
+            "date": "2025-02-11",
+            "total_secrets": "298"
+        },
+        {
+            "date": "2025-02-12",
+            "total_secrets": "295"
+        },
+        {
+            "date": "2025-02-12",
+            "total_secrets": "295"
+        },
+        {
+            "date": "2025-02-13",
+            "total_secrets": "297"
+        },
+        {
+            "date": "2025-02-13",
+            "total_secrets": "297"
+        },
+        {
+            "date": "2025-02-14",
+            "total_secrets": "293"
+        },
+        {
+            "date": "2025-02-14",
+            "total_secrets": "293"
+        },
+        {
+            "date": "2025-02-16",
+            "total_secrets": "216"
+        },
+        {
+            "date": "2025-02-16",
+            "total_secrets": "216"
+        },
+        {
+            "date": "2025-02-17",
+            "total_secrets": "214"
+        },
+        {
+            "date": "2025-02-17",
+            "total_secrets": "214"
+        },
+        {
+            "date": "2025-02-18",
+            "total_secrets": "213"
+        },
+        {
+            "date": "2025-02-18",
+            "total_secrets": "213"
+        },
+        {
+            "date": "2025-02-19",
+            "total_secrets": "213"
+        },
+        {
+            "date": "2025-02-19",
+            "total_secrets": "213"
+        },
+        {
+            "date": "2025-02-20",
+            "total_secrets": "207"
+        },
+        {
+            "date": "2025-02-20",
+            "total_secrets": "207"
+        },
+        {
+            "date": "2025-02-21",
+            "total_secrets": "208"
+        },
+        {
+            "date": "2025-02-21",
+            "total_secrets": "208"
+        },
+        {
+            "date": "2025-02-22",
+            "total_secrets": "205"
+        },
+        {
+            "date": "2025-02-22",
+            "total_secrets": "205"
+        },
+        {
+            "date": "2025-02-23",
+            "total_secrets": "203"
+        },
+        {
+            "date": "2025-02-23",
+            "total_secrets": "203"
+        },
+        {
+            "date": "2025-02-24",
+            "total_secrets": "204"
+        },
+        {
+            "date": "2025-02-24",
+            "total_secrets": "204"
+        },
+        {
+            "date": "2025-02-25",
+            "total_secrets": "202"
+        },
+        {
+            "date": "2025-02-25",
+            "total_secrets": "202"
+        },
+        {
+            "date": "2025-02-26",
+            "total_secrets": "202"
+        },
+        {
+            "date": "2025-02-26",
+            "total_secrets": "202"
+        },
+        {
+            "date": "2025-02-27",
+            "total_secrets": "203"
+        },
+        {
+            "date": "2025-02-27",
+            "total_secrets": "203"
+        },
+        {
+            "date": "2025-02-28",
+            "total_secrets": "203"
+        },
+        {
+            "date": "2025-02-28",
+            "total_secrets": "203"
+        },
+        {
+            "date": "2025-03-01",
+            "total_secrets": "205"
+        },
+        {
+            "date": "2025-03-01",
+            "total_secrets": "205"
+        },
+        {
+            "date": "2025-03-02",
+            "total_secrets": "204"
+        },
+        {
+            "date": "2025-03-02",
+            "total_secrets": "204"
+        },
+        {
+            "date": "2025-03-03",
+            "total_secrets": "204"
+        },
+        {
+            "date": "2025-03-03",
+            "total_secrets": "204"
+        },
+        {
+            "date": "2025-03-04",
+            "total_secrets": "204"
+        },
+        {
+            "date": "2025-03-04",
+            "total_secrets": "204"
+        },
+        {
+            "date": "2025-03-05",
+            "total_secrets": "204"
+        },
+        {
+            "date": "2025-03-05",
+            "total_secrets": "204"
+        },
+        {
+            "date": "2025-03-06",
+            "total_secrets": "205"
+        },
+        {
+            "date": "2025-03-06",
+            "total_secrets": "205"
+        },
+        {
+            "date": "2025-03-07",
+            "total_secrets": "200"
+        },
+        {
+            "date": "2025-03-07",
+            "total_secrets": "200"
+        },
+        {
+            "date": "2025-03-08",
+            "total_secrets": "200"
+        },
+        {
+            "date": "2025-03-08",
+            "total_secrets": "200"
+        },
+        {
+            "date": "2025-03-09",
+            "total_secrets": "199"
+        },
+        {
+            "date": "2025-03-09",
+            "total_secrets": "199"
+        },
+        {
+            "date": "2025-03-10",
+            "total_secrets": "200"
+        },
+        {
+            "date": "2025-03-10",
+            "total_secrets": "200"
+        },
+        {
+            "date": "2025-03-11",
+            "total_secrets": "198"
+        },
+        {
+            "date": "2025-03-11",
+            "total_secrets": "198"
+        },
+        {
+            "date": "2025-03-12",
+            "total_secrets": "199"
+        },
+        {
+            "date": "2025-03-12",
+            "total_secrets": "199"
+        },
+        {
+            "date": "2025-03-13",
+            "total_secrets": "198"
+        },
+        {
+            "date": "2025-03-13",
+            "total_secrets": "198"
+        },
+        {
+            "date": "2025-03-14",
+            "total_secrets": "198"
+        },
+        {
+            "date": "2025-03-14",
+            "total_secrets": "198"
+        },
+        {
+            "date": "2025-03-15",
+            "total_secrets": "201"
+        },
+        {
+            "date": "2025-03-15",
+            "total_secrets": "201"
+        },
+        {
+            "date": "2025-03-16",
+            "total_secrets": "74"
+        },
+        {
+            "date": "2025-03-16",
+            "total_secrets": "74"
+        },
+        {
+            "date": "2025-03-17",
+            "total_secrets": "195"
+        },
+        {
+            "date": "2025-03-17",
+            "total_secrets": "195"
+        },
+        {
+            "date": "2025-03-18",
+            "total_secrets": "200"
+        },
+        {
+            "date": "2025-03-18",
+            "total_secrets": "200"
+        },
+        {
+            "date": "2025-03-19",
+            "total_secrets": "197"
+        },
+        {
+            "date": "2025-03-19",
+            "total_secrets": "197"
+        },
+        {
+            "date": "2025-03-20",
+            "total_secrets": "199"
+        },
+        {
+            "date": "2025-03-20",
+            "total_secrets": "199"
+        },
+        {
+            "date": "2025-03-21",
+            "total_secrets": "199"
+        },
+        {
+            "date": "2025-03-21",
+            "total_secrets": "199"
+        },
+        {
+            "date": "2025-03-22",
+            "total_secrets": "200"
+        },
+        {
+            "date": "2025-03-22",
+            "total_secrets": "200"
+        },
+        {
+            "date": "2025-03-23",
+            "total_secrets": "200"
+        },
+        {
+            "date": "2025-03-23",
+            "total_secrets": "200"
+        },
+        {
+            "date": "2025-03-24",
+            "total_secrets": "199"
+        },
+        {
+            "date": "2025-03-24",
+            "total_secrets": "199"
+        },
+        {
+            "date": "2025-03-25",
+            "total_secrets": "198"
+        },
+        {
+            "date": "2025-03-25",
+            "total_secrets": "198"
+        },
+        {
+            "date": "2025-03-26",
+            "total_secrets": "200"
+        },
+        {
+            "date": "2025-03-26",
+            "total_secrets": "200"
+        },
+        {
+            "date": "2025-03-27",
+            "total_secrets": "197"
+        },
+        {
+            "date": "2025-03-27",
+            "total_secrets": "197"
+        },
+        {
+            "date": "2025-03-28",
+            "total_secrets": "197"
+        },
+        {
+            "date": "2025-03-28",
+            "total_secrets": "197"
+        },
+        {
+            "date": "2025-03-29",
+            "total_secrets": "198"
+        },
+        {
+            "date": "2025-03-29",
+            "total_secrets": "198"
+        },
+        {
+            "date": "2025-03-30",
+            "total_secrets": "197"
+        },
+        {
+            "date": "2025-03-30",
+            "total_secrets": "197"
+        },
+        {
+            "date": "2025-03-31",
+            "total_secrets": "199"
+        },
+        {
+            "date": "2025-03-31",
+            "total_secrets": "199"
+        },
+        {
+            "date": "2025-04-01",
+            "total_secrets": "198"
+        },
+        {
+            "date": "2025-04-01",
+            "total_secrets": "198"
+        },
+        {
+            "date": "2025-04-02",
+            "total_secrets": "199"
+        },
+        {
+            "date": "2025-04-02",
+            "total_secrets": "199"
+        },
+        {
+            "date": "2025-04-03",
+            "total_secrets": "197"
+        },
+        {
+            "date": "2025-04-03",
+            "total_secrets": "197"
+        },
+        {
+            "date": "2025-04-04",
+            "total_secrets": "199"
+        },
+        {
+            "date": "2025-04-04",
+            "total_secrets": "199"
+        },
+        {
+            "date": "2025-04-05",
+            "total_secrets": "200"
+        },
+        {
+            "date": "2025-04-05",
+            "total_secrets": "200"
+        },
+        {
+            "date": "2025-04-06",
+            "total_secrets": "200"
+        },
+        {
+            "date": "2025-04-06",
+            "total_secrets": "200"
+        },
+        {
+            "date": "2025-04-07",
+            "total_secrets": "200"
+        },
+        {
+            "date": "2025-04-07",
+            "total_secrets": "200"
+        },
+        {
+            "date": "2025-04-08",
+            "total_secrets": "201"
+        },
+        {
+            "date": "2025-04-08",
+            "total_secrets": "201"
+        },
+        {
+            "date": "2025-04-09",
+            "total_secrets": "202"
+        },
+        {
+            "date": "2025-04-09",
+            "total_secrets": "202"
+        },
+        {
+            "date": "2025-04-10",
+            "total_secrets": "203"
+        },
+        {
+            "date": "2025-04-10",
+            "total_secrets": "203"
+        },
+        {
+            "date": "2025-04-11",
+            "total_secrets": "202"
+        },
+        {
+            "date": "2025-04-11",
+            "total_secrets": "202"
+        },
+        {
+            "date": "2025-04-12",
+            "total_secrets": "203"
+        },
+        {
+            "date": "2025-04-12",
+            "total_secrets": "203"
+        },
+        {
+            "date": "2025-04-13",
+            "total_secrets": "201"
+        },
+        {
+            "date": "2025-04-13",
+            "total_secrets": "201"
+        },
+        {
+            "date": "2025-04-14",
+            "total_secrets": "203"
+        },
+        {
+            "date": "2025-04-14",
+            "total_secrets": "203"
+        },
+        {
+            "date": "2025-04-15",
+            "total_secrets": "200"
+        },
+        {
+            "date": "2025-04-15",
+            "total_secrets": "200"
+        },
+        {
+            "date": "2025-04-16",
+            "total_secrets": "204"
+        },
+        {
+            "date": "2025-04-16",
+            "total_secrets": "204"
+        },
+        {
+            "date": "2025-04-17",
+            "total_secrets": "202"
+        },
+        {
+            "date": "2025-04-17",
+            "total_secrets": "202"
+        },
+        {
+            "date": "2025-04-18",
+            "total_secrets": "202"
+        },
+        {
+            "date": "2025-04-18",
+            "total_secrets": "202"
+        },
+        {
+            "date": "2025-04-19",
+            "total_secrets": "199"
+        },
+        {
+            "date": "2025-04-19",
+            "total_secrets": "199"
+        },
+        {
+            "date": "2025-04-20",
+            "total_secrets": "198"
+        },
+        {
+            "date": "2025-04-20",
+            "total_secrets": "198"
+        },
+        {
+            "date": "2025-04-21",
+            "total_secrets": "200"
+        },
+        {
+            "date": "2025-04-21",
+            "total_secrets": "200"
+        },
+        {
+            "date": "2025-04-22",
+            "total_secrets": "198"
+        },
+        {
+            "date": "2025-04-22",
+            "total_secrets": "198"
+        },
+        {
+            "date": "2025-04-23",
+            "total_secrets": "197"
+        },
+        {
+            "date": "2025-04-23",
+            "total_secrets": "197"
+        },
+        {
+            "date": "2025-04-24",
+            "total_secrets": "197"
+        },
+        {
+            "date": "2025-04-24",
+            "total_secrets": "197"
+        },
+        {
+            "date": "2025-04-25",
+            "total_secrets": "197"
+        },
+        {
+            "date": "2025-04-25",
+            "total_secrets": "197"
+        },
+        {
+            "date": "2025-04-26",
+            "total_secrets": "197"
+        },
+        {
+            "date": "2025-04-26",
+            "total_secrets": "197"
+        },
+        {
+            "date": "2025-04-27",
+            "total_secrets": "195"
+        },
+        {
+            "date": "2025-04-27",
+            "total_secrets": "195"
+        },
+        {
+            "date": "2025-04-28",
+            "total_secrets": "196"
+        },
+        {
+            "date": "2025-04-28",
+            "total_secrets": "196"
+        },
+        {
+            "date": "2025-04-29",
+            "total_secrets": "194"
+        },
+        {
+            "date": "2025-04-29",
+            "total_secrets": "194"
+        },
+        {
+            "date": "2025-04-30",
+            "total_secrets": "195"
+        },
+        {
+            "date": "2025-04-30",
+            "total_secrets": "195"
+        },
+        {
+            "date": "2025-05-01",
+            "total_secrets": "194"
+        },
+        {
+            "date": "2025-05-01",
+            "total_secrets": "194"
+        },
+        {
+            "date": "2025-05-02",
+            "total_secrets": "195"
+        },
+        {
+            "date": "2025-05-02",
+            "total_secrets": "195"
+        },
+        {
+            "date": "2025-05-03",
+            "total_secrets": "196"
+        },
+        {
+            "date": "2025-05-03",
+            "total_secrets": "196"
+        },
+        {
+            "date": "2025-05-04",
+            "total_secrets": "196"
+        },
+        {
+            "date": "2025-05-04",
+            "total_secrets": "196"
+        },
+        {
+            "date": "2025-05-05",
+            "total_secrets": "197"
+        },
+        {
+            "date": "2025-05-05",
+            "total_secrets": "197"
+        },
+        {
+            "date": "2025-05-06",
+            "total_secrets": "199"
+        },
+        {
+            "date": "2025-05-06",
+            "total_secrets": "199"
+        },
+        {
+            "date": "2025-05-07",
+            "total_secrets": "199"
+        },
+        {
+            "date": "2025-05-07",
+            "total_secrets": "199"
+        },
+        {
+            "date": "2025-05-08",
+            "total_secrets": "195"
+        },
+        {
+            "date": "2025-05-08",
+            "total_secrets": "195"
+        },
+        {
+            "date": "2025-05-09",
+            "total_secrets": "199"
+        },
+        {
+            "date": "2025-05-09",
+            "total_secrets": "199"
+        },
+        {
+            "date": "2025-05-10",
+            "total_secrets": "199"
+        },
+        {
+            "date": "2025-05-10",
+            "total_secrets": "199"
+        },
+        {
+            "date": "2025-05-11",
+            "total_secrets": "196"
+        },
+        {
+            "date": "2025-05-11",
+            "total_secrets": "196"
+        },
+        {
+            "date": "2025-05-12",
+            "total_secrets": "199"
+        }
+    ],
+    "time_seriers_graph": [
+        {
+            "date": "2025-05-12",
+            "total_secrets": "199"
+        },
+        {
+            "date": "2025-05-13",
+            "total_secrets": "197"
+        },
+        {
+            "date": "2025-05-14",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2025-05-15",
+            "total_secrets": "200"
+        },
+        {
+            "date": "2025-05-16",
+            "total_secrets": "196"
+        },
+        {
+            "date": "2025-05-17",
+            "total_secrets": "195"
+        },
+        {
+            "date": "2025-05-18",
+            "total_secrets": "195"
+        },
+        {
+            "date": "2025-05-19",
+            "total_secrets": "196"
+        },
+        {
+            "date": "2025-05-20",
+            "total_secrets": "196"
+        },
+        {
+            "date": "2025-05-21",
+            "total_secrets": "197"
+        },
+        {
+            "date": "2025-05-22",
+            "total_secrets": "195"
+        },
+        {
+            "date": "2025-05-23",
+            "total_secrets": "193"
+        },
+        {
+            "date": "2025-05-24",
+            "total_secrets": "194"
+        },
+        {
+            "date": "2025-05-25",
+            "total_secrets": "194"
+        },
+        {
+            "date": "2025-05-26",
+            "total_secrets": "193"
+        },
+        {
+            "date": "2025-05-27",
+            "total_secrets": "195"
+        },
+        {
+            "date": "2025-05-28",
+            "total_secrets": "195"
+        },
+        {
+            "date": "2025-05-29",
+            "total_secrets": "140"
+        },
+        {
+            "date": "2025-05-30",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2025-05-31",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2025-06-01",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2025-06-02",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2025-06-03",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2025-06-04",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2025-06-05",
+            "total_secrets": "0"
+        },
+        {
+            "date": "2025-06-06",
+            "total_secrets": "56"
+        },
+        {
+            "date": "2025-06-07",
+            "total_secrets": "56"
+        },
+        {
+            "date": "2025-06-08",
+            "total_secrets": "56"
+        },
+        {
+            "date": "2025-06-09",
+            "total_secrets": "56"
+        },
+        {
+            "date": "2025-06-10",
+            "total_secrets": "56"
+        }
+    ],
+    "table_data": [
+        {
+            "index": 1,
+            "committer": "RDESA15 <50030601+RDESA15@users.noreply.github.com>",
+            "repository": "https://github.albertsons.com/albertsons/scgo-itemlookup.git",
+            "credential_type": "AzureStorage",
+            "committed_on": "2019-05-28",
+            "detected_on": "2024-01-02",
+            "number_of_days_since_detection": 525,
+            "link": "https://github.albertsons.com/albertsons/scgo-itemlookup/blob/82d41d2ff0f8bfbe85beba1f23e4d4ee2ff5febc/local.settings.json#L4",
+            "line_number": 4,
+            "AppCode": "scgo",
+            "AppOwner": "Saju Sreekumar",
+            "Team": "Saju Sreekumar",
+            "Department": "Karthik Iyer",
+            "Portfolio": "Digital (Ramiya Iyer)"
+        },
+        {
+            "index": 2,
+            "committer": "sshan76@safeway.com <Sandeep.Shankar@albertsons.com>",
+            "repository": "https://github.albertsons.com/albertsons/platform-devops-helmcharts.git",
+            "credential_type": "AzureStorage",
+            "committed_on": "2022-12-26",
+            "detected_on": "2024-01-02",
+            "number_of_days_since_detection": 525,
+            "link": "https://github.albertsons.com/albertsons/platform-devops-helmcharts/blob/bcaeb3970724c51ab6dbc9a7c16786dd3838007b/application/rxwa/env/qa1/rxwa-gql-service/configmap.yaml#L69",
+            "line_number": 69,
+            "AppCode": "platform",
+            "AppOwner": "",
+            "Team": "",
+            "Department": "",
+            "Portfolio": ""
+        },
+        {
+            "index": 3,
+            "committer": "Paschal Ogbannu <pogba00@safeway.com>",
+            "repository": "https://github.albertsons.com/albertsons/platform-devops-helmcharts.git",
+            "credential_type": "AzureStorage",
+            "committed_on": "2022-01-07",
+            "detected_on": "2024-01-02",
+            "number_of_days_since_detection": 525,
+            "link": "https://github.albertsons.com/albertsons/platform-devops-helmcharts/blob/b087defb670d0338a5fa8b90b158b59a9310cfb1/application/irwo/env/prod/irwo-web-sprboot/configmap.yaml#L9",
+            "line_number": 9,
+            "AppCode": "platform",
+            "AppOwner": "",
+            "Team": "",
+            "Department": "",
+            "Portfolio": ""
+        },
+        {
+            "index": 4,
+            "committer": "sbhon00 <sandeep.bhonagiri@albertsons.com>",
+            "repository": "https://github.albertsons.com/albertsons/PSTL-RioTrickleserver.git",
+            "credential_type": "AzureStorage",
+            "committed_on": "2020-09-28",
+            "detected_on": "2024-01-02",
+            "number_of_days_since_detection": 525,
+            "link": "https://github.albertsons.com/albertsons/PSTL-RioTrickleserver/blob/077576bd87ad67d55b706127083507567705566c/DataCompare/TLOGDataCompareEmailTrigger/TLOGDataCompareEmailTrigger/Function1.cs#L22",
+            "line_number": 22,
+            "AppCode": "PSTL",
+            "AppOwner": "Greg Hartnett",
+            "Team": "Greg Hartnett",
+            "Department": "Karthik Iyer",
+            "Portfolio": "Digital (Ramiya Iyer)"
+        },
+        {
+            "index": 5,
+            "committer": "Balakrishna Narla <balakrishna.narla@albertsons.com>",
+            "repository": "https://github.albertsons.com/albertsons/emco-test.git",
+            "credential_type": "AzureStorage",
+            "committed_on": "2018-09-13",
+            "detected_on": "2024-01-02",
+            "number_of_days_since_detection": 525,
+            "link": "https://github.albertsons.com/albertsons/emco-test/blob/a13ba37fd0018ca9ca37d7bf70252225ef697bcb/applications/purchase-history-service/src/main/resources/application.yml#L192",
+            "line_number": 192,
+            "AppCode": "emco",
+            "AppOwner": "Michelle Tonkovich",
+            "Team": "Michelle Tonkovich",
+            "Department": "Sravanthi Muppidi",
+            "Portfolio": "Digital (Ramiya Iyer)"
+        },
+        {
+            "index": 6,
+            "committer": "Balakrishna Narla <balakrishna.narla@albertsons.com>",
+            "repository": "https://github.albertsons.com/albertsons/emco-ccms.git",
+            "credential_type": "AzureStorage",
+            "committed_on": "2018-09-13",
+            "detected_on": "2024-01-02",
+            "number_of_days_since_detection": 525,
+            "link": "https://github.albertsons.com/albertsons/emco-ccms/blob/a13ba37fd0018ca9ca37d7bf70252225ef697bcb/applications/purchase-history-service/src/main/resources/application.yml#L192",
+            "line_number": 192,
+            "AppCode": "emco",
+            "AppOwner": "Michelle Tonkovich",
+            "Team": "Michelle Tonkovich",
+            "Department": "Sravanthi Muppidi",
+            "Portfolio": "Digital (Ramiya Iyer)"
+        },
+        {
+            "index": 7,
+            "committer": "Balakrishna Narla <balakrishna.narla@albertsons.com>",
+            "repository": "https://github.albertsons.com/albertsons/IAUC-LoyaltyManagement.git",
+            "credential_type": "AzureStorage",
+            "committed_on": "2018-09-13",
+            "detected_on": "2024-01-02",
+            "number_of_days_since_detection": 525,
+            "link": "https://github.albertsons.com/albertsons/IAUC-LoyaltyManagement/blob/a13ba37fd0018ca9ca37d7bf70252225ef697bcb/applications/purchase-history-service/src/main/resources/application.yml#L192",
+            "line_number": 192,
+            "AppCode": "IAUC",
+            "AppOwner": "Subroto Chakrabarty",
+            "Team": "Subroto Chakrabarty",
+            "Department": "Param Devireddy",
+            "Portfolio": "Digital (Ramiya Iyer)"
+        },
+        {
+            "index": 8,
+            "committer": "Greeshma George <ggeor20@safeway.com>",
+            "repository": "https://github.albertsons.com/albertsons/pstl-tlog-mgmt-STALE.git",
+            "credential_type": "AzureStorage",
+            "committed_on": "2020-05-07",
+            "detected_on": "2024-01-02",
+            "number_of_days_since_detection": 525,
+            "link": "https://github.albertsons.com/albertsons/pstl-tlog-mgmt-STALE/blob/dd69abad90628b0434519c465c93f6bafa14f7da/DataCompare/TLOGDataCompare/TLOGDataCompare/Program.cs#L660",
+            "line_number": 660,
+            "AppCode": "pstl",
+            "AppOwner": "Greg Hartnett",
+            "Team": "Greg Hartnett",
+            "Department": "Karthik Iyer",
+            "Portfolio": "Digital (Ramiya Iyer)"
+        },
+        {
+            "index": 9,
+            "committer": "albdemo <30602897+albdemo@users.noreply.github.com>",
+            "repository": "https://github.albertsons.com/albertsons/pstl-tlog-mgmt.git",
+            "credential_type": "AzureStorage",
+            "committed_on": "2021-01-25",
+            "detected_on": "2024-01-02",
+            "number_of_days_since_detection": 525,
+            "link": "https://github.albertsons.com/albertsons/pstl-tlog-mgmt/blob/04389e0159d9f8bdc0048d29c6df93e089a72657/BulkUploadScripts/config.ini#L6",
+            "line_number": 6,
+            "AppCode": "pstl",
+            "AppOwner": "Greg Hartnett",
+            "Team": "Greg Hartnett",
+            "Department": "Karthik Iyer",
+            "Portfolio": "Digital (Ramiya Iyer)"
+        },
+        {
+            "index": 10,
+            "committer": "albdemo <30602897+albdemo@users.noreply.github.com>",
+            "repository": "https://github.albertsons.com/albertsons/pstl-tlog-mgmt.git",
+            "credential_type": "AzureStorage",
+            "committed_on": "2021-01-25",
+            "detected_on": "2024-01-02",
+            "number_of_days_since_detection": 525,
+            "link": "https://github.albertsons.com/albertsons/pstl-tlog-mgmt/blob/04389e0159d9f8bdc0048d29c6df93e089a72657/BulkUploadScripts/config.ini#L4",
+            "line_number": 4,
+            "AppCode": "pstl",
+            "AppOwner": "Greg Hartnett",
+            "Team": "Greg Hartnett",
+            "Department": "Karthik Iyer",
+            "Portfolio": "Digital (Ramiya Iyer)"
+        },
+        {
+            "index": 11,
+            "committer": "Greeshma George <ggeor20@safeway.com>",
+            "repository": "https://github.albertsons.com/albertsons/pstl-tlog-mgmt.git",
+            "credential_type": "AzureStorage",
+            "committed_on": "2020-05-07",
+            "detected_on": "2024-01-02",
+            "number_of_days_since_detection": 525,
+            "link": "https://github.albertsons.com/albertsons/pstl-tlog-mgmt/blob/dd69abad90628b0434519c465c93f6bafa14f7da/DataCompare/TLOGDataCompare/TLOGDataCompare/Program.cs#L660",
+            "line_number": 660,
+            "AppCode": "pstl",
+            "AppOwner": "Greg Hartnett",
+            "Team": "Greg Hartnett",
+            "Department": "Karthik Iyer",
+            "Portfolio": "Digital (Ramiya Iyer)"
+        },
+        {
+            "index": 12,
+            "committer": "Balakrishna Narla <balakrishna.narla@albertsons.com>",
+            "repository": "https://github.albertsons.com/albertsons/IAUC-CustomerProfile.git",
+            "credential_type": "AzureStorage",
+            "committed_on": "2018-09-13",
+            "detected_on": "2024-01-02",
+            "number_of_days_since_detection": 525,
+            "link": "https://github.albertsons.com/albertsons/IAUC-CustomerProfile/blob/a13ba37fd0018ca9ca37d7bf70252225ef697bcb/applications/purchase-history-service/src/main/resources/application.yml#L192",
+            "line_number": 192,
+            "AppCode": "IAUC",
+            "AppOwner": "Subroto Chakrabarty",
+            "Team": "Subroto Chakrabarty",
+            "Department": "Param Devireddy",
+            "Portfolio": "Digital (Ramiya Iyer)"
+        },
+        {
+            "index": 13,
+            "committer": "Antoine Khouri (Contractor) <akhou07@safeway.com>",
+            "repository": "https://github.albertsons.com/albertsons/wcax-enterprise-dam.git",
+            "credential_type": "AzureStorage",
+            "committed_on": "2025-04-08",
+            "detected_on": "2025-04-09",
+            "number_of_days_since_detection": 62,
+            "link": "https://github.albertsons.com/albertsons/wcax-enterprise-dam/blob/dac675c2a100290f71982950f9fde33ae2ae9d68/ui.apps/src/main/content/jcr_root/apps/wcax-enterprise-dam/config.author/com.safeway.app.wcax.enterprise.dam.integrations.ecp.service.impl.AzureAssetDownloadServiceImpl.xml#L4",
+            "line_number": 4,
+            "AppCode": "wcax",
+            "AppOwner": "Neetu Sultan",
+            "Team": "Neetu Sultan",
+            "Department": "Param Devireddy",
+            "Portfolio": "Digital (Ramiya Iyer)"
+        },
+        {
+            "index": 14,
+            "committer": "Dwarampudi Prakash Reddy <dwapraka@publicisgroupe.net>",
+            "repository": "https://github.albertsons.com/albertsons/wcax-enterprise-dam.git",
+            "credential_type": "AzureStorage",
+            "committed_on": "2024-08-21",
+            "detected_on": "2024-08-22",
+            "number_of_days_since_detection": 292,
+            "link": "https://github.albertsons.com/albertsons/wcax-enterprise-dam/blob/f04bed6b7523ac9d456caa308c2cde27274b2ca5/ui.apps/src/main/content/jcr_root/apps/wcax-enterprise-dam/config.author.prod/com.safeway.app.wcax.enterprise.dam.integrations.ecp.service.impl.AzureAssetDownloadServiceImpl.xml#L4",
+            "line_number": 4,
+            "AppCode": "wcax",
+            "AppOwner": "Neetu Sultan",
+            "Team": "Neetu Sultan",
+            "Department": "Param Devireddy",
+            "Portfolio": "Digital (Ramiya Iyer)"
+        },
+        {
+            "index": 15,
+            "committer": "Prakash Reddy <dredd30@safeway.com>",
+            "repository": "https://github.albertsons.com/albertsons/wcax-enterprise-dam.git",
+            "credential_type": "AzureStorage",
+            "committed_on": "2024-03-28",
+            "detected_on": "2024-03-29",
+            "number_of_days_since_detection": 438,
+            "link": "https://github.albertsons.com/albertsons/wcax-enterprise-dam/blob/0d9836f2b93dfc541d4eef0b679af0e629f25e69/ui.apps/src/main/content/jcr_root/apps/wcax-enterprise-dam/config.author/com.safeway.app.wcax.enterprise.dam.integrations.ecp.service.impl.AzureAssetDownloadServiceImpl.xml#L4",
+            "line_number": 4,
+            "AppCode": "wcax",
+            "AppOwner": "Neetu Sultan",
+            "Team": "Neetu Sultan",
+            "Department": "Param Devireddy",
+            "Portfolio": "Digital (Ramiya Iyer)"
+        },
+        {
+            "index": 16,
+            "committer": "Nagarajan Velineni <nveli01@safeway.com>",
+            "repository": "https://github.albertsons.com/albertsons/OCIS-API-Automation.git",
+            "credential_type": "AzureStorage",
+            "committed_on": "2025-04-03",
+            "detected_on": "2025-04-04",
+            "number_of_days_since_detection": 67,
+            "link": "https://github.albertsons.com/albertsons/OCIS-API-Automation/blob/e68bc3e6c8f284d142666338a9b589a0aa870b73/src/test/java/com/albertsons/catalogins/services/AzureInventoryServices.java#L52",
+            "line_number": 52,
+            "AppCode": "OCIS",
+            "AppOwner": "Krishna Wudaru",
+            "Team": "Krishna Wudaru",
+            "Department": "Bhargavi Whatley",
+            "Portfolio": "Digital (Ramiya Iyer)"
+        },
+        {
+            "index": 17,
+            "committer": "Marisha <mrego07@safeway.com>",
+            "repository": "https://github.albertsons.com/albertsons/OCIS-DP-Automation.git",
+            "credential_type": "AzureStorage",
+            "committed_on": "2023-11-27",
+            "detected_on": "2024-01-02",
+            "number_of_days_since_detection": 525,
+            "link": "https://github.albertsons.com/albertsons/OCIS-DP-Automation/blob/10251a9203aa501e3959bf4dfe193b4b4f17ead8/src/test/resources/application-accp.yml#L92",
+            "line_number": 92,
+            "AppCode": "OCIS",
+            "AppOwner": "Krishna Wudaru",
+            "Team": "Krishna Wudaru",
+            "Department": "Bhargavi Whatley",
+            "Portfolio": "Digital (Ramiya Iyer)"
+        },
+        {
+            "index": 18,
+            "committer": "Marisha <mrego07@safeway.com>",
+            "repository": "https://github.albertsons.com/albertsons/OCIS-DP-Automation.git",
+            "credential_type": "AzureStorage",
+            "committed_on": "2023-09-12",
+            "detected_on": "2024-01-02",
+            "number_of_days_since_detection": 525,
+            "link": "https://github.albertsons.com/albertsons/OCIS-DP-Automation/blob/9a0288a05bc30ef8287c3373ff36d58a8332e829/src/test/resources/application-qa.yml#L100",
+            "line_number": 100,
+            "AppCode": "OCIS",
+            "AppOwner": "Krishna Wudaru",
+            "Team": "Krishna Wudaru",
+            "Department": "Bhargavi Whatley",
+            "Portfolio": "Digital (Ramiya Iyer)"
+        },
+        {
+            "index": 19,
+            "committer": "kbuen03 <karlo.buenaventura@safeway.com>",
+            "repository": "https://github.albertsons.com/albertsons/esca-cog-services.git",
+            "credential_type": "AzureStorage",
+            "committed_on": "2021-08-05",
+            "detected_on": "2024-01-02",
+            "number_of_days_since_detection": 525,
+            "link": "https://github.albertsons.com/albertsons/esca-cog-services/blob/ab59b89b277f9cb854c2af2adca03f12da327066/sharepoint-batch/src/main/resources/esca-sharepoint-prod.properties#L9",
+            "line_number": 9,
+            "AppCode": "esca",
+            "AppOwner": "Ian Long",
+            "Team": "Ian Long",
+            "Department": "Steve Cowan",
+            "Portfolio": "COG (Jim Saber)"
+        },
+        {
+            "index": 20,
+            "committer": "VJUJJ01 <VijayKumar.Jujjavarapu@albertsons.com>",
+            "repository": "https://github.albertsons.com/albertsons/OCMC-DP-Automation.git",
+            "credential_type": "AzureStorage",
+            "committed_on": "2025-03-28",
+            "detected_on": "2025-03-29",
+            "number_of_days_since_detection": 73,
+            "link": "https://github.albertsons.com/albertsons/OCMC-DP-Automation/blob/5ba84dfff02dbcb7ff95a3361e9dcbfe257a684f/src/test/resources/application-accp.yml#L72",
+            "line_number": 72,
+            "AppCode": "OCMC",
+            "AppOwner": "Krishna Wudaru",
+            "Team": "Krishna Wudaru",
+            "Department": "Bhargavi Whatley",
+            "Portfolio": "Digital (Ramiya Iyer)"
+        },
+        {
+            "index": 21,
+            "committer": "Nishant Pawar <npawa03@safeway.com>",
+            "repository": "https://github.albertsons.com/albertsons/OCMC-DP-Automation.git",
+            "credential_type": "AzureStorage",
+            "committed_on": "2024-07-11",
+            "detected_on": "2024-07-12",
+            "number_of_days_since_detection": 333,
+            "link": "https://github.albertsons.com/albertsons/OCMC-DP-Automation/blob/e7090b6884cd57cf23476a9260d21311a1fe45da/src/test/resources/application-qa.yml#L87",
+            "line_number": 87,
+            "AppCode": "OCMC",
+            "AppOwner": "Krishna Wudaru",
+            "Team": "Krishna Wudaru",
+            "Department": "Bhargavi Whatley",
+            "Portfolio": "Digital (Ramiya Iyer)"
+        },
+        {
+            "index": 22,
+            "committer": "Ajay <arayi00@safeway.com>",
+            "repository": "https://github.albertsons.com/albertsons/OCMC-DP-Automation.git",
+            "credential_type": "AzureStorage",
+            "committed_on": "2022-04-25",
+            "detected_on": "2024-01-02",
+            "number_of_days_since_detection": 525,
+            "link": "https://github.albertsons.com/albertsons/OCMC-DP-Automation/blob/f0f68a4d4a1b6caae62424f7baa46eae27ea18c4/src/test/java/com/safeway/osdc/utils/GetAzureStorageFile.java#L33",
+            "line_number": 33,
+            "AppCode": "OCMC",
+            "AppOwner": "Krishna Wudaru",
+            "Team": "Krishna Wudaru",
+            "Department": "Bhargavi Whatley",
+            "Portfolio": "Digital (Ramiya Iyer)"
+        },
+        {
+            "index": 23,
+            "committer": "Avinash Bommidi <abomm02@safeway.com>",
+            "repository": "https://github.albertsons.com/albertsons/OCMC-DP-Automation.git",
+            "credential_type": "AzureStorage",
+            "committed_on": "2022-04-14",
+            "detected_on": "2024-01-02",
+            "number_of_days_since_detection": 525,
+            "link": "https://github.albertsons.com/albertsons/OCMC-DP-Automation/blob/d75ccf30d7e0dc1fcd26b9e770fbb683d8f9fdfa/src/test/resources/application-accp.yml#L59",
+            "line_number": 59,
+            "AppCode": "OCMC",
+            "AppOwner": "Krishna Wudaru",
+            "Team": "Krishna Wudaru",
+            "Department": "Bhargavi Whatley",
+            "Portfolio": "Digital (Ramiya Iyer)"
+        },
+        {
+            "index": 24,
+            "committer": "VJUJJ01 <VijayKumar.Jujjavarapu@albertsons.com>",
+            "repository": "https://github.albertsons.com/albertsons/OCMC-API-Automation.git",
+            "credential_type": "AzureStorage",
+            "committed_on": "2025-03-20",
+            "detected_on": "2025-03-21",
+            "number_of_days_since_detection": 81,
+            "link": "https://github.albertsons.com/albertsons/OCMC-API-Automation/blob/5a5b3df0862aa0c34a8356df905bbb283e1c0bc3/src/test/resources/application-dev.yml#L54",
+            "line_number": 54,
+            "AppCode": "OCMC",
+            "AppOwner": "Krishna Wudaru",
+            "Team": "Krishna Wudaru",
+            "Department": "Bhargavi Whatley",
+            "Portfolio": "Digital (Ramiya Iyer)"
+        },
+        {
+            "index": 25,
+            "committer": "tkarn07 <Tejasri.Karnati@albertsons.com>",
+            "repository": "https://github.albertsons.com/albertsons/dasc-scm-azure.git",
+            "credential_type": "AzureStorage",
+            "committed_on": "2024-03-07",
+            "detected_on": "2024-03-08",
+            "number_of_days_since_detection": 459,
+            "link": "https://github.albertsons.com/albertsons/dasc-scm-azure/blob/d82a05c0813e56e11a860bbd8539becb62e87ffd/DataBricks/man_dbx/text/april/scm_db_nb_code_date_detail_file_transfer.py#L44",
+            "line_number": 44,
+            "AppCode": "dasc",
+            "AppOwner": "Ninad Khirwadkar",
+            "Team": "Ninad Khirwadkar",
+            "Department": "Dave Newton",
+            "Portfolio": "Digital (Ramiya Iyer)"
+        },
+        {
+            "index": 26,
+            "committer": "RDESA15 <50030601+RDESA15@users.noreply.github.com>",
+            "repository": "https://github.albertsons.com/albertsons/ocsg-jsbackend.git",
+            "credential_type": "AzureStorage",
+            "committed_on": "2019-05-28",
+            "detected_on": "2024-01-02",
+            "number_of_days_since_detection": 525,
+            "link": "https://github.albertsons.com/albertsons/ocsg-jsbackend/blob/82d41d2ff0f8bfbe85beba1f23e4d4ee2ff5febc/local.settings.json#L4",
+            "line_number": 4,
+            "AppCode": "ocsg",
+            "AppOwner": "Saju Sreekumar",
+            "Team": "Saju Sreekumar",
+            "Department": "Karthik Iyer",
+            "Portfolio": "Digital (Ramiya Iyer)"
+        },
+        {
+            "index": 27,
+            "committer": "vvija00@safeway.com <39963558+vvija00@users.noreply.github.com>",
+            "repository": "https://github.albertsons.com/albertsons/pscp-clover-backend.git",
+            "credential_type": "AzureStorage",
+            "committed_on": "2021-06-24",
+            "detected_on": "2024-01-02",
+            "number_of_days_since_detection": 525,
+            "link": "https://github.albertsons.com/albertsons/pscp-clover-backend/blob/1ace89fbd621e4f99d6b1b903e241a3ae07d31ed/local.settings.json#L39",
+            "line_number": 39,
+            "AppCode": "pscp",
+            "AppOwner": "Greg Hartnett",
+            "Team": "Greg Hartnett",
+            "Department": "Karthik Iyer",
+            "Portfolio": "Digital (Ramiya Iyer)"
+        },
+        {
+            "index": 28,
+            "committer": "Lakshmi Lavanya Vadlamani (Contractor) <LVADL00@safeway.com>",
+            "repository": "https://github.albertsons.com/albertsons/osdt-automation.git",
+            "credential_type": "AzureStorage",
+            "committed_on": "2024-12-23",
+            "detected_on": "2024-12-24",
+            "number_of_days_since_detection": 168,
+            "link": "https://github.albertsons.com/albertsons/osdt-automation/blob/a583c0e23a94539a7e1ba61f61c15df9ad1c87c5/src/test/resources/application.yml#L57",
+            "line_number": 57,
+            "AppCode": "osdt",
+            "AppOwner": "Keerthi Mothukuri",
+            "Team": "Karthik Balasubramanian",
+            "Department": "Balaji Nambi",
+            "Portfolio": "Digital (Ramiya Iyer)"
+        },
+        {
+            "index": 29,
+            "committer": "sadhw00 <Shrey.Adhwaryu@albertsons.com>",
+            "repository": "https://github.albertsons.com/albertsons/osdt-refund-transparency.git",
+            "credential_type": "AzureStorage",
+            "committed_on": "2022-08-15",
+            "detected_on": "2024-01-02",
+            "number_of_days_since_detection": 525,
+            "link": "https://github.albertsons.com/albertsons/osdt-refund-transparency/blob/d4b6f4b0f4377496dc033ce12b78ea9bff2f6844/src/main/resources/application-local_git.yml#L31",
+            "line_number": 31,
+            "AppCode": "osdt",
+            "AppOwner": "Keerthi Mothukuri",
+            "Team": "Karthik Balasubramanian",
+            "Department": "Balaji Nambi",
+            "Portfolio": "Digital (Ramiya Iyer)"
+        },
+        {
+            "index": 30,
+            "committer": "spras42 <spras42@albertsons.com>",
+            "repository": "https://github.albertsons.com/albertsons/osdt-config-service.git",
+            "credential_type": "AzureStorage",
+            "committed_on": "2024-02-15",
+            "detected_on": "2024-02-16",
+            "number_of_days_since_detection": 480,
+            "link": "https://github.albertsons.com/albertsons/osdt-config-service/blob/112c8d426646a250695be50e9e44c5edf28464f6/configs/osdt-scheduler/osdt-scheduler-local.yml#L19",
+            "line_number": 19,
+            "AppCode": "osdt",
+            "AppOwner": "Keerthi Mothukuri",
+            "Team": "Karthik Balasubramanian",
+            "Department": "Balaji Nambi",
+            "Portfolio": "Digital (Ramiya Iyer)"
+        },
+        {
+            "index": 31,
+            "committer": "Yosief Frezghi <yfrez00@safeway.com>",
+            "repository": "https://github.albertsons.com/albertsons/osdt-scheduler.git",
+            "credential_type": "AzureStorage",
+            "committed_on": "2022-07-06",
+            "detected_on": "2024-01-02",
+            "number_of_days_since_detection": 525,
+            "link": "https://github.albertsons.com/albertsons/osdt-scheduler/blob/96d8068cbf66f72fce880c3e06ecee5dfaf20654/src/main/resources/application-local.yml#L18",
+            "line_number": 18,
+            "AppCode": "osdt",
+            "AppOwner": "Keerthi Mothukuri",
+            "Team": "Karthik Balasubramanian",
+            "Department": "Balaji Nambi",
+            "Portfolio": "Digital (Ramiya Iyer)"
+        },
+        {
+            "index": 32,
+            "committer": "Yosief Frezghi (Contractor) <yfrez00@safeway.com>",
+            "repository": "https://github.albertsons.com/albertsons/osdt-receipt-generator.git",
+            "credential_type": "AzureStorage",
+            "committed_on": "2024-05-24",
+            "detected_on": "2024-05-25",
+            "number_of_days_since_detection": 381,
+            "link": "https://github.albertsons.com/albertsons/osdt-receipt-generator/blob/9d9fdcf42468a1d1186f344ab170d69a78cff8eb/src/main/resources/application-local.yml#L80",
+            "line_number": 80,
+            "AppCode": "osdt",
+            "AppOwner": "Keerthi Mothukuri",
+            "Team": "Karthik Balasubramanian",
+            "Department": "Balaji Nambi",
+            "Portfolio": "Digital (Ramiya Iyer)"
+        },
+        {
+            "index": 33,
+            "committer": "ggeor20@safeway.com <Greeshma.George@albertsons.com>",
+            "repository": "https://github.albertsons.com/albertsons/psfc-data-validation.git",
+            "credential_type": "AzureStorage",
+            "committed_on": "2021-12-06",
+            "detected_on": "2024-01-02",
+            "number_of_days_since_detection": 525,
+            "link": "https://github.albertsons.com/albertsons/psfc-data-validation/blob/4d478df8221374cdc211fb6cb9492018441b93f3/target/classes/application.properties#L6",
+            "line_number": 6,
+            "AppCode": "psfc",
+            "AppOwner": "Greg Hartnett",
+            "Team": "Greg Hartnett",
+            "Department": "Karthik Iyer",
+            "Portfolio": "Digital (Ramiya Iyer)"
+        },
+        {
+            "index": 34,
+            "committer": "vvija00@safeway.com <Vinesh.Vijayakumar@safeway.com>",
+            "repository": "https://github.albertsons.com/albertsons/ocsg-java-backend.git",
+            "credential_type": "AzureStorage",
+            "committed_on": "2024-11-05",
+            "detected_on": "2024-11-06",
+            "number_of_days_since_detection": 216,
+            "link": "https://github.albertsons.com/albertsons/ocsg-java-backend/blob/d75ac65e5ba5cab0d8d1f2b3f0ff1e45caae2770/local.settings.json#L32",
+            "line_number": 32,
+            "AppCode": "ocsg",
+            "AppOwner": "Saju Sreekumar",
+            "Team": "Saju Sreekumar",
+            "Department": "Karthik Iyer",
+            "Portfolio": "Digital (Ramiya Iyer)"
+        },
+        {
+            "index": 35,
+            "committer": "vvija00@safeway.com <39963558+vvija00@users.noreply.github.com>",
+            "repository": "https://github.albertsons.com/albertsons/ocsg-java-backend.git",
+            "credential_type": "AzureStorage",
+            "committed_on": "2021-12-29",
+            "detected_on": "2024-01-02",
+            "number_of_days_since_detection": 525,
+            "link": "https://github.albertsons.com/albertsons/ocsg-java-backend/blob/a03eaf508e04a4d96fbfecf9651a6ff1087c93ac/src/main/java/com/safeway/test/ItemFolderReaderMinimumIterationFromCloud_BkUp.java#L44",
+            "line_number": 44,
+            "AppCode": "ocsg",
+            "AppOwner": "Saju Sreekumar",
+            "Team": "Saju Sreekumar",
+            "Department": "Karthik Iyer",
+            "Portfolio": "Digital (Ramiya Iyer)"
+        },
+        {
+            "index": 36,
+            "committer": "fdewangan <fdewa00@safeway.com>",
+            "repository": "https://github.albertsons.com/albertsons/OCMC-Catalog-UI-Automation.git",
+            "credential_type": "AzureStorage",
+            "committed_on": "2023-09-04",
+            "detected_on": "2024-01-02",
+            "number_of_days_since_detection": 525,
+            "link": "https://github.albertsons.com/albertsons/OCMC-Catalog-UI-Automation/blob/7d16837a13dc3869f2d33fe063d60c6356b0d75d/src/test/resources/application-accp.yml#L28",
+            "line_number": 28,
+            "AppCode": "OCMC",
+            "AppOwner": "Krishna Wudaru",
+            "Team": "Krishna Wudaru",
+            "Department": "Bhargavi Whatley",
+            "Portfolio": "Digital (Ramiya Iyer)"
+        },
+        {
+            "index": 37,
+            "committer": "fdewangan <fdewa00@safeway.com>",
+            "repository": "https://github.albertsons.com/albertsons/OCMC-Catalog-UI-Automation.git",
+            "credential_type": "AzureStorage",
+            "committed_on": "2023-09-04",
+            "detected_on": "2024-01-02",
+            "number_of_days_since_detection": 525,
+            "link": "https://github.albertsons.com/albertsons/OCMC-Catalog-UI-Automation/blob/7d16837a13dc3869f2d33fe063d60c6356b0d75d/src/test/resources/application-qa.yml#L26",
+            "line_number": 26,
+            "AppCode": "OCMC",
+            "AppOwner": "Krishna Wudaru",
+            "Team": "Krishna Wudaru",
+            "Department": "Bhargavi Whatley",
+            "Portfolio": "Digital (Ramiya Iyer)"
+        },
+        {
+            "index": 38,
+            "committer": "KRAJA08 <keerthiprabha.rajan@albertsons.com>",
+            "repository": "https://github.albertsons.com/albertsons/rxwa-gql-service.git",
+            "credential_type": "AzureStorage",
+            "committed_on": "2024-11-21",
+            "detected_on": "2024-11-22",
+            "number_of_days_since_detection": 200,
+            "link": "https://github.albertsons.com/albertsons/rxwa-gql-service/blob/347cb9abba17293a1823cfd4a22b65200aefff59/src/main/resources/application-dev.yml#L312",
+            "line_number": 312,
+            "AppCode": "rxwa",
+            "AppOwner": "Goldi Goel",
+            "Team": "Goldi Goel",
+            "Department": "Balaji Nambi",
+            "Portfolio": "Digital (Ramiya Iyer)"
+        },
+        {
+            "index": 39,
+            "committer": "ATIWA07 <Ajay.Tiwari2@albertsons.com>",
+            "repository": "https://github.albertsons.com/albertsons/rxwa-gql-service.git",
+            "credential_type": "AzureStorage",
+            "committed_on": "2023-01-12",
+            "detected_on": "2024-01-02",
+            "number_of_days_since_detection": 525,
+            "link": "https://github.albertsons.com/albertsons/rxwa-gql-service/blob/2c1340563b7ec12df48772f0016e29d6aae33fab/src/main/resources/application.yml#L244",
+            "line_number": 244,
+            "AppCode": "rxwa",
+            "AppOwner": "Goldi Goel",
+            "Team": "Goldi Goel",
+            "Department": "Balaji Nambi",
+            "Portfolio": "Digital (Ramiya Iyer)"
+        },
+        {
+            "index": 40,
+            "committer": "Sabarinathan Mani <SMANI24@safeway.com>",
+            "repository": "https://github.albertsons.com/albertsons/osdt-support.git",
+            "credential_type": "AzureStorage",
+            "committed_on": "2025-02-06",
+            "detected_on": "2025-02-07",
+            "number_of_days_since_detection": 123,
+            "link": "https://github.albertsons.com/albertsons/osdt-support/blob/5a6bec3ab9b1170a1f015607eb4a0cfbd890feda/src/main/resources/application-local.yml#L116",
+            "line_number": 116,
+            "AppCode": "osdt",
+            "AppOwner": "Keerthi Mothukuri",
+            "Team": "Karthik Balasubramanian",
+            "Department": "Balaji Nambi",
+            "Portfolio": "Digital (Ramiya Iyer)"
+        },
+        {
+            "index": 41,
+            "committer": "Ponnolu Kumar Reddy (Contractor) <predd15@safeway.com>",
+            "repository": "https://github.albertsons.com/albertsons/OCCP-DP-Automation.git",
+            "credential_type": "AzureStorage",
+            "committed_on": "2024-11-13",
+            "detected_on": "2024-11-14",
+            "number_of_days_since_detection": 208,
+            "link": "https://github.albertsons.com/albertsons/OCCP-DP-Automation/blob/dbe1269a6fa35b2effb64f08f3c54a9838bd0f72/src/test/resources/application-qa.yml#L111",
+            "line_number": 111,
+            "AppCode": "OCCP",
+            "AppOwner": "Krishna Wudaru",
+            "Team": "Krishna Wudaru",
+            "Department": "Bhargavi Whatley",
+            "Portfolio": "Digital (Ramiya Iyer)"
+        },
+        {
+            "index": 42,
+            "committer": "SKUMA97 <sunil.kumar@albertsons.com>",
+            "repository": "https://github.albertsons.com/albertsons/OSRR-QA-DP-Automation.git",
+            "credential_type": "AzureStorage",
+            "committed_on": "2023-08-27",
+            "detected_on": "2024-01-02",
+            "number_of_days_since_detection": 525,
+            "link": "https://github.albertsons.com/albertsons/OSRR-QA-DP-Automation/blob/809fa269e7862c3b53f20548eadd04e62b24ece1/src/test/resources/application-qa.yml#L46",
+            "line_number": 46,
+            "AppCode": "OSRR",
+            "AppOwner": "Krishna Wudaru",
+            "Team": "Krishna Wudaru",
+            "Department": "Bhargavi Whatley",
+            "Portfolio": "Digital (Ramiya Iyer)"
+        },
+        {
+            "index": 43,
+            "committer": "umoturi <umotu00@safeway.com>",
+            "repository": "https://github.albertsons.com/albertsons/OSRR-QA-DP-Automation.git",
+            "credential_type": "AzureStorage",
+            "committed_on": "2023-02-16",
+            "detected_on": "2024-01-02",
+            "number_of_days_since_detection": 525,
+            "link": "https://github.albertsons.com/albertsons/OSRR-QA-DP-Automation/blob/4b8555a51b1945ea6552e705f04b5c7f51a6eb61/src/test/resources/application-accp.yml#L51",
+            "line_number": 51,
+            "AppCode": "OSRR",
+            "AppOwner": "Krishna Wudaru",
+            "Team": "Krishna Wudaru",
+            "Department": "Bhargavi Whatley",
+            "Portfolio": "Digital (Ramiya Iyer)"
+        },
+        {
+            "index": 44,
+            "committer": "rpapa10 <rpapa10>",
+            "repository": "https://github.albertsons.com/albertsons/mevir-invc-databricks-azr.git",
+            "credential_type": "AzureStorage",
+            "committed_on": "2023-10-25",
+            "detected_on": "2024-01-02",
+            "number_of_days_since_detection": 525,
+            "link": "https://github.albertsons.com/albertsons/mevir-invc-databricks-azr/blob/5865463e12efa1bb01e6730c45af6d06a600c6e3/jobs/MEVIRP005_STORE_INVOICES_DAILY/MEVIRD006_READS_EDEALS_DATA.py#L242",
+            "line_number": 242,
+            "AppCode": "mevir",
+            "AppOwner": "Prakash Kulkarni",
+            "Team": "Prakash Kulkarni",
+            "Department": "Bhargavi Whatley",
+            "Portfolio": "Digital (Ramiya Iyer)"
+        },
+        {
+            "index": 45,
+            "committer": "Divvela Ravi Kumar <dikumar@nisum.com>",
+            "repository": "https://github.albertsons.com/albertsons/osdt-ui-support.git",
+            "credential_type": "AzureStorage",
+            "committed_on": "2023-07-11",
+            "detected_on": "2024-01-02",
+            "number_of_days_since_detection": 525,
+            "link": "https://github.albertsons.com/albertsons/osdt-ui-support/blob/b9e96d6a18cf473a8baca3dde65e8d66c53ee379/src/main/resources/application-local.yml#L10",
+            "line_number": 10,
+            "AppCode": "osdt",
+            "AppOwner": "Keerthi Mothukuri",
+            "Team": "Karthik Balasubramanian",
+            "Department": "Balaji Nambi",
+            "Portfolio": "Digital (Ramiya Iyer)"
+        },
+        {
+            "index": 46,
+            "committer": "kgurrapu <sgurr14@safeway.com>",
+            "repository": "https://github.albertsons.com/albertsons/OCMC-Catalog-DPMock-Automation.git",
+            "credential_type": "AzureStorage",
+            "committed_on": "2023-11-15",
+            "detected_on": "2024-01-02",
+            "number_of_days_since_detection": 525,
+            "link": "https://github.albertsons.com/albertsons/OCMC-Catalog-DPMock-Automation/blob/65175128e6c0dd0c3abbf5f54bb461cd5eb03964/src/test/resources/application-accp.yml#L74",
+            "line_number": 74,
+            "AppCode": "OCMC",
+            "AppOwner": "Krishna Wudaru",
+            "Team": "Krishna Wudaru",
+            "Department": "Bhargavi Whatley",
+            "Portfolio": "Digital (Ramiya Iyer)"
+        },
+        {
+            "index": 47,
+            "committer": "bsatish <sbodd08@safeway.com>",
+            "repository": "https://github.albertsons.com/albertsons/OCMC-Catalog-DPMock-Automation.git",
+            "credential_type": "AzureStorage",
+            "committed_on": "2023-08-23",
+            "detected_on": "2024-01-02",
+            "number_of_days_since_detection": 525,
+            "link": "https://github.albertsons.com/albertsons/OCMC-Catalog-DPMock-Automation/blob/cd76dec3ab0c2d996e445866df3e39b29050cbca/src/test/resources/application-qa.yml#L61",
+            "line_number": 61,
+            "AppCode": "OCMC",
+            "AppOwner": "Krishna Wudaru",
+            "Team": "Krishna Wudaru",
+            "Department": "Bhargavi Whatley",
+            "Portfolio": "Digital (Ramiya Iyer)"
+        },
+        {
+            "index": 48,
+            "committer": "Sairam Vadlakonda <svadlakonda@nisum.com>",
+            "repository": "https://github.albertsons.com/albertsons/OCCS-CrowdSource-Service.git",
+            "credential_type": "AzureStorage",
+            "committed_on": "2023-12-05",
+            "detected_on": "2024-01-02",
+            "number_of_days_since_detection": 525,
+            "link": "https://github.albertsons.com/albertsons/OCCS-CrowdSource-Service/blob/6ac322ebaa7a9519581d2dcdd3df9a15d3088a9e/src/main/java/com/albertsons/ocmc/crowdsource/service/impl/CrowdSourceUploadServiceImpl.java#L55",
+            "line_number": 55,
+            "AppCode": "OCCS",
+            "AppOwner": "Krishna Wudaru",
+            "Team": "Krishna Wudaru",
+            "Department": "Bhargavi Whatley",
+            "Portfolio": "Digital (Ramiya Iyer)"
+        },
+        {
+            "index": 49,
+            "committer": "Joel Pangilinan <jpang25@safeway.com>",
+            "repository": "https://github.albertsons.com/albertsons/esaf-custom-azure-comp.git",
+            "credential_type": "AzureStorage",
+            "committed_on": "2023-12-14",
+            "detected_on": "2024-01-02",
+            "number_of_days_since_detection": 525,
+            "link": "https://github.albertsons.com/albertsons/esaf-custom-azure-comp/blob/0ac94211628d2f920640e3c43f9f444909cd830b/local.settings.json#L4",
+            "line_number": 4,
+            "AppCode": "esaf",
+            "AppOwner": "Michael Chin",
+            "Team": "Not Applicable",
+            "Department": "Michael Chin",
+            "Portfolio": "COG (Jim Saber)"
+        },
+        {
+            "index": 50,
+            "committer": "Nishant Pawar <npawa03@safeway.com>",
+            "repository": "https://github.albertsons.com/albertsons/OCCS-CS-API-Automation.git",
+            "credential_type": "AzureStorage",
+            "committed_on": "2024-01-21",
+            "detected_on": "2024-01-22",
+            "number_of_days_since_detection": 505,
+            "link": "https://github.albertsons.com/albertsons/OCCS-CS-API-Automation/blob/3b055008c2991592610fb6b92b55c3129bbea1ed/src/test/resources/application-qa.yml#L27",
+            "line_number": 27,
+            "AppCode": "OCCS",
+            "AppOwner": "Krishna Wudaru",
+            "Team": "Krishna Wudaru",
+            "Department": "Bhargavi Whatley",
+            "Portfolio": "Digital (Ramiya Iyer)"
+        },
+        {
+            "index": 51,
+            "committer": "VJUJJ01 <vjujj01@safeway.com>",
+            "repository": "https://github.albertsons.com/albertsons/OCCS-CS-UI-Automation.git",
+            "credential_type": "AzureStorage",
+            "committed_on": "2023-12-22",
+            "detected_on": "2024-01-02",
+            "number_of_days_since_detection": 525,
+            "link": "https://github.albertsons.com/albertsons/OCCS-CS-UI-Automation/blob/c430d8f4afb592ed233d8c5bfdb11df6ec0f696f/src/test/resources/application-accp.yml#L28",
+            "line_number": 28,
+            "AppCode": "OCCS",
+            "AppOwner": "Krishna Wudaru",
+            "Team": "Krishna Wudaru",
+            "Department": "Bhargavi Whatley",
+            "Portfolio": "Digital (Ramiya Iyer)"
+        },
+        {
+            "index": 52,
+            "committer": "VJUJJ01 <vjujj01@safeway.com>",
+            "repository": "https://github.albertsons.com/albertsons/OCCS-CS-UI-Automation.git",
+            "credential_type": "AzureStorage",
+            "committed_on": "2023-12-22",
+            "detected_on": "2024-01-02",
+            "number_of_days_since_detection": 525,
+            "link": "https://github.albertsons.com/albertsons/OCCS-CS-UI-Automation/blob/c430d8f4afb592ed233d8c5bfdb11df6ec0f696f/src/test/resources/application-qa.yml#L26",
+            "line_number": 26,
+            "AppCode": "OCCS",
+            "AppOwner": "Krishna Wudaru",
+            "Team": "Krishna Wudaru",
+            "Department": "Bhargavi Whatley",
+            "Portfolio": "Digital (Ramiya Iyer)"
+        },
+        {
+            "index": 53,
+            "committer": "ppada02 <Safeway01>",
+            "repository": "https://github.albertsons.com/albertsons/doct-c360-lowcode-bd.git",
+            "credential_type": "AzureStorage",
+            "committed_on": "2024-01-29",
+            "detected_on": "2024-01-30",
+            "number_of_days_since_detection": 497,
+            "link": "https://github.albertsons.com/albertsons/doct-c360-lowcode-bd/blob/fd677d72f989aef67d300bc8bcacc1abeba1656e/src/main/resources/config/application-dev.yml#L64",
+            "line_number": 64,
+            "AppCode": "doct",
+            "AppOwner": "Chandra Mouli Sivam",
+            "Team": "",
+            "Department": "",
+            "Portfolio": ""
+        },
+        {
+            "index": 54,
+            "committer": "ssakk00@safeway.com <Snehith.Sakkari@albertsons.com>",
+            "repository": "https://github.albertsons.com/albertsons/ocec-asset-orchestrator.git",
+            "credential_type": "AzureStorage",
+            "committed_on": "2025-04-22",
+            "detected_on": "2025-04-23",
+            "number_of_days_since_detection": 48,
+            "link": "https://github.albertsons.com/albertsons/ocec-asset-orchestrator/blob/54d8704fbff788912537143b1ed5e3cb30cb4dba/src/main/resources/config/application-perf.yml#L19",
+            "line_number": 19,
+            "AppCode": "ocec",
+            "AppOwner": "Michelle Tonkovich",
+            "Team": "Michelle Tonkovich",
+            "Department": "Sravanthi Muppidi",
+            "Portfolio": "Digital (Ramiya Iyer)"
+        },
+        {
+            "index": 55,
+            "committer": "ssakk00@safeway.com <Snehith.Sakkari@albertsons.com>",
+            "repository": "https://github.albertsons.com/albertsons/ocec-asset-orchestrator.git",
+            "credential_type": "AzureStorage",
+            "committed_on": "2024-09-11",
+            "detected_on": "2024-09-12",
+            "number_of_days_since_detection": 271,
+            "link": "https://github.albertsons.com/albertsons/ocec-asset-orchestrator/blob/3ec71d077fe03a612bafc5be7fba13b52f747f5c/src/main/resources/config/application.yml#L98",
+            "line_number": 98,
+            "AppCode": "ocec",
+            "AppOwner": "Michelle Tonkovich",
+            "Team": "Michelle Tonkovich",
+            "Department": "Sravanthi Muppidi",
+            "Portfolio": "Digital (Ramiya Iyer)"
+        },
+        {
+            "index": 56,
+            "committer": "vpill07 <vpill07>",
+            "repository": "https://github.albertsons.com/albertsons/aamp-workload-empower.git",
+            "credential_type": "AzureStorage",
+            "committed_on": "2024-03-14",
+            "detected_on": "2024-03-15",
+            "number_of_days_since_detection": 452,
+            "link": "https://github.albertsons.com/albertsons/aamp-workload-empower/blob/a875b0d80f155ebe88c4287db20d73a69b01fe3d/source/empowerfileshare.py#L150",
+            "line_number": 150,
+            "AppCode": "aamp",
+            "AppOwner": "Aravind Chamakura",
+            "Team": "Not Applicable",
+            "Department": "Aravind Chamakura",
+            "Portfolio": "Digital (Ramiya Iyer)"
+        }
+    ]
+}

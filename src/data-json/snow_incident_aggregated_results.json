@@ -1,0 +1,1424 @@
+{
+    "total_incidents": [
+        {
+            "count": 385806
+        }
+    ],
+    "incidents_with_caused_by": [
+        {
+            "count": 15
+        }
+    ],
+    "incidents_with_caused_by_by_level": [
+        {
+            "severity": "L3",
+            "count": 15
+        }
+    ],
+    "incidents_with_caused_by_by_priority": [
+        {
+            "priority": "P2",
+            "count": 2
+        },
+        {
+            "priority": "P3",
+            "count": 13
+        }
+    ],
+    "incidents_with_caused_by_by_impact": [
+        {
+            "impact": "2",
+            "count": 15
+        }
+    ],
+    "incidents_with_caused_by_by_state": [
+        {
+            "incident_state": "resolved",
+            "count": 15
+        }
+    ],
+    "incidents_with_caused_by_by_mmyyyy": [
+        {
+            "mmyyyy": "102024",
+            "count": 15
+        }
+    ],
+    "incidents_with_caused_by_by_portfolio": [
+        {
+            "portfolio": "Manila",
+            "count": 14
+        },
+        {
+            "portfolio": "Retail & Supply Chain (Maria Latushkin)",
+            "count": 1
+        }
+    ],
+    "incidents_with_caused_by_by_vp": [
+        {
+            "vp": "",
+            "count": 1
+        },
+        {
+            "vp": "Trung Nguyen",
+            "count": 14
+        }
+    ],
+    "incidents_with_caused_by_by_director": [
+        {
+            "director": "",
+            "count": 1
+        },
+        {
+            "director": "Belle Pedro",
+            "count": 14
+        }
+    ],
+    "incidents_with_caused_by_by_manager": [
+        {
+            "manager": "Greg Hartnett",
+            "count": 1
+        },
+        {
+            "manager": "Katherine Anne De Lemos",
+            "count": 14
+        }
+    ],
+    "counts_by_state": [
+        {
+            "incident_state": "Awaiting Vendor/Resolved",
+            "count": 340
+        },
+        {
+            "incident_state": "canceled",
+            "count": 11303
+        },
+        {
+            "incident_state": "closed",
+            "count": 343334
+        },
+        {
+            "incident_state": "inprogress",
+            "count": 6230
+        },
+        {
+            "incident_state": "new",
+            "count": 3342
+        },
+        {
+            "incident_state": "on-hold",
+            "count": 377
+        },
+        {
+            "incident_state": "resolved",
+            "count": 20879
+        },
+        {
+            "incident_state": "unknown",
+            "count": 1
+        }
+    ],
+    "counts_by_level": [
+        {
+            "severity": "L2",
+            "count": 1
+        },
+        {
+            "severity": "L3",
+            "count": 385805
+        }
+    ],
+    "counts_by_impact": [
+        {
+            "impact": "0",
+            "count": 7
+        },
+        {
+            "impact": "1",
+            "count": 8
+        },
+        {
+            "impact": "2",
+            "count": 165003
+        },
+        {
+            "impact": "3",
+            "count": 107960
+        },
+        {
+            "impact": "4",
+            "count": 112828
+        }
+    ],
+    "counts_by_priority": [
+        {
+            "priority": "P1",
+            "count": 11
+        },
+        {
+            "priority": "P2",
+            "count": 27603
+        },
+        {
+            "priority": "P3",
+            "count": 179454
+        },
+        {
+            "priority": "P4",
+            "count": 178738
+        }
+    ],
+    "counts_by_mmyyyy": [
+        {
+            "mmyyyy": "092024",
+            "count": 137560
+        },
+        {
+            "mmyyyy": "072024",
+            "count": 67344
+        },
+        {
+            "mmyyyy": "082024",
+            "count": 139467
+        },
+        {
+            "mmyyyy": "102024",
+            "count": 41435
+        }
+    ],
+    "counts_by_portfolio": [
+        {
+            "portfolio": "COG (Jim Saber)",
+            "count": 43879
+        },
+        {
+            "portfolio": "Digital (Ramiya Iyer)",
+            "count": 4426
+        },
+        {
+            "portfolio": "Duane Macey Team",
+            "count": 32
+        },
+        {
+            "portfolio": "Information Security (Aaron Hughes)",
+            "count": 3604
+        },
+        {
+            "portfolio": "Manila",
+            "count": 251639
+        },
+        {
+            "portfolio": "Not Available",
+            "count": 24047
+        },
+        {
+            "portfolio": "Retail & Supply Chain (Maria Latushkin)",
+            "count": 53307
+        },
+        {
+            "portfolio": "Srikanth Garnepudi",
+            "count": 4872
+        }
+    ],
+    "counts_by_vp": [
+        {
+            "vp": "",
+            "count": 2140
+        },
+        {
+            "vp": "Aaron Nasi",
+            "count": 1031
+        },
+        {
+            "vp": "Avijit Majumdar",
+            "count": 108
+        },
+        {
+            "vp": "Balaji Nambi",
+            "count": 928
+        },
+        {
+            "vp": "Bhargavi Whatley",
+            "count": 1098
+        },
+        {
+            "vp": "Bhuvan Padakanti",
+            "count": 1660
+        },
+        {
+            "vp": "Dave Newton",
+            "count": 1735
+        },
+        {
+            "vp": "David Thomas",
+            "count": 24
+        },
+        {
+            "vp": "Grant Wood",
+            "count": 49974
+        },
+        {
+            "vp": "Greg Hartnett",
+            "count": 36
+        },
+        {
+            "vp": "Jack Hamm",
+            "count": 346
+        },
+        {
+            "vp": "Kent Lourenzo",
+            "count": 2227
+        },
+        {
+            "vp": "Marty Quintanilla",
+            "count": 115
+        },
+        {
+            "vp": "Michael Chin",
+            "count": 1
+        },
+        {
+            "vp": "Michael Little",
+            "count": 12371
+        },
+        {
+            "vp": "Not Available",
+            "count": 24047
+        },
+        {
+            "vp": "Param Devireddy",
+            "count": 1532
+        },
+        {
+            "vp": "Paul Campbell",
+            "count": 7
+        },
+        {
+            "vp": "Rahul Shah",
+            "count": 35
+        },
+        {
+            "vp": "Rajiv Vipani",
+            "count": 1009
+        },
+        {
+            "vp": "Ravichandran Sangili",
+            "count": 2009
+        },
+        {
+            "vp": "Saji Joseph",
+            "count": 188
+        },
+        {
+            "vp": "Saju Sreekumar",
+            "count": 782
+        },
+        {
+            "vp": "Sarah Garner",
+            "count": 2884
+        },
+        {
+            "vp": "Sravanthi Muppidi",
+            "count": 760
+        },
+        {
+            "vp": "Steve Cowan",
+            "count": 27449
+        },
+        {
+            "vp": "Trung Nguyen",
+            "count": 251310
+        }
+    ],
+    "counts_by_director": [
+        {
+            "director": "",
+            "count": 2140
+        },
+        {
+            "director": "Aaron Contreras",
+            "count": 2877
+        },
+        {
+            "director": "Abhijith Setty",
+            "count": 9
+        },
+        {
+            "director": "Ankur Raj",
+            "count": 124
+        },
+        {
+            "director": "Anupama Dande",
+            "count": 1153
+        },
+        {
+            "director": "April Utrera Bacud",
+            "count": 4
+        },
+        {
+            "director": "Aravind Chamakura",
+            "count": 20
+        },
+        {
+            "director": "Babak Rahimi",
+            "count": 254
+        },
+        {
+            "director": "Balasivakumar Murugesan",
+            "count": 1881
+        },
+        {
+            "director": "Belle Pedro",
+            "count": 73671
+        },
+        {
+            "director": "Brett Radelet",
+            "count": 980
+        },
+        {
+            "director": "Charles Sloan",
+            "count": 24
+        },
+        {
+            "director": "Charles Yap",
+            "count": 406
+        },
+        {
+            "director": "Chelsea Horn",
+            "count": 1033
+        },
+        {
+            "director": "Christopher Yalenty",
+            "count": 186
+        },
+        {
+            "director": "Craig Franklin",
+            "count": 260
+        },
+        {
+            "director": "Crissy Ramos",
+            "count": 1
+        },
+        {
+            "director": "Darrin Johnson",
+            "count": 8
+        },
+        {
+            "director": "Deepak Tiwari",
+            "count": 110
+        },
+        {
+            "director": "Donna Ahron",
+            "count": 337
+        },
+        {
+            "director": "Dragana Stamenkovic",
+            "count": 81
+        },
+        {
+            "director": "Flordeliza Krill",
+            "count": 324
+        },
+        {
+            "director": "Floyd Reveredo",
+            "count": 128
+        },
+        {
+            "director": "Gaurav Jain",
+            "count": 221
+        },
+        {
+            "director": "George Seto",
+            "count": 522
+        },
+        {
+            "director": "Hariharan Ramamurthy",
+            "count": 12031
+        },
+        {
+            "director": "Harminder Singh",
+            "count": 3
+        },
+        {
+            "director": "Ian Long",
+            "count": 14930
+        },
+        {
+            "director": "Ian Plount",
+            "count": 36
+        },
+        {
+            "director": "James Scoglio",
+            "count": 160
+        },
+        {
+            "director": "James Wall",
+            "count": 16
+        },
+        {
+            "director": "Jan Tongson",
+            "count": 65734
+        },
+        {
+            "director": "Jeff Cranney",
+            "count": 10765
+        },
+        {
+            "director": "Jerry Whitteridge",
+            "count": 51
+        },
+        {
+            "director": "Justin Gonzalez",
+            "count": 51495
+        },
+        {
+            "director": "Karthik Balasubramanian",
+            "count": 30
+        },
+        {
+            "director": "Kent McDonnell",
+            "count": 138
+        },
+        {
+            "director": "Krishna Wudaru",
+            "count": 10
+        },
+        {
+            "director": "Lee Flores",
+            "count": 7
+        },
+        {
+            "director": "Lloyd Rochon",
+            "count": 115
+        },
+        {
+            "director": "Lorma Balangue",
+            "count": 41837
+        },
+        {
+            "director": "Mark Elam",
+            "count": 346
+        },
+        {
+            "director": "Mary Taylor",
+            "count": 20501
+        },
+        {
+            "director": "Michelle Tonkovich",
+            "count": 412
+        },
+        {
+            "director": "Moorthi Avanashiyappan",
+            "count": 13
+        },
+        {
+            "director": "Morten Mortensen",
+            "count": 18162
+        },
+        {
+            "director": "Mouli Sivam",
+            "count": 881
+        },
+        {
+            "director": "Ninad Khirwadkar",
+            "count": 337
+        },
+        {
+            "director": "Not Available",
+            "count": 24047
+        },
+        {
+            "director": "Patty Sinner",
+            "count": 557
+        },
+        {
+            "director": "Prakash Kulkarni",
+            "count": 66
+        },
+        {
+            "director": "Rachana Belavigi",
+            "count": 345
+        },
+        {
+            "director": "Raghu Devarakonda",
+            "count": 35
+        },
+        {
+            "director": "Raghu Kumar Devarakonda",
+            "count": 6
+        },
+        {
+            "director": "Raghu Mantri",
+            "count": 1536
+        },
+        {
+            "director": "Raj Anand",
+            "count": 29
+        },
+        {
+            "director": "Rajkumar Katakwar",
+            "count": 4
+        },
+        {
+            "director": "Rey Mendaros",
+            "count": 72
+        },
+        {
+            "director": "Santosh Jhingade",
+            "count": 3
+        },
+        {
+            "director": "Scott Sandquist",
+            "count": 29073
+        },
+        {
+            "director": "Senthilkumar Kathiresan",
+            "count": 26
+        },
+        {
+            "director": "Shankar Murahari",
+            "count": 192
+        },
+        {
+            "director": "Shawn Maskell",
+            "count": 254
+        },
+        {
+            "director": "Shwu-Miin Yang",
+            "count": 7
+        },
+        {
+            "director": "Sidney Tornquist",
+            "count": 1
+        },
+        {
+            "director": "Siva Yenamareddy",
+            "count": 3
+        },
+        {
+            "director": "Srikant Mahapatra",
+            "count": 623
+        },
+        {
+            "director": "Subroto Chakrabarty",
+            "count": 55
+        },
+        {
+            "director": "Susmit Sen",
+            "count": 128
+        },
+        {
+            "director": "Syed Rayadurg",
+            "count": 1670
+        },
+        {
+            "director": "Vidhya Raman",
+            "count": 919
+        },
+        {
+            "director": "Vidya Sagar Amancherla",
+            "count": 3
+        },
+        {
+            "director": "Vignesh Sachithanandan",
+            "count": 176
+        },
+        {
+            "director": "Vijay Raghunaathan",
+            "count": 1031
+        },
+        {
+            "director": "Vikas Pathuri",
+            "count": 17
+        },
+        {
+            "director": "Vinay Desai",
+            "count": 164
+        }
+    ],
+    "counts_by_manager": [
+        {
+            "manager": "",
+            "count": 1878
+        },
+        {
+            "manager": "Aaron Contreras",
+            "count": 2877
+        },
+        {
+            "manager": "Abhilash Hota",
+            "count": 323
+        },
+        {
+            "manager": "Akshay Agarwal",
+            "count": 2
+        },
+        {
+            "manager": "Amanda Gamboa",
+            "count": 338
+        },
+        {
+            "manager": "Andrew Sayson",
+            "count": 2
+        },
+        {
+            "manager": "Ankur Raj",
+            "count": 124
+        },
+        {
+            "manager": "Antoinette Fonzo",
+            "count": 3472
+        },
+        {
+            "manager": "Anupama Dande",
+            "count": 1153
+        },
+        {
+            "manager": "April Utrera",
+            "count": 329
+        },
+        {
+            "manager": "Aravind Chamakura",
+            "count": 19
+        },
+        {
+            "manager": "Babak Rahimi",
+            "count": 254
+        },
+        {
+            "manager": "Balasivakumar Murugesan",
+            "count": 1881
+        },
+        {
+            "manager": "Bharti Shrivastava",
+            "count": 8
+        },
+        {
+            "manager": "Billy John Togon",
+            "count": 26548
+        },
+        {
+            "manager": "BJ Fajardo",
+            "count": 9
+        },
+        {
+            "manager": "Brad Ludwig",
+            "count": 266
+        },
+        {
+            "manager": "Brett Radelet",
+            "count": 1
+        },
+        {
+            "manager": "Bubai Pratihar",
+            "count": 39
+        },
+        {
+            "manager": "Buva Ramamoorthy",
+            "count": 13
+        },
+        {
+            "manager": "Carlos Delgadillo",
+            "count": 535
+        },
+        {
+            "manager": "Carol Toms",
+            "count": 55
+        },
+        {
+            "manager": "Cathy Lloyd",
+            "count": 108
+        },
+        {
+            "manager": "Charles Sloan",
+            "count": 24
+        },
+        {
+            "manager": "Charlie Painter",
+            "count": 33
+        },
+        {
+            "manager": "Chelsea Horn",
+            "count": 4
+        },
+        {
+            "manager": "Christine Ang-Herrera",
+            "count": 11336
+        },
+        {
+            "manager": "Christine Madrona",
+            "count": 1798
+        },
+        {
+            "manager": "Christopher Yalenty",
+            "count": 131
+        },
+        {
+            "manager": "Claudette Custodio",
+            "count": 28748
+        },
+        {
+            "manager": "Constantino Cruz",
+            "count": 95
+        },
+        {
+            "manager": "Craig Franklin",
+            "count": 260
+        },
+        {
+            "manager": "Crystal Soper",
+            "count": 76
+        },
+        {
+            "manager": "Daisy Dichosa-Cayetano",
+            "count": 3871
+        },
+        {
+            "manager": "Dalia Carrillo",
+            "count": 253
+        },
+        {
+            "manager": "Dana Cruz",
+            "count": 4551
+        },
+        {
+            "manager": "Daniel Jenkins",
+            "count": 6410
+        },
+        {
+            "manager": "Darrin Johnson",
+            "count": 8
+        },
+        {
+            "manager": "David Main",
+            "count": 487
+        },
+        {
+            "manager": "David Thomas",
+            "count": 1
+        },
+        {
+            "manager": "Deepa Sankaran",
+            "count": 1
+        },
+        {
+            "manager": "Deepu Sukumaran Nair",
+            "count": 6
+        },
+        {
+            "manager": "Denise Troxel",
+            "count": 5
+        },
+        {
+            "manager": "Dileep Pogiri",
+            "count": 1294
+        },
+        {
+            "manager": "Divyang Kothari",
+            "count": 127
+        },
+        {
+            "manager": "EC Herrera",
+            "count": 62
+        },
+        {
+            "manager": "Eddie Zhu",
+            "count": 9
+        },
+        {
+            "manager": "Edward Burns",
+            "count": 4958
+        },
+        {
+            "manager": "Eli Mora",
+            "count": 1
+        },
+        {
+            "manager": "Elizabeth Capolongo",
+            "count": 46
+        },
+        {
+            "manager": "Eloisa Espino-Sanchez",
+            "count": 82
+        },
+        {
+            "manager": "Erica James",
+            "count": 2
+        },
+        {
+            "manager": "Erik Gallegos",
+            "count": 10
+        },
+        {
+            "manager": "Evelyn Villarta",
+            "count": 8294
+        },
+        {
+            "manager": "Gaurav Jain",
+            "count": 221
+        },
+        {
+            "manager": "Gee Alcid",
+            "count": 265
+        },
+        {
+            "manager": "Gerlie Mendoza",
+            "count": 7951
+        },
+        {
+            "manager": "Giovanni Cuadro",
+            "count": 7709
+        },
+        {
+            "manager": "Greg Hartnett",
+            "count": 7
+        },
+        {
+            "manager": "Grethzen Gementiza",
+            "count": 470
+        },
+        {
+            "manager": "Heather Hagensieker (SA)",
+            "count": 1008
+        },
+        {
+            "manager": "Helen Vaughn",
+            "count": 35
+        },
+        {
+            "manager": "Herbert Mendiola",
+            "count": 14785
+        },
+        {
+            "manager": "Himanshu Dwivedi",
+            "count": 9789
+        },
+        {
+            "manager": "Hugo Reyes",
+            "count": 1664
+        },
+        {
+            "manager": "Ian Long",
+            "count": 14930
+        },
+        {
+            "manager": "Ian Plount",
+            "count": 36
+        },
+        {
+            "manager": "Ian Rocket",
+            "count": 4809
+        },
+        {
+            "manager": "Jackie Walker",
+            "count": 465
+        },
+        {
+            "manager": "Jai John",
+            "count": 3
+        },
+        {
+            "manager": "James Salter",
+            "count": 1620
+        },
+        {
+            "manager": "James Scoglio",
+            "count": 160
+        },
+        {
+            "manager": "Jared Vetter",
+            "count": 244
+        },
+        {
+            "manager": "Jason Ellis",
+            "count": 3461
+        },
+        {
+            "manager": "Jason Shelton",
+            "count": 898
+        },
+        {
+            "manager": "Jay Herbert Garcia",
+            "count": 28
+        },
+        {
+            "manager": "Jay Highland",
+            "count": 23
+        },
+        {
+            "manager": "Jayson Leo Soliman",
+            "count": 20820
+        },
+        {
+            "manager": "Jeff Nowland",
+            "count": 2932
+        },
+        {
+            "manager": "Jessica Arias",
+            "count": 361
+        },
+        {
+            "manager": "Joanna Faye Roc",
+            "count": 54
+        },
+        {
+            "manager": "Joel Jose",
+            "count": 11
+        },
+        {
+            "manager": "John Runyan",
+            "count": 1
+        },
+        {
+            "manager": "Johnson Bachala",
+            "count": 874
+        },
+        {
+            "manager": "John Ta",
+            "count": 81
+        },
+        {
+            "manager": "John Yee",
+            "count": 15
+        },
+        {
+            "manager": "Jorge Aquino",
+            "count": 378
+        },
+        {
+            "manager": "Judee Olimpo",
+            "count": 19
+        },
+        {
+            "manager": "Julian Ferrara",
+            "count": 5104
+        },
+        {
+            "manager": "Justine Baruela",
+            "count": 629
+        },
+        {
+            "manager": "Kalyan Kuram",
+            "count": 5
+        },
+        {
+            "manager": "Karthik Balasubramanian",
+            "count": 26
+        },
+        {
+            "manager": "Karthik Kakolu",
+            "count": 1
+        },
+        {
+            "manager": "Karthik Renganathan",
+            "count": 44
+        },
+        {
+            "manager": "Karthik Suryanarayanan",
+            "count": 2
+        },
+        {
+            "manager": "Katherine Anne De Lemos",
+            "count": 13223
+        },
+        {
+            "manager": "Kathleen Mccoy",
+            "count": 72
+        },
+        {
+            "manager": "Kathy Giannakopoulos",
+            "count": 135
+        },
+        {
+            "manager": "Keerthi Mothukuri",
+            "count": 4
+        },
+        {
+            "manager": "Keith Konopka",
+            "count": 891
+        },
+        {
+            "manager": "Kelly Gully",
+            "count": 1373
+        },
+        {
+            "manager": "Kent McDonnell",
+            "count": 138
+        },
+        {
+            "manager": "Kevin Khalafi",
+            "count": 9
+        },
+        {
+            "manager": "Kevin Price",
+            "count": 21
+        },
+        {
+            "manager": "Kevin Wilcox",
+            "count": 1493
+        },
+        {
+            "manager": "Kimberly Mendoza",
+            "count": 8256
+        },
+        {
+            "manager": "Kiran Dharmavarapu",
+            "count": 10
+        },
+        {
+            "manager": "Lauren McGuiness",
+            "count": 2
+        },
+        {
+            "manager": "Lee Flores",
+            "count": 7
+        },
+        {
+            "manager": "Lloyd Rochon",
+            "count": 115
+        },
+        {
+            "manager": "Luis Acosta",
+            "count": 22
+        },
+        {
+            "manager": "Makayla Carter",
+            "count": 14
+        },
+        {
+            "manager": "Manas Mohanty",
+            "count": 2
+        },
+        {
+            "manager": "Marita Daza",
+            "count": 6
+        },
+        {
+            "manager": "Mark Elam",
+            "count": 346
+        },
+        {
+            "manager": "Mark Lester Caoile",
+            "count": 3
+        },
+        {
+            "manager": "Melissa Gunter-Olson",
+            "count": 14744
+        },
+        {
+            "manager": "Michael Angelo Mendoza",
+            "count": 1548
+        },
+        {
+            "manager": "Michael Casillas",
+            "count": 7330
+        },
+        {
+            "manager": "Michael Watt",
+            "count": 24
+        },
+        {
+            "manager": "Michelle Tonkovich",
+            "count": 1
+        },
+        {
+            "manager": "Mike Archambault",
+            "count": 3431
+        },
+        {
+            "manager": "Mike Episcopo",
+            "count": 1
+        },
+        {
+            "manager": "Mon Hernandez",
+            "count": 363
+        },
+        {
+            "manager": "Nancy DeWitt",
+            "count": 3
+        },
+        {
+            "manager": "Nicole Hartz",
+            "count": 940
+        },
+        {
+            "manager": "Nika Illescas-Alto",
+            "count": 12
+        },
+        {
+            "manager": "Nikunj Jain",
+            "count": 19
+        },
+        {
+            "manager": "Ninad Khirwadkar",
+            "count": 3
+        },
+        {
+            "manager": "Nitesh Murugesh",
+            "count": 1
+        },
+        {
+            "manager": "Nitish Sharma",
+            "count": 779
+        },
+        {
+            "manager": "Pat Ocde Jr.",
+            "count": 44235
+        },
+        {
+            "manager": "Patricia Cressman",
+            "count": 7169
+        },
+        {
+            "manager": "Patty Sinner",
+            "count": 557
+        },
+        {
+            "manager": "Paul Santos",
+            "count": 16447
+        },
+        {
+            "manager": "Prakash Kulkarni",
+            "count": 21
+        },
+        {
+            "manager": "Prasad Doreraj",
+            "count": 334
+        },
+        {
+            "manager": "Princess Gonzales",
+            "count": 4
+        },
+        {
+            "manager": "Rachana Belavigi",
+            "count": 345
+        },
+        {
+            "manager": "Rae Katherine Abellana",
+            "count": 5447
+        },
+        {
+            "manager": "Raghavender Rao Sara",
+            "count": 1
+        },
+        {
+            "manager": "Raghu Kumar Devarakonda",
+            "count": 6
+        },
+        {
+            "manager": "Raghu Mantri",
+            "count": 1536
+        },
+        {
+            "manager": "Rahul Shah",
+            "count": 738
+        },
+        {
+            "manager": "Raj Anand",
+            "count": 11
+        },
+        {
+            "manager": "Rajiv Singh",
+            "count": 3
+        },
+        {
+            "manager": "Rajiv Vipani",
+            "count": 1
+        },
+        {
+            "manager": "Rajkumar Katakwar",
+            "count": 4
+        },
+        {
+            "manager": "Rajwinder Kaur",
+            "count": 5
+        },
+        {
+            "manager": "Ralph Lenon",
+            "count": 2710
+        },
+        {
+            "manager": "Ramalakshmi Valasubramanian",
+            "count": 18
+        },
+        {
+            "manager": "Raul Rodrigues",
+            "count": 51
+        },
+        {
+            "manager": "Ravi Buddaluru",
+            "count": 337
+        },
+        {
+            "manager": "Raymund Roda",
+            "count": 10346
+        },
+        {
+            "manager": "Regino Angeles",
+            "count": 2880
+        },
+        {
+            "manager": "Renea Lacy",
+            "count": 89
+        },
+        {
+            "manager": "Resie Delrosario-cruz",
+            "count": 2388
+        },
+        {
+            "manager": "Rey Mendaros",
+            "count": 72
+        },
+        {
+            "manager": "Rhenalynne Roca",
+            "count": 5
+        },
+        {
+            "manager": "Richie Chow",
+            "count": 3
+        },
+        {
+            "manager": "Ritesh Mehrotra",
+            "count": 71
+        },
+        {
+            "manager": "Robert John Palabasan",
+            "count": 23
+        },
+        {
+            "manager": "Rohit Pandey",
+            "count": 1
+        },
+        {
+            "manager": "Rollie Sebido",
+            "count": 1
+        },
+        {
+            "manager": "Roy Vogelsburg",
+            "count": 4976
+        },
+        {
+            "manager": "Ryan Fakhar-Brojerdi",
+            "count": 100
+        },
+        {
+            "manager": "Saji Joseph",
+            "count": 5
+        },
+        {
+            "manager": "Salman Jalali",
+            "count": 1
+        },
+        {
+            "manager": "Santosh Moholkar",
+            "count": 81
+        },
+        {
+            "manager": "Satheesh Narayanan",
+            "count": 139
+        },
+        {
+            "manager": "Sean Shannon",
+            "count": 402
+        },
+        {
+            "manager": "Senthilkumar Kathiresan",
+            "count": 18
+        },
+        {
+            "manager": "Shankar Murahari",
+            "count": 121
+        },
+        {
+            "manager": "Shilpa Narla",
+            "count": 12
+        },
+        {
+            "manager": "Shwu-Miin Yang",
+            "count": 7
+        },
+        {
+            "manager": "Sidney Tornquist",
+            "count": 1
+        },
+        {
+            "manager": "Siva Yenamareddy",
+            "count": 3
+        },
+        {
+            "manager": "Srikant Mahapatra",
+            "count": 203
+        },
+        {
+            "manager": "Stephen Holsinger",
+            "count": 4
+        },
+        {
+            "manager": "Subroto Chakrabarty",
+            "count": 10
+        },
+        {
+            "manager": "Sudhakar Bathina",
+            "count": 4
+        },
+        {
+            "manager": "Sujamalathy Ramalingam",
+            "count": 5
+        },
+        {
+            "manager": "Surendar Ramamoorthy",
+            "count": 4
+        },
+        {
+            "manager": "Susmit Sen",
+            "count": 109
+        },
+        {
+            "manager": "Syed Rayadurg",
+            "count": 1670
+        },
+        {
+            "manager": "Theodore Jastrow",
+            "count": 1059
+        },
+        {
+            "manager": "Thomas Morgan",
+            "count": 3197
+        },
+        {
+            "manager": "Udaya Kiran Mahavadi",
+            "count": 948
+        },
+        {
+            "manager": "Venkata Ravi Kiran Babu Alapati",
+            "count": 33
+        },
+        {
+            "manager": "Vidya Sagar Amancherla",
+            "count": 3
+        },
+        {
+            "manager": "Vignesh Sachithanandan",
+            "count": 176
+        },
+        {
+            "manager": "Vijay Raghunaathan",
+            "count": 1031
+        },
+        {
+            "manager": "Vinay Desai",
+            "count": 164
+        },
+        {
+            "manager": "Vinay Lavu",
+            "count": 2
+        },
+        {
+            "manager": "Von Albano",
+            "count": 4959
+        },
+        {
+            "manager": "Yvette Krause",
+            "count": 4
+        }
+    ]
+}

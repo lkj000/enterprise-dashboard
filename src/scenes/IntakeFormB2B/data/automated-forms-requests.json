@@ -1,0 +1,115 @@
+{
+  "title": "B2B Platform",
+  "subTitle": "Intake Request Form",
+  "notes": [
+    {
+      "type": "alert",
+      "severity": "warning",
+      "content": [
+        "<b>CONTAINMENT NOTIFICATION</b><br/>",
+        "Sterling B2Bi is in containment for MFT feeds. No additional MFT request will be completed for Sterling B2Bi. Starting 11/12 all new and existing MFT requests will be setup on Axway B2Bi."
+      ]
+    },
+    {
+      "type": "alert",
+      "severity": "warning",
+      "content": [
+        "<b>DO NOT SETUP ANY MEETINGS WITH B2B TEAM MEMBERS</b><br/>",
+        "<b>B2B team will request details and meetings as needed.</b> Given the high number of applications and partners we support, we will NOT be able to accommodate meetings with every team."
+      ]
+    },
+    {
+      "type": "alert",
+      "severity": "success",
+      "content": [
+        "<b>PLEASE PLAN ACCORDINGLY</b><br/>",
+        "Managed File Transfers (MFTs) have a <b>1.5 – 2 Sprints delivery SLA</b>"
+      ]
+    }
+  ],
+  "data": [
+    {
+      "tabTitle": "B2B Managed File Transfer (MFT) Request",
+      "formData": [
+        {
+          "button": [
+            {
+              "buttonTitle": "STANDARD MFT REQUEST",
+              "jiraTicketSummary": "MFT Request:",
+              "jiraTicketDescription": "1. NDA (MUST attach if new vendor/trading partner):\n\n2. Project ID#, OR#, MWR#, DMND# (if applicable):\n\n3. Data classification (must be confirmed by Data Governance team):\n\n4. Application Code:\n\n5. Direction:\n\n6. Frequency:\n\n7. Number of files per Frequency interval:\n\n8. Expected time of transfers:\n\n9. File Size (approximate):\n\n10. Albertsons Contacts:\n\n11. Vendor Contacts:\n\n12. Manila App Support Team:\n\n*If you do not know the response to the following two items, please contact the app team to obtain this information\n\n13. Where the data is coming FROM:\nExternal Partner(Yes / No): if Yes, provide partner name and leave rest of source fields blank\nSource host(IP/hostname):\nSource user ID:\nSource directory:\nFilemask:\n\n14. Where the data needs to be delivered TO\nExternal Partner(Yes / No): if Yes, provide partner name and SFTP details below\nDestination host (IP/hostname):\nDestination userID:\nDestination directory:\n\n*Note - YOU may be required to submit a request to Integration Services for a Stonebranch label, if necessary\n\n",
+              "jiraLinkIssue": "PBP-1969",
+              "jiraLinkIssueType": "Child"
+            },
+            {
+              "buttonTitle": "GCP MFT REQUEST",
+              "jiraTicketSummary": "GCP MFT Request:",
+              "jiraTicketDescription": "1. NDA (MUST attach if new vendor/trading partner):\n\n2. Project ID#, OR#, MWR#, DMND# (if applicable):\n\n3. Data classification (must be confirmed by Data Governance team):\n\n4. Application Code:\n\n5. Direction:\n\n6. Albertsons Contacts:\n\n7. Vendor Contacts:\n\n8. Manila App Support Team:\n\n*If you do not know the response to the following two items, please contact the app team to obtain this information\n\n9. Source & Destination Details:\n============\nApplication or Trading Partner SFTP Details:\n - Host:\n - User ID:\n - Password: (to be sent via secure email after B2B engineer contacts requester)\n - Directory Path:\nFile Mask Pattern:\nFrequency:\nFile Size:\nNumber of Files per Frequency Interval:\nExpected Time of Transfer:\n\n GCP Bucket Details:\n============\nBucket Name:\nDirectory Name:\nFilename mask/Delivery File Name:\nGCP Service Account:\nPrivate Key for the service account (send via secure email after B2B engineer contacts requester)\nRead/Write/Delete access to the Service Account for the GCS bucket: Y/N\n",
+              "jiraLinkIssue": "PBP-2384",
+              "jiraLinkIssueType": "Child"
+              }
+          ],
+          "element": [
+            {
+              "type": "content",
+              "content": [
+                "<ul><li>Click on the link above. Follow the instructions and click Submit to save.</li><li>To review the status of your request, please see the MFT Requests Log below.</li></ul>",
+                "<p><a href=\"https://confluence.safeway.com/display/BP/B2B+Platform+Requests#B2BPlatformRequests-GCP\" target=\"_blank\" rel=\"noreferrer\">Jump to GCP Request Log</a></p>",
+                "<p>If you have any questions, please contact <a href=\"mailto: b2b.support@albertsons.com\">b2b.support@albertsons.com</a></p>"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tabTitle": "B2B Supply Chain Setup Request",
+      "formData": [
+        {
+          "button": [
+            {
+              "buttonTitle": "SUPPLY CHAIN (EDI) REQUEST",
+              "jiraTicketSummary": "EDI Partner Request:",
+              "jiraTicketDescription": "Partner Name (24 characters):\n\nEDI Contact Information:\n - Name:\n - Email:\n - Phone:\n\nEDI Details\n - ISA Qual:\n - ISA ID:\n - GS ID:\n - VAN:\n - Standard:\n\nEDI Transaction Types:\n\nPlease note any special requirement or exception handling needs (if any):\n",
+              "jiraLinkIssue": "PBP-1968",
+              "jiraLinkIssueType": "Child"
+            }
+          ],
+          "element": [
+            {
+              "type": "content",
+              "content": [
+                "<ul><li>Click on the link above. Follow the instructions and click Submit to save.</li><li>To review the status of your request, please see the Supply Chain Request Log below.</li></ul>",
+                "<p>If you have any questions, please contact <a href=\"mailto: b2b.support@albertsons.com\">b2b.support@albertsons.com</a></p>"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tabTitle": "B2B General Request",
+      "formData": [
+        {
+          "button": [
+            {
+              "buttonTitle": "GENERAL REQUEST",
+              "jiraTicketSummary": "",
+              "jiraTicketDescription": "Please outline the request or non-urgent issue you are experiencing.\n\nAttaching screenshot is encouraged for troubleshooting requests\n\n",
+              "jiraLinkIssue": "PBP-4320",
+              "jiraLinkIssueType": "Child"
+            }
+          ],
+          "element": [
+            {
+              "type": "content",
+              "content": [
+                "<ul><li>Click on the link above. Follow the instructions and click Submit to save.</li><li>To review the status of your request, please see the General Request Log below.</li></ul>",
+                "<p>If you have any questions, please contact <a href=\"mailto: b2b.support@albertsons.com\">b2b.support@albertsons.com</a></p>"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

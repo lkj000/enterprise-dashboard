@@ -1,0 +1,275 @@
+[
+    {
+        "name": "Tenable.io",
+        "security_function": ["identify"],
+        "asset_category": ["devices"],
+        "environment": ["azure", "on-premises", "remote"],
+        "maturity": "2/4"
+    },
+    {
+        "name": "ServiceNow",
+        "security_function": ["identify"],
+        "asset_category": ["devices", "applications"],
+        "environment": ["azure", "gcp", "on-premises", "remote"],
+        "maturity": "2/4"
+    },
+    {
+        "name": "Axonius",
+        "security_function": ["identify"],
+        "asset_category": ["devices"],
+        "environment": ["azure", "gcp", "on-premises", "remote"],
+        "maturity": "2/4"
+    },
+    {
+        "name": "SynAck",
+        "security_function": ["identify"],
+        "asset_category": ["devices", "applications"],
+        "environment": ["azure", "gcp", "on-premises", "remote", "edge"],
+        "maturity": "2/4"
+    },
+    {
+        "name": "SentinelOne",
+        "security_function": ["identify", "protect", "detect", "respond"],
+        "asset_category": ["devices"],
+        "environment": ["azure", "gcp", "on-premises", "remote"],
+        "maturity": "2/4"
+    },
+    {
+        "name": "ExtraHop",
+        "security_function": ["identify"],
+        "asset_category": ["networks"],
+        "environment": ["azure", "on-premises"],
+        "maturity": "2/4"
+    },
+    {
+        "name": "Firemon",
+        "security_function": ["identify"],
+        "asset_category": ["networks"],
+        "environment": ["azure", "gcp", "on-premises", "remote"],
+        "maturity": "2/4"
+    },
+    {
+        "name": "Veracode",
+        "security_function": ["identify"],
+        "asset_category": ["applications"],
+        "environment": ["azure", "gcp", "on-premises", "remote", "edge"],
+        "maturity": "2/4"
+    },
+    {
+        "name": "Secret Scanning",
+        "security_function": ["identify"],
+        "asset_category": ["applications"],
+        "environment": ["azure", "gcp", "on-premises", "remote"],
+        "maturity": "2/4"
+    },
+    {
+        "name": "BigID",
+        "security_function": ["identify"],
+        "asset_category": ["data"],
+        "environment": ["azure", "gcp", "on-premises", "remote"],
+        "maturity": "2/4"
+    },
+    {
+        "name": "Imperva DAM",
+        "security_function": ["identify"],
+        "asset_category": ["data"],
+        "environment": ["azure"],
+        "maturity": "2/4"
+    },
+    {
+        "name": "BloodHound",
+        "security_function": ["identify"],
+        "asset_category": ["users"],
+        "environment": ["azure", "on-premises", "remote"],
+        "maturity": "2/4"
+    },
+    {
+        "name": "EntraID",
+        "security_function": ["identify"],
+        "asset_category": ["users"],
+        "environment": ["azure", "gcp", "on-premises", "remote"],
+        "maturity": "2/4"
+    },
+    {
+        "name": "GCP IAM",
+        "security_function": ["identify"],
+        "asset_category": ["users"],
+        "environment": ["gcp"],
+        "maturity": "2/4"
+    },
+    {
+        "name": "Sonrai",
+        "security_function": ["identify"],
+        "asset_category": ["users"],
+        "environment": ["azure", "gcp"],
+        "maturity": "2/4"
+    },
+    {
+        "name": "Okta",
+        "security_function": ["identify", "protect", "detect"],
+        "asset_category": ["users"],
+        "environment": ["edge"],
+        "maturity": "2/4"
+    },
+    {
+        "name": "Prisma",
+        "security_function": ["protect"],
+        "asset_category": ["devices"],
+        "environment": ["azure", "gcp"],
+        "maturity": "2/4"
+    },
+    {
+        "name": "Tenable Cloud Security",
+        "security_function": ["identify", "protect"],
+        "asset_category": ["devices"],
+        "environment": ["azure", "gcp"],
+        "maturity": "2/4"
+    },
+    {
+        "name": "Ansible",
+        "security_function": ["protect"],
+        "asset_category": ["devices"],
+        "environment": ["azure", "gcp", "on-premises"],
+        "maturity": "2/4"
+    },
+    {
+        "name": "CyberArk",
+        "security_function": ["protect"],
+        "asset_category": ["devices", "users"],
+        "environment": ["azure", "gcp", "on-premises", "remote"],
+        "maturity": "2/4"
+    },
+    {
+        "name": "Palo Alto FW",
+        "security_function": ["protect"],
+        "asset_category": ["networks"],
+        "environment": ["azure", "gcp"],
+        "maturity": "2/4"
+    },
+    {
+        "name": "Azure NSG",
+        "security_function": ["protect"],
+        "asset_category": ["networks"],
+        "environment": ["azure"],
+        "maturity": "2/4"
+    },
+    {
+        "name": "GCP Anthos",
+        "security_function": ["protect"],
+        "asset_category": ["networks", "applications"],
+        "environment": ["gcp"],
+        "maturity": "2/4"
+    },
+    {
+        "name": "Azure APIM",
+        "security_function": ["protect"],
+        "asset_category": ["applications"],
+        "environment": ["azure", "gcp"],
+        "maturity": "2/4"
+    },
+    {
+        "name": "Istio",
+        "security_function": ["protect"],
+        "asset_category": ["networks", "applications"],
+        "environment": ["azure"],
+        "maturity": "2/4"
+    },
+    {
+        "name": "GCP VPC SC",
+        "security_function": ["protect"],
+        "asset_category": ["devices", "data"],
+        "environment": ["gcp"],
+        "maturity": "2/4"
+    },
+    {
+        "name": "GCP VPC FW",
+        "security_function": ["protect"],
+        "asset_category": ["networks"],
+        "environment": ["gcp"],
+        "maturity": "2/4"
+    },
+    {
+        "name": "Meraki",
+        "security_function": ["protect"],
+        "asset_category": ["networks"],
+        "environment": ["on-premises"],
+        "maturity": "2/4"
+    },
+    {
+        "name": "Imperva WAF",
+        "security_function": ["protect", "detect", "respond"],
+        "asset_category": ["applications"],
+        "environment": ["azure", "gcp"],
+        "maturity": "2/4"
+    },
+    {
+        "name": "Venafi",
+        "security_function": ["protect"],
+        "asset_category": ["applications", "devices"],
+        "environment": ["azure", "gcp", "on-premises", "remote"],
+        "maturity": "2/4"
+    },
+    {
+        "name": "GCP Cloud Armor",
+        "security_function": ["protect"],
+        "asset_category": ["networks", "applications"],
+        "environment": ["gcp"],
+        "maturity": "2/4"
+    },
+    {
+        "name": "GCP Secrets Manager",
+        "security_function": ["protect"],
+        "asset_category": ["applications"],
+        "environment": ["gcp"],
+        "maturity": "2/4"
+    },
+    {
+        "name": "GCP Certificate Management",
+        "security_function": ["protect"],
+        "asset_category": ["applications"],
+        "environment": ["gcp"],
+        "maturity": "2/4"
+    },
+    {
+        "name": "Voltage",
+        "security_function": ["protect"],
+        "asset_category": ["data"],
+        "environment": ["azure"],
+        "maturity": "2/4"
+    },
+    {
+        "name": "Protegrity",
+        "security_function": ["protect"],
+        "asset_category": ["data"],
+        "environment": ["azure", "gcp"],
+        "maturity": "2/4"
+    },
+    {
+        "name": "Azure Key Vault",
+        "security_function": ["protect"],
+        "asset_category": ["data"],
+        "environment": ["azure"],
+        "maturity": "2/4"
+    },
+    {
+        "name": "Sailpoint",
+        "security_function": ["protect"],
+        "asset_category": ["users"],
+        "environment": ["azure", "gcp", "on-premises", "remote"],
+        "maturity": "2/4"
+    },
+    {
+        "name": "CySiv",
+        "security_function": ["detect"],
+        "asset_category": ["devices", "networks", "applications", "data", "users"],
+        "environment": ["azure", "gcp", "on-premises", "remote"],
+        "maturity": "2/4"
+    },
+    {
+        "name": "Azure Log Analytics",
+        "security_function": ["detect"],
+        "asset_category": ["devices", "applications"],
+        "environment": ["azure"],
+        "maturity": "2/4"
+    }
+]

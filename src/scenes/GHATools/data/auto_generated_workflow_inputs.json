@@ -1,0 +1,1457 @@
+[
+    {
+        "workflow_file": "gcp-sa-keys-report.yml",
+        "name": "GCP SA Key Expiry Report",
+        "input": [
+            {
+                "name": "expiring_in_days",
+                "type": "number",
+                "description": "Expiring in Days",
+                "required": true,
+                "default": 10
+            },
+            {
+                "name": "team",
+                "type": "choice",
+                "description": "Select Team Name",
+                "required": false,
+                "default": "udp",
+                "options": [
+                    "all",
+                    "udp"
+                ]
+            },
+            {
+                "name": "emails",
+                "type": "string",
+                "description": "Comma separated list email addresses to receive the report",
+                "required": false,
+                "default": ""
+            },
+            {
+                "name": "USERID",
+                "type": "string",
+                "description": "ID of user who has triggered the Workflow.",
+                "required": true,
+                "default": "Dashboard"
+            }
+        ]
+    },
+    {
+        "workflow_file": "add-secret-to-repo.yml",
+        "name": "Add or Update Secret in Repository",
+        "input": [
+            {
+                "name": "Repository",
+                "type": "string",
+                "description": null,
+                "required": true,
+                "default": null
+            },
+            {
+                "name": "SecretKey",
+                "type": "string",
+                "description": null,
+                "required": true,
+                "default": null
+            },
+            {
+                "name": "SecretValue",
+                "type": "string",
+                "description": "SecretValue - (Add your Secret Value. If you need to add complex secret like a PEM file or Service Account Key, \nplease check the 'Add Secret to Repository or Repository Environment' Wiki Page.)\n",
+                "required": true,
+                "default": null
+            },
+            {
+                "name": "USERID",
+                "type": "string",
+                "description": "ID of user who has triggered the Workflow.",
+                "required": true,
+                "default": "Dashboard"
+            }
+        ]
+    },
+    {
+        "workflow_file": "gcp-vpcsc-violation-summary-report.yml",
+        "name": "GCP VPC SC Violation Summary Report",
+        "input": [
+            {
+                "name": "project_id",
+                "type": "string",
+                "description": "GCP Project ID of VPC SC",
+                "required": true,
+                "default": null
+            },
+            {
+                "name": "sample_size",
+                "type": "number",
+                "description": "Log Sample Size default 100",
+                "required": false,
+                "default": 100
+            },
+            {
+                "name": "time_range",
+                "type": "number",
+                "description": "Number of hours ago default 4",
+                "required": false,
+                "default": 4
+            },
+            {
+                "name": "emails",
+                "type": "string",
+                "description": "Comma separated list email addresses [@safeway.com] to receive the report",
+                "required": true,
+                "default": ""
+            },
+            {
+                "name": "USERID",
+                "type": "string",
+                "description": "ID of user who has triggered the Workflow.",
+                "required": true,
+                "default": "Dashboard"
+            }
+        ]
+    },
+    {
+        "workflow_file": "list-repo-variables.yml",
+        "name": "List Repository Variables",
+        "input": [
+            {
+                "name": "Repository",
+                "type": "string",
+                "description": null,
+                "required": true,
+                "default": null
+            },
+            {
+                "name": "USERID",
+                "type": "string",
+                "description": "ID of user who has triggered the Workflow.",
+                "required": true,
+                "default": "Dashboard"
+            }
+        ]
+    },
+    {
+        "workflow_file": "adding-repos-gke-org-secrets.yml",
+        "name": "Assign Repo to GKE Cluster Org Secret",
+        "input": [
+            {
+                "name": "repository",
+                "type": "string",
+                "description": "Provide comma ',' Separated Repositories if you want to add multiple Repos to a Secret.\n",
+                "required": true,
+                "default": null
+            },
+            {
+                "name": "SecretKey",
+                "type": "string",
+                "description": null,
+                "required": true,
+                "default": null
+            },
+            {
+                "name": "USERID",
+                "type": "string",
+                "description": "ID of user who has triggered the Workflow.",
+                "required": true,
+                "default": "Dashboard"
+            }
+        ]
+    },
+    {
+        "workflow_file": "archive-jira-project.yml",
+        "name": "Archive Project In Jira Prod",
+        "input": [
+            {
+                "name": "Project-name",
+                "type": "string",
+                "description": "Enter the Project Key",
+                "required": true,
+                "default": null
+            },
+            {
+                "name": "USERID",
+                "type": "string",
+                "description": "ID of user who has triggered the Workflow.",
+                "required": true,
+                "default": "Dashboard"
+            }
+        ]
+    },
+    {
+        "workflow_file": "unsuspend_user_GitHub_Enterprise.yml",
+        "name": "Unsuspend GitHub Enterprise User",
+        "input": [
+            {
+                "name": "USERID",
+                "type": "string",
+                "description": "ID of user who has triggered the Workflow.",
+                "required": true,
+                "default": "Dashboard"
+            }
+        ]
+    },
+    {
+        "workflow_file": "update-variable-in-repository.yml",
+        "name": "Update Variable in Repository",
+        "input": [
+            {
+                "name": "Repository",
+                "type": "string",
+                "description": null,
+                "required": true,
+                "default": null
+            },
+            {
+                "name": "VariableKey",
+                "type": "string",
+                "description": null,
+                "required": true,
+                "default": null
+            },
+            {
+                "name": "VariableValue",
+                "type": "string",
+                "description": "VariableValue - (Add your Variable Value. For complex multiline Variables, you can take hints from \n'Add variable to Repository or Repository Environment' Wiki Page.)\n",
+                "required": true,
+                "default": null
+            },
+            {
+                "name": "USERID",
+                "type": "string",
+                "description": "ID of user who has triggered the Workflow.",
+                "required": true,
+                "default": "Dashboard"
+            }
+        ]
+    },
+    {
+        "workflow_file": "gcp-sa-key-secure-share.yml",
+        "name": "GCP SA Key Secure Share",
+        "input": [
+            {
+                "name": "sa_email",
+                "type": "string",
+                "description": "SA email",
+                "required": true,
+                "default": ""
+            },
+            {
+                "name": "ad_groups",
+                "type": "string",
+                "description": "Comma seperated list of AD groups (including *@safeway.com)",
+                "required": true,
+                "default": ""
+            },
+            {
+                "name": "email_list",
+                "type": "string",
+                "description": "Comma seperated list of emails",
+                "required": false,
+                "default": ""
+            },
+            {
+                "name": "key_type",
+                "type": "choice",
+                "description": "Key type",
+                "required": null,
+                "default": "json",
+                "options": [
+                    "json",
+                    "p12"
+                ]
+            },
+            {
+                "name": "USERID",
+                "type": "string",
+                "description": "ID of user who has triggered the Workflow.",
+                "required": true,
+                "default": "Dashboard"
+            }
+        ]
+    },
+    {
+        "workflow_file": "search_string_in_repo.yml",
+        "name": "Repo Search",
+        "input": [
+            {
+                "name": "Repository",
+                "type": "string",
+                "description": null,
+                "required": true,
+                "default": null
+            },
+            {
+                "name": "String",
+                "type": "string",
+                "description": "Provide exact string to search",
+                "required": true,
+                "default": null
+            },
+            {
+                "name": "USERID",
+                "type": "string",
+                "description": "ID of user who has triggered the Workflow.",
+                "required": true,
+                "default": "Dashboard"
+            }
+        ]
+    },
+    {
+        "workflow_file": "search_string_repo_global.yml",
+        "name": "Global Search",
+        "input": [
+            {
+                "name": "String",
+                "type": "string",
+                "description": "Provide exact string to search",
+                "required": true,
+                "default": null
+            },
+            {
+                "name": "USERID",
+                "type": "string",
+                "description": "ID of user who has triggered the Workflow.",
+                "required": true,
+                "default": "Dashboard"
+            }
+        ]
+    },
+    {
+        "workflow_file": "list-repo-secrets.yml",
+        "name": "List Repository Secrets",
+        "input": [
+            {
+                "name": "Repository",
+                "type": "string",
+                "description": null,
+                "required": true,
+                "default": null
+            },
+            {
+                "name": "USERID",
+                "type": "string",
+                "description": "ID of user who has triggered the Workflow.",
+                "required": true,
+                "default": "Dashboard"
+            }
+        ]
+    },
+    {
+        "workflow_file": "add-variable-to-repo.yml",
+        "name": "Add Repository Variable",
+        "input": [
+            {
+                "name": "Repository",
+                "type": "string",
+                "description": null,
+                "required": true,
+                "default": null
+            },
+            {
+                "name": "VariableKey",
+                "type": "string",
+                "description": "VariableKey -  \n(Alphanumeric characters ([a-z], [A-Z], [0-9]) or underscores (_) only, \nSpaces are not allowed, \nCannot start with a number)\n",
+                "required": true,
+                "default": null
+            },
+            {
+                "name": "VariableValue",
+                "type": "string",
+                "description": "VariableValue - (Add your Variable Value. For complex multiline Variables, you can take hints from \n'Add variable to Repository or Repository Environment' Wiki Page.)\n",
+                "required": true,
+                "default": null
+            },
+            {
+                "name": "USERID",
+                "type": "string",
+                "description": "ID of user who has triggered the Workflow.",
+                "required": true,
+                "default": "Dashboard"
+            }
+        ]
+    },
+    {
+        "workflow_file": "add-associate-user-to-repo.yml",
+        "name": "Add Associate User to Repository",
+        "input": [
+            {
+                "name": "Repository",
+                "type": "string",
+                "description": null,
+                "required": true,
+                "default": null
+            },
+            {
+                "name": "User_ID",
+                "type": "string",
+                "description": null,
+                "required": true,
+                "default": null
+            },
+            {
+                "name": "USERID",
+                "type": "string",
+                "description": "ID of user who has triggered the Workflow.",
+                "required": true,
+                "default": "Dashboard"
+            }
+        ]
+    },
+    {
+        "workflow_file": "add-team-to-repo.yml",
+        "name": "Add Teams to Repository",
+        "input": [
+            {
+                "name": "Repository",
+                "type": "string",
+                "description": null,
+                "required": true,
+                "default": null
+            },
+            {
+                "name": "Team",
+                "type": "string",
+                "description": null,
+                "required": true,
+                "default": null
+            },
+            {
+                "name": "Access",
+                "type": "choice",
+                "description": null,
+                "required": true,
+                "default": null,
+                "options": [
+                    "read",
+                    "write"
+                ]
+            },
+            {
+                "name": "USERID",
+                "type": "string",
+                "description": "ID of user who has triggered the Workflow.",
+                "required": true,
+                "default": "Dashboard"
+            }
+        ]
+    },
+    {
+        "workflow_file": "Add_User_to_Github_Enterprise_Organization.yml",
+        "name": "Add User to Github Enterprise Organization",
+        "input": [
+            {
+                "name": "USERID",
+                "type": "string",
+                "description": "ID of user who has triggered the Workflow.",
+                "required": true,
+                "default": "Dashboard"
+            }
+        ]
+    },
+    {
+        "workflow_file": "update-env-variable-in-repo.yml",
+        "name": "Update Environment Variable in Repository",
+        "input": [
+            {
+                "name": "Repository",
+                "type": "string",
+                "description": null,
+                "required": true,
+                "default": null
+            },
+            {
+                "name": "Environment",
+                "type": "string",
+                "description": null,
+                "required": true,
+                "default": null
+            },
+            {
+                "name": "VariableKey",
+                "type": "string",
+                "description": null,
+                "required": true,
+                "default": null
+            },
+            {
+                "name": "VariableValue",
+                "type": "string",
+                "description": "VariableValue - (Add your Variable Value. If you need to add complex variables, you can reference the 'Add Secret to Repository or Repository Environment' Wiki Page.)\n",
+                "required": true,
+                "default": null
+            },
+            {
+                "name": "USERID",
+                "type": "string",
+                "description": "ID of user who has triggered the Workflow.",
+                "required": true,
+                "default": "Dashboard"
+            }
+        ]
+    },
+    {
+        "workflow_file": "delete-repo-env-secret.yml",
+        "name": "Delete Environment Secret in Repository",
+        "input": [
+            {
+                "name": "Repository",
+                "type": "string",
+                "description": null,
+                "required": true,
+                "default": null
+            },
+            {
+                "name": "SecretKey",
+                "type": "string",
+                "description": null,
+                "required": true,
+                "default": null
+            },
+            {
+                "name": "Environment",
+                "type": "string",
+                "description": null,
+                "required": true,
+                "default": null
+            },
+            {
+                "name": "USERID",
+                "type": "string",
+                "description": "ID of user who has triggered the Workflow.",
+                "required": true,
+                "default": "Dashboard"
+            }
+        ]
+    },
+    {
+        "workflow_file": "rename_branch.yml",
+        "name": "Rename Branch",
+        "input": [
+            {
+                "name": "Repository",
+                "type": "string",
+                "description": "Provide exact Repository name",
+                "required": true,
+                "default": ""
+            },
+            {
+                "name": "Old_Branch_Name",
+                "type": "string",
+                "description": "Provide BranchName you want to change",
+                "required": true,
+                "default": null
+            },
+            {
+                "name": "New_Branch_Name",
+                "type": "string",
+                "description": "Provide New BranchName you want to change",
+                "required": true,
+                "default": null
+            },
+            {
+                "name": "Jira_Story",
+                "type": "string",
+                "description": "Provide Jira story under which you are working for change",
+                "required": true,
+                "default": null
+            },
+            {
+                "name": "USERID",
+                "type": "string",
+                "description": "ID of user who has triggered the Workflow.",
+                "required": true,
+                "default": "Dashboard"
+            }
+        ]
+    },
+    {
+        "workflow_file": "github_repo_provisioning.yml",
+        "name": "GitHub Repo Provisioning",
+        "input": [
+            {
+                "name": "USERID",
+                "type": "string",
+                "description": "USERID of the triggering actor",
+                "required": false,
+                "default": "Dashboard"
+            },
+            {
+                "name": "REPOSITORY_NAME",
+                "type": "string",
+                "description": "Enter the Repository name prefixing appcode ,Ex: abcd is appcode and spr-boot-int is application name,provide input as abcd-spr-boot-int",
+                "required": true,
+                "default": null
+            },
+            {
+                "name": "Branch_Names",
+                "type": "string",
+                "description": null,
+                "required": null,
+                "default": "[mM][aA][sS][tT][eE][rR]*,[mM][aA][iI][nN]*,[rR][eE][lL]*,[hH][oO][tT]*,gh-pages"
+            },
+            {
+                "name": "Create_Repository_as_Template",
+                "type": "boolean",
+                "description": null,
+                "required": null,
+                "default": false
+            },
+            {
+                "name": "Create_Repository_from_Template",
+                "type": "string",
+                "description": null,
+                "required": null,
+                "default": null
+            },
+            {
+                "name": "required_approving_review_count",
+                "type": "string",
+                "description": "Enter the No. of Approvers Required",
+                "required": null,
+                "default": "1"
+            },
+            {
+                "name": "nonprod_environments",
+                "type": "string",
+                "description": "Enter the Required Nonprod environments, E.g. dev,qa,perf,perf1,acceptance",
+                "required": null,
+                "default": "dev,qa,perf,perf1,acceptance"
+            },
+            {
+                "name": "prod_environments",
+                "type": "string",
+                "description": "Default production Environment value is production, Do not change this value",
+                "required": null,
+                "default": "production"
+            }
+        ]
+    },
+    {
+        "workflow_file": "create-project-jira-prod.yml",
+        "name": "Create New Jira Project",
+        "input": [
+            {
+                "name": "Project-name",
+                "type": "string",
+                "description": "Enter the Project name",
+                "required": true,
+                "default": null
+            },
+            {
+                "name": "Project-leader",
+                "type": "string",
+                "description": "Enter the Project Leader LDAP ID",
+                "required": true,
+                "default": null
+            },
+            {
+                "name": "USERID",
+                "type": "string",
+                "description": "ID of user who has triggered the Workflow.",
+                "required": true,
+                "default": "Dashboard"
+            }
+        ]
+    },
+    {
+        "workflow_file": "add-env-secret-to-repo.yml",
+        "name": "Add or Update Environment Secret to Repository",
+        "input": [
+            {
+                "name": "Repository",
+                "type": "string",
+                "description": null,
+                "required": true,
+                "default": null
+            },
+            {
+                "name": "Environment",
+                "type": "string",
+                "description": null,
+                "required": true,
+                "default": null
+            },
+            {
+                "name": "SecretKey",
+                "type": "string",
+                "description": null,
+                "required": true,
+                "default": null
+            },
+            {
+                "name": "SecretValue",
+                "type": "string",
+                "description": "SecretValue - (Add your Secret Value. If you need to add complex secret like a PEM file or Service Account Key, \nplease check the 'Add Secret to Repository or Repository Environment' Wiki Page.)\n",
+                "required": true,
+                "default": null
+            },
+            {
+                "name": "USERID",
+                "type": "string",
+                "description": "ID of user who has triggered the Workflow.",
+                "required": true,
+                "default": "Dashboard"
+            }
+        ]
+    },
+    {
+        "workflow_file": "get-repo-teams.yml",
+        "name": "List Teams in Repository",
+        "input": [
+            {
+                "name": "Repository",
+                "type": "string",
+                "description": null,
+                "required": true,
+                "default": null
+            },
+            {
+                "name": "USERID",
+                "type": "string",
+                "description": "ID of user who has triggered the Workflow.",
+                "required": true,
+                "default": "Dashboard"
+            }
+        ]
+    },
+    {
+        "workflow_file": "gcp-vpcsc-violation-sql-report.yml",
+        "name": "GCP VPC SC Violation SQL Report",
+        "input": [
+            {
+                "name": "project_id",
+                "type": "string",
+                "description": "GCP Project ID of VPC SC",
+                "required": true,
+                "default": null
+            },
+            {
+                "name": "sample_size",
+                "type": "number",
+                "description": "Log Sample Size default 100",
+                "required": false,
+                "default": 100
+            },
+            {
+                "name": "time_range",
+                "type": "number",
+                "description": "Number of hours ago default 4",
+                "required": false,
+                "default": 4
+            },
+            {
+                "name": "emails",
+                "type": "string",
+                "description": "Comma separated list email addresses [@safeway.com] to receive the report",
+                "required": true,
+                "default": ""
+            },
+            {
+                "name": "USERID",
+                "type": "string",
+                "description": "ID of user who has triggered the Workflow.",
+                "required": true,
+                "default": "Dashboard"
+            }
+        ]
+    },
+    {
+        "workflow_file": "oneclick_provisioning_aks.yml",
+        "name": "AKS Provisioning",
+        "input": [
+            {
+                "name": "USERID",
+                "type": "string",
+                "description": "ID of user who has triggered the Workflow.",
+                "required": true,
+                "default": "Dashboard"
+            },
+            {
+                "name": "REPOSITORY_NAME",
+                "type": "string",
+                "description": "Repository name with appcode as prefix, E.g. the APPCODE for the appname portal-test or spr-boot-int is abcd then prefix the appcode to appname, ex: abcd-spr-boot-int or abcd-portal-test, then enter the repository name as \"abcd-spr-boot-int\" or \"abcd-portal-test\"",
+                "required": true,
+                "default": null
+            },
+            {
+                "name": "Environment",
+                "type": "string",
+                "description": "Select Environment Type with comma separated, ex: dev,qa,qa1,qa2,prod",
+                "required": true,
+                "default": "dev,qa,qa1,qa2,stage,perf1,prod"
+            },
+            {
+                "name": "REGISTRY_URL",
+                "type": "string",
+                "description": "Enter the REGISTRY_URL",
+                "required": true,
+                "default": null
+            },
+            {
+                "name": "HELM_NAME",
+                "type": "string",
+                "description": "Enter the HELM_NAME, E.g. helmcharts",
+                "required": true,
+                "default": "helmcharts"
+            },
+            {
+                "name": "VALUES_PATH",
+                "type": "string",
+                "description": "Enter only values filename in VALUES_PATH, E.g. if the path helmcharts/env/dev/abcd/values.yaml, Enter only values.yaml",
+                "required": true,
+                "default": "values.yaml"
+            },
+            {
+                "name": "CONFIG_PATH",
+                "type": "string",
+                "description": "Enter the configmap filename in CONFIG_PATH, E.g. env/dev/abcd/configmap.yaml, Enter only configmap.yaml",
+                "required": true,
+                "default": "configmap.yaml"
+            },
+            {
+                "name": "build_type",
+                "type": "string",
+                "description": "Enter build type, E.g. maven, mavenwrapper, node, dotnet, gradle",
+                "required": true,
+                "default": "maven"
+            },
+            {
+                "name": "NONPROD_CLUSTER_NAME",
+                "type": "choice",
+                "description": "Select the NONPROD CLUSTER NAME",
+                "required": true,
+                "default": null,
+                "options": [
+                    "ESCO_AKSBA1_NONPROD_WESTUS_CLUSTER_01",
+                    "ESCO_AKSBA2_NONPROD_EASTUS_CLUSTER_01",
+                    "ESCO_AKSBA2_NONPROD_WESTUS_CLUSTER_01",
+                    "ESCO_AKSPCI_NONPROD_WESTUS_CLUSTER_01",
+                    "ESCO_AKSPHI_NONPROD_EASTUS_CLUSTER_01",
+                    "ESCO_AKSPHI_NONPROD_WESTUS_CLUSTER_01",
+                    "ESCO_AKSRES_NONPROD_EASTUS_CLUSTER_01",
+                    "ESCO_AKSRES_NONPROD_WESTUS_CLUSTER_01",
+                    "ESCO_AKSSHARED_NONPROD_WESTUS_CLUSTER_01",
+                    "ESGK_GKEBA_NONPROD_UW2_CLUSTER_01",
+                    "ESGK_GKEPHI_NONPROD_WESTUS_CLUSTER_01"
+                ]
+            },
+            {
+                "name": "PROD_CLUSTER_NAME",
+                "type": "choice",
+                "description": "Select the PROD CLUSTER NAME",
+                "required": true,
+                "default": null,
+                "options": [
+                    "ESCO_AKSBA2_PROD_EASTUS_CLUSTER_01",
+                    "ESCO_AKSBA2_PROD_WESTUS_CLUSTER_01",
+                    "ESCO_AKSBA_PROD_EASTUS_CLUSTER_01",
+                    "ESCO_AKSBA_PROD_WESTUS_CLUSTER_01",
+                    "ESCO_AKSPCI_PROD_WESTUS_CLUSTER_01",
+                    "ESCO_AKSPHI_PROD_WESTUS_CLUSTER_01",
+                    "ESCO_AKSRES_PROD_WESTUS_CLUSTER_01",
+                    "ESCO_AKSSHARED_PROD_WESTUS_CLUSTER_01"
+                ]
+            }
+        ]
+    },
+    {
+        "workflow_file": "Archive_Repo.yml",
+        "name": "Archive Repository",
+        "input": [
+            {
+                "name": "repo_name",
+                "type": "string",
+                "description": "Enter Repository Name to be Archived",
+                "required": true,
+                "default": null
+            },
+            {
+                "name": "USERID",
+                "type": "string",
+                "description": "ID of user who has triggered the Workflow.",
+                "required": true,
+                "default": "Dashboard"
+            }
+        ]
+    },
+    {
+        "workflow_file": "confluence_space_create.yml",
+        "name": "Create Space In Prod Confluence",
+        "input": [
+            {
+                "name": "space_key",
+                "type": null,
+                "description": "Enter the space key",
+                "required": true,
+                "default": null
+            },
+            {
+                "name": "space_name",
+                "type": null,
+                "description": "Enter the space name",
+                "required": true,
+                "default": null
+            },
+            {
+                "name": "description",
+                "type": null,
+                "description": "Enter the space description",
+                "required": true,
+                "default": null
+            },
+            {
+                "name": "USERID",
+                "type": "string",
+                "description": "ID of user who has triggered the Workflow.",
+                "required": true,
+                "default": "Dashboard"
+            }
+        ]
+    },
+    {
+        "workflow_file": "delete-repo-variable.yml",
+        "name": "Delete Repository Variable",
+        "input": [
+            {
+                "name": "Repository",
+                "type": "string",
+                "description": null,
+                "required": true,
+                "default": null
+            },
+            {
+                "name": "VariableKey",
+                "type": "string",
+                "description": null,
+                "required": true,
+                "default": null
+            },
+            {
+                "name": "USERID",
+                "type": "string",
+                "description": "ID of user who has triggered the Workflow.",
+                "required": true,
+                "default": "Dashboard"
+            }
+        ]
+    },
+    {
+        "workflow_file": "Add_BranchProtectionRules_lockbranch.yml",
+        "name": "Lock Branch in Repository",
+        "input": [
+            {
+                "name": "Repository",
+                "type": "string",
+                "description": null,
+                "required": true,
+                "default": null
+            },
+            {
+                "name": "BranchName",
+                "type": "string",
+                "description": null,
+                "required": true,
+                "default": null
+            },
+            {
+                "name": "USERID",
+                "type": "string",
+                "description": "ID of user who has triggered the Workflow.",
+                "required": true,
+                "default": "Dashboard"
+            }
+        ]
+    },
+    {
+        "workflow_file": "add-env-variable-to-repo.yml",
+        "name": "Add Environment Variable",
+        "input": [
+            {
+                "name": "Repository",
+                "type": "string",
+                "description": null,
+                "required": true,
+                "default": null
+            },
+            {
+                "name": "Environment",
+                "type": "string",
+                "description": null,
+                "required": true,
+                "default": null
+            },
+            {
+                "name": "VariableKey",
+                "type": "string",
+                "description": null,
+                "required": true,
+                "default": null
+            },
+            {
+                "name": "VariableValue",
+                "type": "string",
+                "description": "VariableValue - (Add your Variable Value. If you need to add complex variables, you can reference the 'Add Secret to Repository or Repository Environment' Wiki Page.)\n",
+                "required": true,
+                "default": null
+            },
+            {
+                "name": "USERID",
+                "type": "string",
+                "description": "ID of user who has triggered the Workflow.",
+                "required": true,
+                "default": "Dashboard"
+            }
+        ]
+    },
+    {
+        "workflow_file": "add_branch_protection_rules.yml",
+        "name": "Add Branch Protection Rule to Repository",
+        "input": [
+            {
+                "name": "Repository",
+                "type": "string",
+                "description": null,
+                "required": true,
+                "default": null
+            },
+            {
+                "name": "Branchname",
+                "type": "string",
+                "description": "Please enter the branch name other than \"master\", \"rel\",\"Hot\",\"main\"",
+                "required": true,
+                "default": null
+            },
+            {
+                "name": "Required_approving_review_count",
+                "type": "number",
+                "description": null,
+                "required": true,
+                "default": 1
+            },
+            {
+                "name": "USERID",
+                "type": "string",
+                "description": "ID of user who has triggered the Workflow.",
+                "required": true,
+                "default": "Dashboard"
+            }
+        ]
+    },
+    {
+        "workflow_file": "unprotected_branch.yml",
+        "name": "Remove Branch Protection Rule to a Repository",
+        "input": [
+            {
+                "name": "repository",
+                "type": null,
+                "description": "Provide the Repository Name",
+                "required": true,
+                "default": null
+            },
+            {
+                "name": "branch_name",
+                "type": null,
+                "description": "Provide the Branch names to remove branch protection, Do not allow remove branch protection on default, master, main, release, and hotfix branches.",
+                "required": true,
+                "default": null
+            },
+            {
+                "name": "USERID",
+                "type": "string",
+                "description": "ID of user who has triggered the Workflow.",
+                "required": true,
+                "default": "Dashboard"
+            }
+        ]
+    },
+    {
+        "workflow_file": "delete-repo-env-variable.yml",
+        "name": "Delete Environment Variable in Repository",
+        "input": [
+            {
+                "name": "Repository",
+                "type": "string",
+                "description": null,
+                "required": true,
+                "default": null
+            },
+            {
+                "name": "VariableKey",
+                "type": "string",
+                "description": null,
+                "required": true,
+                "default": null
+            },
+            {
+                "name": "Environment",
+                "type": "string",
+                "description": null,
+                "required": true,
+                "default": null
+            },
+            {
+                "name": "USERID",
+                "type": "string",
+                "description": "ID of user who has triggered the Workflow.",
+                "required": true,
+                "default": "Dashboard"
+            }
+        ]
+    },
+    {
+        "workflow_file": "rename-repo-name.yml",
+        "name": "Rename Repository",
+        "input": [
+            {
+                "name": "OldRepoName",
+                "type": "string",
+                "description": null,
+                "required": true,
+                "default": null
+            },
+            {
+                "name": "NewRepoName",
+                "type": "string",
+                "description": null,
+                "required": true,
+                "default": null
+            },
+            {
+                "name": "USERID",
+                "type": "string",
+                "description": "ID of user who has triggered the Workflow.",
+                "required": true,
+                "default": "Dashboard"
+            }
+        ]
+    },
+    {
+        "workflow_file": "create-github-teams.yml",
+        "name": "Create GitHub Teams",
+        "input": [
+            {
+                "name": "Team_Name",
+                "type": "string",
+                "description": null,
+                "required": true,
+                "default": null
+            },
+            {
+                "name": "USERID",
+                "type": "string",
+                "description": "ID of user who has triggered the Workflow.",
+                "required": true,
+                "default": "Dashboard"
+            }
+        ]
+    },
+    {
+        "workflow_file": "push_third_party_artifact_to_artifactory.yml",
+        "name": "Push Third Party Artifacts",
+        "input": [
+            {
+                "name": "Artifact",
+                "type": "string",
+                "description": null,
+                "required": true,
+                "default": null
+            },
+            {
+                "name": "Group-ID",
+                "type": "string",
+                "description": null,
+                "required": false,
+                "default": ""
+            },
+            {
+                "name": "Artifact-Repo-Branch",
+                "type": "string",
+                "description": null,
+                "required": true,
+                "default": "master"
+            },
+            {
+                "name": "Artifactory-Repository",
+                "type": "choice",
+                "description": null,
+                "required": true,
+                "default": null,
+                "options": [
+                    "AlbertsonsApprovedPyPI",
+                    "SafewayApproved3rdParty",
+                    "SafewayApprovedPyPi",
+                    "SafewayApprovedNPMReact",
+                    "AlbertsonsSnapshot"
+                ]
+            },
+            {
+                "name": "USERID",
+                "type": "string",
+                "description": "ID of user who has triggered the Workflow.",
+                "required": true,
+                "default": "Dashboard"
+            }
+        ]
+    },
+    {
+        "workflow_file": "assign-org-secret-repo.yml",
+        "name": "Assign Org Secret to Repository",
+        "input": [
+            {
+                "name": "Repository",
+                "type": "string",
+                "description": "Provide comma ',' Separated Repositories if you want to add multiple Repos to a Secret.\n",
+                "required": true,
+                "default": null
+            },
+            {
+                "name": "SecretKey",
+                "type": "string",
+                "description": null,
+                "required": true,
+                "default": null
+            },
+            {
+                "name": "USERID",
+                "type": "string",
+                "description": "ID of user who has triggered the Workflow.",
+                "required": true,
+                "default": "Dashboard"
+            }
+        ]
+    },
+    {
+        "workflow_file": "add-team-maintainer.yml",
+        "name": "Add Maintainer",
+        "input": [
+            {
+                "name": "Team",
+                "type": "string",
+                "description": null,
+                "required": true,
+                "default": null
+            },
+            {
+                "name": "USER_ID",
+                "type": "string",
+                "description": null,
+                "required": true,
+                "default": null
+            },
+            {
+                "name": "USERID",
+                "type": "string",
+                "description": "ID of user who has triggered the Workflow.",
+                "required": true,
+                "default": "Dashboard"
+            }
+        ]
+    },
+    {
+        "workflow_file": "delete-repo-secret.yml",
+        "name": "Delete Repository Secret",
+        "input": [
+            {
+                "name": "Repository",
+                "type": "string",
+                "description": null,
+                "required": true,
+                "default": null
+            },
+            {
+                "name": "SecretKey",
+                "type": "string",
+                "description": null,
+                "required": true,
+                "default": null
+            },
+            {
+                "name": "USERID",
+                "type": "string",
+                "description": "ID of user who has triggered the Workflow.",
+                "required": true,
+                "default": "Dashboard"
+            }
+        ]
+    },
+    {
+        "workflow_file": "add-repo-to-org-secret.yml",
+        "name": "GCP Assign Repo",
+        "input": [
+            {
+                "name": "repository",
+                "type": "string",
+                "description": "Provide comma ',' Separated Repositories if you want to add multiple Repos to a Secret.\n",
+                "required": true,
+                "default": null
+            },
+            {
+                "name": "SecretKey",
+                "type": "string",
+                "description": null,
+                "required": true,
+                "default": null
+            },
+            {
+                "name": "USERID",
+                "type": "string",
+                "description": "ID of user who has triggered the Workflow.",
+                "required": true,
+                "default": "Dashboard"
+            }
+        ]
+    },
+    {
+        "workflow_file": "gcp-secret-manager-write.yml",
+        "name": "GCP Secret Write Workflow",
+        "input": [
+            {
+                "name": "project",
+                "type": "string",
+                "description": "Project ID",
+                "required": true,
+                "default": ""
+            },
+            {
+                "name": "secret_id",
+                "type": "string",
+                "description": "Secret ID",
+                "required": true,
+                "default": ""
+            },
+            {
+                "name": "secretValue",
+                "type": "string",
+                "description": "SecretValue - (Add your Secret Value. If you need to add complex Secret like a PEM file or Service Account Key, \nencode it into base64 and then provide value here. Special characters supported '-_%$^*@!\"'. For '\\' escape with additional '\\')\n",
+                "required": true,
+                "default": ""
+            },
+            {
+                "name": "secretFormat",
+                "type": "choice",
+                "description": "Secret Format - (Select the secret format you are passing)\n",
+                "required": true,
+                "default": "clear_text",
+                "options": [
+                    "clear_text",
+                    "base64"
+                ]
+            },
+            {
+                "name": "secretType",
+                "type": "choice",
+                "description": "Secret Type - (Select the how you would like to store the secret value in Secret Manager)\n",
+                "required": true,
+                "default": "store_as_is",
+                "options": [
+                    "store_as_is",
+                    "base64_decoded"
+                ]
+            },
+            {
+                "name": "appcode",
+                "type": "string",
+                "description": "Secret appcode label",
+                "required": false,
+                "default": ""
+            },
+            {
+                "name": "environment",
+                "type": "string",
+                "description": "Secret environment label",
+                "required": false,
+                "default": ""
+            },
+            {
+                "name": "USERID",
+                "type": "string",
+                "description": "ID of user who has triggered the Workflow.",
+                "required": true,
+                "default": "Dashboard"
+            }
+        ]
+    },
+    {
+        "workflow_file": "Add_User_To_GitHub_Cloud_Organization.yml",
+        "name": "Enable/Unsuspend Copilot License",
+        "input": [
+            {
+                "name": "USERID",
+                "type": "string",
+                "description": "ID of user who has triggered the Workflow.",
+                "required": true,
+                "default": "Dashboard"
+            }
+        ]
+    },
+    {
+        "workflow_file": "gcp-vpcsc-violation-report.yml",
+        "name": "GCP VPC SC Violation Report",
+        "input": [
+            {
+                "name": "project_id",
+                "type": "string",
+                "description": "GCP Project ID of VPC SC",
+                "required": true,
+                "default": null
+            },
+            {
+                "name": "sample_size",
+                "type": "number",
+                "description": "Log Sample Size default 100",
+                "required": false,
+                "default": 100
+            },
+            {
+                "name": "time_range",
+                "type": "number",
+                "description": "Number of hours ago default 4",
+                "required": false,
+                "default": 4
+            },
+            {
+                "name": "emails",
+                "type": "string",
+                "description": "Comma separated list email addresses [@safeway.com] to receive the report",
+                "required": true,
+                "default": ""
+            },
+            {
+                "name": "USERID",
+                "type": "string",
+                "description": "ID of user who has triggered the Workflow.",
+                "required": true,
+                "default": "Dashboard"
+            }
+        ]
+    },
+    {
+        "workflow_file": "adding-repos-aks-org-secrets.yml",
+        "name": "Assign Repo to AKS Cluster Org Secret",
+        "input": [
+            {
+                "name": "repository",
+                "type": "string",
+                "description": "Provide comma ',' Separated Repositories if you want to add multiple Repos to a Secret.\n",
+                "required": true,
+                "default": null
+            },
+            {
+                "name": "SecretKey",
+                "type": "string",
+                "description": null,
+                "required": true,
+                "default": null
+            },
+            {
+                "name": "USERID",
+                "type": "string",
+                "description": "ID of user who has triggered the Workflow.",
+                "required": true,
+                "default": "Dashboard"
+            }
+        ]
+    }
+]

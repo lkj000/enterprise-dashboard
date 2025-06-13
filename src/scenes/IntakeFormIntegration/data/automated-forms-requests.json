@@ -1,0 +1,83 @@
+{
+  "title": "Integration Services",
+  "subTitle": "Intake Request Form",
+  "notes": [
+    {
+      "type": "alert",
+      "severity": "warning",
+      "content": [
+        "<b>SLA</b><br/>",
+        "Requests are addressed based on priority and age in backlog",
+        "<ul><li>Priority is determined by the Integration Services team</li><li>Non-urgent work will be addressed in a \"first come, first serve\" practice</li></ul>"
+      ]
+    },
+    {
+      "type": "alert",
+      "severity": "info",
+      "content": [
+        "<b>Please Read</b>",
+        "During Story Time - Backlog Refinement & Planning all JIRA stories submitted are reviewed by Product Owners & Product Managers.",
+        "<i>This occurs weekly, every Tuesday at 3 PM PST.</i>",
+        "<ul><li>Depending on the team capacity, stories are assigned to an Integration Engineer that will work on the engagement requirement.</li><li><b>New stories should be submitted a week before the desired due date</b>. Two weeks of advanced notice is preferable.</li><li>We will not take any DEV or QA requests as critical/urgent priority.</li></ul>",
+        "<b><u>Reminders</u>:</b>",
+        "<ul><li>The Integration Engineer will work closely with the requester during the design, build and testing of the solution being put in place.</li><li>JIRA Stories with no response from the requester after 3 consecutive follow ups are moved to Deferred status and will not be actively worked on.</li></ul>"
+      ]
+    }
+  ],
+  "data": [
+    {
+      "element": [
+        {
+          "type": "content",
+          "content": [
+            "<p style=\"font-size: 24px\">JIRA REQUEST FORM BUTTONS</p>"
+          ]
+        }
+      ],
+      "button": [
+        {
+          "buttonTitle": "General Request Form",
+          "jiraTicketSummary": "General Request:",
+          "jiraTicketDescription": "Briefly articulate the ask non-technically\n\nAs a: (state your role)\nI need: (State the action, functionality, help desired)\nSo that: (State the desired outcome/benefit from the above request)\n\nApplication Team Name:\nImpacted Application:\nUrgency / Impact:\nEnvironment: (DEV/QA/PROD/DR)\nIncident Number (if applicable):\n\nDetailed Description:\n    What is not working?\n    What results are you getting?\n   What is the expected behavior?\n\nIssue Origination Date:\nAttach Related Screnshots / Logs using *File Attach* feature on form\n\nPoint of Contact Information\nName:\nEmail:",
+          "jiraLinkIssue": "PDI-1216",
+          "jiraLinkIssueType": "Child"
+        },
+        {
+          "buttonTitle": "MQ Form",
+          "jiraTicketSummary": "MQ:",
+          "jiraTicketDescription": "Queue Manager Name(s):\nLHost Name(s) for Queue Manager(s):\nQueue Name(s):\nChannel:\nObserved Symptom:\n\nError *MQRC Reason Code*:\nHoste Name where error was encountered:\n\nClient Server Type: (VM/AKS)\nClient Server Name:\nClient: (Producer / Customer)\n\nArchitecture / Deployment Diagram *(attach to form)*\n\nPoint of Contact Information\nName:\nEmail:",
+          "jiraLinkIssue": "PDI-1216",
+          "jiraLinkIssueType": "Child"
+        },
+        {
+          "buttonTitle": "MIM Form",
+          "jiraTicketSummary": "MIM:",
+          "jiraTicketDescription": "Description of observed symptom / error:\n\nSpecific Error Encountered:\n\nJob(s) involved (if applicable):\nEnvironment: (DEV/QA/PROD/DR) (Azure or Legacy/Atlas)\nProperty File in FTAL/DIRMON/QMGR:\n\nLabel Name:\nSource Node Name (needed to look up label):\nSource Host Name:\nSource Server\nSource Directory:\nSource File:\nSource User ID:\n\nDestination Node Name (preferred not required):\nDestination Host Name\nDestination Server:\nDestination Directory:\nDestination File:\nDestination User ID:\n\nPoint of Contact Information\nName:\nEmail:",
+          "jiraLinkIssue": "PDI-1216",
+          "jiraLinkIssueType": "Child"
+        },
+        {
+          "buttonTitle": "IIB/ACE Form",
+          "jiraTicketSummary": "IIB / ACE:",
+          "jiraTicketDescription": "Queue Manager Name(s):\nHost Name(s) for Queue Manager(s):\nQueue Name(s):\nObserved Symptom / Error:\nFlow Name(s):\nExecution Group Name(s):\n\nPoint of Contact Information\nName:\nEmail:",
+          "jiraLinkIssue": "PDI-1216",
+          "jiraLinkIssueType": "Child"
+        },
+        {
+          "buttonTitle": "Kafka Form",
+          "jiraTicketSummary": "Kafka:",
+          "jiraTicketDescription": "Cluster: (Azure Platform or Azure Core Subscription)\nEnvironment: (DEV/QA/PROD/DR)\nBootstrap Server:\nTopic Name(s):\nReplicator Name (if applicable):\nConnector Name (if applicable):\nConsumer Group Name (if applicable):\nRest Proxy URL (if applicable):\nSchema Registry:\n\nObserved Symptom / Error:\nControl Center:\nClient: (Producer/Consumer)\n\nPoint of Contact Information\nName:\nEmail:",
+          "jiraLinkIssue": "PDI-1216",
+          "jiraLinkIssueType": "Child"
+        },
+        {
+          "buttonTitle": "Stonebranch Form",
+          "jiraTicketSummary": "Stonebranch:",
+          "jiraTicketDescription": "\nSERVICE REQUEST\nRequest Type: (DEV/QA/PROD)\nNew\nChange\nRemove\nEnter your four character application code (High level qualifier + subcode):\nProvide the SDG Support Organization:\nPlease download and fill the SB_Label_Template attached with this request and upload it back to the JIRA\n\nTROUBLESHOOT REQUEST\nThe specific error encountered:\n\nJob(s)/Workflow invovled (if applicable):\nEnvironment: (DEV/QA/PROD/DR)\nLabel:\n\nSource UserID:\nSource Server:\nSource Directory:\nSource File or Mask:\n\nDestination UserID:\nDestination Server:\nDestination Directory:\nDestination File:\n\nIf the issue is with an Exit Process\nExit UserID:\nExit Process Details:\n\nPoint of Contact Information\nName:\nEmail:",
+          "jiraLinkIssue": "PDI-1216",
+          "jiraLinkIssueType": "Child"
+        }
+      ]
+    }
+  ]
+}

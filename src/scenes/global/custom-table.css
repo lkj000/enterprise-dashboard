@@ -1,0 +1,43 @@
+.custom-table-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+.MUIDataTableToolbarSelect-iconButton-root {
+    display: none;
+}
+.tss-1fz4yw6-MUIDataTableSelectCell-fixedLeft {
+    left: unset !important;
+}
+
+.custom-table button[aria-label="Delete Selected Rows"] {
+    display: none;
+}
+
+.custom-table button[aria-label="refresh"]:hover{
+    color:#141b2d;
+}
+
+.custom-table td:nth-child(1) {
+    vertical-align: top;
+    padding-top: 4px;
+}
+
+/* Performance */
+
+.custom-table-perform button[aria-label="Delete Selected Rows"] {
+    display: none;
+}
+
+.custom-table-perform button[aria-label="download"]:hover{
+    color:#141b2d;
+}
+
+.custom-table-perform td:nth-child(1) {
+    vertical-align: top;
+    padding-top: 4px;
+}
+
+.custom-table-perform td:nth-child(14) {
+    vertical-align: top;
+    padding-top: 5px;
+}

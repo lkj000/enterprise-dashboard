@@ -1,0 +1,517 @@
+{
+  "portfolioData": [
+    {
+      "portfolio": "Digital (Ramiya Iyer)",
+      "totalStoryPoints": 153582.1,
+      "userCount": 2345,
+      "totalJiraCount": 92511,
+      "totalStoryPointsClosed": 116544.0,
+      "totalLeadDays": "2997979d 16h",
+      "averageLeadDays": "42d 16h",
+      "totalStoryLeadDays": "1147865d 19h",
+      "averageStoryLeadDays": "33d 22h",
+      "totalCycleTime": "1392805d 13h",
+      "averageCycleTime": "23d 4h",
+      "totalStoryCycleTime": "494855d 2h",
+      "averageStoryCycleTime": "15d 18h",
+      "totalClosedStories": 70211,
+      "total_stories": 45073,
+      "total_stories_points": 101032.4,
+      "total_closed_story": 33823,
+      "total_closed_story_points": 76513.8,
+      "average_issues_done_per_user": "29.94",
+      "average_issues_per_user": "39.45",
+      "average_stories_done_per_user": "14.42",
+      "average_stories_per_user": "19.22",
+      "average_story_points_closed_per_user": "32.63",
+      "average_story_points_closed_per_user_issues": "49.7",
+      "average_story_points_per_user": "43.08",
+      "average_story_points_per_user_issues": "65.49",
+      "daily_data": [
+        {
+          "date": "2025-06-08",
+          "issues_closed": 3,
+          "issue_points_closed": 5.0,
+          "stories_closed": 2,
+          "story_points_closed": 4.0
+        },
+        {
+          "date": "2025-06-09",
+          "issues_closed": 855,
+          "issue_points_closed": 1388.7,
+          "stories_closed": 385,
+          "story_points_closed": 847.7
+        },
+        {
+          "date": "2025-06-10",
+          "issues_closed": 360,
+          "issue_points_closed": 530.5,
+          "stories_closed": 171,
+          "story_points_closed": 329.5
+        }
+      ],
+      "current_week_sum_data": {
+        "issues_closed": 1218,
+        "issue_points_closed": 1924.2,
+        "stories_closed": 558,
+        "story_points_closed": 1181.2
+      }
+    },
+    {
+      "portfolio": "Merchandising (Business)",
+      "totalStoryPoints": 27072.1,
+      "userCount": 369,
+      "totalJiraCount": 22663,
+      "totalStoryPointsClosed": 19330.6,
+      "totalLeadDays": "549776d 4h",
+      "averageLeadDays": "34d 7h",
+      "totalStoryLeadDays": "134608d 18h",
+      "averageStoryLeadDays": "46d 11h",
+      "totalCycleTime": "80005d 23h",
+      "averageCycleTime": "8d 8h",
+      "totalStoryCycleTime": "54863d 8h",
+      "averageStoryCycleTime": "20d 18h",
+      "totalClosedStories": 16019,
+      "total_stories": 4897,
+      "total_stories_points": 9102.5,
+      "total_closed_story": 2897,
+      "total_closed_story_points": 6072.5,
+      "average_issues_done_per_user": "43.41",
+      "average_issues_per_user": "61.42",
+      "average_stories_done_per_user": "7.85",
+      "average_stories_per_user": "13.27",
+      "average_story_points_closed_per_user": "16.46",
+      "average_story_points_closed_per_user_issues": "52.39",
+      "average_story_points_per_user": "24.67",
+      "average_story_points_per_user_issues": "73.37",
+      "daily_data": [
+        {
+          "date": "2025-06-08",
+          "issues_closed": 2,
+          "issue_points_closed": 5.0,
+          "stories_closed": 2,
+          "story_points_closed": 5.0
+        },
+        {
+          "date": "2025-06-09",
+          "issues_closed": 215,
+          "issue_points_closed": 241.0,
+          "stories_closed": 22,
+          "story_points_closed": 48.0
+        },
+        {
+          "date": "2025-06-10",
+          "issues_closed": 14,
+          "issue_points_closed": 13.0,
+          "stories_closed": 6,
+          "story_points_closed": 5.0
+        }
+      ],
+      "current_week_sum_data": {
+        "issues_closed": 231,
+        "issue_points_closed": 259.0,
+        "stories_closed": 30,
+        "story_points_closed": 58.0
+      }
+    },
+    {
+      "portfolio": "Information Security (Aaron Hughes)",
+      "totalStoryPoints": 1579.8,
+      "userCount": 51,
+      "totalJiraCount": 561,
+      "totalStoryPointsClosed": 547.0,
+      "totalLeadDays": "66164d 22h",
+      "averageLeadDays": "212d 1h",
+      "totalStoryLeadDays": "52956d 10h",
+      "averageStoryLeadDays": "271d 13h",
+      "totalCycleTime": "29149d 4h",
+      "averageCycleTime": "119d 22h",
+      "totalStoryCycleTime": "23039d 4h",
+      "averageStoryCycleTime": "181d 9h",
+      "totalClosedStories": 312,
+      "total_stories": 369,
+      "total_stories_points": 410.0,
+      "total_closed_story": 195,
+      "total_closed_story_points": 235.0,
+      "average_issues_done_per_user": "6.12",
+      "average_issues_per_user": "11",
+      "average_stories_done_per_user": "3.82",
+      "average_stories_per_user": "7.24",
+      "average_story_points_closed_per_user": "4.61",
+      "average_story_points_closed_per_user_issues": "10.73",
+      "average_story_points_per_user": "8.04",
+      "average_story_points_per_user_issues": "30.98",
+      "daily_data": [
+        {
+          "date": "2025-06-08",
+          "issues_closed": 0,
+          "issue_points_closed": 0,
+          "stories_closed": 0,
+          "story_points_closed": 0
+        },
+        {
+          "date": "2025-06-09",
+          "issues_closed": 0,
+          "issue_points_closed": 0,
+          "stories_closed": 0,
+          "story_points_closed": 0
+        },
+        {
+          "date": "2025-06-10",
+          "issues_closed": 0,
+          "issue_points_closed": 0,
+          "stories_closed": 0,
+          "story_points_closed": 0
+        }
+      ],
+      "current_week_sum_data": {
+        "issues_closed": 0,
+        "issue_points_closed": 0,
+        "stories_closed": 0,
+        "story_points_closed": 0
+      }
+    },
+    {
+      "portfolio": "Manila",
+      "totalStoryPoints": 21804.0,
+      "userCount": 351,
+      "totalJiraCount": 15715,
+      "totalStoryPointsClosed": 16912.0,
+      "totalLeadDays": "202729d 14h",
+      "averageLeadDays": "16d 14h",
+      "totalStoryLeadDays": "133376d 5h",
+      "averageStoryLeadDays": "26d 15h",
+      "totalCycleTime": "80399d 23h",
+      "averageCycleTime": "7d 22h",
+      "totalStoryCycleTime": "46571d 20h",
+      "averageStoryCycleTime": "11d 11h",
+      "totalClosedStories": 12218,
+      "total_stories": 6412,
+      "total_stories_points": 11957.5,
+      "total_closed_story": 5005,
+      "total_closed_story_points": 9334.5,
+      "average_issues_done_per_user": "34.81",
+      "average_issues_per_user": "44.77",
+      "average_stories_done_per_user": "14.26",
+      "average_stories_per_user": "18.27",
+      "average_story_points_closed_per_user": "26.59",
+      "average_story_points_closed_per_user_issues": "48.18",
+      "average_story_points_per_user": "34.07",
+      "average_story_points_per_user_issues": "62.12",
+      "daily_data": [
+        {
+          "date": "2025-06-08",
+          "issues_closed": 14,
+          "issue_points_closed": 20.0,
+          "stories_closed": 6,
+          "story_points_closed": 12.0
+        },
+        {
+          "date": "2025-06-09",
+          "issues_closed": 171,
+          "issue_points_closed": 244.0,
+          "stories_closed": 78,
+          "story_points_closed": 150.0
+        },
+        {
+          "date": "2025-06-10",
+          "issues_closed": 148,
+          "issue_points_closed": 191.0,
+          "stories_closed": 50,
+          "story_points_closed": 93.0
+        }
+      ],
+      "current_week_sum_data": {
+        "issues_closed": 333,
+        "issue_points_closed": 455.0,
+        "stories_closed": 134,
+        "story_points_closed": 255.0
+      }
+    },
+    {
+      "portfolio": "Human Resources",
+      "totalStoryPoints": 457.0,
+      "userCount": 28,
+      "totalJiraCount": 319,
+      "totalStoryPointsClosed": 231.0,
+      "totalLeadDays": "12035d 7h",
+      "averageLeadDays": "70d 9h",
+      "totalStoryLeadDays": "6070d 15h",
+      "averageStoryLeadDays": "63d 5h",
+      "totalCycleTime": "6182d 17h",
+      "averageCycleTime": "38d 15h",
+      "totalStoryCycleTime": "3822d 3h",
+      "averageStoryCycleTime": "42d 11h",
+      "totalClosedStories": 171,
+      "total_stories": 200,
+      "total_stories_points": 318.0,
+      "total_closed_story": 96,
+      "total_closed_story_points": 147.0,
+      "average_issues_done_per_user": "6.11",
+      "average_issues_per_user": "11.39",
+      "average_stories_done_per_user": "3.43",
+      "average_stories_per_user": "7.14",
+      "average_story_points_closed_per_user": "5.25",
+      "average_story_points_closed_per_user_issues": "8.25",
+      "average_story_points_per_user": "11.36",
+      "average_story_points_per_user_issues": "16.32",
+      "daily_data": [
+        {
+          "date": "2025-06-08",
+          "issues_closed": 0,
+          "issue_points_closed": 0,
+          "stories_closed": 0,
+          "story_points_closed": 0
+        },
+        {
+          "date": "2025-06-09",
+          "issues_closed": 2,
+          "issue_points_closed": 3.0,
+          "stories_closed": 2,
+          "story_points_closed": 3.0
+        },
+        {
+          "date": "2025-06-10",
+          "issues_closed": 0,
+          "issue_points_closed": 0,
+          "stories_closed": 0,
+          "story_points_closed": 0
+        }
+      ],
+      "current_week_sum_data": {
+        "issues_closed": 2,
+        "issue_points_closed": 3.0,
+        "stories_closed": 2,
+        "story_points_closed": 3.0
+      }
+    },
+    {
+      "portfolio": "COG (Jim Saber)",
+      "totalStoryPoints": 45420.0,
+      "userCount": 544,
+      "totalJiraCount": 25824,
+      "totalStoryPointsClosed": 36693.0,
+      "totalLeadDays": "481710d 15h",
+      "averageLeadDays": "22d 16h",
+      "totalStoryLeadDays": "385408d 2h",
+      "averageStoryLeadDays": "26d 5h",
+      "totalCycleTime": "188116d 19h",
+      "averageCycleTime": "11d 6h",
+      "totalStoryCycleTime": "150160d 19h",
+      "averageStoryCycleTime": "11d 11h",
+      "totalClosedStories": 21241,
+      "total_stories": 18193,
+      "total_stories_points": 36521.0,
+      "total_closed_story": 14701,
+      "total_closed_story_points": 29133.5,
+      "average_issues_done_per_user": "39.05",
+      "average_issues_per_user": "47.47",
+      "average_stories_done_per_user": "27.02",
+      "average_stories_per_user": "33.44",
+      "average_story_points_closed_per_user": "53.55",
+      "average_story_points_closed_per_user_issues": "67.45",
+      "average_story_points_per_user": "67.13",
+      "average_story_points_per_user_issues": "83.49",
+      "daily_data": [
+        {
+          "date": "2025-06-08",
+          "issues_closed": 6,
+          "issue_points_closed": 7.0,
+          "stories_closed": 5,
+          "story_points_closed": 6.0
+        },
+        {
+          "date": "2025-06-09",
+          "issues_closed": 236,
+          "issue_points_closed": 347.5,
+          "stories_closed": 154,
+          "story_points_closed": 263.5
+        },
+        {
+          "date": "2025-06-10",
+          "issues_closed": 58,
+          "issue_points_closed": 101.0,
+          "stories_closed": 38,
+          "story_points_closed": 79.0
+        }
+      ],
+      "current_week_sum_data": {
+        "issues_closed": 300,
+        "issue_points_closed": 455.5,
+        "stories_closed": 197,
+        "story_points_closed": 348.5
+      }
+    },
+    {
+      "portfolio": "Business",
+      "totalStoryPoints": 4598.0,
+      "userCount": 78,
+      "totalJiraCount": 3245,
+      "totalStoryPointsClosed": 2937.0,
+      "totalLeadDays": "121005d 21h",
+      "averageLeadDays": "57d 14h",
+      "totalStoryLeadDays": "40144d 3h",
+      "averageStoryLeadDays": "57d 20h",
+      "totalCycleTime": "43160d 23h",
+      "averageCycleTime": "22d 21h",
+      "totalStoryCycleTime": "13221d 11h",
+      "averageStoryCycleTime": "20d 0h",
+      "totalClosedStories": 2101,
+      "total_stories": 1423,
+      "total_stories_points": 2691.0,
+      "total_closed_story": 694,
+      "total_closed_story_points": 1484.0,
+      "average_issues_done_per_user": "26.94",
+      "average_issues_per_user": "41.6",
+      "average_stories_done_per_user": "8.9",
+      "average_stories_per_user": "18.24",
+      "average_story_points_closed_per_user": "19.03",
+      "average_story_points_closed_per_user_issues": "37.65",
+      "average_story_points_per_user": "34.5",
+      "average_story_points_per_user_issues": "58.95",
+      "daily_data": [
+        {
+          "date": "2025-06-08",
+          "issues_closed": 0,
+          "issue_points_closed": 0,
+          "stories_closed": 0,
+          "story_points_closed": 0
+        },
+        {
+          "date": "2025-06-09",
+          "issues_closed": 5,
+          "issue_points_closed": 6.0,
+          "stories_closed": 1,
+          "story_points_closed": 2.0
+        },
+        {
+          "date": "2025-06-10",
+          "issues_closed": 2,
+          "issue_points_closed": 5.0,
+          "stories_closed": 2,
+          "story_points_closed": 5.0
+        }
+      ],
+      "current_week_sum_data": {
+        "issues_closed": 7,
+        "issue_points_closed": 11.0,
+        "stories_closed": 3,
+        "story_points_closed": 7.0
+      }
+    },
+    {
+      "portfolio": "Supply Chain (Business)",
+      "totalStoryPoints": 358,
+      "userCount": 8,
+      "totalJiraCount": 358,
+      "totalStoryPointsClosed": 255,
+      "totalLeadDays": "14357d 8h",
+      "averageLeadDays": "56d 7h",
+      "totalStoryLeadDays": "0d 0h",
+      "averageStoryLeadDays": "0d 0h",
+      "totalCycleTime": "4585d 16h",
+      "averageCycleTime": "18d 22h",
+      "totalStoryCycleTime": "0d 0h",
+      "averageStoryCycleTime": "0d 0h",
+      "totalClosedStories": 255,
+      "total_stories": 3,
+      "total_stories_points": 3,
+      "total_closed_story": 0,
+      "total_closed_story_points": 0,
+      "average_issues_done_per_user": "31.88",
+      "average_issues_per_user": "44.75",
+      "average_stories_done_per_user": "0",
+      "average_stories_per_user": "0.38",
+      "average_story_points_closed_per_user": "0",
+      "average_story_points_closed_per_user_issues": "31.88",
+      "average_story_points_per_user": "0.38",
+      "average_story_points_per_user_issues": "44.75",
+      "daily_data": [
+        {
+          "date": "2025-06-08",
+          "issues_closed": 0,
+          "issue_points_closed": 0,
+          "stories_closed": 0,
+          "story_points_closed": 0
+        },
+        {
+          "date": "2025-06-09",
+          "issues_closed": 0,
+          "issue_points_closed": 0,
+          "stories_closed": 0,
+          "story_points_closed": 0
+        },
+        {
+          "date": "2025-06-10",
+          "issues_closed": 0,
+          "issue_points_closed": 0,
+          "stories_closed": 0,
+          "story_points_closed": 0
+        }
+      ],
+      "current_week_sum_data": {
+        "issues_closed": 0,
+        "issue_points_closed": 0,
+        "stories_closed": 0,
+        "story_points_closed": 0
+      }
+    },
+    {
+      "portfolio": "Pharmacy and eCommerce (Business)",
+      "totalStoryPoints": 1613.0,
+      "userCount": 38,
+      "totalJiraCount": 789,
+      "totalStoryPointsClosed": 773.0,
+      "totalLeadDays": "14616d 21h",
+      "averageLeadDays": "31d 8h",
+      "totalStoryLeadDays": "1835d 21h",
+      "averageStoryLeadDays": "73d 10h",
+      "totalCycleTime": "5574d 22h",
+      "averageCycleTime": "12d 5h",
+      "totalStoryCycleTime": "1040d 1h",
+      "averageStoryCycleTime": "49d 12h",
+      "totalClosedStories": 466,
+      "total_stories": 80,
+      "total_stories_points": 371.5,
+      "total_closed_story": 25,
+      "total_closed_story_points": 68.5,
+      "average_issues_done_per_user": "12.26",
+      "average_issues_per_user": "20.76",
+      "average_stories_done_per_user": "0.66",
+      "average_stories_per_user": "2.11",
+      "average_story_points_closed_per_user": "1.8",
+      "average_story_points_closed_per_user_issues": "20.34",
+      "average_story_points_per_user": "9.78",
+      "average_story_points_per_user_issues": "42.45",
+      "daily_data": [
+        {
+          "date": "2025-06-08",
+          "issues_closed": 0,
+          "issue_points_closed": 0,
+          "stories_closed": 0,
+          "story_points_closed": 0
+        },
+        {
+          "date": "2025-06-09",
+          "issues_closed": 5,
+          "issue_points_closed": 7.0,
+          "stories_closed": 0,
+          "story_points_closed": 0
+        },
+        {
+          "date": "2025-06-10",
+          "issues_closed": 0,
+          "issue_points_closed": 0,
+          "stories_closed": 0,
+          "story_points_closed": 0
+        }
+      ],
+      "current_week_sum_data": {
+        "issues_closed": 5,
+        "issue_points_closed": 7.0,
+        "stories_closed": 0,
+        "story_points_closed": 0
+      }
+    }
+  ]
+}

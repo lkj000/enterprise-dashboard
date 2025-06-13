@@ -1,0 +1,512 @@
+{
+  "title": "Network and Unified Communications Intake Portal",
+  "subTitle": "Intake Request Form",
+  "description": "Welcome to the COG Network and Unified Communications product & project intake page.<br/> See the Network and Unified Communications Request Process tab for general instructions regarding requesting service from the Network Engineering teams. <br/>Use the forms to submit requests for network services through the Cloud & Firewall Engineering Request and Retail and Supply Network and Firewall and UC Backstage, UC Retail, and UC Contact Center/IVR Request tabs.<br/>The first request tab is for Cloud services, VPN connection, firewall requests, VLAN, IP addresses, subnet requests, and hardware load balancers. <br/>The second request tab is for Retail & Supply services and firewall requests. </br>The third request tab is for UC Backstage, UC Retail, UC Contact Center/IVR requests.",
+  "data": [
+    {
+      "title": "Network and Unified Communications Engagement Process and Guidelines",
+      "tabTitle": "Network Engineering Request Process and Guidelines",
+      "instructions": [
+        {
+          "type": "section",
+          "elements": [
+            {
+              "type": "alert",
+              "severity": "warning",
+              "content": [
+                "<b>PLEASE READ</b>",
+                "",
+                "<b>Be sure to complete all requested information in the intake form, or if not applicable, mark N/A (not applicable). Requests with missing data will be rejected.<b>",
+                "",
+                "",
+                "Product and project requests are addressed in the order they are received. The intake process requires planning to align with Network Delivery deployment/release cycles.",
+                "",
+                "Any issues that are related to production support should be addressed using a <a href=\"https://safeway.service-now.com/nav_to.do?uri=%2Fincident.do%3Fsys_id%3D-1%26sysparm_query%3Dactive%3Dtrue%26sysparm_stack%3Dincident_list.do%3Fsysparm_query%3Dactive%3Dtrue\">ServiceNow ticket</a>."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "elements": [
+            {
+              "title": "General Guidelines",
+              "type": "ol",
+              "content": [
+                "This is a common intake process for requests coming from business teams, application teams, data domain teams or cross-functional teams.",
+                "Before using the intake process, please ensure to align with your leadership, that this request needs to be taken forward.",
+                "Be sure to include the project number and any associated Jira story or feature ticket number.",
+                "Requests for project work that are not ART approved will be held in our product backlog and prioritized as resources become available.",
+                "Be sure to complete all requested information in the form, if not applicable, mark the item with N/A (not applicable).",
+                "If this is a time sensitive request, please indicate priority as urgent with context/details in the description field.",
+                "The Network Engineering team will request details and meetings as needed. Given the high number of applications and partners we support, we will not be able to accommodate meetings with every team.",
+                "The engineering team will need a minimum of 3 days of lead time to review information offline or schedule a meeting to clarify requirements. If request is urgent, Program PM team will expedite the requirements gathering and review lead time."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "elements": [
+            {
+              "title": "Firewall Requests",
+              "type": "heading"
+            },
+            "Firewall requests include Firewall/VPN connections, backstage and retail firewalls. If you have difficulties with or questions about this service, please email <a href=\"mailto:Infra.Services.Network.Support@albertsons.com\">Infra.Services.Network.Support@albertsons.com</a> for assistance.",
+            {
+              "title": "Firewall/VPN (Request/Remove) Connection",
+              "type": "underlined-heading"
+            },
+            "This service is typically required by Albertsons internal groups that require a secured connection to/from third party partners whose clear text traffic will pass securely through the internet via the VPN tunnel to access the Albertsons internal network resources. These requests should be submitted through the Cloud/Firewall request.",
+            {
+              "title": "Firewall - Backstage Connection to Retail",
+              "type": "underlined-heading"
+            },
+            "Obtain access through the firewall for retail system access. You must also request access to the specific retail system needed (4690, Catalina, Fuel, etc.)."
+          ]
+        },
+        {
+          "type": "section",
+          "elements": [
+            {
+              "type": "bold",
+              "content": [
+                "PLEASE READ: Any issues that are related to production support should be addressed using a ServiceNow incident ticket."
+              ]
+            },
+            "",
+            {
+              "type": "alert",
+              "icon": false,
+              "severity": "error",
+              "content": [
+                "<b>Important</b>",
+                "",
+                "Network and Unified Communications teams will request details and meetings as needed. <b>Do not setup any meetings with Network and Unified Communications team members</b>.",
+                "",
+                "",
+                "Given the high number of applications and partners we support, we will NOT be able to accommodate meetings with every team."
+              ]
+            },
+            "",
+            {
+              "type": "bold",
+              "content": [
+                "If you have any questions regarding Cloud and Edge Engineering requests, please contact <a href=\"mailto:COG.Services.Network.Delivery@albertsons.com\">COG.Services.Network.Delivery@albertsons.com</a>.",
+                "",
+                "If you have any questions regarding UC Engineering requests, please contact <a href=\"mailto:UC.Engineers@albertsons.com\">UC.Engineers@albertsons.com</a>."
+              ]
+            }
+          ]
+        }
+      ],
+      "ticketSamples": [
+        {
+          "requestType": "Cloud",
+          "scenario": "Cloud Network Enablement and software/policy deployment (tech Portfolio teams support)",
+          "featureStoryPersona": "As an app owner, I want to have the capability to deploy my app/products into the cloud to allow flexibility, cost effectiveness and security",
+          "opportunityStatement": "Migrate and enable deployment of cloud based solutions to support Albertsons Pharmacy, Retail, Digital segments and support business needs by utilizing flexibility from Cloud, reducing cost and through automation."
+        },
+        {
+          "requestType": "Cloud",
+          "scenario": "Cloud Designing and maintaining the ACI managed firewall infrastructure",
+          "featureStoryPersona": "As an associate I want to ensure store and backstage applications are securely available. Providing Pharmacy, ecommerce applications and services secure environment while compiling with InfoSec security polices.",
+          "opportunityStatement": "Design and improve capacity of firewall systems support Albertsons Pharmacy, Retail, Digital segments and support business needs by utilizing flexibility from Cloud, reducing cost and through automation."
+        },
+        {
+          "requestType": "Cloud",
+          "scenario": "Cloud Designing and maintaining the ACI load balancing environments",
+          "featureStoryPersona": "As an associate I want to ensure store and backstage applications have maximum uptime available.",
+          "opportunityStatement": "Design and improve capacity of load balancing systems support Albertsons Pharmacy, Retail, Digital segments and support business needs by utilizing flexibility from Cloud, reducing cost and through automation."
+        },
+        {
+          "requestType": "Cloud",
+          "scenario": "Redundancy & Special Requirements",
+          "featureStoryPersona": "As an app owner, I want to have my application and data protected against downtime and loss by deploying an architecture that provides VPN/F5 Load Balancing/HA/DR requirements that need to be accounted for.* Note* additional costs need to be included in the project budget.",
+          "opportunityStatement": "Provide business continuity for business and enterprise services. "
+        },
+        {
+          "requestType": "Cloud",
+          "scenario": "Network VLAN, IP address, Subnet Request and Hardware Load Balancer",
+          "featureStoryPersona": "As an app owner, I want to have Network VLAN, IP address or Subnet Request and Hardware Load Balancing services to ensure that I have the required technical infrastructure and availability for my customers. ",
+          "opportunityStatement": "Provide Network VLAN, IP address or Subnet Request and load balancing systems to support Albertsons Pharmacy, Retail, Digital segments to support growth and availability for the business and enterprise. "
+        },
+        {
+          "requestType": "Retail",
+          "scenario": "Retail New Store/Rx/Deployments",
+          "featureStoryPersona": "As a store manager, I want the capability of Full Stack Meraki deployment, new Vlan support and support of the ever-growing infrastructure adding new security rules,",
+          "opportunityStatement": "This will be used to deploy new Store Builds. "
+        },
+        {
+          "requestType": "Retail",
+          "scenario": "Retail Meraki software/policy deployment",
+          "featureStoryPersona": "As a store manager, I want the latest Meraki software giving me the latest features and Product updates. SD-WAN policies are used to restrict or open traffic to certain destination bi-directionally. ",
+          "opportunityStatement": "This is Important to have the latest software and Policies helps us to work seamlessly with growing retail infra"
+        },
+        {
+          "requestType": "Retail",
+          "scenario": "Retail Deliver in-store connectivity experience enhancements",
+          "featureStoryPersona": "As a store manager, I want to request New Applications and Firewall requests and have them delivered quickly and satisfactorily to that apps and services can be delivered in the store.",
+          "opportunityStatement": "This Will help in better and enhanced Communication from all In store devices (this is BAU)."
+        },
+        {
+          "requestType": "Firewall",
+          "scenario": "Store, back office or lab firewall policy and rules",
+          "featureStoryPersona": "As an application owner, I want to have my application to have its firewall ports to be opened up based on source, destination IP, and ports so that I can access Albertson's network, external networks or the internet.",
+          "opportunityStatement": "This will support our business application owners to connect with external and internal partners and customers."
+        }
+      ]
+    },
+    {
+      "tabTitle": "Cloud & Firewall Engineering Request",
+      "formData": [
+        {
+          "title": "Cloud Network Engineering Request",
+          "buttonTitle": "Submit Cloud Network Engineering Request",
+          "instructions": {
+            "description": "To submit a request for cloud & firewall engineering:",
+            "steps": [
+              "Review the overview of the cloud & firewall engineering request below.",
+              "Click on the appropriate request button. Follow the instructions and click Submit to save."
+            ]
+          },
+          "jiraProjectKey": "CNE",
+          "jiraTicketDescription": "1. Project Description: provide a basic overview of the project to give the context for the work:\n\nBrief description of the outcome you need from Network Services:\n\nProvide the project ID:\n\nIs the project Capex or Opex?\n\nProvide the Jira ID for the epic or feature for the project:\n\nDeployment type: is it a POC, lab, or production deployment?\n\nWhat is the status of EA/Info Security approval? Has the design been approved and by whom? (Please note any associated RITs.)\n\nAttach diagrams/SAD docs\n\n2. What is the business priority of this project? Priority should reflect business value of the project, time criticality, and impact (i.e. amount of risk reduction or opportunity enablement). \n\nLow, medium or high.\n\n3. Size of effort: how much Network Service resource time do you estimate? Specify the estimated size of the effort using T-shirt sizes - small, medium, large, extra large: S/M/L/XL.\n\n4. Timeline: indicate the requested timeline - start and end dates - for the project including phases. Specify what network changes are needed within this timeline.\n\n5. Validation and Acceptance Criteria: how do you plan to validate the solution? \n\nWhat testing or additional deliverables are required for acceptance of the solution?"
+        },
+        {
+          "title": "Cloud VLAN",
+          "buttonTitle": "Submit Cloud VLAN Request",
+          "descriptions": [
+            "These services are used throughout Albertsons to provide a way of obtaining a VLAN information for hosts to be installed on the Network.",
+            "Network VLAN assignments are primarily used for logical segregation of hosts on the Network so that servers are not comingled with other servers. This is also used to request a vendor VLAN to be assigned to designated network ports.",
+            "If you have difficulties or questions about this service, please email <a href=\"mailto:Infra.Services.Network.Support@albertsons.com\">Infra.Services.Network.Support@albertsons.com</a> for assistance."
+          ],
+          "instructions": {
+            "description": "To complete your request:",
+            "steps": [
+              "Click on the request button above.",
+              "Follow the instructions and complete the questionnaire entirely.",
+              "Submit the request form to create the Jira ticket."
+            ]
+          },
+          "jiraProjectKey": "CNE",
+          "jiraTicketDescription": "Indicate \"Yes\" to mark the VLAN assignment if applicable\n\n-Albertsons network VLAN\n\n-Vendor VLAN\n\nIs this request part of a project or MWR?\n\nBusiness reason for change:\n\nHigh level description of changes requested:"
+        },
+        {
+          "title": "Cloud Firewall/VPN (Request/Remove) Connection",
+          "buttonTitle": "Submit Cloud Firewall/VPN Connection Request",
+          "isFirewallForm": true,
+          "descriptions": [
+            "This service is typically required by Albertsons internal groups that require a secured connection to/from third party partners whose clear text traffic will pass securely through the internet via the VPN tunnel to access the Albertsons internal network resources.",
+            "If you have difficulties or questions about this service, please email <a href=\"mailto:Infra.Services.Network.Support@albertsons.com\">Infra.Services.Network.Support@albertsons.com</a> for assistance."
+          ],
+          "instructions": {
+            "description": "To complete your request:",
+            "steps": [
+              "Click on the request button above.",
+              "Follow the instructions and complete the questionnaire entirely.",
+              "Submit the request form to create the Jira ticket."
+            ]
+          },
+          "jiraProjectKey": "CNE",
+          "jiraTicketDescription": "What is the business justification and business impact of this request? \n\n(Please note that if business justification is not valid your request is subject to be cancelled.)\n\nWhat is the application code related to this Firewall/VPN (Request/Remove) Connection?\n\nPortfolio: \n\nApplication owner:\n\nType of Request:\n\nNumber of Rules Needed (more than 10 or less than 10):\n\n-Request Connection \n\n-Remove Connection\n\nComplete Firewall/VPN request from as follows:"
+        },
+        {
+          "title": "Cloud IP or Subnet Address",
+          "buttonTitle": "Submit Cloud IP address or Subnet Request",
+          "descriptions": [
+            "These services are used throughout Albertsons to provide a way of obtaining IP address and Subnet information for hosts to be installed on the Network.",
+            "IP address OR Subnet Requests are required when needing to physically put a host on the network. The IP address (or subnet) will be assigned by Network Engineering if your host will reside in a backstage, data center or retail location. This is not to be used for any DHCP reservation or Static IP Address allocations, mid-range operations provides this service and can be accessed via (Service Catalog >> Communications and Connectivity >> Network Management >> Static IP)",
+            "If you have difficulties or questions about this service, please email <a href=\"mailto:Infra.Services.Network.Support@albertsons.com\">Infra.Services.Network.Support@albertsons.com</a> for assistance."
+          ],
+          "instructions": {
+            "description": "To complete your request:",
+            "steps": [
+              "Click on the request button above.",
+              "Follow the instructions and complete the questionnaire entirely.",
+              "Submit the request form to create the Jira ticket."
+            ]
+          },
+          "notes": [
+            "<u>Notes:</u> For Network Security Group (NSG) rule add/update, use this <a href=\"https://safeway.service-now.com/esc?id=sc_cat_item&sys_id=1e1f99a887729950c10520e9cebb35d3\">Service Now link</a> for NSG group automation. If you need \"Deny Rules\", use the Cloud IP or Subnet Address form above.",
+            "To build a subnet with a set of common service rules, use this Service Now link <a href=\"https://safeway.service-now.com/esc?id=sc_cat_item&sys_id=f9779f571b7a791023e2feeccd4bcb12\">Create Azure Standalone Subnet - Technology Service Center (service-now.com)</a>.",
+            "To build a new or update an existing common service rule, use this Service Now link <a href=\"https://safeway.service-now.com/esc?id=sc_cat_item&sys_id=6ca7a3351bea31d8a2a053de034bcb64\">Build and Update Common Service Rules - Technology Service Center (service-now.com)</a>."
+          ],
+          "jiraProjectKey": "CNE",
+          "jiraTicketDescription": "Will there potentially be any data on the devices being installed which could have a compliance implication for Albertsons? (PCI, HIPAA, etc.) \n\nDoes this request involve an external organization? \n\nIs this request part of a project or MWR? \n\nBusiness reason for change: \n\nHigh level description of changes requested:\n\nIP Address OR subnet change: \n\n-Add an IP Address OR Subnet\n\n-Remove IP Address OR Subnet"
+        },
+        {
+          "title": "Cloud Load Balancer",
+          "buttonTitle": "Submit Cloud Load Balancer Request",
+          "descriptions": [
+            "This service is used throughout Albertsons to provide a way of obtaining Hardware Load Balancing information for hosts to be installed on the Network.",
+            "Hardware Load Balancing is primarily used when requiring a single point of presence (external view) while on the backend. You can provide load sharing capabilities to multiple servers for this single point of presence.",
+            "If you have difficulties or questions about this service, please email <a href=\"mailto:Infra.Services.Network.Support@albertsons.com\">Infra.Services.Network.Support@albertsons.com</a> for assistance."
+          ],
+          "instructions": {
+            "description": "To complete your request:",
+            "steps": [
+              "Click on the request button above.",
+              "Follow the instructions and complete the questionnaire entirely.",
+              "Submit the request form to create the Jira ticket."
+            ]
+          },
+          "jiraProjectKey": "CNE",
+          "jiraTicketDescription": "Will there potentially be any data on the devices being installed which could have a compliance implication for Albertsons? (PCI, HIPAA, etc.)\n\nDoes this request involve an external organization? \n\nIs this request part of a project or MWR? \n\nBusiness reason for change: \n\nHigh level description of changes requested: \n\nLoad Balancer Load balancer access:\n\n-Request new access\n\n-Change existing access\n\n-Remove access."
+        }
+      ],
+      "ticketSamples": [
+        {
+          "requestType": "Cloud",
+          "scenario": "Cloud Network Enablement and software/policy deployment (tech Portfolio teams support)",
+          "featureStoryPersona": "As an app owner, I want to have the capability to deploy my app/products into the cloud to allow flexibility, cost effectiveness and security.",
+          "opportunityStatement": "Migrate and enable deployment of cloud based solutions to support Albertsons Pharmacy, Retail, Digital segments and support business needs by utilizing flexibility from Cloud, reducing cost and through automation."
+        },
+        {
+          "requestType": "Cloud",
+          "scenario": "Cloud Designing and maintaining the ACI managed firewall infrastructure",
+          "featureStoryPersona": "As an associate I want to ensure store and backstage applications are securely available. Providing Pharmacy, ecommerce applications and services secure environment while compiling with InfoSec security polices.",
+          "opportunityStatement": "Design and improve capacity of firewall systems support Albertsons Pharmacy, Retail, Digital segments and support business needs by utilizing flexibility from Cloud, reducing cost and through automation."
+        },
+        {
+          "requestType": "Cloud",
+          "scenario": "Cloud Designing and maintaining the ACI load balancing environments",
+          "featureStoryPersona": "As a associate I want to ensure store and backstage applications have maximum uptime available.",
+          "opportunityStatement": "Design and improve capacity of load balancing systems support Albertsons Pharmacy, Retail, Digital segments and support business needs by utilizing flexibility from Cloud, reducing cost and through automation."
+        },
+        {
+          "requestType": "Cloud",
+          "scenario": "Redundancy & Special Requirements",
+          "featureStoryPersona": "As an app owner, I want to have my application and data protected against downtime and loss by deploying an architecture that provides VPN/F5 Load Balancing/HA/DR requirements that need to be accounted for.* Note* additional costs need to be included in the project budget.",
+          "opportunityStatement": "Provide business continuity for business and enterprise services. "
+        },
+        {
+          "requestType": "Cloud",
+          "scenario": "Network VLAN, IP address, Subnet Request and Hardware Load Balancer",
+          "featureStoryPersona": "As an app owner, I want to have Network VLAN, IP address or Subnet Request and Hardware Load Balancing services to ensure that I have the required technical infrastructure and availability for my customers. ",
+          "opportunityStatement": "Provide Network VLAN, IP address or Subnet Request and load balancing systems to support Albertsons Pharmacy, Retail, Digital segments to support growth and availability for the business and enterprise. "
+        },
+        {
+          "requestType": "Firewall",
+          "scenario": "Store, back office or lab firewall policy and rules",
+          "featureStoryPersona": "As an application owner, I want to have my application to have its firewall ports to be opened up based on source, destination IP, and ports so that I can access Albertson's network, external networks or the internet.",
+          "opportunityStatement": "This will support our business application owners to connect with external and internal partners and customers."
+        }
+      ]
+    },
+    {
+      "tabTitle": "Retail, Backstage, and Supply Network and Firewall Request",
+      "formData": [
+        {
+          "title": "Retail and Supply Network Request",
+          "buttonTitle": "Submit Retail and Supply Network Engineering Request",
+          "instructions": {
+            "description": "To submit a request for retail, supply & firewall engineering:",
+            "steps": [
+              "Review the overview of the retail, supply & firewall engineering request below.",
+              "Click on the appropriate button. Follow the instructions and click Submit to save."
+            ]
+          },
+          "jiraProjectKey": "ENE",
+          "jiraTicketDescription": "1. Project Description: provide a basic overview of the project to give the context for the work:\n\nBrief description of the outcome you need from Network Services:\n\nProvide the project ID:\n\nIs the project Capex or Opex?\n\nProvide the Jira ID for the epic or feature for the project:\n\nDeployment type: is it a POC, lab, or production deployment?\n\nWhat is the status of EA/Info Security approval? Has the design been approved and by whom? (Please note any associated RITs.)\n\nAttach diagrams/SAD docs\n\n2. What is the business priority of this project? Priority should reflect business value of the project, time criticality, and impact (i.e. amount of risk reduction or opportunity enablement). \n\nLow, medium or high.\n\n3. Size of effort: how much Network Service resource time do you estimate? Specify the estimated size of the effort using T-shirt sizes - small, medium, large, extra large: S/M/L/XL.\n\n4. Timeline: indicate the requested timeline - start and end dates - for the project including phases. Specify what network changes are needed within this timeline.\n\n5. Validation and Acceptance Criteria: how do you plan to validate the solution? \n\nWhat testing or additional deliverables are required for acceptance of the solution?"
+        },
+        {
+          "title": "ENE Firewall/VPN (Request/Remove) Connection",
+          "buttonTitle": "Submit ENE Firewall/VPN Request",
+          "isFirewallForm": true,
+          "descriptions": [
+            "This service is typically required by Albertsons internal groups that require a secured connection to/from third party partners whose clear text traffic will pass securely through the internet via the VPN tunnel to access the Albertsons internal network resources.",
+            "If you have difficulties or questions about this service, please email <a href=\"mailto:Infra.Services.Network.Support@albertsons.com\">Infra.Services.Network.Support@albertsons.com</a> for assistance."
+          ],
+          "instructions": {
+            "description": "To complete your request:",
+            "steps": [
+              "Click on the request button above.",
+              "Follow the instructions and complete the questionnaire entirely.",
+              "Submit the request form to create the Jira ticket."
+            ]
+          },
+          "jiraProjectKey": "ENE",
+          "jiraTicketDescription": "What is the business justification and business impact of this request? \n\n(Please note that if business justification is not valid your request is subject to be cancelled.)\n\nWhat is the application code related to this Firewall/VPN (Request/Remove) Connection?\n\nPortfolio: \n\nApplication owner:\n\nType of Request:\n\nNumber of Rules Needed (more than 10 or less than 10):\n\n-Request Connection \n\n-Remove Connection\n\nComplete Firewall/VPN request from as follows:"
+        },
+        {
+          "title": "ENE VLAN",
+          "buttonTitle": "Sumbit ENE VLAN request",
+          "descriptions": [
+            "These services are used throughout Albertsons to provide a way of obtaining a VLAN information for hosts to be installed on the Network.",
+            "Network VLAN assignments are primarily used for logical segregation of hosts on the Network so that servers are not comingled with other servers. This is also used to request a vendor VLAN to be assigned to designated network ports.",
+            "If you have difficulties or questions about this service, please email <a href=\"mailto:Infra.Services.Network.Support@albertsons.com\">Infra.Services.Network.Support@albertsons.com</a> for assistance."
+          ],
+          "instructions": {
+            "description": "To complete your request:",
+            "steps": [
+              "Click on the request button above.",
+              "Follow the instructions and complete the questionnaire entirely.",
+              "Submit the request form to create the Jira ticket."
+            ]
+          },
+          "jiraProjectKey": "ENE",
+          "jiraTicketDescription": "Indicate \"Yes\" to mark the VLAN assignment if applicable\n\n-Albertsons network VLAN\n\n-Vendor VLAN\n\nIs this request part of a project or MWR?\n\nBusiness reason for change:\n\nHigh level description of changes requested:"
+        },
+        {
+          "title": "ENE IP or Subnet Address",
+          "buttonTitle": "Submit ENE IP or Subnet request",
+          "descriptions": [
+            "These services are used throughout Albertsons to provide a way of obtaining IP address and Subnet information for hosts to be installed on the Network.",
+            "IP address OR Subnet Requests are required when needing to physically put a host on the network. The IP address (or subnet) will be assigned by Network Engineering if your host will reside in a backstage, data center or retail location. This is not to be used for any DHCP reservation or Static IP Address allocations, mid-range operations provides this service and can be accessed via (Service Catalog >> Communications and Connectivity >> Network Management >> Static IP)",
+            "If you have difficulties or questions about this service, please email <a href=\"mailto:Infra.Services.Network.Support@albertsons.com\">Infra.Services.Network.Support@albertsons.com</a> for assistance."
+          ],
+          "instructions": {
+            "description": "To complete your request:",
+            "steps": [
+              "Click on the request button above.",
+              "Follow the instructions and complete the questionnaire entirely.",
+              "Submit the request form to create the Jira ticket."
+            ]
+          },
+          "notes": [
+            "<u>Notes:</u> For Network Security Group (NSG) rule add/update, use this <a href=\"https://safeway.service-now.com/esc?id=sc_cat_item&sys_id=1e1f99a887729950c10520e9cebb35d3\">Service Now link</a> for NSG group automation. If you need \"Deny Rules\", use the Cloud IP or Subnet Address form above.",
+            "To build a subnet with a set of common service rules, use this Service Now link <a href=\"https://safeway.service-now.com/esc?id=sc_cat_item&sys_id=f9779f571b7a791023e2feeccd4bcb12\">Create Azure Standalone Subnet - Technology Service Center (service-now.com)</a>.",
+            "To build a new or update an existing common service rule, use this Service Now link <a href=\"https://safeway.service-now.com/esc?id=sc_cat_item&sys_id=6ca7a3351bea31d8a2a053de034bcb64\">Build and Update Common Service Rules - Technology Service Center (service-now.com)</a>."
+          ],
+          "jiraProjectKey": "ENE",
+          "jiraTicketDescription": "Will there potentially be any data on the devices being installed which could have a compliance implication for Albertsons? (PCI, HIPAA, etc.) \n\nDoes this request involve an external organization? \n\nIs this request part of a project or MWR? \n\nBusiness reason for change: \n\nHigh level description of changes requested:\n\nIP Address OR subnet change: \n\n-Add an IP Address OR Subnet\n\n-Remove IP Address OR Subnet"
+        },
+        {
+          "title": "ENE Loadbalancer",
+          "buttonTitle": "ENE Load Balancer Request",
+          "descriptions": [
+            "This service is used throughout Albertsons to provide a way of obtaining Hardware Load Balancing information for hosts to be installed on the Network. Hardware Load Balancing is primarily used when requiring a single point of presence (external view) while on the backend. You can provide load sharing capabilities to multiple servers for this single point of presence.",
+            "If you have difficulties or questions about this service, please email <a href=\"mailto:Infra.Services.Network.Support@albertsons.com\">Infra.Services.Network.Support@albertsons.com</a> for assistance."
+          ],
+          "instructions": {
+            "description": "To complete your request:",
+            "steps": [
+              "Click on the request button above.",
+              "Follow the instructions and complete the questionnaire entirely.",
+              "Submit the request form to create the Jira ticket."
+            ]
+          },
+          "jiraProjectKey": "ENE",
+          "jiraTicketDescription": "Will there potentially be any data on the devices being installed which could have a compliance implication for Albertsons? (PCI, HIPAA, etc.)\n\nDoes this request involve an external organization? \n\nIs this request part of a project or MWR? n\n\nBusiness reason for change: \n\nHigh level description of changes requested: \n\nLoad Balancer Load balancer access:\n\n-Request new access\n\n-Change existing access\n\n-Remove access."
+        }
+      ],
+      "ticketSamples": [
+        {
+          "requestType": "Retail",
+          "scenario": "Retail New Store/Rx/Deployments",
+          "featureStoryPersona": "As a store manager, I want the capability of Full Stack Meraki deployment, New Vlan support and support of the ever growing infrastructure adding new security rules. Personas: Store managers, associates, technical managers, support manager, retail customers",
+          "opportunityStatement": "This will be used to deploy new Store Builds"
+        },
+        {
+          "requestType": "Retail",
+          "scenario": "Retail Meraki software/policy deployment",
+          "featureStoryPersona": "As a store manager, I want the latest Meraki software giving me the latest features and Product updates. SD-WAN policies are used to restrict or open traffic to certain destination bi-directionally.",
+          "opportunityStatement": "This is Important to have the latest software and Policies helps us to work seamlessly with growing retail infra"
+        },
+        {
+          "requestType": "Retail",
+          "scenario": "Retail Deliver in-store connectivity experience enhancements",
+          "featureStoryPersona": "As a store manager, I want to request New Applications and Firewall requests and have them delivered quickly and satisfactorily to that apps and services can be delivered in the store.",
+          "opportunityStatement": "This Will help in better and enhanced Communication from all In store devices (this is BAU)."
+        },
+        {
+          "requestType": "Retail",
+          "scenario": "Redundancy & Special Requirements* Note* additional costs need to be included in the project budget.",
+          "featureStoryPersona": "As a store manager, I want to have business services to protect against loss/latency or VPN/F5 Load Balancing/HA/DR requirements to provide business continuity and quality for my store.",
+          "opportunityStatement": ""
+        },
+        {
+          "requestType": "Firewall",
+          "scenario": "Store, back office or lab firewall policy and rules",
+          "featureStoryPersona": "As an application owner, I want to have my application to have its firewall ports to be opened up based on source, destination IP, and ports so that I can access Albertson's network, external networks or the internet.",
+          "opportunityStatement": "This will support our business application owners to connect with external and internal partners and customers."
+        }
+      ]
+    },
+    {
+      "tabTitle": "UC Retail/RX, UC Backstage and UC Contact Center Requests",
+      "formData": [
+        {
+          "title": "Backstage",
+          "buttonTitle": "Submit Backstage Network Engineering Request",
+          "descriptions":[
+            "UC Backstage requests include:",
+            "<ul><li>Call Routing (IVR, TFN, DID, FAX) Changes.</li><li>Call Data Report Requests.</li><li>Fax Detail Requests.</li></ul>"
+          ],
+          "instructions": {
+            "description": "To submit a request for UC Backstage engineering:",
+            "steps": [
+              "Review the overview of the UC Backstage engineering request below.",
+              "Download and complete the <a href=\"https://confluence.safeway.com/display/NC/File+lists?preview=/167120577/388253409/Network%20UC%20Telephony%20and%20Contact%20Center%20Requirement%20Document.docx\">Network UC Telephony and Contact Center Requirement Document.docx</a>.",
+              "Attach the Network UC Telephony and Contact Center Requirement Document.docx in the jira ticket manually",
+              "Click on the button above. Follow the instructions and click Submit to save."
+            ]
+          },
+          "jiraProjectKey": "UR",
+          "jiraProjectLabels": "collector-ef1c72cd",
+          "jiraTicketDescription": "1. Project Description: provide a basic overview of the project to give the context for the work:\n\nWho is the project sponsor?\n\nWhat is the cost center number?\n\nWhat is the project ID?\n\nIs the project Capex or Opex?\n\n2. Implementation: is it a POC, lab, or production deployment?\n\nWhat is the status of EA/Info Security approval? Has the design been approved and by whom? (Please note any associated RITs.)\n\nAttach diagrams/SAD docs\n\n3. Timeline: indicate the requested timeline - start and end dates - for the project including phases. Specify what network changes are needed within this timeline."
+        },
+        {
+          "title": "Retail/RX",
+          "buttonTitle": "Submit UC Retail/RX Network Engineering Request",
+          "descriptions":[
+            "UC Retail requests include:",
+            "<ul><li>New Store/Rx/Deployments & Acquisitions.</li><li>Store/Rx Rebanners.</li><li>Store/Rx Divestitures.</li><li>Call Routing (IVR, TFN, DID, FAX) Changes.</li><li>Call Data Report Requests</li><li>Fax Detail Requests.</li></ul>"            
+          ],
+          "instructions": {
+            "description": "To submit a request for UC Retail engineering:",
+            "steps": [              
+              "Review the overview of the UC Retail engineering request below.",
+              "Download and complete the <a href=\"https://confluence.safeway.com/display/NC/File+lists?preview=/167120577/388253409/Network%20UC%20Telephony%20and%20Contact%20Center%20Requirement%20Document.docx\">Network UC Telephony and Contact Center Requirement Document.docx</a>.",
+              "Attach the Network UC Telephony and Contact Center Requirement Document.docx in the jira ticket manually",
+              "Click on the button above. Follow the instructions and click Submit to save."
+            ]
+          },
+          "jiraProjectKey": "UR",
+          "jiraProjectLabels": "collector-e70477f3",
+          "jiraTicketDescription": "1. Project Description: provide a basic overview of the project to give the context for the work:\n\nWho is the project sponsor?\n\nWhat is the cost center number\n\nWhat is the project ID?\n\nIs the project Capex or Opex?\n\n2. Implementation: is it a POC, lab, or production deployment?\n\nWhat is the status of EA/Info Security approval? Has the design been approved and by whom? (Please note any associated RITs.)\n\nAttach diagrams/SAD docs\n\n3. Timeline: indicate the requested timeline - start and end dates - for the project including phases. Specify what network changes are needed within this timeline.\n\n4. Validation and Acceptance Criteria: how do you plan to validate the solution?\n\n5. What testing or additional deliverables are required for acceptance of the solution?"
+        },
+        {
+          "title": "Contact Center/IVR",
+          "buttonTitle": "Submit Contact Center/IVR Network Engineering Request",
+          "descriptions": [
+            "UC Contact Center requests include:",
+            "<ul><li>Access for Calabrio, eGain, Jabber, Webex.</li><li>Call routing changes (IVR, TFN, Fax).</li><li>Call Data Report Requests.</li><li>IVR Customization.</li><li>CRM Integration.</li><li>CCAI Integration.</li></ul>"
+          ],
+          "instructions": {
+            "description": "To submit a request for UC Contact Center engineering:",
+            "steps": [
+              "Review the overview of the UC Contact Center engineering request below.",
+              "Download and complete the <a href=\"https://confluence.safeway.com/display/NC/File+lists?preview=/167120577/388253409/Network%20UC%20Telephony%20and%20Contact%20Center%20Requirement%20Document.docx\">Network UC Telephony and Contact Center Requirement Document.docx</a>.",
+              "Attach the Network UC Telephony and Contact Center Requirement Document.docx in the jira ticket manually",
+              "Click on the button above. Follow the instructions and click Submit to save."
+            ]
+          },
+          "jiraProjectKey": "IVR",
+          "jiraTicketDescription": "1. Project Description: provide a basic overview of the project to give the context for the work:\n\nWho is the project sponsor?\n\nWhat is the cost center number\n\nWhat is the project ID?\n\nIs the project Capex or Opex?\n\n2. Implementation: is it a POC, lab, or production deployment?\n\nWhat is the status of EA/Info Security approval? Has the design been approved and by whom? (Please note any associated RITs.)\n\nAttach diagrams/SAD docs\n\n3. Timeline: indicate the requested timeline - start and end dates - for the project including phases. Specify what network changes are needed within this timeline.\n\n4. Validation and Acceptance Criteria: how do you plan to validate the solution?\n\n5. What testing or additional deliverables are required for acceptance of the solution?"
+        }
+      ],
+      "ticketSamples": [
+        {
+          "requestType": "UC Retail/RX",
+          "scenario": "New Store/Rx/Deployments & Acquisitions<br/><br/>Store/Rx Rebanners<br/><br/>Store/Rx Divestitures<br/><br/>Call Routing (IVR, TFN, DID, FAX) Changes<br/><br/>Call Data Report Requests<br/><br/>Fax Detail Requests",
+          "featureStoryPersona": "I am in Retail or RX and I need new recordings, chop existing recordings, disconnect or porting of numbers, call routing changes, modifications to voicemail boxes, cellular and network availability, installation or disconnects, or call volume data.",
+          "opportunityStatement": "Ensuring communication availability and service maintenance and monitoring is completed for any new, departing, or existing stores that require modifications to alarm lines, call routing functionality, faxing changes, call data, porting, disconnecting, or updating phone numbers, store IVR messaging, and call routing changes."
+        },
+        {
+          "requestType": "UC Backstage",
+          "scenario": "Call Routing (IVR, TFN, DID, FAX) Changes<br/><br/>Call Data Report Requests<br/><br/>Fax Detail Requests",
+          "featureStoryPersona": "I am in Backstage and I want to modify call routing changes (IVR, TFN, DID, FAX), change voicemail, cellular, alarm, network device, installation or disconnects, or call data.",
+          "opportunityStatement": "Ensuring communication availability, completing service maintenance, and telecommunications monitoring."
+        },
+        {
+          "requestType": "UC Contact Center",
+          "scenario": "Access for Calabrio, eGain, Jabber, Webex<br/><br/>Call routing changes (IVR, TFN, Fax)<br/><br/>Call Data Report Requests<br/><br/>IVR Customization<br/><br/>CRM Integration<br/><br/>CRM Integration",
+          "featureStoryPersona": "I am from the Contact Center and I need to help support answering calls, monitoring agent performance, optimizing workforce capacity, routing efficiencies, tracking productivity, offloading calls to adjacent solutions such as Google CCAI, or enabling CRM integration.<br/><br/>As a pharmacy Operations Manager and I want to insure that the IVR setup, call forwarding, and alarm systems, cellular and network installation, are in place for an acquisition.",
+          "opportunityStatement": "Drive operational efficiencies in the areas of productivity for contact center services.<br/><br/><br/><br/>Technical requirements provided for forwarding and porting pharamacy lines, IVR, cost structure and network availability are assessed and completed to ensure smooth transition and successful Day 1."
+        }
+      ]
+    }
+  ]
+}
