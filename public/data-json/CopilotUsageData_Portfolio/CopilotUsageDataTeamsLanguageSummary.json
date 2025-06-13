@@ -1,0 +1,512 @@
+{
+    "Digital (Ramiya Iyer)": [
+        {
+            "Language": "java",
+            "Total Suggestions Count": 180565,
+            "Total Acceptance Count": 43308,
+            "Acceptance Rate": "23.98%",
+            "Lines Of Code Suggested": 404278,
+            "Lines Of Code Accepted": 83037,
+            "Line Acceptance Rate": "20.54%"
+        },
+        {
+            "Language": "typescriptreact",
+            "Total Suggestions Count": 117388,
+            "Total Acceptance Count": 27680,
+            "Acceptance Rate": "23.58%",
+            "Lines Of Code Suggested": 188246,
+            "Lines Of Code Accepted": 24416,
+            "Line Acceptance Rate": "12.97%"
+        },
+        {
+            "Language": "typescript",
+            "Total Suggestions Count": 58524,
+            "Total Acceptance Count": 15037,
+            "Acceptance Rate": "25.69%",
+            "Lines Of Code Suggested": 101934,
+            "Lines Of Code Accepted": 17201,
+            "Line Acceptance Rate": "16.87%"
+        },
+        {
+            "Language": "javascript",
+            "Total Suggestions Count": 19077,
+            "Total Acceptance Count": 4765,
+            "Acceptance Rate": "24.98%",
+            "Lines Of Code Suggested": 26778,
+            "Lines Of Code Accepted": 4802,
+            "Line Acceptance Rate": "17.93%"
+        },
+        {
+            "Language": "swift",
+            "Total Suggestions Count": 18588,
+            "Total Acceptance Count": 3837,
+            "Acceptance Rate": "20.64%",
+            "Lines Of Code Suggested": 40124,
+            "Lines Of Code Accepted": 4181,
+            "Line Acceptance Rate": "10.42%"
+        },
+        {
+            "Language": "kotlin",
+            "Total Suggestions Count": 17598,
+            "Total Acceptance Count": 3530,
+            "Acceptance Rate": "20.06%",
+            "Lines Of Code Suggested": 46679,
+            "Lines Of Code Accepted": 7986,
+            "Line Acceptance Rate": "17.11%"
+        },
+        {
+            "Language": "yaml",
+            "Total Suggestions Count": 13560,
+            "Total Acceptance Count": 1943,
+            "Acceptance Rate": "14.33%",
+            "Lines Of Code Suggested": 20948,
+            "Lines Of Code Accepted": 2862,
+            "Line Acceptance Rate": "13.66%"
+        },
+        {
+            "Language": "unknown",
+            "Total Suggestions Count": 9630,
+            "Total Acceptance Count": 1423,
+            "Acceptance Rate": "14.78%",
+            "Lines Of Code Suggested": 17947,
+            "Lines Of Code Accepted": 2368,
+            "Line Acceptance Rate": "13.19%"
+        },
+        {
+            "Language": "python",
+            "Total Suggestions Count": 8881,
+            "Total Acceptance Count": 1979,
+            "Acceptance Rate": "22.28%",
+            "Lines Of Code Suggested": 11156,
+            "Lines Of Code Accepted": 2331,
+            "Line Acceptance Rate": "20.89%"
+        },
+        {
+            "Language": "sql",
+            "Total Suggestions Count": 8678,
+            "Total Acceptance Count": 1561,
+            "Acceptance Rate": "17.99%",
+            "Lines Of Code Suggested": 14346,
+            "Lines Of Code Accepted": 2092,
+            "Line Acceptance Rate": "14.58%"
+        },
+        {
+            "Language": "json",
+            "Total Suggestions Count": 7338,
+            "Total Acceptance Count": 922,
+            "Acceptance Rate": "12.56%",
+            "Lines Of Code Suggested": 24715,
+            "Lines Of Code Accepted": 2042,
+            "Line Acceptance Rate": "8.26%"
+        },
+        {
+            "Language": "gherkin",
+            "Total Suggestions Count": 5948,
+            "Total Acceptance Count": 852,
+            "Acceptance Rate": "14.32%",
+            "Lines Of Code Suggested": 11241,
+            "Lines Of Code Accepted": 1208,
+            "Line Acceptance Rate": "10.75%"
+        },
+        {
+            "Language": "css",
+            "Total Suggestions Count": 4825,
+            "Total Acceptance Count": 743,
+            "Acceptance Rate": "15.40%",
+            "Lines Of Code Suggested": 10042,
+            "Lines Of Code Accepted": 658,
+            "Line Acceptance Rate": "6.55%"
+        },
+        {
+            "Language": "ini",
+            "Total Suggestions Count": 2382,
+            "Total Acceptance Count": 272,
+            "Acceptance Rate": "11.42%",
+            "Lines Of Code Suggested": 2827,
+            "Lines Of Code Accepted": 347,
+            "Line Acceptance Rate": "12.27%"
+        },
+        {
+            "Language": "xml",
+            "Total Suggestions Count": 2185,
+            "Total Acceptance Count": 378,
+            "Acceptance Rate": "17.30%",
+            "Lines Of Code Suggested": 4923,
+            "Lines Of Code Accepted": 558,
+            "Line Acceptance Rate": "11.33%"
+        },
+        {
+            "Language": "shellscript",
+            "Total Suggestions Count": 2179,
+            "Total Acceptance Count": 418,
+            "Acceptance Rate": "19.18%",
+            "Lines Of Code Suggested": 4700,
+            "Lines Of Code Accepted": 911,
+            "Line Acceptance Rate": "19.38%"
+        },
+        {
+            "Language": "html",
+            "Total Suggestions Count": 1850,
+            "Total Acceptance Count": 214,
+            "Acceptance Rate": "11.57%",
+            "Lines Of Code Suggested": 4042,
+            "Lines Of Code Accepted": 316,
+            "Line Acceptance Rate": "7.82%"
+        },
+        {
+            "Language": "groovy",
+            "Total Suggestions Count": 1281,
+            "Total Acceptance Count": 131,
+            "Acceptance Rate": "10.23%",
+            "Lines Of Code Suggested": 2116,
+            "Lines Of Code Accepted": 165,
+            "Line Acceptance Rate": "7.80%"
+        },
+        {
+            "Language": "graphql",
+            "Total Suggestions Count": 1229,
+            "Total Acceptance Count": 310,
+            "Acceptance Rate": "25.22%",
+            "Lines Of Code Suggested": 3011,
+            "Lines Of Code Accepted": 576,
+            "Line Acceptance Rate": "19.13%"
+        },
+        {
+            "Language": "scss",
+            "Total Suggestions Count": 1111,
+            "Total Acceptance Count": 149,
+            "Acceptance Rate": "13.41%",
+            "Lines Of Code Suggested": 2506,
+            "Lines Of Code Accepted": 150,
+            "Line Acceptance Rate": "5.99%"
+        }
+    ],
+    "COG (Jim Saber)": [
+        {
+            "Language": "yaml",
+            "Total Suggestions Count": 6039,
+            "Total Acceptance Count": 1251,
+            "Acceptance Rate": "20.72%",
+            "Lines Of Code Suggested": 11357,
+            "Lines Of Code Accepted": 2010,
+            "Line Acceptance Rate": "17.70%"
+        },
+        {
+            "Language": "python",
+            "Total Suggestions Count": 4644,
+            "Total Acceptance Count": 1316,
+            "Acceptance Rate": "28.34%",
+            "Lines Of Code Suggested": 6630,
+            "Lines Of Code Accepted": 1614,
+            "Line Acceptance Rate": "24.34%"
+        },
+        {
+            "Language": "sql",
+            "Total Suggestions Count": 4317,
+            "Total Acceptance Count": 785,
+            "Acceptance Rate": "18.18%",
+            "Lines Of Code Suggested": 7500,
+            "Lines Of Code Accepted": 969,
+            "Line Acceptance Rate": "12.92%"
+        },
+        {
+            "Language": "javascriptreact",
+            "Total Suggestions Count": 3050,
+            "Total Acceptance Count": 738,
+            "Acceptance Rate": "24.20%",
+            "Lines Of Code Suggested": 4543,
+            "Lines Of Code Accepted": 575,
+            "Line Acceptance Rate": "12.66%"
+        },
+        {
+            "Language": "javascript",
+            "Total Suggestions Count": 2739,
+            "Total Acceptance Count": 772,
+            "Acceptance Rate": "28.19%",
+            "Lines Of Code Suggested": 4982,
+            "Lines Of Code Accepted": 1049,
+            "Line Acceptance Rate": "21.06%"
+        },
+        {
+            "Language": "shellscript",
+            "Total Suggestions Count": 2288,
+            "Total Acceptance Count": 745,
+            "Acceptance Rate": "32.56%",
+            "Lines Of Code Suggested": 3677,
+            "Lines Of Code Accepted": 1096,
+            "Line Acceptance Rate": "29.81%"
+        },
+        {
+            "Language": "json",
+            "Total Suggestions Count": 2282,
+            "Total Acceptance Count": 330,
+            "Acceptance Rate": "14.46%",
+            "Lines Of Code Suggested": 5693,
+            "Lines Of Code Accepted": 626,
+            "Line Acceptance Rate": "11.00%"
+        },
+        {
+            "Language": "java",
+            "Total Suggestions Count": 1914,
+            "Total Acceptance Count": 468,
+            "Acceptance Rate": "24.45%",
+            "Lines Of Code Suggested": 3752,
+            "Lines Of Code Accepted": 844,
+            "Line Acceptance Rate": "22.49%"
+        },
+        {
+            "Language": "typescript",
+            "Total Suggestions Count": 377,
+            "Total Acceptance Count": 115,
+            "Acceptance Rate": "30.50%",
+            "Lines Of Code Suggested": 587,
+            "Lines Of Code Accepted": 182,
+            "Line Acceptance Rate": "31.01%"
+        },
+        {
+            "Language": "terraform",
+            "Total Suggestions Count": 311,
+            "Total Acceptance Count": 87,
+            "Acceptance Rate": "27.97%",
+            "Lines Of Code Suggested": 840,
+            "Lines Of Code Accepted": 129,
+            "Line Acceptance Rate": "15.36%"
+        },
+        {
+            "Language": "markdown",
+            "Total Suggestions Count": 288,
+            "Total Acceptance Count": 51,
+            "Acceptance Rate": "17.71%",
+            "Lines Of Code Suggested": 408,
+            "Lines Of Code Accepted": 51,
+            "Line Acceptance Rate": "12.50%"
+        },
+        {
+            "Language": "dotenv",
+            "Total Suggestions Count": 255,
+            "Total Acceptance Count": 28,
+            "Acceptance Rate": "10.98%",
+            "Lines Of Code Suggested": 281,
+            "Lines Of Code Accepted": 28,
+            "Line Acceptance Rate": "9.96%"
+        },
+        {
+            "Language": "unknown",
+            "Total Suggestions Count": 106,
+            "Total Acceptance Count": 9,
+            "Acceptance Rate": "8.49%",
+            "Lines Of Code Suggested": 119,
+            "Lines Of Code Accepted": 9,
+            "Line Acceptance Rate": "7.56%"
+        },
+        {
+            "Language": "typescriptreact",
+            "Total Suggestions Count": 77,
+            "Total Acceptance Count": 15,
+            "Acceptance Rate": "19.48%",
+            "Lines Of Code Suggested": 163,
+            "Lines Of Code Accepted": 17,
+            "Line Acceptance Rate": "10.43%"
+        },
+        {
+            "Language": "dockerfile",
+            "Total Suggestions Count": 77,
+            "Total Acceptance Count": 18,
+            "Acceptance Rate": "23.38%",
+            "Lines Of Code Suggested": 89,
+            "Lines Of Code Accepted": 18,
+            "Line Acceptance Rate": "20.22%"
+        },
+        {
+            "Language": "plaintext",
+            "Total Suggestions Count": 76,
+            "Total Acceptance Count": 9,
+            "Acceptance Rate": "11.84%",
+            "Lines Of Code Suggested": 192,
+            "Lines Of Code Accepted": 9,
+            "Line Acceptance Rate": "4.69%"
+        },
+        {
+            "Language": "scss",
+            "Total Suggestions Count": 72,
+            "Total Acceptance Count": 23,
+            "Acceptance Rate": "31.94%",
+            "Lines Of Code Suggested": 137,
+            "Lines Of Code Accepted": 22,
+            "Line Acceptance Rate": "16.06%"
+        },
+        {
+            "Language": "graphql",
+            "Total Suggestions Count": 65,
+            "Total Acceptance Count": 35,
+            "Acceptance Rate": "53.85%",
+            "Lines Of Code Suggested": 128,
+            "Lines Of Code Accepted": 77,
+            "Line Acceptance Rate": "60.16%"
+        },
+        {
+            "Language": "css",
+            "Total Suggestions Count": 65,
+            "Total Acceptance Count": 12,
+            "Acceptance Rate": "18.46%",
+            "Lines Of Code Suggested": 126,
+            "Lines Of Code Accepted": 14,
+            "Line Acceptance Rate": "11.11%"
+        },
+        {
+            "Language": "ini",
+            "Total Suggestions Count": 65,
+            "Total Acceptance Count": 3,
+            "Acceptance Rate": "4.62%",
+            "Lines Of Code Suggested": 109,
+            "Lines Of Code Accepted": 3,
+            "Line Acceptance Rate": "2.75%"
+        }
+    ],
+    "Manila": [
+        {
+            "Language": "python",
+            "Total Suggestions Count": 5138,
+            "Total Acceptance Count": 1312,
+            "Acceptance Rate": "25.54%",
+            "Lines Of Code Suggested": 7312,
+            "Lines Of Code Accepted": 1654,
+            "Line Acceptance Rate": "22.62%"
+        },
+        {
+            "Language": "yaml",
+            "Total Suggestions Count": 122,
+            "Total Acceptance Count": 11,
+            "Acceptance Rate": "9.02%",
+            "Lines Of Code Suggested": 219,
+            "Lines Of Code Accepted": 12,
+            "Line Acceptance Rate": "5.48%"
+        },
+        {
+            "Language": "typescriptreact",
+            "Total Suggestions Count": 91,
+            "Total Acceptance Count": 13,
+            "Acceptance Rate": "14.29%",
+            "Lines Of Code Suggested": 160,
+            "Lines Of Code Accepted": 7,
+            "Line Acceptance Rate": "4.38%"
+        },
+        {
+            "Language": "json",
+            "Total Suggestions Count": 64,
+            "Total Acceptance Count": 5,
+            "Acceptance Rate": "7.81%",
+            "Lines Of Code Suggested": 146,
+            "Lines Of Code Accepted": 1,
+            "Line Acceptance Rate": "0.68%"
+        },
+        {
+            "Language": "dotenv",
+            "Total Suggestions Count": 51,
+            "Total Acceptance Count": 9,
+            "Acceptance Rate": "17.65%",
+            "Lines Of Code Suggested": 57,
+            "Lines Of Code Accepted": 10,
+            "Line Acceptance Rate": "17.54%"
+        },
+        {
+            "Language": "shellscript",
+            "Total Suggestions Count": 31,
+            "Total Acceptance Count": 1,
+            "Acceptance Rate": "3.23%",
+            "Lines Of Code Suggested": 31,
+            "Lines Of Code Accepted": 1,
+            "Line Acceptance Rate": "3.23%"
+        },
+        {
+            "Language": "php",
+            "Total Suggestions Count": 31,
+            "Total Acceptance Count": 3,
+            "Acceptance Rate": "9.68%",
+            "Lines Of Code Suggested": 38,
+            "Lines Of Code Accepted": 3,
+            "Line Acceptance Rate": "7.89%"
+        },
+        {
+            "Language": "dockerfile",
+            "Total Suggestions Count": 27,
+            "Total Acceptance Count": 12,
+            "Acceptance Rate": "44.44%",
+            "Lines Of Code Suggested": 35,
+            "Lines Of Code Accepted": 15,
+            "Line Acceptance Rate": "42.86%"
+        },
+        {
+            "Language": "typescript",
+            "Total Suggestions Count": 23,
+            "Total Acceptance Count": 7,
+            "Acceptance Rate": "30.43%",
+            "Lines Of Code Suggested": 32,
+            "Lines Of Code Accepted": 3,
+            "Line Acceptance Rate": "9.38%"
+        },
+        {
+            "Language": "pip-requirements",
+            "Total Suggestions Count": 17,
+            "Total Acceptance Count": 3,
+            "Acceptance Rate": "17.65%",
+            "Lines Of Code Suggested": 19,
+            "Lines Of Code Accepted": 3,
+            "Line Acceptance Rate": "15.79%"
+        },
+        {
+            "Language": "css",
+            "Total Suggestions Count": 15,
+            "Total Acceptance Count": 0,
+            "Acceptance Rate": "0.00%",
+            "Lines Of Code Suggested": 22,
+            "Lines Of Code Accepted": 0,
+            "Line Acceptance Rate": "0.00%"
+        },
+        {
+            "Language": "unknown",
+            "Total Suggestions Count": 13,
+            "Total Acceptance Count": 4,
+            "Acceptance Rate": "30.77%",
+            "Lines Of Code Suggested": 13,
+            "Lines Of Code Accepted": 0,
+            "Line Acceptance Rate": "0.00%"
+        },
+        {
+            "Language": "javascript",
+            "Total Suggestions Count": 6,
+            "Total Acceptance Count": 3,
+            "Acceptance Rate": "50.00%",
+            "Lines Of Code Suggested": 6,
+            "Lines Of Code Accepted": 3,
+            "Line Acceptance Rate": "50.00%"
+        },
+        {
+            "Language": "ignore",
+            "Total Suggestions Count": 5,
+            "Total Acceptance Count": 2,
+            "Acceptance Rate": "40.00%",
+            "Lines Of Code Suggested": 6,
+            "Lines Of Code Accepted": 1,
+            "Line Acceptance Rate": "16.67%"
+        },
+        {
+            "Language": "csharp",
+            "Total Suggestions Count": 1,
+            "Total Acceptance Count": 0,
+            "Acceptance Rate": "0.00%",
+            "Lines Of Code Suggested": 1,
+            "Lines Of Code Accepted": 0,
+            "Line Acceptance Rate": "0.00%"
+        },
+        {
+            "Language": "ini",
+            "Total Suggestions Count": 1,
+            "Total Acceptance Count": 0,
+            "Acceptance Rate": "0.00%",
+            "Lines Of Code Suggested": 2,
+            "Lines Of Code Accepted": 0,
+            "Line Acceptance Rate": "0.00%"
+        }
+    ]
+}

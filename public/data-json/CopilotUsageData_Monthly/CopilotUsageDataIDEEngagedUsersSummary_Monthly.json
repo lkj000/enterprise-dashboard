@@ -1,0 +1,26 @@
+[
+    {
+        "Editor": "vscode",
+        "Engaged Users": 4647
+    },
+    {
+        "Editor": "jetbrains",
+        "Engaged Users": 6439
+    },
+    {
+        "Editor": "xcode",
+        "Engaged Users": 252
+    },
+    {
+        "Editor": "neovim",
+        "Engaged Users": 12
+    },
+    {
+        "Editor": "eclipse",
+        "Engaged Users": 6
+    },
+    {
+        "Editor": "visual_studio",
+        "Engaged Users": 14
+    }
+]

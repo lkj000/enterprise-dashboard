@@ -1,0 +1,2715 @@
+{
+    "Bhargavi Whatley": [
+        {
+            "Day": "05/13/2025",
+            "Total Suggestions Count": 9322,
+            "Total Acceptance Count": 1977,
+            "Acceptance Rate": "21.21%",
+            "Lines Of Code Suggested": 17468,
+            "Lines Of Code Accepted": 2254,
+            "Lines Acceptance Rate": "12.90%"
+        },
+        {
+            "Day": "05/14/2025",
+            "Total Suggestions Count": 8793,
+            "Total Acceptance Count": 1942,
+            "Acceptance Rate": "22.09%",
+            "Lines Of Code Suggested": 17699,
+            "Lines Of Code Accepted": 2559,
+            "Lines Acceptance Rate": "14.46%"
+        },
+        {
+            "Day": "05/15/2025",
+            "Total Suggestions Count": 6007,
+            "Total Acceptance Count": 1137,
+            "Acceptance Rate": "18.93%",
+            "Lines Of Code Suggested": 11484,
+            "Lines Of Code Accepted": 1513,
+            "Lines Acceptance Rate": "13.17%"
+        },
+        {
+            "Day": "05/16/2025",
+            "Total Suggestions Count": 6762,
+            "Total Acceptance Count": 1602,
+            "Acceptance Rate": "23.69%",
+            "Lines Of Code Suggested": 13546,
+            "Lines Of Code Accepted": 2258,
+            "Lines Acceptance Rate": "16.67%"
+        },
+        {
+            "Day": "05/17/2025",
+            "Total Suggestions Count": 2586,
+            "Total Acceptance Count": 618,
+            "Acceptance Rate": "23.90%",
+            "Lines Of Code Suggested": 5386,
+            "Lines Of Code Accepted": 829,
+            "Lines Acceptance Rate": "15.39%"
+        },
+        {
+            "Day": "05/18/2025",
+            "Total Suggestions Count": 1858,
+            "Total Acceptance Count": 486,
+            "Acceptance Rate": "26.16%",
+            "Lines Of Code Suggested": 3298,
+            "Lines Of Code Accepted": 649,
+            "Lines Acceptance Rate": "19.68%"
+        },
+        {
+            "Day": "05/19/2025",
+            "Total Suggestions Count": 8732,
+            "Total Acceptance Count": 1948,
+            "Acceptance Rate": "22.31%",
+            "Lines Of Code Suggested": 15922,
+            "Lines Of Code Accepted": 2519,
+            "Lines Acceptance Rate": "15.82%"
+        },
+        {
+            "Day": "05/20/2025",
+            "Total Suggestions Count": 8168,
+            "Total Acceptance Count": 1598,
+            "Acceptance Rate": "19.56%",
+            "Lines Of Code Suggested": 15797,
+            "Lines Of Code Accepted": 2116,
+            "Lines Acceptance Rate": "13.39%"
+        },
+        {
+            "Day": "05/21/2025",
+            "Total Suggestions Count": 9251,
+            "Total Acceptance Count": 1942,
+            "Acceptance Rate": "20.99%",
+            "Lines Of Code Suggested": 19120,
+            "Lines Of Code Accepted": 2904,
+            "Lines Acceptance Rate": "15.19%"
+        },
+        {
+            "Day": "05/22/2025",
+            "Total Suggestions Count": 7937,
+            "Total Acceptance Count": 1754,
+            "Acceptance Rate": "22.10%",
+            "Lines Of Code Suggested": 15974,
+            "Lines Of Code Accepted": 2468,
+            "Lines Acceptance Rate": "15.45%"
+        },
+        {
+            "Day": "05/23/2025",
+            "Total Suggestions Count": 6998,
+            "Total Acceptance Count": 1375,
+            "Acceptance Rate": "19.65%",
+            "Lines Of Code Suggested": 14664,
+            "Lines Of Code Accepted": 2052,
+            "Lines Acceptance Rate": "13.99%"
+        },
+        {
+            "Day": "05/24/2025",
+            "Total Suggestions Count": 1412,
+            "Total Acceptance Count": 275,
+            "Acceptance Rate": "19.48%",
+            "Lines Of Code Suggested": 2862,
+            "Lines Of Code Accepted": 480,
+            "Lines Acceptance Rate": "16.77%"
+        },
+        {
+            "Day": "05/25/2025",
+            "Total Suggestions Count": 1468,
+            "Total Acceptance Count": 323,
+            "Acceptance Rate": "22.00%",
+            "Lines Of Code Suggested": 2989,
+            "Lines Of Code Accepted": 466,
+            "Lines Acceptance Rate": "15.59%"
+        },
+        {
+            "Day": "05/26/2025",
+            "Total Suggestions Count": 6286,
+            "Total Acceptance Count": 1331,
+            "Acceptance Rate": "21.17%",
+            "Lines Of Code Suggested": 12811,
+            "Lines Of Code Accepted": 2042,
+            "Lines Acceptance Rate": "15.94%"
+        },
+        {
+            "Day": "05/27/2025",
+            "Total Suggestions Count": 7529,
+            "Total Acceptance Count": 1602,
+            "Acceptance Rate": "21.28%",
+            "Lines Of Code Suggested": 14004,
+            "Lines Of Code Accepted": 1888,
+            "Lines Acceptance Rate": "13.48%"
+        },
+        {
+            "Day": "05/28/2025",
+            "Total Suggestions Count": 8433,
+            "Total Acceptance Count": 1885,
+            "Acceptance Rate": "22.35%",
+            "Lines Of Code Suggested": 16207,
+            "Lines Of Code Accepted": 2463,
+            "Lines Acceptance Rate": "15.20%"
+        },
+        {
+            "Day": "05/29/2025",
+            "Total Suggestions Count": 7333,
+            "Total Acceptance Count": 1527,
+            "Acceptance Rate": "20.82%",
+            "Lines Of Code Suggested": 13904,
+            "Lines Of Code Accepted": 2172,
+            "Lines Acceptance Rate": "15.62%"
+        },
+        {
+            "Day": "05/30/2025",
+            "Total Suggestions Count": 6769,
+            "Total Acceptance Count": 1612,
+            "Acceptance Rate": "23.81%",
+            "Lines Of Code Suggested": 12232,
+            "Lines Of Code Accepted": 2181,
+            "Lines Acceptance Rate": "17.83%"
+        },
+        {
+            "Day": "05/31/2025",
+            "Total Suggestions Count": 1433,
+            "Total Acceptance Count": 303,
+            "Acceptance Rate": "21.14%",
+            "Lines Of Code Suggested": 2771,
+            "Lines Of Code Accepted": 398,
+            "Lines Acceptance Rate": "14.36%"
+        },
+        {
+            "Day": "06/01/2025",
+            "Total Suggestions Count": 1155,
+            "Total Acceptance Count": 242,
+            "Acceptance Rate": "20.95%",
+            "Lines Of Code Suggested": 2263,
+            "Lines Of Code Accepted": 245,
+            "Lines Acceptance Rate": "10.83%"
+        },
+        {
+            "Day": "06/02/2025",
+            "Total Suggestions Count": 7305,
+            "Total Acceptance Count": 1630,
+            "Acceptance Rate": "22.31%",
+            "Lines Of Code Suggested": 13483,
+            "Lines Of Code Accepted": 2352,
+            "Lines Acceptance Rate": "17.44%"
+        },
+        {
+            "Day": "06/03/2025",
+            "Total Suggestions Count": 8426,
+            "Total Acceptance Count": 1839,
+            "Acceptance Rate": "21.83%",
+            "Lines Of Code Suggested": 15612,
+            "Lines Of Code Accepted": 2329,
+            "Lines Acceptance Rate": "14.92%"
+        },
+        {
+            "Day": "06/04/2025",
+            "Total Suggestions Count": 8093,
+            "Total Acceptance Count": 1878,
+            "Acceptance Rate": "23.21%",
+            "Lines Of Code Suggested": 15505,
+            "Lines Of Code Accepted": 3228,
+            "Lines Acceptance Rate": "20.82%"
+        },
+        {
+            "Day": "06/05/2025",
+            "Total Suggestions Count": 8482,
+            "Total Acceptance Count": 1839,
+            "Acceptance Rate": "21.68%",
+            "Lines Of Code Suggested": 15935,
+            "Lines Of Code Accepted": 2971,
+            "Lines Acceptance Rate": "18.64%"
+        },
+        {
+            "Day": "06/06/2025",
+            "Total Suggestions Count": 7677,
+            "Total Acceptance Count": 1722,
+            "Acceptance Rate": "22.43%",
+            "Lines Of Code Suggested": 15782,
+            "Lines Of Code Accepted": 2813,
+            "Lines Acceptance Rate": "17.82%"
+        },
+        {
+            "Day": "06/07/2025",
+            "Total Suggestions Count": 800,
+            "Total Acceptance Count": 156,
+            "Acceptance Rate": "19.50%",
+            "Lines Of Code Suggested": 1582,
+            "Lines Of Code Accepted": 195,
+            "Lines Acceptance Rate": "12.33%"
+        },
+        {
+            "Day": "06/08/2025",
+            "Total Suggestions Count": 1741,
+            "Total Acceptance Count": 423,
+            "Acceptance Rate": "24.30%",
+            "Lines Of Code Suggested": 3533,
+            "Lines Of Code Accepted": 611,
+            "Lines Acceptance Rate": "17.29%"
+        },
+        {
+            "Day": "06/09/2025",
+            "Total Suggestions Count": 8280,
+            "Total Acceptance Count": 1884,
+            "Acceptance Rate": "22.75%",
+            "Lines Of Code Suggested": 17567,
+            "Lines Of Code Accepted": 3208,
+            "Lines Acceptance Rate": "18.26%"
+        }
+    ],
+    "Param Devireddy": [
+        {
+            "Day": "05/13/2025",
+            "Total Suggestions Count": 5108,
+            "Total Acceptance Count": 1044,
+            "Acceptance Rate": "20.44%",
+            "Lines Of Code Suggested": 11012,
+            "Lines Of Code Accepted": 1656,
+            "Lines Acceptance Rate": "15.04%"
+        },
+        {
+            "Day": "05/14/2025",
+            "Total Suggestions Count": 4267,
+            "Total Acceptance Count": 834,
+            "Acceptance Rate": "19.55%",
+            "Lines Of Code Suggested": 8332,
+            "Lines Of Code Accepted": 1316,
+            "Lines Acceptance Rate": "15.79%"
+        },
+        {
+            "Day": "05/15/2025",
+            "Total Suggestions Count": 3213,
+            "Total Acceptance Count": 607,
+            "Acceptance Rate": "18.89%",
+            "Lines Of Code Suggested": 6891,
+            "Lines Of Code Accepted": 1001,
+            "Lines Acceptance Rate": "14.53%"
+        },
+        {
+            "Day": "05/16/2025",
+            "Total Suggestions Count": 3197,
+            "Total Acceptance Count": 688,
+            "Acceptance Rate": "21.52%",
+            "Lines Of Code Suggested": 6398,
+            "Lines Of Code Accepted": 1045,
+            "Lines Acceptance Rate": "16.33%"
+        },
+        {
+            "Day": "05/17/2025",
+            "Total Suggestions Count": 270,
+            "Total Acceptance Count": 63,
+            "Acceptance Rate": "23.33%",
+            "Lines Of Code Suggested": 483,
+            "Lines Of Code Accepted": 99,
+            "Lines Acceptance Rate": "20.50%"
+        },
+        {
+            "Day": "05/18/2025",
+            "Total Suggestions Count": 523,
+            "Total Acceptance Count": 111,
+            "Acceptance Rate": "21.22%",
+            "Lines Of Code Suggested": 1537,
+            "Lines Of Code Accepted": 314,
+            "Lines Acceptance Rate": "20.43%"
+        },
+        {
+            "Day": "05/19/2025",
+            "Total Suggestions Count": 4861,
+            "Total Acceptance Count": 1076,
+            "Acceptance Rate": "22.14%",
+            "Lines Of Code Suggested": 10293,
+            "Lines Of Code Accepted": 1790,
+            "Lines Acceptance Rate": "17.39%"
+        },
+        {
+            "Day": "05/20/2025",
+            "Total Suggestions Count": 5018,
+            "Total Acceptance Count": 1002,
+            "Acceptance Rate": "19.97%",
+            "Lines Of Code Suggested": 11272,
+            "Lines Of Code Accepted": 1849,
+            "Lines Acceptance Rate": "16.40%"
+        },
+        {
+            "Day": "05/21/2025",
+            "Total Suggestions Count": 5428,
+            "Total Acceptance Count": 936,
+            "Acceptance Rate": "17.24%",
+            "Lines Of Code Suggested": 10864,
+            "Lines Of Code Accepted": 1350,
+            "Lines Acceptance Rate": "12.43%"
+        },
+        {
+            "Day": "05/22/2025",
+            "Total Suggestions Count": 5464,
+            "Total Acceptance Count": 1013,
+            "Acceptance Rate": "18.54%",
+            "Lines Of Code Suggested": 11629,
+            "Lines Of Code Accepted": 1563,
+            "Lines Acceptance Rate": "13.44%"
+        },
+        {
+            "Day": "05/23/2025",
+            "Total Suggestions Count": 5135,
+            "Total Acceptance Count": 982,
+            "Acceptance Rate": "19.12%",
+            "Lines Of Code Suggested": 10975,
+            "Lines Of Code Accepted": 1576,
+            "Lines Acceptance Rate": "14.36%"
+        },
+        {
+            "Day": "05/24/2025",
+            "Total Suggestions Count": 409,
+            "Total Acceptance Count": 104,
+            "Acceptance Rate": "25.43%",
+            "Lines Of Code Suggested": 626,
+            "Lines Of Code Accepted": 134,
+            "Lines Acceptance Rate": "21.41%"
+        },
+        {
+            "Day": "05/25/2025",
+            "Total Suggestions Count": 662,
+            "Total Acceptance Count": 161,
+            "Acceptance Rate": "24.32%",
+            "Lines Of Code Suggested": 1546,
+            "Lines Of Code Accepted": 390,
+            "Lines Acceptance Rate": "25.23%"
+        },
+        {
+            "Day": "05/26/2025",
+            "Total Suggestions Count": 1199,
+            "Total Acceptance Count": 237,
+            "Acceptance Rate": "19.77%",
+            "Lines Of Code Suggested": 2686,
+            "Lines Of Code Accepted": 473,
+            "Lines Acceptance Rate": "17.61%"
+        },
+        {
+            "Day": "05/27/2025",
+            "Total Suggestions Count": 4506,
+            "Total Acceptance Count": 938,
+            "Acceptance Rate": "20.82%",
+            "Lines Of Code Suggested": 8926,
+            "Lines Of Code Accepted": 1362,
+            "Lines Acceptance Rate": "15.26%"
+        },
+        {
+            "Day": "05/28/2025",
+            "Total Suggestions Count": 5420,
+            "Total Acceptance Count": 1249,
+            "Acceptance Rate": "23.04%",
+            "Lines Of Code Suggested": 10566,
+            "Lines Of Code Accepted": 1824,
+            "Lines Acceptance Rate": "17.26%"
+        },
+        {
+            "Day": "05/29/2025",
+            "Total Suggestions Count": 4876,
+            "Total Acceptance Count": 1151,
+            "Acceptance Rate": "23.61%",
+            "Lines Of Code Suggested": 9376,
+            "Lines Of Code Accepted": 1689,
+            "Lines Acceptance Rate": "18.01%"
+        },
+        {
+            "Day": "05/30/2025",
+            "Total Suggestions Count": 3679,
+            "Total Acceptance Count": 842,
+            "Acceptance Rate": "22.89%",
+            "Lines Of Code Suggested": 7297,
+            "Lines Of Code Accepted": 1226,
+            "Lines Acceptance Rate": "16.80%"
+        },
+        {
+            "Day": "05/31/2025",
+            "Total Suggestions Count": 527,
+            "Total Acceptance Count": 102,
+            "Acceptance Rate": "19.35%",
+            "Lines Of Code Suggested": 1202,
+            "Lines Of Code Accepted": 324,
+            "Lines Acceptance Rate": "26.96%"
+        },
+        {
+            "Day": "06/01/2025",
+            "Total Suggestions Count": 344,
+            "Total Acceptance Count": 65,
+            "Acceptance Rate": "18.90%",
+            "Lines Of Code Suggested": 946,
+            "Lines Of Code Accepted": 133,
+            "Lines Acceptance Rate": "14.06%"
+        },
+        {
+            "Day": "06/02/2025",
+            "Total Suggestions Count": 3694,
+            "Total Acceptance Count": 1078,
+            "Acceptance Rate": "29.18%",
+            "Lines Of Code Suggested": 8521,
+            "Lines Of Code Accepted": 2553,
+            "Lines Acceptance Rate": "29.96%"
+        },
+        {
+            "Day": "06/03/2025",
+            "Total Suggestions Count": 4761,
+            "Total Acceptance Count": 968,
+            "Acceptance Rate": "20.33%",
+            "Lines Of Code Suggested": 9192,
+            "Lines Of Code Accepted": 1299,
+            "Lines Acceptance Rate": "14.13%"
+        },
+        {
+            "Day": "06/04/2025",
+            "Total Suggestions Count": 5553,
+            "Total Acceptance Count": 1563,
+            "Acceptance Rate": "28.15%",
+            "Lines Of Code Suggested": 10564,
+            "Lines Of Code Accepted": 2383,
+            "Lines Acceptance Rate": "22.56%"
+        },
+        {
+            "Day": "06/05/2025",
+            "Total Suggestions Count": 4108,
+            "Total Acceptance Count": 892,
+            "Acceptance Rate": "21.71%",
+            "Lines Of Code Suggested": 7403,
+            "Lines Of Code Accepted": 1115,
+            "Lines Acceptance Rate": "15.06%"
+        },
+        {
+            "Day": "06/06/2025",
+            "Total Suggestions Count": 2937,
+            "Total Acceptance Count": 563,
+            "Acceptance Rate": "19.17%",
+            "Lines Of Code Suggested": 6010,
+            "Lines Of Code Accepted": 828,
+            "Lines Acceptance Rate": "13.78%"
+        },
+        {
+            "Day": "06/07/2025",
+            "Total Suggestions Count": 281,
+            "Total Acceptance Count": 54,
+            "Acceptance Rate": "19.22%",
+            "Lines Of Code Suggested": 650,
+            "Lines Of Code Accepted": 120,
+            "Lines Acceptance Rate": "18.46%"
+        },
+        {
+            "Day": "06/08/2025",
+            "Total Suggestions Count": 464,
+            "Total Acceptance Count": 127,
+            "Acceptance Rate": "27.37%",
+            "Lines Of Code Suggested": 937,
+            "Lines Of Code Accepted": 199,
+            "Lines Acceptance Rate": "21.24%"
+        },
+        {
+            "Day": "06/09/2025",
+            "Total Suggestions Count": 2555,
+            "Total Acceptance Count": 647,
+            "Acceptance Rate": "25.32%",
+            "Lines Of Code Suggested": 5182,
+            "Lines Of Code Accepted": 864,
+            "Lines Acceptance Rate": "16.67%"
+        }
+    ],
+    "Steve Cowan": [
+        {
+            "Day": "05/13/2025",
+            "Total Suggestions Count": 636,
+            "Total Acceptance Count": 126,
+            "Acceptance Rate": "19.81%",
+            "Lines Of Code Suggested": 1148,
+            "Lines Of Code Accepted": 192,
+            "Lines Acceptance Rate": "16.72%"
+        },
+        {
+            "Day": "05/14/2025",
+            "Total Suggestions Count": 723,
+            "Total Acceptance Count": 166,
+            "Acceptance Rate": "22.96%",
+            "Lines Of Code Suggested": 1391,
+            "Lines Of Code Accepted": 158,
+            "Lines Acceptance Rate": "11.36%"
+        },
+        {
+            "Day": "05/15/2025",
+            "Total Suggestions Count": 739,
+            "Total Acceptance Count": 135,
+            "Acceptance Rate": "18.27%",
+            "Lines Of Code Suggested": 1100,
+            "Lines Of Code Accepted": 160,
+            "Lines Acceptance Rate": "14.55%"
+        },
+        {
+            "Day": "05/16/2025",
+            "Total Suggestions Count": 947,
+            "Total Acceptance Count": 211,
+            "Acceptance Rate": "22.28%",
+            "Lines Of Code Suggested": 1608,
+            "Lines Of Code Accepted": 310,
+            "Lines Acceptance Rate": "19.28%"
+        },
+        {
+            "Day": "05/17/2025",
+            "Total Suggestions Count": 114,
+            "Total Acceptance Count": 22,
+            "Acceptance Rate": "19.30%",
+            "Lines Of Code Suggested": 139,
+            "Lines Of Code Accepted": 22,
+            "Lines Acceptance Rate": "15.83%"
+        },
+        {
+            "Day": "05/18/2025",
+            "Total Suggestions Count": 128,
+            "Total Acceptance Count": 39,
+            "Acceptance Rate": "30.47%",
+            "Lines Of Code Suggested": 172,
+            "Lines Of Code Accepted": 56,
+            "Lines Acceptance Rate": "32.56%"
+        },
+        {
+            "Day": "05/19/2025",
+            "Total Suggestions Count": 1114,
+            "Total Acceptance Count": 273,
+            "Acceptance Rate": "24.51%",
+            "Lines Of Code Suggested": 2160,
+            "Lines Of Code Accepted": 454,
+            "Lines Acceptance Rate": "21.02%"
+        },
+        {
+            "Day": "05/20/2025",
+            "Total Suggestions Count": 1607,
+            "Total Acceptance Count": 368,
+            "Acceptance Rate": "22.90%",
+            "Lines Of Code Suggested": 3030,
+            "Lines Of Code Accepted": 543,
+            "Lines Acceptance Rate": "17.92%"
+        },
+        {
+            "Day": "05/21/2025",
+            "Total Suggestions Count": 1847,
+            "Total Acceptance Count": 468,
+            "Acceptance Rate": "25.34%",
+            "Lines Of Code Suggested": 3709,
+            "Lines Of Code Accepted": 525,
+            "Lines Acceptance Rate": "14.15%"
+        },
+        {
+            "Day": "05/22/2025",
+            "Total Suggestions Count": 1302,
+            "Total Acceptance Count": 318,
+            "Acceptance Rate": "24.42%",
+            "Lines Of Code Suggested": 2002,
+            "Lines Of Code Accepted": 420,
+            "Lines Acceptance Rate": "20.98%"
+        },
+        {
+            "Day": "05/23/2025",
+            "Total Suggestions Count": 805,
+            "Total Acceptance Count": 176,
+            "Acceptance Rate": "21.86%",
+            "Lines Of Code Suggested": 1635,
+            "Lines Of Code Accepted": 303,
+            "Lines Acceptance Rate": "18.53%"
+        },
+        {
+            "Day": "05/24/2025",
+            "Total Suggestions Count": 158,
+            "Total Acceptance Count": 77,
+            "Acceptance Rate": "48.73%",
+            "Lines Of Code Suggested": 236,
+            "Lines Of Code Accepted": 117,
+            "Lines Acceptance Rate": "49.58%"
+        },
+        {
+            "Day": "05/25/2025",
+            "Total Suggestions Count": 482,
+            "Total Acceptance Count": 92,
+            "Acceptance Rate": "19.09%",
+            "Lines Of Code Suggested": 1072,
+            "Lines Of Code Accepted": 158,
+            "Lines Acceptance Rate": "14.74%"
+        },
+        {
+            "Day": "05/26/2025",
+            "Total Suggestions Count": 360,
+            "Total Acceptance Count": 74,
+            "Acceptance Rate": "20.56%",
+            "Lines Of Code Suggested": 523,
+            "Lines Of Code Accepted": 86,
+            "Lines Acceptance Rate": "16.44%"
+        },
+        {
+            "Day": "05/27/2025",
+            "Total Suggestions Count": 958,
+            "Total Acceptance Count": 184,
+            "Acceptance Rate": "19.21%",
+            "Lines Of Code Suggested": 1803,
+            "Lines Of Code Accepted": 303,
+            "Lines Acceptance Rate": "16.81%"
+        },
+        {
+            "Day": "05/28/2025",
+            "Total Suggestions Count": 867,
+            "Total Acceptance Count": 191,
+            "Acceptance Rate": "22.03%",
+            "Lines Of Code Suggested": 1750,
+            "Lines Of Code Accepted": 335,
+            "Lines Acceptance Rate": "19.14%"
+        },
+        {
+            "Day": "05/29/2025",
+            "Total Suggestions Count": 1286,
+            "Total Acceptance Count": 319,
+            "Acceptance Rate": "24.81%",
+            "Lines Of Code Suggested": 2194,
+            "Lines Of Code Accepted": 370,
+            "Lines Acceptance Rate": "16.86%"
+        },
+        {
+            "Day": "05/30/2025",
+            "Total Suggestions Count": 894,
+            "Total Acceptance Count": 265,
+            "Acceptance Rate": "29.64%",
+            "Lines Of Code Suggested": 1634,
+            "Lines Of Code Accepted": 410,
+            "Lines Acceptance Rate": "25.09%"
+        },
+        {
+            "Day": "05/31/2025",
+            "Total Suggestions Count": 128,
+            "Total Acceptance Count": 16,
+            "Acceptance Rate": "12.50%",
+            "Lines Of Code Suggested": 193,
+            "Lines Of Code Accepted": 17,
+            "Lines Acceptance Rate": "8.81%"
+        },
+        {
+            "Day": "06/01/2025",
+            "Total Suggestions Count": 22,
+            "Total Acceptance Count": 3,
+            "Acceptance Rate": "13.64%",
+            "Lines Of Code Suggested": 22,
+            "Lines Of Code Accepted": 3,
+            "Lines Acceptance Rate": "13.64%"
+        },
+        {
+            "Day": "06/02/2025",
+            "Total Suggestions Count": 731,
+            "Total Acceptance Count": 176,
+            "Acceptance Rate": "24.08%",
+            "Lines Of Code Suggested": 1466,
+            "Lines Of Code Accepted": 234,
+            "Lines Acceptance Rate": "15.96%"
+        },
+        {
+            "Day": "06/03/2025",
+            "Total Suggestions Count": 1274,
+            "Total Acceptance Count": 301,
+            "Acceptance Rate": "23.63%",
+            "Lines Of Code Suggested": 2396,
+            "Lines Of Code Accepted": 388,
+            "Lines Acceptance Rate": "16.19%"
+        },
+        {
+            "Day": "06/04/2025",
+            "Total Suggestions Count": 840,
+            "Total Acceptance Count": 176,
+            "Acceptance Rate": "20.95%",
+            "Lines Of Code Suggested": 1461,
+            "Lines Of Code Accepted": 234,
+            "Lines Acceptance Rate": "16.02%"
+        },
+        {
+            "Day": "06/05/2025",
+            "Total Suggestions Count": 838,
+            "Total Acceptance Count": 217,
+            "Acceptance Rate": "25.89%",
+            "Lines Of Code Suggested": 1313,
+            "Lines Of Code Accepted": 300,
+            "Lines Acceptance Rate": "22.85%"
+        },
+        {
+            "Day": "06/06/2025",
+            "Total Suggestions Count": 938,
+            "Total Acceptance Count": 311,
+            "Acceptance Rate": "33.16%",
+            "Lines Of Code Suggested": 1761,
+            "Lines Of Code Accepted": 545,
+            "Lines Acceptance Rate": "30.95%"
+        },
+        {
+            "Day": "06/07/2025",
+            "Total Suggestions Count": 341,
+            "Total Acceptance Count": 93,
+            "Acceptance Rate": "27.27%",
+            "Lines Of Code Suggested": 457,
+            "Lines Of Code Accepted": 84,
+            "Lines Acceptance Rate": "18.38%"
+        },
+        {
+            "Day": "06/08/2025",
+            "Total Suggestions Count": 44,
+            "Total Acceptance Count": 6,
+            "Acceptance Rate": "13.64%",
+            "Lines Of Code Suggested": 53,
+            "Lines Of Code Accepted": 6,
+            "Lines Acceptance Rate": "11.32%"
+        },
+        {
+            "Day": "06/09/2025",
+            "Total Suggestions Count": 1349,
+            "Total Acceptance Count": 372,
+            "Acceptance Rate": "27.58%",
+            "Lines Of Code Suggested": 2421,
+            "Lines Of Code Accepted": 570,
+            "Lines Acceptance Rate": "23.54%"
+        }
+    ],
+    "Karthik Iyer": [
+        {
+            "Day": "05/13/2025",
+            "Total Suggestions Count": 1044,
+            "Total Acceptance Count": 190,
+            "Acceptance Rate": "18.20%",
+            "Lines Of Code Suggested": 2223,
+            "Lines Of Code Accepted": 396,
+            "Lines Acceptance Rate": "17.81%"
+        },
+        {
+            "Day": "05/14/2025",
+            "Total Suggestions Count": 1143,
+            "Total Acceptance Count": 247,
+            "Acceptance Rate": "21.61%",
+            "Lines Of Code Suggested": 1982,
+            "Lines Of Code Accepted": 358,
+            "Lines Acceptance Rate": "18.06%"
+        },
+        {
+            "Day": "05/15/2025",
+            "Total Suggestions Count": 914,
+            "Total Acceptance Count": 257,
+            "Acceptance Rate": "28.12%",
+            "Lines Of Code Suggested": 2244,
+            "Lines Of Code Accepted": 617,
+            "Lines Acceptance Rate": "27.50%"
+        },
+        {
+            "Day": "05/16/2025",
+            "Total Suggestions Count": 592,
+            "Total Acceptance Count": 94,
+            "Acceptance Rate": "15.88%",
+            "Lines Of Code Suggested": 1454,
+            "Lines Of Code Accepted": 171,
+            "Lines Acceptance Rate": "11.76%"
+        },
+        {
+            "Day": "05/17/2025",
+            "Total Suggestions Count": 1,
+            "Total Acceptance Count": 0,
+            "Acceptance Rate": "0.00%",
+            "Lines Of Code Suggested": 1,
+            "Lines Of Code Accepted": 0,
+            "Lines Acceptance Rate": "0.00%"
+        },
+        {
+            "Day": "05/18/2025",
+            "Total Suggestions Count": 54,
+            "Total Acceptance Count": 32,
+            "Acceptance Rate": "59.26%",
+            "Lines Of Code Suggested": 159,
+            "Lines Of Code Accepted": 134,
+            "Lines Acceptance Rate": "84.28%"
+        },
+        {
+            "Day": "05/19/2025",
+            "Total Suggestions Count": 1029,
+            "Total Acceptance Count": 218,
+            "Acceptance Rate": "21.19%",
+            "Lines Of Code Suggested": 2079,
+            "Lines Of Code Accepted": 329,
+            "Lines Acceptance Rate": "15.82%"
+        },
+        {
+            "Day": "05/20/2025",
+            "Total Suggestions Count": 1445,
+            "Total Acceptance Count": 318,
+            "Acceptance Rate": "22.01%",
+            "Lines Of Code Suggested": 2697,
+            "Lines Of Code Accepted": 409,
+            "Lines Acceptance Rate": "15.16%"
+        },
+        {
+            "Day": "05/21/2025",
+            "Total Suggestions Count": 867,
+            "Total Acceptance Count": 118,
+            "Acceptance Rate": "13.61%",
+            "Lines Of Code Suggested": 1728,
+            "Lines Of Code Accepted": 159,
+            "Lines Acceptance Rate": "9.20%"
+        },
+        {
+            "Day": "05/22/2025",
+            "Total Suggestions Count": 846,
+            "Total Acceptance Count": 190,
+            "Acceptance Rate": "22.46%",
+            "Lines Of Code Suggested": 1705,
+            "Lines Of Code Accepted": 314,
+            "Lines Acceptance Rate": "18.42%"
+        },
+        {
+            "Day": "05/23/2025",
+            "Total Suggestions Count": 614,
+            "Total Acceptance Count": 125,
+            "Acceptance Rate": "20.36%",
+            "Lines Of Code Suggested": 850,
+            "Lines Of Code Accepted": 116,
+            "Lines Acceptance Rate": "13.65%"
+        },
+        {
+            "Day": "05/24/2025",
+            "Total Suggestions Count": 22,
+            "Total Acceptance Count": 1,
+            "Acceptance Rate": "4.55%",
+            "Lines Of Code Suggested": 24,
+            "Lines Of Code Accepted": 1,
+            "Lines Acceptance Rate": "4.17%"
+        },
+        {
+            "Day": "05/25/2025",
+            "Total Suggestions Count": 1,
+            "Total Acceptance Count": 0,
+            "Acceptance Rate": "0.00%",
+            "Lines Of Code Suggested": 4,
+            "Lines Of Code Accepted": 0,
+            "Lines Acceptance Rate": "0.00%"
+        },
+        {
+            "Day": "05/26/2025",
+            "Total Suggestions Count": 246,
+            "Total Acceptance Count": 67,
+            "Acceptance Rate": "27.24%",
+            "Lines Of Code Suggested": 664,
+            "Lines Of Code Accepted": 178,
+            "Lines Acceptance Rate": "26.81%"
+        },
+        {
+            "Day": "05/27/2025",
+            "Total Suggestions Count": 390,
+            "Total Acceptance Count": 77,
+            "Acceptance Rate": "19.74%",
+            "Lines Of Code Suggested": 520,
+            "Lines Of Code Accepted": 63,
+            "Lines Acceptance Rate": "12.12%"
+        },
+        {
+            "Day": "05/28/2025",
+            "Total Suggestions Count": 477,
+            "Total Acceptance Count": 74,
+            "Acceptance Rate": "15.51%",
+            "Lines Of Code Suggested": 967,
+            "Lines Of Code Accepted": 115,
+            "Lines Acceptance Rate": "11.89%"
+        },
+        {
+            "Day": "05/29/2025",
+            "Total Suggestions Count": 666,
+            "Total Acceptance Count": 126,
+            "Acceptance Rate": "18.92%",
+            "Lines Of Code Suggested": 1105,
+            "Lines Of Code Accepted": 173,
+            "Lines Acceptance Rate": "15.66%"
+        },
+        {
+            "Day": "05/30/2025",
+            "Total Suggestions Count": 941,
+            "Total Acceptance Count": 158,
+            "Acceptance Rate": "16.79%",
+            "Lines Of Code Suggested": 1408,
+            "Lines Of Code Accepted": 218,
+            "Lines Acceptance Rate": "15.48%"
+        },
+        {
+            "Day": "05/31/2025",
+            "Total Suggestions Count": 155,
+            "Total Acceptance Count": 24,
+            "Acceptance Rate": "15.48%",
+            "Lines Of Code Suggested": 224,
+            "Lines Of Code Accepted": 28,
+            "Lines Acceptance Rate": "12.50%"
+        },
+        {
+            "Day": "06/01/2025",
+            "Total Suggestions Count": 0,
+            "Total Acceptance Count": 0,
+            "Acceptance Rate": "0%",
+            "Lines Of Code Suggested": 0,
+            "Lines Of Code Accepted": 0,
+            "Lines Acceptance Rate": "0%"
+        },
+        {
+            "Day": "06/02/2025",
+            "Total Suggestions Count": 989,
+            "Total Acceptance Count": 238,
+            "Acceptance Rate": "24.06%",
+            "Lines Of Code Suggested": 1633,
+            "Lines Of Code Accepted": 292,
+            "Lines Acceptance Rate": "17.88%"
+        },
+        {
+            "Day": "06/03/2025",
+            "Total Suggestions Count": 430,
+            "Total Acceptance Count": 78,
+            "Acceptance Rate": "18.14%",
+            "Lines Of Code Suggested": 716,
+            "Lines Of Code Accepted": 88,
+            "Lines Acceptance Rate": "12.29%"
+        },
+        {
+            "Day": "06/04/2025",
+            "Total Suggestions Count": 656,
+            "Total Acceptance Count": 135,
+            "Acceptance Rate": "20.58%",
+            "Lines Of Code Suggested": 1174,
+            "Lines Of Code Accepted": 164,
+            "Lines Acceptance Rate": "13.97%"
+        },
+        {
+            "Day": "06/05/2025",
+            "Total Suggestions Count": 844,
+            "Total Acceptance Count": 189,
+            "Acceptance Rate": "22.39%",
+            "Lines Of Code Suggested": 1513,
+            "Lines Of Code Accepted": 257,
+            "Lines Acceptance Rate": "16.99%"
+        },
+        {
+            "Day": "06/06/2025",
+            "Total Suggestions Count": 264,
+            "Total Acceptance Count": 39,
+            "Acceptance Rate": "14.77%",
+            "Lines Of Code Suggested": 494,
+            "Lines Of Code Accepted": 47,
+            "Lines Acceptance Rate": "9.51%"
+        },
+        {
+            "Day": "06/07/2025",
+            "Total Suggestions Count": 25,
+            "Total Acceptance Count": 2,
+            "Acceptance Rate": "8.00%",
+            "Lines Of Code Suggested": 36,
+            "Lines Of Code Accepted": 2,
+            "Lines Acceptance Rate": "5.56%"
+        },
+        {
+            "Day": "06/08/2025",
+            "Total Suggestions Count": 43,
+            "Total Acceptance Count": 4,
+            "Acceptance Rate": "9.30%",
+            "Lines Of Code Suggested": 87,
+            "Lines Of Code Accepted": 6,
+            "Lines Acceptance Rate": "6.90%"
+        },
+        {
+            "Day": "06/09/2025",
+            "Total Suggestions Count": 584,
+            "Total Acceptance Count": 129,
+            "Acceptance Rate": "22.09%",
+            "Lines Of Code Suggested": 948,
+            "Lines Of Code Accepted": 184,
+            "Lines Acceptance Rate": "19.41%"
+        }
+    ],
+    "Trung Nguyen": [
+        {
+            "Day": "05/13/2025",
+            "Total Suggestions Count": 24,
+            "Total Acceptance Count": 6,
+            "Acceptance Rate": "25.00%",
+            "Lines Of Code Suggested": 24,
+            "Lines Of Code Accepted": 4,
+            "Lines Acceptance Rate": "16.67%"
+        },
+        {
+            "Day": "05/14/2025",
+            "Total Suggestions Count": 208,
+            "Total Acceptance Count": 63,
+            "Acceptance Rate": "30.29%",
+            "Lines Of Code Suggested": 285,
+            "Lines Of Code Accepted": 115,
+            "Lines Acceptance Rate": "40.35%"
+        },
+        {
+            "Day": "05/15/2025",
+            "Total Suggestions Count": 33,
+            "Total Acceptance Count": 9,
+            "Acceptance Rate": "27.27%",
+            "Lines Of Code Suggested": 33,
+            "Lines Of Code Accepted": 8,
+            "Lines Acceptance Rate": "24.24%"
+        },
+        {
+            "Day": "05/16/2025",
+            "Total Suggestions Count": 2,
+            "Total Acceptance Count": 0,
+            "Acceptance Rate": "0.00%",
+            "Lines Of Code Suggested": 8,
+            "Lines Of Code Accepted": 0,
+            "Lines Acceptance Rate": "0.00%"
+        },
+        {
+            "Day": "05/17/2025",
+            "Total Suggestions Count": 28,
+            "Total Acceptance Count": 6,
+            "Acceptance Rate": "21.43%",
+            "Lines Of Code Suggested": 28,
+            "Lines Of Code Accepted": 2,
+            "Lines Acceptance Rate": "7.14%"
+        },
+        {
+            "Day": "05/18/2025",
+            "Total Suggestions Count": 156,
+            "Total Acceptance Count": 36,
+            "Acceptance Rate": "23.08%",
+            "Lines Of Code Suggested": 174,
+            "Lines Of Code Accepted": 48,
+            "Lines Acceptance Rate": "27.59%"
+        },
+        {
+            "Day": "05/19/2025",
+            "Total Suggestions Count": 220,
+            "Total Acceptance Count": 41,
+            "Acceptance Rate": "18.64%",
+            "Lines Of Code Suggested": 231,
+            "Lines Of Code Accepted": 26,
+            "Lines Acceptance Rate": "11.26%"
+        },
+        {
+            "Day": "05/20/2025",
+            "Total Suggestions Count": 117,
+            "Total Acceptance Count": 23,
+            "Acceptance Rate": "19.66%",
+            "Lines Of Code Suggested": 138,
+            "Lines Of Code Accepted": 34,
+            "Lines Acceptance Rate": "24.64%"
+        },
+        {
+            "Day": "05/21/2025",
+            "Total Suggestions Count": 329,
+            "Total Acceptance Count": 99,
+            "Acceptance Rate": "30.09%",
+            "Lines Of Code Suggested": 351,
+            "Lines Of Code Accepted": 104,
+            "Lines Acceptance Rate": "29.63%"
+        },
+        {
+            "Day": "05/22/2025",
+            "Total Suggestions Count": 384,
+            "Total Acceptance Count": 114,
+            "Acceptance Rate": "29.69%",
+            "Lines Of Code Suggested": 487,
+            "Lines Of Code Accepted": 138,
+            "Lines Acceptance Rate": "28.34%"
+        },
+        {
+            "Day": "05/23/2025",
+            "Total Suggestions Count": 305,
+            "Total Acceptance Count": 80,
+            "Acceptance Rate": "26.23%",
+            "Lines Of Code Suggested": 357,
+            "Lines Of Code Accepted": 67,
+            "Lines Acceptance Rate": "18.77%"
+        },
+        {
+            "Day": "05/24/2025",
+            "Total Suggestions Count": 368,
+            "Total Acceptance Count": 121,
+            "Acceptance Rate": "32.88%",
+            "Lines Of Code Suggested": 401,
+            "Lines Of Code Accepted": 97,
+            "Lines Acceptance Rate": "24.19%"
+        },
+        {
+            "Day": "05/25/2025",
+            "Total Suggestions Count": 54,
+            "Total Acceptance Count": 16,
+            "Acceptance Rate": "29.63%",
+            "Lines Of Code Suggested": 55,
+            "Lines Of Code Accepted": 12,
+            "Lines Acceptance Rate": "21.82%"
+        },
+        {
+            "Day": "05/26/2025",
+            "Total Suggestions Count": 327,
+            "Total Acceptance Count": 85,
+            "Acceptance Rate": "25.99%",
+            "Lines Of Code Suggested": 545,
+            "Lines Of Code Accepted": 138,
+            "Lines Acceptance Rate": "25.32%"
+        },
+        {
+            "Day": "05/27/2025",
+            "Total Suggestions Count": 201,
+            "Total Acceptance Count": 58,
+            "Acceptance Rate": "28.86%",
+            "Lines Of Code Suggested": 261,
+            "Lines Of Code Accepted": 68,
+            "Lines Acceptance Rate": "26.05%"
+        },
+        {
+            "Day": "05/28/2025",
+            "Total Suggestions Count": 152,
+            "Total Acceptance Count": 42,
+            "Acceptance Rate": "27.63%",
+            "Lines Of Code Suggested": 191,
+            "Lines Of Code Accepted": 55,
+            "Lines Acceptance Rate": "28.80%"
+        },
+        {
+            "Day": "05/29/2025",
+            "Total Suggestions Count": 238,
+            "Total Acceptance Count": 55,
+            "Acceptance Rate": "23.11%",
+            "Lines Of Code Suggested": 481,
+            "Lines Of Code Accepted": 73,
+            "Lines Acceptance Rate": "15.18%"
+        },
+        {
+            "Day": "05/30/2025",
+            "Total Suggestions Count": 44,
+            "Total Acceptance Count": 3,
+            "Acceptance Rate": "6.82%",
+            "Lines Of Code Suggested": 53,
+            "Lines Of Code Accepted": 3,
+            "Lines Acceptance Rate": "5.66%"
+        },
+        {
+            "Day": "05/31/2025",
+            "Total Suggestions Count": 573,
+            "Total Acceptance Count": 109,
+            "Acceptance Rate": "19.02%",
+            "Lines Of Code Suggested": 1409,
+            "Lines Of Code Accepted": 280,
+            "Lines Acceptance Rate": "19.87%"
+        },
+        {
+            "Day": "06/01/2025",
+            "Total Suggestions Count": 0,
+            "Total Acceptance Count": 0,
+            "Acceptance Rate": "0%",
+            "Lines Of Code Suggested": 0,
+            "Lines Of Code Accepted": 0,
+            "Lines Acceptance Rate": "0%"
+        },
+        {
+            "Day": "06/02/2025",
+            "Total Suggestions Count": 9,
+            "Total Acceptance Count": 1,
+            "Acceptance Rate": "11.11%",
+            "Lines Of Code Suggested": 9,
+            "Lines Of Code Accepted": 1,
+            "Lines Acceptance Rate": "11.11%"
+        },
+        {
+            "Day": "06/03/2025",
+            "Total Suggestions Count": 482,
+            "Total Acceptance Count": 87,
+            "Acceptance Rate": "18.05%",
+            "Lines Of Code Suggested": 672,
+            "Lines Of Code Accepted": 79,
+            "Lines Acceptance Rate": "11.76%"
+        },
+        {
+            "Day": "06/04/2025",
+            "Total Suggestions Count": 420,
+            "Total Acceptance Count": 101,
+            "Acceptance Rate": "24.05%",
+            "Lines Of Code Suggested": 527,
+            "Lines Of Code Accepted": 77,
+            "Lines Acceptance Rate": "14.61%"
+        },
+        {
+            "Day": "06/05/2025",
+            "Total Suggestions Count": 160,
+            "Total Acceptance Count": 35,
+            "Acceptance Rate": "21.88%",
+            "Lines Of Code Suggested": 239,
+            "Lines Of Code Accepted": 65,
+            "Lines Acceptance Rate": "27.20%"
+        },
+        {
+            "Day": "06/06/2025",
+            "Total Suggestions Count": 355,
+            "Total Acceptance Count": 100,
+            "Acceptance Rate": "28.17%",
+            "Lines Of Code Suggested": 453,
+            "Lines Of Code Accepted": 116,
+            "Lines Acceptance Rate": "25.61%"
+        },
+        {
+            "Day": "06/07/2025",
+            "Total Suggestions Count": 19,
+            "Total Acceptance Count": 2,
+            "Acceptance Rate": "10.53%",
+            "Lines Of Code Suggested": 19,
+            "Lines Of Code Accepted": 2,
+            "Lines Acceptance Rate": "10.53%"
+        },
+        {
+            "Day": "06/08/2025",
+            "Total Suggestions Count": 93,
+            "Total Acceptance Count": 14,
+            "Acceptance Rate": "15.05%",
+            "Lines Of Code Suggested": 106,
+            "Lines Of Code Accepted": 6,
+            "Lines Acceptance Rate": "5.66%"
+        },
+        {
+            "Day": "06/09/2025",
+            "Total Suggestions Count": 335,
+            "Total Acceptance Count": 79,
+            "Acceptance Rate": "23.58%",
+            "Lines Of Code Suggested": 562,
+            "Lines Of Code Accepted": 95,
+            "Lines Acceptance Rate": "16.90%"
+        }
+    ],
+    "Balaji Nambi": [
+        {
+            "Day": "05/13/2025",
+            "Total Suggestions Count": 7350,
+            "Total Acceptance Count": 1872,
+            "Acceptance Rate": "25.47%",
+            "Lines Of Code Suggested": 13961,
+            "Lines Of Code Accepted": 2343,
+            "Lines Acceptance Rate": "16.78%"
+        },
+        {
+            "Day": "05/14/2025",
+            "Total Suggestions Count": 7624,
+            "Total Acceptance Count": 1826,
+            "Acceptance Rate": "23.95%",
+            "Lines Of Code Suggested": 14582,
+            "Lines Of Code Accepted": 2550,
+            "Lines Acceptance Rate": "17.49%"
+        },
+        {
+            "Day": "05/15/2025",
+            "Total Suggestions Count": 7511,
+            "Total Acceptance Count": 1691,
+            "Acceptance Rate": "22.51%",
+            "Lines Of Code Suggested": 15025,
+            "Lines Of Code Accepted": 2551,
+            "Lines Acceptance Rate": "16.98%"
+        },
+        {
+            "Day": "05/16/2025",
+            "Total Suggestions Count": 6136,
+            "Total Acceptance Count": 1634,
+            "Acceptance Rate": "26.63%",
+            "Lines Of Code Suggested": 12409,
+            "Lines Of Code Accepted": 2349,
+            "Lines Acceptance Rate": "18.93%"
+        },
+        {
+            "Day": "05/17/2025",
+            "Total Suggestions Count": 1003,
+            "Total Acceptance Count": 245,
+            "Acceptance Rate": "24.43%",
+            "Lines Of Code Suggested": 2184,
+            "Lines Of Code Accepted": 237,
+            "Lines Acceptance Rate": "10.85%"
+        },
+        {
+            "Day": "05/18/2025",
+            "Total Suggestions Count": 1039,
+            "Total Acceptance Count": 265,
+            "Acceptance Rate": "25.51%",
+            "Lines Of Code Suggested": 2581,
+            "Lines Of Code Accepted": 594,
+            "Lines Acceptance Rate": "23.01%"
+        },
+        {
+            "Day": "05/19/2025",
+            "Total Suggestions Count": 7422,
+            "Total Acceptance Count": 1883,
+            "Acceptance Rate": "25.37%",
+            "Lines Of Code Suggested": 13521,
+            "Lines Of Code Accepted": 2647,
+            "Lines Acceptance Rate": "19.58%"
+        },
+        {
+            "Day": "05/20/2025",
+            "Total Suggestions Count": 6919,
+            "Total Acceptance Count": 1649,
+            "Acceptance Rate": "23.83%",
+            "Lines Of Code Suggested": 12925,
+            "Lines Of Code Accepted": 1959,
+            "Lines Acceptance Rate": "15.16%"
+        },
+        {
+            "Day": "05/21/2025",
+            "Total Suggestions Count": 6921,
+            "Total Acceptance Count": 1535,
+            "Acceptance Rate": "22.18%",
+            "Lines Of Code Suggested": 12629,
+            "Lines Of Code Accepted": 2031,
+            "Lines Acceptance Rate": "16.08%"
+        },
+        {
+            "Day": "05/22/2025",
+            "Total Suggestions Count": 7140,
+            "Total Acceptance Count": 1506,
+            "Acceptance Rate": "21.09%",
+            "Lines Of Code Suggested": 13650,
+            "Lines Of Code Accepted": 2222,
+            "Lines Acceptance Rate": "16.28%"
+        },
+        {
+            "Day": "05/23/2025",
+            "Total Suggestions Count": 5342,
+            "Total Acceptance Count": 1165,
+            "Acceptance Rate": "21.81%",
+            "Lines Of Code Suggested": 10785,
+            "Lines Of Code Accepted": 1551,
+            "Lines Acceptance Rate": "14.38%"
+        },
+        {
+            "Day": "05/24/2025",
+            "Total Suggestions Count": 580,
+            "Total Acceptance Count": 131,
+            "Acceptance Rate": "22.59%",
+            "Lines Of Code Suggested": 1076,
+            "Lines Of Code Accepted": 159,
+            "Lines Acceptance Rate": "14.78%"
+        },
+        {
+            "Day": "05/25/2025",
+            "Total Suggestions Count": 490,
+            "Total Acceptance Count": 63,
+            "Acceptance Rate": "12.86%",
+            "Lines Of Code Suggested": 1226,
+            "Lines Of Code Accepted": 97,
+            "Lines Acceptance Rate": "7.91%"
+        },
+        {
+            "Day": "05/26/2025",
+            "Total Suggestions Count": 1879,
+            "Total Acceptance Count": 450,
+            "Acceptance Rate": "23.95%",
+            "Lines Of Code Suggested": 3696,
+            "Lines Of Code Accepted": 488,
+            "Lines Acceptance Rate": "13.20%"
+        },
+        {
+            "Day": "05/27/2025",
+            "Total Suggestions Count": 5926,
+            "Total Acceptance Count": 1402,
+            "Acceptance Rate": "23.66%",
+            "Lines Of Code Suggested": 11242,
+            "Lines Of Code Accepted": 2011,
+            "Lines Acceptance Rate": "17.89%"
+        },
+        {
+            "Day": "05/28/2025",
+            "Total Suggestions Count": 7499,
+            "Total Acceptance Count": 1929,
+            "Acceptance Rate": "25.72%",
+            "Lines Of Code Suggested": 12336,
+            "Lines Of Code Accepted": 2255,
+            "Lines Acceptance Rate": "18.28%"
+        },
+        {
+            "Day": "05/29/2025",
+            "Total Suggestions Count": 6160,
+            "Total Acceptance Count": 1477,
+            "Acceptance Rate": "23.98%",
+            "Lines Of Code Suggested": 11049,
+            "Lines Of Code Accepted": 2096,
+            "Lines Acceptance Rate": "18.97%"
+        },
+        {
+            "Day": "05/30/2025",
+            "Total Suggestions Count": 5408,
+            "Total Acceptance Count": 1401,
+            "Acceptance Rate": "25.91%",
+            "Lines Of Code Suggested": 9359,
+            "Lines Of Code Accepted": 1863,
+            "Lines Acceptance Rate": "19.91%"
+        },
+        {
+            "Day": "05/31/2025",
+            "Total Suggestions Count": 1197,
+            "Total Acceptance Count": 283,
+            "Acceptance Rate": "23.64%",
+            "Lines Of Code Suggested": 2056,
+            "Lines Of Code Accepted": 265,
+            "Lines Acceptance Rate": "12.89%"
+        },
+        {
+            "Day": "06/01/2025",
+            "Total Suggestions Count": 317,
+            "Total Acceptance Count": 85,
+            "Acceptance Rate": "26.81%",
+            "Lines Of Code Suggested": 576,
+            "Lines Of Code Accepted": 113,
+            "Lines Acceptance Rate": "19.62%"
+        },
+        {
+            "Day": "06/02/2025",
+            "Total Suggestions Count": 5487,
+            "Total Acceptance Count": 1250,
+            "Acceptance Rate": "22.78%",
+            "Lines Of Code Suggested": 9544,
+            "Lines Of Code Accepted": 1779,
+            "Lines Acceptance Rate": "18.64%"
+        },
+        {
+            "Day": "06/03/2025",
+            "Total Suggestions Count": 5482,
+            "Total Acceptance Count": 1276,
+            "Acceptance Rate": "23.28%",
+            "Lines Of Code Suggested": 9131,
+            "Lines Of Code Accepted": 1505,
+            "Lines Acceptance Rate": "16.48%"
+        },
+        {
+            "Day": "06/04/2025",
+            "Total Suggestions Count": 5883,
+            "Total Acceptance Count": 1376,
+            "Acceptance Rate": "23.39%",
+            "Lines Of Code Suggested": 10583,
+            "Lines Of Code Accepted": 1686,
+            "Lines Acceptance Rate": "15.93%"
+        },
+        {
+            "Day": "06/05/2025",
+            "Total Suggestions Count": 6115,
+            "Total Acceptance Count": 1395,
+            "Acceptance Rate": "22.81%",
+            "Lines Of Code Suggested": 11076,
+            "Lines Of Code Accepted": 1824,
+            "Lines Acceptance Rate": "16.47%"
+        },
+        {
+            "Day": "06/06/2025",
+            "Total Suggestions Count": 5114,
+            "Total Acceptance Count": 1068,
+            "Acceptance Rate": "20.88%",
+            "Lines Of Code Suggested": 9632,
+            "Lines Of Code Accepted": 1706,
+            "Lines Acceptance Rate": "17.71%"
+        },
+        {
+            "Day": "06/07/2025",
+            "Total Suggestions Count": 1626,
+            "Total Acceptance Count": 399,
+            "Acceptance Rate": "24.54%",
+            "Lines Of Code Suggested": 2741,
+            "Lines Of Code Accepted": 401,
+            "Lines Acceptance Rate": "14.63%"
+        },
+        {
+            "Day": "06/08/2025",
+            "Total Suggestions Count": 653,
+            "Total Acceptance Count": 135,
+            "Acceptance Rate": "20.67%",
+            "Lines Of Code Suggested": 1241,
+            "Lines Of Code Accepted": 234,
+            "Lines Acceptance Rate": "18.86%"
+        },
+        {
+            "Day": "06/09/2025",
+            "Total Suggestions Count": 6212,
+            "Total Acceptance Count": 1433,
+            "Acceptance Rate": "23.07%",
+            "Lines Of Code Suggested": 11872,
+            "Lines Of Code Accepted": 1948,
+            "Lines Acceptance Rate": "16.41%"
+        }
+    ],
+    "Dave Newton": [
+        {
+            "Day": "05/13/2025",
+            "Total Suggestions Count": 1626,
+            "Total Acceptance Count": 347,
+            "Acceptance Rate": "21.34%",
+            "Lines Of Code Suggested": 3549,
+            "Lines Of Code Accepted": 517,
+            "Lines Acceptance Rate": "14.57%"
+        },
+        {
+            "Day": "05/14/2025",
+            "Total Suggestions Count": 1171,
+            "Total Acceptance Count": 249,
+            "Acceptance Rate": "21.26%",
+            "Lines Of Code Suggested": 2278,
+            "Lines Of Code Accepted": 337,
+            "Lines Acceptance Rate": "14.79%"
+        },
+        {
+            "Day": "05/15/2025",
+            "Total Suggestions Count": 960,
+            "Total Acceptance Count": 183,
+            "Acceptance Rate": "19.06%",
+            "Lines Of Code Suggested": 2101,
+            "Lines Of Code Accepted": 312,
+            "Lines Acceptance Rate": "14.85%"
+        },
+        {
+            "Day": "05/16/2025",
+            "Total Suggestions Count": 697,
+            "Total Acceptance Count": 147,
+            "Acceptance Rate": "21.09%",
+            "Lines Of Code Suggested": 1053,
+            "Lines Of Code Accepted": 195,
+            "Lines Acceptance Rate": "18.52%"
+        },
+        {
+            "Day": "05/17/2025",
+            "Total Suggestions Count": 344,
+            "Total Acceptance Count": 81,
+            "Acceptance Rate": "23.55%",
+            "Lines Of Code Suggested": 670,
+            "Lines Of Code Accepted": 89,
+            "Lines Acceptance Rate": "13.28%"
+        },
+        {
+            "Day": "05/18/2025",
+            "Total Suggestions Count": 325,
+            "Total Acceptance Count": 69,
+            "Acceptance Rate": "21.23%",
+            "Lines Of Code Suggested": 668,
+            "Lines Of Code Accepted": 50,
+            "Lines Acceptance Rate": "7.49%"
+        },
+        {
+            "Day": "05/19/2025",
+            "Total Suggestions Count": 1505,
+            "Total Acceptance Count": 468,
+            "Acceptance Rate": "31.10%",
+            "Lines Of Code Suggested": 2680,
+            "Lines Of Code Accepted": 562,
+            "Lines Acceptance Rate": "20.97%"
+        },
+        {
+            "Day": "05/20/2025",
+            "Total Suggestions Count": 1234,
+            "Total Acceptance Count": 302,
+            "Acceptance Rate": "24.47%",
+            "Lines Of Code Suggested": 2430,
+            "Lines Of Code Accepted": 483,
+            "Lines Acceptance Rate": "19.88%"
+        },
+        {
+            "Day": "05/21/2025",
+            "Total Suggestions Count": 1395,
+            "Total Acceptance Count": 392,
+            "Acceptance Rate": "28.10%",
+            "Lines Of Code Suggested": 2748,
+            "Lines Of Code Accepted": 642,
+            "Lines Acceptance Rate": "23.36%"
+        },
+        {
+            "Day": "05/22/2025",
+            "Total Suggestions Count": 1642,
+            "Total Acceptance Count": 357,
+            "Acceptance Rate": "21.74%",
+            "Lines Of Code Suggested": 3362,
+            "Lines Of Code Accepted": 653,
+            "Lines Acceptance Rate": "19.42%"
+        },
+        {
+            "Day": "05/23/2025",
+            "Total Suggestions Count": 1359,
+            "Total Acceptance Count": 199,
+            "Acceptance Rate": "14.64%",
+            "Lines Of Code Suggested": 3340,
+            "Lines Of Code Accepted": 448,
+            "Lines Acceptance Rate": "13.41%"
+        },
+        {
+            "Day": "05/24/2025",
+            "Total Suggestions Count": 213,
+            "Total Acceptance Count": 57,
+            "Acceptance Rate": "26.76%",
+            "Lines Of Code Suggested": 415,
+            "Lines Of Code Accepted": 107,
+            "Lines Acceptance Rate": "25.78%"
+        },
+        {
+            "Day": "05/25/2025",
+            "Total Suggestions Count": 103,
+            "Total Acceptance Count": 13,
+            "Acceptance Rate": "12.62%",
+            "Lines Of Code Suggested": 225,
+            "Lines Of Code Accepted": 14,
+            "Lines Acceptance Rate": "6.22%"
+        },
+        {
+            "Day": "05/26/2025",
+            "Total Suggestions Count": 571,
+            "Total Acceptance Count": 107,
+            "Acceptance Rate": "18.74%",
+            "Lines Of Code Suggested": 859,
+            "Lines Of Code Accepted": 71,
+            "Lines Acceptance Rate": "8.27%"
+        },
+        {
+            "Day": "05/27/2025",
+            "Total Suggestions Count": 1042,
+            "Total Acceptance Count": 222,
+            "Acceptance Rate": "21.31%",
+            "Lines Of Code Suggested": 2006,
+            "Lines Of Code Accepted": 348,
+            "Lines Acceptance Rate": "17.35%"
+        },
+        {
+            "Day": "05/28/2025",
+            "Total Suggestions Count": 1461,
+            "Total Acceptance Count": 253,
+            "Acceptance Rate": "17.32%",
+            "Lines Of Code Suggested": 3567,
+            "Lines Of Code Accepted": 473,
+            "Lines Acceptance Rate": "13.26%"
+        },
+        {
+            "Day": "05/29/2025",
+            "Total Suggestions Count": 1635,
+            "Total Acceptance Count": 280,
+            "Acceptance Rate": "17.13%",
+            "Lines Of Code Suggested": 3183,
+            "Lines Of Code Accepted": 333,
+            "Lines Acceptance Rate": "10.46%"
+        },
+        {
+            "Day": "05/30/2025",
+            "Total Suggestions Count": 1150,
+            "Total Acceptance Count": 197,
+            "Acceptance Rate": "17.13%",
+            "Lines Of Code Suggested": 2249,
+            "Lines Of Code Accepted": 363,
+            "Lines Acceptance Rate": "16.14%"
+        },
+        {
+            "Day": "05/31/2025",
+            "Total Suggestions Count": 380,
+            "Total Acceptance Count": 90,
+            "Acceptance Rate": "23.68%",
+            "Lines Of Code Suggested": 947,
+            "Lines Of Code Accepted": 301,
+            "Lines Acceptance Rate": "31.78%"
+        },
+        {
+            "Day": "06/01/2025",
+            "Total Suggestions Count": 160,
+            "Total Acceptance Count": 34,
+            "Acceptance Rate": "21.25%",
+            "Lines Of Code Suggested": 372,
+            "Lines Of Code Accepted": 40,
+            "Lines Acceptance Rate": "10.75%"
+        },
+        {
+            "Day": "06/02/2025",
+            "Total Suggestions Count": 1296,
+            "Total Acceptance Count": 276,
+            "Acceptance Rate": "21.30%",
+            "Lines Of Code Suggested": 2628,
+            "Lines Of Code Accepted": 385,
+            "Lines Acceptance Rate": "14.65%"
+        },
+        {
+            "Day": "06/03/2025",
+            "Total Suggestions Count": 1324,
+            "Total Acceptance Count": 282,
+            "Acceptance Rate": "21.30%",
+            "Lines Of Code Suggested": 2584,
+            "Lines Of Code Accepted": 310,
+            "Lines Acceptance Rate": "12.00%"
+        },
+        {
+            "Day": "06/04/2025",
+            "Total Suggestions Count": 957,
+            "Total Acceptance Count": 189,
+            "Acceptance Rate": "19.75%",
+            "Lines Of Code Suggested": 1933,
+            "Lines Of Code Accepted": 326,
+            "Lines Acceptance Rate": "16.86%"
+        },
+        {
+            "Day": "06/05/2025",
+            "Total Suggestions Count": 802,
+            "Total Acceptance Count": 148,
+            "Acceptance Rate": "18.45%",
+            "Lines Of Code Suggested": 2082,
+            "Lines Of Code Accepted": 165,
+            "Lines Acceptance Rate": "7.93%"
+        },
+        {
+            "Day": "06/06/2025",
+            "Total Suggestions Count": 1023,
+            "Total Acceptance Count": 227,
+            "Acceptance Rate": "22.19%",
+            "Lines Of Code Suggested": 2082,
+            "Lines Of Code Accepted": 364,
+            "Lines Acceptance Rate": "17.48%"
+        },
+        {
+            "Day": "06/07/2025",
+            "Total Suggestions Count": 67,
+            "Total Acceptance Count": 20,
+            "Acceptance Rate": "29.85%",
+            "Lines Of Code Suggested": 173,
+            "Lines Of Code Accepted": 34,
+            "Lines Acceptance Rate": "19.65%"
+        },
+        {
+            "Day": "06/08/2025",
+            "Total Suggestions Count": 72,
+            "Total Acceptance Count": 22,
+            "Acceptance Rate": "30.56%",
+            "Lines Of Code Suggested": 142,
+            "Lines Of Code Accepted": 34,
+            "Lines Acceptance Rate": "23.94%"
+        },
+        {
+            "Day": "06/09/2025",
+            "Total Suggestions Count": 1476,
+            "Total Acceptance Count": 420,
+            "Acceptance Rate": "28.46%",
+            "Lines Of Code Suggested": 2948,
+            "Lines Of Code Accepted": 720,
+            "Lines Acceptance Rate": "24.42%"
+        }
+    ],
+    "Rajiv Vipani": [
+        {
+            "Day": "05/13/2025",
+            "Total Suggestions Count": 316,
+            "Total Acceptance Count": 100,
+            "Acceptance Rate": "31.65%",
+            "Lines Of Code Suggested": 519,
+            "Lines Of Code Accepted": 156,
+            "Lines Acceptance Rate": "30.06%"
+        },
+        {
+            "Day": "05/14/2025",
+            "Total Suggestions Count": 144,
+            "Total Acceptance Count": 26,
+            "Acceptance Rate": "18.06%",
+            "Lines Of Code Suggested": 278,
+            "Lines Of Code Accepted": 27,
+            "Lines Acceptance Rate": "9.71%"
+        },
+        {
+            "Day": "05/15/2025",
+            "Total Suggestions Count": 59,
+            "Total Acceptance Count": 6,
+            "Acceptance Rate": "10.17%",
+            "Lines Of Code Suggested": 104,
+            "Lines Of Code Accepted": 6,
+            "Lines Acceptance Rate": "5.77%"
+        },
+        {
+            "Day": "05/16/2025",
+            "Total Suggestions Count": 106,
+            "Total Acceptance Count": 10,
+            "Acceptance Rate": "9.43%",
+            "Lines Of Code Suggested": 167,
+            "Lines Of Code Accepted": 18,
+            "Lines Acceptance Rate": "10.78%"
+        },
+        {
+            "Day": "05/17/2025",
+            "Total Suggestions Count": 22,
+            "Total Acceptance Count": 3,
+            "Acceptance Rate": "13.64%",
+            "Lines Of Code Suggested": 24,
+            "Lines Of Code Accepted": 3,
+            "Lines Acceptance Rate": "12.50%"
+        },
+        {
+            "Day": "05/19/2025",
+            "Total Suggestions Count": 235,
+            "Total Acceptance Count": 40,
+            "Acceptance Rate": "17.02%",
+            "Lines Of Code Suggested": 343,
+            "Lines Of Code Accepted": 78,
+            "Lines Acceptance Rate": "22.74%"
+        },
+        {
+            "Day": "05/20/2025",
+            "Total Suggestions Count": 99,
+            "Total Acceptance Count": 30,
+            "Acceptance Rate": "30.30%",
+            "Lines Of Code Suggested": 112,
+            "Lines Of Code Accepted": 28,
+            "Lines Acceptance Rate": "25.00%"
+        },
+        {
+            "Day": "05/21/2025",
+            "Total Suggestions Count": 152,
+            "Total Acceptance Count": 29,
+            "Acceptance Rate": "19.08%",
+            "Lines Of Code Suggested": 302,
+            "Lines Of Code Accepted": 45,
+            "Lines Acceptance Rate": "14.90%"
+        },
+        {
+            "Day": "05/22/2025",
+            "Total Suggestions Count": 234,
+            "Total Acceptance Count": 31,
+            "Acceptance Rate": "13.25%",
+            "Lines Of Code Suggested": 373,
+            "Lines Of Code Accepted": 63,
+            "Lines Acceptance Rate": "16.89%"
+        },
+        {
+            "Day": "05/23/2025",
+            "Total Suggestions Count": 212,
+            "Total Acceptance Count": 37,
+            "Acceptance Rate": "17.45%",
+            "Lines Of Code Suggested": 269,
+            "Lines Of Code Accepted": 59,
+            "Lines Acceptance Rate": "21.93%"
+        },
+        {
+            "Day": "05/26/2025",
+            "Total Suggestions Count": 14,
+            "Total Acceptance Count": 1,
+            "Acceptance Rate": "7.14%",
+            "Lines Of Code Suggested": 49,
+            "Lines Of Code Accepted": 1,
+            "Lines Acceptance Rate": "2.04%"
+        },
+        {
+            "Day": "05/27/2025",
+            "Total Suggestions Count": 265,
+            "Total Acceptance Count": 88,
+            "Acceptance Rate": "33.21%",
+            "Lines Of Code Suggested": 383,
+            "Lines Of Code Accepted": 74,
+            "Lines Acceptance Rate": "19.32%"
+        },
+        {
+            "Day": "05/28/2025",
+            "Total Suggestions Count": 83,
+            "Total Acceptance Count": 15,
+            "Acceptance Rate": "18.07%",
+            "Lines Of Code Suggested": 122,
+            "Lines Of Code Accepted": 20,
+            "Lines Acceptance Rate": "16.39%"
+        },
+        {
+            "Day": "05/29/2025",
+            "Total Suggestions Count": 139,
+            "Total Acceptance Count": 62,
+            "Acceptance Rate": "44.60%",
+            "Lines Of Code Suggested": 264,
+            "Lines Of Code Accepted": 66,
+            "Lines Acceptance Rate": "25.00%"
+        },
+        {
+            "Day": "05/30/2025",
+            "Total Suggestions Count": 317,
+            "Total Acceptance Count": 36,
+            "Acceptance Rate": "11.36%",
+            "Lines Of Code Suggested": 372,
+            "Lines Of Code Accepted": 39,
+            "Lines Acceptance Rate": "10.48%"
+        },
+        {
+            "Day": "05/31/2025",
+            "Total Suggestions Count": 3,
+            "Total Acceptance Count": 2,
+            "Acceptance Rate": "66.67%",
+            "Lines Of Code Suggested": 3,
+            "Lines Of Code Accepted": 2,
+            "Lines Acceptance Rate": "66.67%"
+        },
+        {
+            "Day": "06/02/2025",
+            "Total Suggestions Count": 471,
+            "Total Acceptance Count": 167,
+            "Acceptance Rate": "35.46%",
+            "Lines Of Code Suggested": 689,
+            "Lines Of Code Accepted": 212,
+            "Lines Acceptance Rate": "30.77%"
+        },
+        {
+            "Day": "06/03/2025",
+            "Total Suggestions Count": 151,
+            "Total Acceptance Count": 34,
+            "Acceptance Rate": "22.52%",
+            "Lines Of Code Suggested": 306,
+            "Lines Of Code Accepted": 87,
+            "Lines Acceptance Rate": "28.43%"
+        },
+        {
+            "Day": "06/04/2025",
+            "Total Suggestions Count": 256,
+            "Total Acceptance Count": 64,
+            "Acceptance Rate": "25.00%",
+            "Lines Of Code Suggested": 328,
+            "Lines Of Code Accepted": 71,
+            "Lines Acceptance Rate": "21.65%"
+        },
+        {
+            "Day": "06/05/2025",
+            "Total Suggestions Count": 42,
+            "Total Acceptance Count": 7,
+            "Acceptance Rate": "16.67%",
+            "Lines Of Code Suggested": 47,
+            "Lines Of Code Accepted": 9,
+            "Lines Acceptance Rate": "19.15%"
+        },
+        {
+            "Day": "06/06/2025",
+            "Total Suggestions Count": 172,
+            "Total Acceptance Count": 44,
+            "Acceptance Rate": "25.58%",
+            "Lines Of Code Suggested": 353,
+            "Lines Of Code Accepted": 63,
+            "Lines Acceptance Rate": "17.85%"
+        },
+        {
+            "Day": "06/07/2025",
+            "Total Suggestions Count": 55,
+            "Total Acceptance Count": 13,
+            "Acceptance Rate": "23.64%",
+            "Lines Of Code Suggested": 95,
+            "Lines Of Code Accepted": 14,
+            "Lines Acceptance Rate": "14.74%"
+        },
+        {
+            "Day": "06/09/2025",
+            "Total Suggestions Count": 148,
+            "Total Acceptance Count": 11,
+            "Acceptance Rate": "7.43%",
+            "Lines Of Code Suggested": 214,
+            "Lines Of Code Accepted": 16,
+            "Lines Acceptance Rate": "7.48%"
+        }
+    ],
+    "Saji Joseph": [
+        {
+            "Day": "05/13/2025",
+            "Total Suggestions Count": 234,
+            "Total Acceptance Count": 118,
+            "Acceptance Rate": "50.43%",
+            "Lines Of Code Suggested": 286,
+            "Lines Of Code Accepted": 116,
+            "Lines Acceptance Rate": "40.56%"
+        },
+        {
+            "Day": "05/14/2025",
+            "Total Suggestions Count": 121,
+            "Total Acceptance Count": 43,
+            "Acceptance Rate": "35.54%",
+            "Lines Of Code Suggested": 193,
+            "Lines Of Code Accepted": 44,
+            "Lines Acceptance Rate": "22.80%"
+        },
+        {
+            "Day": "05/15/2025",
+            "Total Suggestions Count": 123,
+            "Total Acceptance Count": 25,
+            "Acceptance Rate": "20.33%",
+            "Lines Of Code Suggested": 272,
+            "Lines Of Code Accepted": 24,
+            "Lines Acceptance Rate": "8.82%"
+        },
+        {
+            "Day": "05/16/2025",
+            "Total Suggestions Count": 56,
+            "Total Acceptance Count": 6,
+            "Acceptance Rate": "10.71%",
+            "Lines Of Code Suggested": 183,
+            "Lines Of Code Accepted": 6,
+            "Lines Acceptance Rate": "3.28%"
+        },
+        {
+            "Day": "05/17/2025",
+            "Total Suggestions Count": 0,
+            "Total Acceptance Count": 0,
+            "Acceptance Rate": "0%",
+            "Lines Of Code Suggested": 0,
+            "Lines Of Code Accepted": 0,
+            "Lines Acceptance Rate": "0%"
+        },
+        {
+            "Day": "05/19/2025",
+            "Total Suggestions Count": 180,
+            "Total Acceptance Count": 21,
+            "Acceptance Rate": "11.67%",
+            "Lines Of Code Suggested": 298,
+            "Lines Of Code Accepted": 40,
+            "Lines Acceptance Rate": "13.42%"
+        },
+        {
+            "Day": "05/20/2025",
+            "Total Suggestions Count": 502,
+            "Total Acceptance Count": 144,
+            "Acceptance Rate": "28.69%",
+            "Lines Of Code Suggested": 1016,
+            "Lines Of Code Accepted": 168,
+            "Lines Acceptance Rate": "16.54%"
+        },
+        {
+            "Day": "05/21/2025",
+            "Total Suggestions Count": 378,
+            "Total Acceptance Count": 30,
+            "Acceptance Rate": "7.94%",
+            "Lines Of Code Suggested": 696,
+            "Lines Of Code Accepted": 41,
+            "Lines Acceptance Rate": "5.89%"
+        },
+        {
+            "Day": "05/22/2025",
+            "Total Suggestions Count": 228,
+            "Total Acceptance Count": 40,
+            "Acceptance Rate": "17.54%",
+            "Lines Of Code Suggested": 440,
+            "Lines Of Code Accepted": 37,
+            "Lines Acceptance Rate": "8.41%"
+        },
+        {
+            "Day": "05/23/2025",
+            "Total Suggestions Count": 140,
+            "Total Acceptance Count": 14,
+            "Acceptance Rate": "10.00%",
+            "Lines Of Code Suggested": 246,
+            "Lines Of Code Accepted": 13,
+            "Lines Acceptance Rate": "5.28%"
+        },
+        {
+            "Day": "05/24/2025",
+            "Total Suggestions Count": 0,
+            "Total Acceptance Count": 0,
+            "Acceptance Rate": "0%",
+            "Lines Of Code Suggested": 0,
+            "Lines Of Code Accepted": 0,
+            "Lines Acceptance Rate": "0%"
+        },
+        {
+            "Day": "05/25/2025",
+            "Total Suggestions Count": 32,
+            "Total Acceptance Count": 8,
+            "Acceptance Rate": "25.00%",
+            "Lines Of Code Suggested": 50,
+            "Lines Of Code Accepted": 11,
+            "Lines Acceptance Rate": "22.00%"
+        },
+        {
+            "Day": "05/26/2025",
+            "Total Suggestions Count": 51,
+            "Total Acceptance Count": 16,
+            "Acceptance Rate": "31.37%",
+            "Lines Of Code Suggested": 92,
+            "Lines Of Code Accepted": 26,
+            "Lines Acceptance Rate": "28.26%"
+        },
+        {
+            "Day": "05/27/2025",
+            "Total Suggestions Count": 323,
+            "Total Acceptance Count": 82,
+            "Acceptance Rate": "25.39%",
+            "Lines Of Code Suggested": 544,
+            "Lines Of Code Accepted": 96,
+            "Lines Acceptance Rate": "17.65%"
+        },
+        {
+            "Day": "05/28/2025",
+            "Total Suggestions Count": 457,
+            "Total Acceptance Count": 91,
+            "Acceptance Rate": "19.91%",
+            "Lines Of Code Suggested": 843,
+            "Lines Of Code Accepted": 150,
+            "Lines Acceptance Rate": "17.79%"
+        },
+        {
+            "Day": "05/29/2025",
+            "Total Suggestions Count": 80,
+            "Total Acceptance Count": 6,
+            "Acceptance Rate": "7.50%",
+            "Lines Of Code Suggested": 90,
+            "Lines Of Code Accepted": 6,
+            "Lines Acceptance Rate": "6.67%"
+        },
+        {
+            "Day": "05/30/2025",
+            "Total Suggestions Count": 374,
+            "Total Acceptance Count": 43,
+            "Acceptance Rate": "11.50%",
+            "Lines Of Code Suggested": 529,
+            "Lines Of Code Accepted": 38,
+            "Lines Acceptance Rate": "7.18%"
+        },
+        {
+            "Day": "05/31/2025",
+            "Total Suggestions Count": 0,
+            "Total Acceptance Count": 0,
+            "Acceptance Rate": "0%",
+            "Lines Of Code Suggested": 0,
+            "Lines Of Code Accepted": 0,
+            "Lines Acceptance Rate": "0%"
+        },
+        {
+            "Day": "06/02/2025",
+            "Total Suggestions Count": 77,
+            "Total Acceptance Count": 11,
+            "Acceptance Rate": "14.29%",
+            "Lines Of Code Suggested": 86,
+            "Lines Of Code Accepted": 9,
+            "Lines Acceptance Rate": "10.47%"
+        },
+        {
+            "Day": "06/03/2025",
+            "Total Suggestions Count": 407,
+            "Total Acceptance Count": 51,
+            "Acceptance Rate": "12.53%",
+            "Lines Of Code Suggested": 572,
+            "Lines Of Code Accepted": 42,
+            "Lines Acceptance Rate": "7.34%"
+        },
+        {
+            "Day": "06/04/2025",
+            "Total Suggestions Count": 128,
+            "Total Acceptance Count": 20,
+            "Acceptance Rate": "15.62%",
+            "Lines Of Code Suggested": 146,
+            "Lines Of Code Accepted": 20,
+            "Lines Acceptance Rate": "13.70%"
+        },
+        {
+            "Day": "06/05/2025",
+            "Total Suggestions Count": 56,
+            "Total Acceptance Count": 16,
+            "Acceptance Rate": "28.57%",
+            "Lines Of Code Suggested": 106,
+            "Lines Of Code Accepted": 16,
+            "Lines Acceptance Rate": "15.09%"
+        },
+        {
+            "Day": "06/06/2025",
+            "Total Suggestions Count": 191,
+            "Total Acceptance Count": 13,
+            "Acceptance Rate": "6.81%",
+            "Lines Of Code Suggested": 423,
+            "Lines Of Code Accepted": 10,
+            "Lines Acceptance Rate": "2.36%"
+        },
+        {
+            "Day": "06/07/2025",
+            "Total Suggestions Count": 0,
+            "Total Acceptance Count": 0,
+            "Acceptance Rate": "0%",
+            "Lines Of Code Suggested": 0,
+            "Lines Of Code Accepted": 0,
+            "Lines Acceptance Rate": "0%"
+        },
+        {
+            "Day": "06/08/2025",
+            "Total Suggestions Count": 2,
+            "Total Acceptance Count": 0,
+            "Acceptance Rate": "0.00%",
+            "Lines Of Code Suggested": 9,
+            "Lines Of Code Accepted": 0,
+            "Lines Acceptance Rate": "0.00%"
+        },
+        {
+            "Day": "06/09/2025",
+            "Total Suggestions Count": 107,
+            "Total Acceptance Count": 15,
+            "Acceptance Rate": "14.02%",
+            "Lines Of Code Suggested": 147,
+            "Lines Of Code Accepted": 14,
+            "Lines Acceptance Rate": "9.52%"
+        }
+    ],
+    "Sravanthi Muppidi": [
+        {
+            "Day": "05/13/2025",
+            "Total Suggestions Count": 2598,
+            "Total Acceptance Count": 607,
+            "Acceptance Rate": "23.36%",
+            "Lines Of Code Suggested": 4779,
+            "Lines Of Code Accepted": 856,
+            "Lines Acceptance Rate": "17.91%"
+        },
+        {
+            "Day": "05/14/2025",
+            "Total Suggestions Count": 2770,
+            "Total Acceptance Count": 676,
+            "Acceptance Rate": "24.40%",
+            "Lines Of Code Suggested": 5511,
+            "Lines Of Code Accepted": 1061,
+            "Lines Acceptance Rate": "19.25%"
+        },
+        {
+            "Day": "05/15/2025",
+            "Total Suggestions Count": 2684,
+            "Total Acceptance Count": 586,
+            "Acceptance Rate": "21.83%",
+            "Lines Of Code Suggested": 4983,
+            "Lines Of Code Accepted": 717,
+            "Lines Acceptance Rate": "14.39%"
+        },
+        {
+            "Day": "05/16/2025",
+            "Total Suggestions Count": 2719,
+            "Total Acceptance Count": 619,
+            "Acceptance Rate": "22.77%",
+            "Lines Of Code Suggested": 5185,
+            "Lines Of Code Accepted": 851,
+            "Lines Acceptance Rate": "16.41%"
+        },
+        {
+            "Day": "05/17/2025",
+            "Total Suggestions Count": 662,
+            "Total Acceptance Count": 162,
+            "Acceptance Rate": "24.47%",
+            "Lines Of Code Suggested": 1154,
+            "Lines Of Code Accepted": 154,
+            "Lines Acceptance Rate": "13.34%"
+        },
+        {
+            "Day": "05/18/2025",
+            "Total Suggestions Count": 426,
+            "Total Acceptance Count": 66,
+            "Acceptance Rate": "15.49%",
+            "Lines Of Code Suggested": 933,
+            "Lines Of Code Accepted": 149,
+            "Lines Acceptance Rate": "15.97%"
+        },
+        {
+            "Day": "05/19/2025",
+            "Total Suggestions Count": 2830,
+            "Total Acceptance Count": 631,
+            "Acceptance Rate": "22.30%",
+            "Lines Of Code Suggested": 5589,
+            "Lines Of Code Accepted": 961,
+            "Lines Acceptance Rate": "17.19%"
+        },
+        {
+            "Day": "05/20/2025",
+            "Total Suggestions Count": 2196,
+            "Total Acceptance Count": 484,
+            "Acceptance Rate": "22.04%",
+            "Lines Of Code Suggested": 4156,
+            "Lines Of Code Accepted": 697,
+            "Lines Acceptance Rate": "16.77%"
+        },
+        {
+            "Day": "05/21/2025",
+            "Total Suggestions Count": 2198,
+            "Total Acceptance Count": 487,
+            "Acceptance Rate": "22.16%",
+            "Lines Of Code Suggested": 4457,
+            "Lines Of Code Accepted": 773,
+            "Lines Acceptance Rate": "17.34%"
+        },
+        {
+            "Day": "05/22/2025",
+            "Total Suggestions Count": 3838,
+            "Total Acceptance Count": 931,
+            "Acceptance Rate": "24.26%",
+            "Lines Of Code Suggested": 7304,
+            "Lines Of Code Accepted": 1453,
+            "Lines Acceptance Rate": "19.89%"
+        },
+        {
+            "Day": "05/23/2025",
+            "Total Suggestions Count": 1391,
+            "Total Acceptance Count": 354,
+            "Acceptance Rate": "25.45%",
+            "Lines Of Code Suggested": 3246,
+            "Lines Of Code Accepted": 820,
+            "Lines Acceptance Rate": "25.26%"
+        },
+        {
+            "Day": "05/24/2025",
+            "Total Suggestions Count": 209,
+            "Total Acceptance Count": 48,
+            "Acceptance Rate": "22.97%",
+            "Lines Of Code Suggested": 608,
+            "Lines Of Code Accepted": 86,
+            "Lines Acceptance Rate": "14.14%"
+        },
+        {
+            "Day": "05/25/2025",
+            "Total Suggestions Count": 244,
+            "Total Acceptance Count": 45,
+            "Acceptance Rate": "18.44%",
+            "Lines Of Code Suggested": 597,
+            "Lines Of Code Accepted": 75,
+            "Lines Acceptance Rate": "12.56%"
+        },
+        {
+            "Day": "05/26/2025",
+            "Total Suggestions Count": 724,
+            "Total Acceptance Count": 156,
+            "Acceptance Rate": "21.55%",
+            "Lines Of Code Suggested": 1261,
+            "Lines Of Code Accepted": 178,
+            "Lines Acceptance Rate": "14.12%"
+        },
+        {
+            "Day": "05/27/2025",
+            "Total Suggestions Count": 2936,
+            "Total Acceptance Count": 663,
+            "Acceptance Rate": "22.58%",
+            "Lines Of Code Suggested": 5238,
+            "Lines Of Code Accepted": 1119,
+            "Lines Acceptance Rate": "21.36%"
+        },
+        {
+            "Day": "05/28/2025",
+            "Total Suggestions Count": 4028,
+            "Total Acceptance Count": 929,
+            "Acceptance Rate": "23.06%",
+            "Lines Of Code Suggested": 6965,
+            "Lines Of Code Accepted": 1173,
+            "Lines Acceptance Rate": "16.84%"
+        },
+        {
+            "Day": "05/29/2025",
+            "Total Suggestions Count": 2803,
+            "Total Acceptance Count": 624,
+            "Acceptance Rate": "22.26%",
+            "Lines Of Code Suggested": 5489,
+            "Lines Of Code Accepted": 889,
+            "Lines Acceptance Rate": "16.20%"
+        },
+        {
+            "Day": "05/30/2025",
+            "Total Suggestions Count": 2241,
+            "Total Acceptance Count": 425,
+            "Acceptance Rate": "18.96%",
+            "Lines Of Code Suggested": 4753,
+            "Lines Of Code Accepted": 827,
+            "Lines Acceptance Rate": "17.40%"
+        },
+        {
+            "Day": "05/31/2025",
+            "Total Suggestions Count": 519,
+            "Total Acceptance Count": 122,
+            "Acceptance Rate": "23.51%",
+            "Lines Of Code Suggested": 871,
+            "Lines Of Code Accepted": 164,
+            "Lines Acceptance Rate": "18.83%"
+        },
+        {
+            "Day": "06/01/2025",
+            "Total Suggestions Count": 742,
+            "Total Acceptance Count": 122,
+            "Acceptance Rate": "16.44%",
+            "Lines Of Code Suggested": 1358,
+            "Lines Of Code Accepted": 184,
+            "Lines Acceptance Rate": "13.55%"
+        },
+        {
+            "Day": "06/02/2025",
+            "Total Suggestions Count": 2553,
+            "Total Acceptance Count": 622,
+            "Acceptance Rate": "24.36%",
+            "Lines Of Code Suggested": 4568,
+            "Lines Of Code Accepted": 767,
+            "Lines Acceptance Rate": "16.79%"
+        },
+        {
+            "Day": "06/03/2025",
+            "Total Suggestions Count": 2692,
+            "Total Acceptance Count": 650,
+            "Acceptance Rate": "24.15%",
+            "Lines Of Code Suggested": 5452,
+            "Lines Of Code Accepted": 903,
+            "Lines Acceptance Rate": "16.56%"
+        },
+        {
+            "Day": "06/04/2025",
+            "Total Suggestions Count": 3255,
+            "Total Acceptance Count": 879,
+            "Acceptance Rate": "27.00%",
+            "Lines Of Code Suggested": 6297,
+            "Lines Of Code Accepted": 1297,
+            "Lines Acceptance Rate": "20.60%"
+        },
+        {
+            "Day": "06/05/2025",
+            "Total Suggestions Count": 3042,
+            "Total Acceptance Count": 832,
+            "Acceptance Rate": "27.35%",
+            "Lines Of Code Suggested": 5930,
+            "Lines Of Code Accepted": 1225,
+            "Lines Acceptance Rate": "20.66%"
+        },
+        {
+            "Day": "06/06/2025",
+            "Total Suggestions Count": 2165,
+            "Total Acceptance Count": 562,
+            "Acceptance Rate": "25.96%",
+            "Lines Of Code Suggested": 3962,
+            "Lines Of Code Accepted": 822,
+            "Lines Acceptance Rate": "20.75%"
+        },
+        {
+            "Day": "06/07/2025",
+            "Total Suggestions Count": 165,
+            "Total Acceptance Count": 35,
+            "Acceptance Rate": "21.21%",
+            "Lines Of Code Suggested": 439,
+            "Lines Of Code Accepted": 67,
+            "Lines Acceptance Rate": "15.26%"
+        },
+        {
+            "Day": "06/08/2025",
+            "Total Suggestions Count": 615,
+            "Total Acceptance Count": 101,
+            "Acceptance Rate": "16.42%",
+            "Lines Of Code Suggested": 1110,
+            "Lines Of Code Accepted": 197,
+            "Lines Acceptance Rate": "17.75%"
+        },
+        {
+            "Day": "06/09/2025",
+            "Total Suggestions Count": 2900,
+            "Total Acceptance Count": 744,
+            "Acceptance Rate": "25.66%",
+            "Lines Of Code Suggested": 5693,
+            "Lines Of Code Accepted": 1190,
+            "Lines Acceptance Rate": "20.90%"
+        }
+    ],
+    "Aravind Chamakura": [
+        {
+            "Day": "05/13/2025",
+            "Total Suggestions Count": 299,
+            "Total Acceptance Count": 91,
+            "Acceptance Rate": "30.43%",
+            "Lines Of Code Suggested": 636,
+            "Lines Of Code Accepted": 59,
+            "Lines Acceptance Rate": "9.28%"
+        },
+        {
+            "Day": "05/14/2025",
+            "Total Suggestions Count": 223,
+            "Total Acceptance Count": 93,
+            "Acceptance Rate": "41.70%",
+            "Lines Of Code Suggested": 362,
+            "Lines Of Code Accepted": 126,
+            "Lines Acceptance Rate": "34.81%"
+        },
+        {
+            "Day": "05/15/2025",
+            "Total Suggestions Count": 190,
+            "Total Acceptance Count": 58,
+            "Acceptance Rate": "30.53%",
+            "Lines Of Code Suggested": 275,
+            "Lines Of Code Accepted": 61,
+            "Lines Acceptance Rate": "22.18%"
+        },
+        {
+            "Day": "05/16/2025",
+            "Total Suggestions Count": 350,
+            "Total Acceptance Count": 80,
+            "Acceptance Rate": "22.86%",
+            "Lines Of Code Suggested": 982,
+            "Lines Of Code Accepted": 163,
+            "Lines Acceptance Rate": "16.60%"
+        },
+        {
+            "Day": "05/17/2025",
+            "Total Suggestions Count": 174,
+            "Total Acceptance Count": 52,
+            "Acceptance Rate": "29.89%",
+            "Lines Of Code Suggested": 613,
+            "Lines Of Code Accepted": 62,
+            "Lines Acceptance Rate": "10.11%"
+        },
+        {
+            "Day": "05/18/2025",
+            "Total Suggestions Count": 158,
+            "Total Acceptance Count": 45,
+            "Acceptance Rate": "28.48%",
+            "Lines Of Code Suggested": 553,
+            "Lines Of Code Accepted": 44,
+            "Lines Acceptance Rate": "7.96%"
+        },
+        {
+            "Day": "05/19/2025",
+            "Total Suggestions Count": 425,
+            "Total Acceptance Count": 95,
+            "Acceptance Rate": "22.35%",
+            "Lines Of Code Suggested": 972,
+            "Lines Of Code Accepted": 148,
+            "Lines Acceptance Rate": "15.23%"
+        },
+        {
+            "Day": "05/20/2025",
+            "Total Suggestions Count": 567,
+            "Total Acceptance Count": 165,
+            "Acceptance Rate": "29.10%",
+            "Lines Of Code Suggested": 853,
+            "Lines Of Code Accepted": 156,
+            "Lines Acceptance Rate": "18.29%"
+        },
+        {
+            "Day": "05/21/2025",
+            "Total Suggestions Count": 567,
+            "Total Acceptance Count": 186,
+            "Acceptance Rate": "32.80%",
+            "Lines Of Code Suggested": 1007,
+            "Lines Of Code Accepted": 160,
+            "Lines Acceptance Rate": "15.89%"
+        },
+        {
+            "Day": "05/22/2025",
+            "Total Suggestions Count": 485,
+            "Total Acceptance Count": 118,
+            "Acceptance Rate": "24.33%",
+            "Lines Of Code Suggested": 885,
+            "Lines Of Code Accepted": 105,
+            "Lines Acceptance Rate": "11.86%"
+        },
+        {
+            "Day": "05/23/2025",
+            "Total Suggestions Count": 43,
+            "Total Acceptance Count": 16,
+            "Acceptance Rate": "37.21%",
+            "Lines Of Code Suggested": 74,
+            "Lines Of Code Accepted": 9,
+            "Lines Acceptance Rate": "12.16%"
+        },
+        {
+            "Day": "05/24/2025",
+            "Total Suggestions Count": 15,
+            "Total Acceptance Count": 6,
+            "Acceptance Rate": "40.00%",
+            "Lines Of Code Suggested": 39,
+            "Lines Of Code Accepted": 12,
+            "Lines Acceptance Rate": "30.77%"
+        },
+        {
+            "Day": "05/26/2025",
+            "Total Suggestions Count": 216,
+            "Total Acceptance Count": 54,
+            "Acceptance Rate": "25.00%",
+            "Lines Of Code Suggested": 275,
+            "Lines Of Code Accepted": 74,
+            "Lines Acceptance Rate": "26.91%"
+        },
+        {
+            "Day": "05/27/2025",
+            "Total Suggestions Count": 305,
+            "Total Acceptance Count": 78,
+            "Acceptance Rate": "25.57%",
+            "Lines Of Code Suggested": 730,
+            "Lines Of Code Accepted": 132,
+            "Lines Acceptance Rate": "18.08%"
+        },
+        {
+            "Day": "05/28/2025",
+            "Total Suggestions Count": 262,
+            "Total Acceptance Count": 50,
+            "Acceptance Rate": "19.08%",
+            "Lines Of Code Suggested": 513,
+            "Lines Of Code Accepted": 81,
+            "Lines Acceptance Rate": "15.79%"
+        },
+        {
+            "Day": "05/29/2025",
+            "Total Suggestions Count": 266,
+            "Total Acceptance Count": 41,
+            "Acceptance Rate": "15.41%",
+            "Lines Of Code Suggested": 690,
+            "Lines Of Code Accepted": 55,
+            "Lines Acceptance Rate": "7.97%"
+        },
+        {
+            "Day": "05/30/2025",
+            "Total Suggestions Count": 224,
+            "Total Acceptance Count": 38,
+            "Acceptance Rate": "16.96%",
+            "Lines Of Code Suggested": 425,
+            "Lines Of Code Accepted": 27,
+            "Lines Acceptance Rate": "6.35%"
+        },
+        {
+            "Day": "05/31/2025",
+            "Total Suggestions Count": 0,
+            "Total Acceptance Count": 0,
+            "Acceptance Rate": "0%",
+            "Lines Of Code Suggested": 0,
+            "Lines Of Code Accepted": 0,
+            "Lines Acceptance Rate": "0%"
+        },
+        {
+            "Day": "06/01/2025",
+            "Total Suggestions Count": 100,
+            "Total Acceptance Count": 28,
+            "Acceptance Rate": "28.00%",
+            "Lines Of Code Suggested": 182,
+            "Lines Of Code Accepted": 37,
+            "Lines Acceptance Rate": "20.33%"
+        },
+        {
+            "Day": "06/02/2025",
+            "Total Suggestions Count": 302,
+            "Total Acceptance Count": 61,
+            "Acceptance Rate": "20.20%",
+            "Lines Of Code Suggested": 539,
+            "Lines Of Code Accepted": 48,
+            "Lines Acceptance Rate": "8.91%"
+        },
+        {
+            "Day": "06/03/2025",
+            "Total Suggestions Count": 491,
+            "Total Acceptance Count": 112,
+            "Acceptance Rate": "22.81%",
+            "Lines Of Code Suggested": 997,
+            "Lines Of Code Accepted": 200,
+            "Lines Acceptance Rate": "20.06%"
+        },
+        {
+            "Day": "06/04/2025",
+            "Total Suggestions Count": 313,
+            "Total Acceptance Count": 87,
+            "Acceptance Rate": "27.80%",
+            "Lines Of Code Suggested": 459,
+            "Lines Of Code Accepted": 84,
+            "Lines Acceptance Rate": "18.30%"
+        },
+        {
+            "Day": "06/05/2025",
+            "Total Suggestions Count": 322,
+            "Total Acceptance Count": 66,
+            "Acceptance Rate": "20.50%",
+            "Lines Of Code Suggested": 603,
+            "Lines Of Code Accepted": 86,
+            "Lines Acceptance Rate": "14.26%"
+        },
+        {
+            "Day": "06/06/2025",
+            "Total Suggestions Count": 370,
+            "Total Acceptance Count": 72,
+            "Acceptance Rate": "19.46%",
+            "Lines Of Code Suggested": 755,
+            "Lines Of Code Accepted": 60,
+            "Lines Acceptance Rate": "7.95%"
+        },
+        {
+            "Day": "06/07/2025",
+            "Total Suggestions Count": 99,
+            "Total Acceptance Count": 19,
+            "Acceptance Rate": "19.19%",
+            "Lines Of Code Suggested": 107,
+            "Lines Of Code Accepted": 7,
+            "Lines Acceptance Rate": "6.54%"
+        },
+        {
+            "Day": "06/09/2025",
+            "Total Suggestions Count": 414,
+            "Total Acceptance Count": 150,
+            "Acceptance Rate": "36.23%",
+            "Lines Of Code Suggested": 516,
+            "Lines Of Code Accepted": 139,
+            "Lines Acceptance Rate": "26.94%"
+        }
+    ]
+}

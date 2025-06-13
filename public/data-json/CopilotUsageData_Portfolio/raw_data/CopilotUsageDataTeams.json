@@ -1,0 +1,32 @@
+[
+    {
+        "team_slug": "Digital (Ramiya Iyer)",
+        "total_seats": 1308,
+        "usage_data": []
+    },
+    {
+        "team_slug": "COG (Jim Saber)",
+        "total_seats": 139,
+        "usage_data": []
+    },
+    {
+        "team_slug": "Manila",
+        "total_seats": 113,
+        "usage_data": []
+    },
+    {
+        "team_slug": "Pharmacy and eCommerce",
+        "total_seats": 0,
+        "usage_data": []
+    },
+    {
+        "team_slug": "Merchandising",
+        "total_seats": 3,
+        "usage_data": []
+    },
+    {
+        "team_slug": "supply chain",
+        "total_seats": 0,
+        "usage_data": []
+    }
+]

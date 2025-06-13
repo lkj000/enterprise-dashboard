@@ -1,0 +1,68 @@
+[
+    {
+        "Team Slug": "Digital (Ramiya Iyer)",
+        "Date Range": "03/12/2025 - 06/10/2025",
+        "Current Licensed Seats": 1331,
+        "Total Suggestions Count": 1425463,
+        "Total Acceptance Count": 327321,
+        "Acceptance Rate": "22.96%",
+        "Lines Of Code Suggested": 2972450,
+        "Lines Of Code Accepted": 470313,
+        "Lines Acceptance Rate": "15.82%"
+    },
+    {
+        "Team Slug": "COG (Jim Saber)",
+        "Date Range": "03/12/2025 - 06/10/2025",
+        "Current Licensed Seats": 138,
+        "Total Suggestions Count": 78800,
+        "Total Acceptance Count": 18683,
+        "Acceptance Rate": "23.71%",
+        "Lines Of Code Suggested": 142254,
+        "Lines Of Code Accepted": 25956,
+        "Lines Acceptance Rate": "18.25%"
+    },
+    {
+        "Team Slug": "Manila",
+        "Date Range": "03/12/2025 - 06/10/2025",
+        "Current Licensed Seats": 11,
+        "Total Suggestions Count": 10812,
+        "Total Acceptance Count": 2566,
+        "Acceptance Rate": "23.73%",
+        "Lines Of Code Suggested": 14314,
+        "Lines Of Code Accepted": 2617,
+        "Lines Acceptance Rate": "18.28%"
+    },
+    {
+        "Team Slug": "Pharmacy and eCommerce (Business)",
+        "Date Range": "03/12/2025 - 06/10/2025",
+        "Current Licensed Seats": 0,
+        "Total Suggestions Count": 0,
+        "Total Acceptance Count": 0,
+        "Acceptance Rate": "0%",
+        "Lines Of Code Suggested": 0,
+        "Lines Of Code Accepted": 0,
+        "Lines Acceptance Rate": "0%"
+    },
+    {
+        "Team Slug": "Merchandising (Business)",
+        "Date Range": "03/12/2025 - 06/10/2025",
+        "Current Licensed Seats": 0,
+        "Total Suggestions Count": 0,
+        "Total Acceptance Count": 0,
+        "Acceptance Rate": "0%",
+        "Lines Of Code Suggested": 0,
+        "Lines Of Code Accepted": 0,
+        "Lines Acceptance Rate": "0%"
+    },
+    {
+        "Team Slug": "Supply Chain (Business)",
+        "Date Range": "03/12/2025 - 06/10/2025",
+        "Current Licensed Seats": 1,
+        "Total Suggestions Count": 0,
+        "Total Acceptance Count": 0,
+        "Acceptance Rate": "0%",
+        "Lines Of Code Suggested": 0,
+        "Lines Of Code Accepted": 0,
+        "Lines Acceptance Rate": "0%"
+    }
+]

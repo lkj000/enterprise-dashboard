@@ -1,0 +1,75 @@
+ global:
+  replicaCount: 3
+  autoscaleEnabled: true
+  autoscaleMin: 3
+  autoscaleMax: 5
+  cpu:
+    targetAverageUtilization: 150
+  memory:
+    targetAverageUtilization: 175
+  image:
+    repository: escoacrprod01.azurecr.io/platformdashboard
+    pullPolicy: IfNotPresent
+    
+  imagePullSecrets: []
+  nameOverride: ""
+  fullnameOverride: ""
+  project: esgh
+  
+  serviceAccount:
+    create: true
+    annotations: {}
+
+  ingress:
+    # Generate ingress manifests
+    enabled: true
+    # Only generates ingress manifests
+    only: false
+    gatewayName: platformdashboard-gateway
+    #certName: megnu-ingress-certs
+
+    tls: []
+
+  resources:
+    limits:
+      cpu: "3000m"
+      memory: "3000Mi"
+    requests:
+      cpu: "3000m"
+      memory: "3000Mi"
+
+  nodeSelector: {}
+
+  tolerations: []
+
+  affinity: {}
+
+  deploymentOptions:
+    # Supports future, such as canary and other deployment strategies
+    # Currently supported:
+    # - Standard => Default / nothing special
+    # - Blue/Green => Deploy either a blue or green version
+    strategies:
+    - standard
+    - bluegreen
+
+    channels:
+      - blue
+      - green
+  
+  # External services Urls for istio egress serviceentry creation
+  egressSvcEntry:
+    enabled: true
+    # appdUrl: 
+    #   - safeway-loyalty.saas.appdynamics.com
+    #   - safeway-loyaltytest.saas.appdynamics.com
+    # msftLoginUrl: login.microsoftonline.com
+  appLabels:  
+    webuiLabels:
+      app: platformdashboard
+
+  securityContext:  
+    runAsUser: 1999
+    runAsGroup: 1999
+    fsGroup: 1999
+    supplementalGroup: 1999      

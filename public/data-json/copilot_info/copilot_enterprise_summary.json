@@ -1,0 +1,13 @@
+{
+  "users_count": 2290,
+  "users_with_license": 1647,
+  "users_without_license": 643,
+  "active_users": 1621,
+  "active_users_1_5_days": 1219,
+  "active_users_6_10_days": 112,
+  "active_users_more_than_10_days": 290,
+  "inactive_users_with_license": 26,
+  "users_without_contributions": 481,
+  "users_without_contribution_last_30_days": 790,
+  "users_without_commits_last_30_days": 1087
+}

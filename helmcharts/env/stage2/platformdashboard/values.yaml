@@ -1,0 +1,270 @@
+# Default values for test.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+replicaCount: 1
+
+app:
+  resources:
+    limits:
+      cpu: "3000m"
+      memory: "5000Mi"
+    requests:
+      cpu: "3000m"
+      memory: "5000Mi"
+  configFile: "env/stage2/platformdashboard/configmap.yaml"
+  appconfigfile: "env/stage2/platformdashboard/configmapapp.yaml"
+  ConfigMapEntry:
+    enable: true
+  ConfigMapApp:
+    enable: true
+  announcementdataConfigMap:
+    enabled: true
+  appconfigmap:
+    enabled: true
+  dashboardlogsVolumeCSI:
+    enable: false
+  persistentVolume:
+    enable: false
+  persistentVolumeClaim:
+    enable: false
+  persistentVolumeCSI:
+    enable: true
+  persistentVolumeClaimCSI:
+    enable: true
+    accessModes:
+      - ReadWriteOnce
+    annotations: {}
+    existingClaim: ""
+    mountPath: /app/src/data
+    mountPathSubPath: data
+    mountPath_dashboard_data: /app/dashboard_data
+    mountPathSubPath_dashboard_data: dashboard_data
+    size: 5Gi
+    mountPathJsonFiles: /app/src/data-json
+    mountPathJsonFilesSubPath: data-json
+    mountPathLogs: /app/logs
+    mountPathLogsSubPath: logs
+    mountpathsamlssojsonfiles: /app/config/dashboard-sso-saml-data.json
+    mountpathsamlssojsonfilesSubPath: dashboard-sso-saml-data.json
+  fileshare:
+    fileShareName: esghd-platformdashboard-stage
+    resourcegroup: az-core-nonprod-01-esgh-dev-westus-rg-01
+  podDisruptionBudget:
+    maxUnavailable: 1
+  pdb:
+    enabled: true
+  micrometer:
+    enable: false
+  # Monitoring Disabled
+  appDynamics:
+    enable: false
+  egressSvcEntry:
+    enabled: true
+  appcode: esghd
+  labels:
+    app: platformdashboard
+    costcenter: 9901-710
+    project: esghd
+    portfolio: DeveloperEnablement
+    appcode: esghd
+    environment: stage
+    drcategory: dr3
+    appname: platformdashboard
+  containers:
+    image: platformdashboard
+    appName: platformdashboard
+    envCode: stage
+    port: 3000
+    readinessEndpoint: /health
+    livenessEndpoint: /health
+    initialDelaySeconds_ready: 180
+    timeoutSeconds_ready: 5
+    periodSeconds_ready: 10
+    successThreshold_ready: 1
+    failureThreshold_ready: 5
+    initialDelaySeconds_live: 180
+    timeoutSeconds_live: 5
+    periodSeconds_live: 10
+    successThreshold_live: 1
+    failureThreshold_live: 5
+    env:
+      - name: AZURE_STORAGE_ACCOUNT_ACCESS_KEY
+        valueFrom:
+          secretKeyRef:
+            name: esghd-platformdashboard-storage-account-stage-key
+            key: esghd-platformdashboard-storage-account-stage-key
+      - name: AZURE_STORAGE_ACCOUNT_NAME
+        valueFrom:
+          secretKeyRef:
+            name: esghd-platformdashboard-storage-account-stage-name
+            key: esghd-platformdashboard-storage-account-stage-name
+      - name: REFRESH_TOKEN_SECRET
+        valueFrom:
+          secretKeyRef:
+            name: refresh-token-secret
+            key: refresh-token-secret
+      # - name: API_KEY
+      #   value: egkc-announcements-api-password@azurekeyvault
+  akvSecrets:
+    - esghd-platformdashboard-storage-account-stage-key
+    - esghd-platformdashboard-storage-account-stage-name
+    - refresh-token-secret
+  certs: true
+  app_secrets: true
+  GENERATE_SOURCEMAP: ""
+  REACT_APP_PRODUCTION: ""
+  ANNOUNCEMENT_URL: ""
+  REQUIRE_AUTH: ""
+  AZ_CALLBACK_PATH: ""
+  ORCH_AUTH_TOKEN: ""
+  AZ_TENANT_ID: ""
+  AZ_ISSUER: ""
+  AZ_CERT: ""
+  JWT_SECRET: ""
+  GH_TOKEN: ""
+  ORCH_API_ENDPOINT: ""
+  SAML_ENV_PROPS_PATH: ""
+  REACT_SERVER_URL: ""
+  REACT_APP_RUN_WORKFLOW_ENABLED: ""
+  ACR_API_KEY: ""
+  KEYCLOAK_URL: ""
+  KEYCLOAK_USERNAME: ""
+  KEYCLOAK_PASSWORD: ""
+  akvCertSecretName: esghd-stage-westus-aks-az-albertsons-com
+  ACR_API_ENDPOINT: ""
+  ANNOUNCEMENT_API_KEY: ""
+  # akvScSecret: esghghedevst01-sc
+  AKVSecretsStorageAccount:
+    AKVSecretName: esghd-platformdashboard-storage-account-stage
+    StorageAccountSecretNameForPod: esghd-platformdashboard-storage-account-stage
+    secretKeyName: azurestorageaccountkey
+    secretAccountName: azurestorageaccountname
+    storageAccountKey: esghd-platformdashboard-storage-account-stage-key
+    storageAccountName: esghd-platformdashboard-storage-account-stage-name
+    FileshareName: esghd-platformdashboard-stage
+  # envConf: false
+  # uienvConf: true
+  ingress:
+    annotations: {}
+      # kubernetes.io/ingress.class: nginx
+      # kubernetes.io/tls-acme: "true"
+    certName: esghd-stage-westus-aks-az-albertsons-com
+    selector:
+      istio: ingressgateway
+    host:
+      - "esghd.stage.westus.aks.az.albertsons.com"
+    virtualServiceName: platformdashboard-vs
+    destinationRuleName: platformdashboard-dr
+    portNumber: 3000
+    http:
+    - match:
+      - uri:
+          prefix: /Home
+      - uri:
+          prefix: /login
+      - uri:
+          prefix: /health
+      - uri:
+          prefix: /auth/callback
+      - uri:
+          prefix: /
+    tls: []
+    istio:
+      namespace: istio-system
+
+  autoscaleEnabled: false
+  akvVault: esgh-stage-wu-kv-01
+  # network policy rules enable flag
+  networkPolicy:
+    enabled: false
+service:
+  type: ClusterIP
+  port: 3000
+  portName: https-platformdashboard
+  targetPort: 3000
+  annotations: {}
+  labels:
+    app: platformdashboard
+    # costcenter: 9901-710
+    project: esghd
+    # portfolio: DeveloperEnablement
+    # appcode: esghd
+    # environment: dev
+    # drcategory: dr3
+    # appname: platformdashboard
+configfile: ""
+imagePullSecrets: []
+nameOverride: ""
+fullnameOverride: ""
+
+egressSvcEntry:
+  host: esghd.stage.westus.aks.az.albertsons.com
+  portNumber: 443
+  protocol: HTTPS
+  portName: https-esghd-platformdashboard
+
+
+serviceAccount:
+  # Specifies whether a service account should be created
+  create: true
+  # Annotations to add to the service account
+  annotations: {}
+  # The name of the service account to use.
+  # If not set and create is true, a name is generated using the fullname template
+  name: ""
+
+podAnnotations: {}
+
+podSecurityContext: {}
+  # fsGroup: 2000
+
+securityContext: {}
+  # capabilities:
+  #   drop:
+  #   - ALL
+  # readOnlyRootFilesystem: true
+  # runAsNonRoot: true
+  # runAsUser: 1000
+
+resources: {}
+  # We usually recommend not to specify default resources and to leave this as a conscious
+  # choice for the user. This also increases chances charts run on environments with little
+  # resources, such as Minikube. If you do want to specify resources, uncomment the following
+  # lines, adjust them as necessary, and remove the curly braces after 'resources:'.
+  # limits:
+  #   cpu: 100m
+  #   memory: 128Mi
+  # requests:
+  #   cpu: 100m
+  #   memory: 128Mi
+
+autoscaling:
+  enabled: false
+  minReplicas: 1
+  maxReplicas: 100
+  targetCPUUtilizationPercentage: 80
+  # targetMemoryUtilizationPercentage: 80
+
+nodeSelector: {}
+
+tolerations: []
+
+affinity: {}
+secrets: []
+
+global:
+  ingress:
+    enabled: true
+    only: false
+    gatewayName: platformdashboard-gateway
+    # kubernetes.io/ingress.class: nginx
+    # kubernetes.io/tls-acme: "true"
+
+    tls: [] 
+  securityContext:
+    enabled: true
+    runAsUser: 1999
+    runAsGroup: 1999
+    fsGroup: 1999
+    supplementalGroups: 1999

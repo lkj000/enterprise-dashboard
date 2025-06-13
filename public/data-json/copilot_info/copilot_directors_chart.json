@@ -1,0 +1,596 @@
+[
+  {
+    "id": "Karthik Kakolu",
+    "Portfolio_Name": "Digital (Ramiya Iyer)",
+    "Active Users (1-5 Days)": 17,
+    "Active Users (6-10 Days)": 0,
+    "Active Users (>10 Days)": 2,
+    "Inactive Users": 0,
+    "License Not Assigned": 6
+  },
+  {
+    "id": "Marty Quintanilla",
+    "Portfolio_Name": "COG (Jim Saber)",
+    "Active Users (1-5 Days)": 0,
+    "Active Users (6-10 Days)": 0,
+    "Active Users (>10 Days)": 1,
+    "Inactive Users": 0,
+    "License Not Assigned": 0
+  },
+  {
+    "id": "Ninad Khirwadkar",
+    "Portfolio_Name": "Digital (Ramiya Iyer)",
+    "Active Users (1-5 Days)": 14,
+    "Active Users (6-10 Days)": 2,
+    "Active Users (>10 Days)": 4,
+    "Inactive Users": 0,
+    "License Not Assigned": 12
+  },
+  {
+    "id": "Subroto Chakrabarty",
+    "Portfolio_Name": "Digital (Ramiya Iyer)",
+    "Active Users (1-5 Days)": 34,
+    "Active Users (6-10 Days)": 3,
+    "Active Users (>10 Days)": 12,
+    "Inactive Users": 0,
+    "License Not Assigned": 8
+  },
+  {
+    "id": "Divyang Kothari",
+    "Portfolio_Name": "COG (Jim Saber)",
+    "Active Users (1-5 Days)": 2,
+    "Active Users (6-10 Days)": 1,
+    "Active Users (>10 Days)": 3,
+    "Inactive Users": 0,
+    "License Not Assigned": 6
+  },
+  {
+    "id": "Joseph Kalapala",
+    "Portfolio_Name": "Digital (Ramiya Iyer)",
+    "Active Users (1-5 Days)": 19,
+    "Active Users (6-10 Days)": 2,
+    "Active Users (>10 Days)": 2,
+    "Inactive Users": 0,
+    "License Not Assigned": 14
+  },
+  {
+    "id": "raghu Mantri",
+    "Portfolio_Name": "COG (Jim Saber)",
+    "Active Users (1-5 Days)": 4,
+    "Active Users (6-10 Days)": 1,
+    "Active Users (>10 Days)": 0,
+    "Inactive Users": 0,
+    "License Not Assigned": 3
+  },
+  {
+    "id": "Shankar Murahari",
+    "Portfolio_Name": "Digital (Ramiya Iyer)",
+    "Active Users (1-5 Days)": 52,
+    "Active Users (6-10 Days)": 3,
+    "Active Users (>10 Days)": 7,
+    "Inactive Users": 0,
+    "License Not Assigned": 5
+  },
+  {
+    "id": "Nik Rochnik",
+    "Portfolio_Name": "Digital (Ramiya Iyer)",
+    "Active Users (1-5 Days)": 0,
+    "Active Users (6-10 Days)": 0,
+    "Active Users (>10 Days)": 0,
+    "Inactive Users": 0,
+    "License Not Assigned": 1
+  },
+  {
+    "id": "Krishna Wudaru",
+    "Portfolio_Name": "Digital (Ramiya Iyer)",
+    "Active Users (1-5 Days)": 61,
+    "Active Users (6-10 Days)": 7,
+    "Active Users (>10 Days)": 15,
+    "Inactive Users": 0,
+    "License Not Assigned": 8
+  },
+  {
+    "id": "Loida Sagaran",
+    "Portfolio_Name": "Manila",
+    "Active Users (1-5 Days)": 1,
+    "Active Users (6-10 Days)": 0,
+    "Active Users (>10 Days)": 0,
+    "Inactive Users": 0,
+    "License Not Assigned": 1
+  },
+  {
+    "id": "Deepak Tiwari",
+    "Portfolio_Name": "Digital (Ramiya Iyer)",
+    "Active Users (1-5 Days)": 100,
+    "Active Users (6-10 Days)": 5,
+    "Active Users (>10 Days)": 34,
+    "Inactive Users": 2,
+    "License Not Assigned": 39
+  },
+  {
+    "id": "Chiles De Leon",
+    "Portfolio_Name": "Manila",
+    "Active Users (1-5 Days)": 0,
+    "Active Users (6-10 Days)": 0,
+    "Active Users (>10 Days)": 0,
+    "Inactive Users": 0,
+    "License Not Assigned": 1
+  },
+  {
+    "id": "Hariharan Ramamurthy",
+    "Portfolio_Name": "COG (Jim Saber)",
+    "Active Users (1-5 Days)": 5,
+    "Active Users (6-10 Days)": 2,
+    "Active Users (>10 Days)": 2,
+    "Inactive Users": 0,
+    "License Not Assigned": 2
+  },
+  {
+    "id": "Anupama Dande",
+    "Portfolio_Name": "Digital (Ramiya Iyer)",
+    "Active Users (1-5 Days)": 14,
+    "Active Users (6-10 Days)": 1,
+    "Active Users (>10 Days)": 5,
+    "Inactive Users": 1,
+    "License Not Assigned": 24
+  },
+  {
+    "id": "Vinay Desai",
+    "Portfolio_Name": "COG (Jim Saber)",
+    "Active Users (1-5 Days)": 7,
+    "Active Users (6-10 Days)": 1,
+    "Active Users (>10 Days)": 3,
+    "Inactive Users": 0,
+    "License Not Assigned": 19
+  },
+  {
+    "id": "Santosh Jhingade",
+    "Portfolio_Name": "Digital (Ramiya Iyer)",
+    "Active Users (1-5 Days)": 38,
+    "Active Users (6-10 Days)": 2,
+    "Active Users (>10 Days)": 5,
+    "Inactive Users": 2,
+    "License Not Assigned": 8
+  },
+  {
+    "id": "Jean-Marc Bauquin",
+    "Portfolio_Name": "Manila",
+    "Active Users (1-5 Days)": 64,
+    "Active Users (6-10 Days)": 8,
+    "Active Users (>10 Days)": 24,
+    "Inactive Users": 2,
+    "License Not Assigned": 75
+  },
+  {
+    "id": "Elson Bao",
+    "Portfolio_Name": "Digital (Ramiya Iyer)",
+    "Active Users (1-5 Days)": 9,
+    "Active Users (6-10 Days)": 0,
+    "Active Users (>10 Days)": 4,
+    "Inactive Users": 0,
+    "License Not Assigned": 1
+  },
+  {
+    "id": "Moorthi Avanashiyappan",
+    "Portfolio_Name": "COG (Jim Saber)",
+    "Active Users (1-5 Days)": 10,
+    "Active Users (6-10 Days)": 0,
+    "Active Users (>10 Days)": 1,
+    "Inactive Users": 0,
+    "License Not Assigned": 21
+  },
+  {
+    "id": "Swapnil Sharma",
+    "Portfolio_Name": "COG (Jim Saber)",
+    "Active Users (1-5 Days)": 5,
+    "Active Users (6-10 Days)": 0,
+    "Active Users (>10 Days)": 5,
+    "Inactive Users": 0,
+    "License Not Assigned": 4
+  },
+  {
+    "id": "Christopher Cowgill",
+    "Portfolio_Name": "Merchandising (Business)",
+    "Active Users (1-5 Days)": 0,
+    "Active Users (6-10 Days)": 0,
+    "Active Users (>10 Days)": 0,
+    "Inactive Users": 0,
+    "License Not Assigned": 1
+  },
+  {
+    "id": "Michelle Tonkovich",
+    "Portfolio_Name": "Digital (Ramiya Iyer)",
+    "Active Users (1-5 Days)": 52,
+    "Active Users (6-10 Days)": 5,
+    "Active Users (>10 Days)": 23,
+    "Inactive Users": 3,
+    "License Not Assigned": 22
+  },
+  {
+    "id": "Justin Gonzalez",
+    "Portfolio_Name": "Manila",
+    "Active Users (1-5 Days)": 11,
+    "Active Users (6-10 Days)": 0,
+    "Active Users (>10 Days)": 0,
+    "Inactive Users": 0,
+    "License Not Assigned": 4
+  },
+  {
+    "id": "Jerry Cortez",
+    "Portfolio_Name": "Supply Chain (Business)",
+    "Active Users (1-5 Days)": 1,
+    "Active Users (6-10 Days)": 0,
+    "Active Users (>10 Days)": 0,
+    "Inactive Users": 0,
+    "License Not Assigned": 0
+  },
+  {
+    "id": "Paul Intrevado",
+    "Portfolio_Name": "Digital (Ramiya Iyer)",
+    "Active Users (1-5 Days)": 0,
+    "Active Users (6-10 Days)": 0,
+    "Active Users (>10 Days)": 0,
+    "Inactive Users": 3,
+    "License Not Assigned": 0
+  },
+  {
+    "id": "Andrea Telang",
+    "Portfolio_Name": "Digital (Ramiya Iyer)",
+    "Active Users (1-5 Days)": 0,
+    "Active Users (6-10 Days)": 0,
+    "Active Users (>10 Days)": 0,
+    "Inactive Users": 0,
+    "License Not Assigned": 11
+  },
+  {
+    "id": "Flordeliza Krill",
+    "Portfolio_Name": "Digital (Ramiya Iyer)",
+    "Active Users (1-5 Days)": 16,
+    "Active Users (6-10 Days)": 2,
+    "Active Users (>10 Days)": 3,
+    "Inactive Users": 1,
+    "License Not Assigned": 7
+  },
+  {
+    "id": "Vivek Ranjan",
+    "Portfolio_Name": "Merchandising (Business)",
+    "Active Users (1-5 Days)": 0,
+    "Active Users (6-10 Days)": 0,
+    "Active Users (>10 Days)": 0,
+    "Inactive Users": 0,
+    "License Not Assigned": 3
+  },
+  {
+    "id": "Greg Hartnett",
+    "Portfolio_Name": "Digital (Ramiya Iyer)",
+    "Active Users (1-5 Days)": 8,
+    "Active Users (6-10 Days)": 2,
+    "Active Users (>10 Days)": 2,
+    "Inactive Users": 0,
+    "License Not Assigned": 0
+  },
+  {
+    "id": "Dan Tran",
+    "Portfolio_Name": "Digital (Ramiya Iyer)",
+    "Active Users (1-5 Days)": 11,
+    "Active Users (6-10 Days)": 1,
+    "Active Users (>10 Days)": 1,
+    "Inactive Users": 0,
+    "License Not Assigned": 5
+  },
+  {
+    "id": "Raghu Devarakonda",
+    "Portfolio_Name": "Digital (Ramiya Iyer)",
+    "Active Users (1-5 Days)": 61,
+    "Active Users (6-10 Days)": 6,
+    "Active Users (>10 Days)": 12,
+    "Inactive Users": 1,
+    "License Not Assigned": 8
+  },
+  {
+    "id": "Raj Katakwar",
+    "Portfolio_Name": "COG (Jim Saber)",
+    "Active Users (1-5 Days)": 9,
+    "Active Users (6-10 Days)": 5,
+    "Active Users (>10 Days)": 7,
+    "Inactive Users": 0,
+    "License Not Assigned": 22
+  },
+  {
+    "id": "Ben Wang",
+    "Portfolio_Name": "Digital (Ramiya Iyer)",
+    "Active Users (1-5 Days)": 2,
+    "Active Users (6-10 Days)": 1,
+    "Active Users (>10 Days)": 1,
+    "Inactive Users": 0,
+    "License Not Assigned": 6
+  },
+  {
+    "id": "Faisal Ali Arabi",
+    "Portfolio_Name": "Digital (Ramiya Iyer)",
+    "Active Users (1-5 Days)": 35,
+    "Active Users (6-10 Days)": 2,
+    "Active Users (>10 Days)": 11,
+    "Inactive Users": 2,
+    "License Not Assigned": 12
+  },
+  {
+    "id": "Bill Bain",
+    "Portfolio_Name": "Merchandising (Business)",
+    "Active Users (1-5 Days)": 0,
+    "Active Users (6-10 Days)": 0,
+    "Active Users (>10 Days)": 0,
+    "Inactive Users": 0,
+    "License Not Assigned": 3
+  },
+  {
+    "id": "Srikant Mahapatra",
+    "Portfolio_Name": "Digital (Ramiya Iyer)",
+    "Active Users (1-5 Days)": 12,
+    "Active Users (6-10 Days)": 1,
+    "Active Users (>10 Days)": 4,
+    "Inactive Users": 0,
+    "License Not Assigned": 25
+  },
+  {
+    "id": "James Wall",
+    "Portfolio_Name": "Digital (Ramiya Iyer)",
+    "Active Users (1-5 Days)": 0,
+    "Active Users (6-10 Days)": 0,
+    "Active Users (>10 Days)": 1,
+    "Inactive Users": 0,
+    "License Not Assigned": 6
+  },
+  {
+    "id": "Caleb Del Begio",
+    "Portfolio_Name": "Merchandising (Business)",
+    "Active Users (1-5 Days)": 0,
+    "Active Users (6-10 Days)": 0,
+    "Active Users (>10 Days)": 0,
+    "Inactive Users": 0,
+    "License Not Assigned": 1
+  },
+  {
+    "id": "Gaurav Jain",
+    "Portfolio_Name": "COG (Jim Saber)",
+    "Active Users (1-5 Days)": 31,
+    "Active Users (6-10 Days)": 2,
+    "Active Users (>10 Days)": 4,
+    "Inactive Users": 0,
+    "License Not Assigned": 4
+  },
+  {
+    "id": "Vidhya Raman",
+    "Portfolio_Name": "Digital (Ramiya Iyer)",
+    "Active Users (1-5 Days)": 82,
+    "Active Users (6-10 Days)": 3,
+    "Active Users (>10 Days)": 7,
+    "Inactive Users": 2,
+    "License Not Assigned": 16
+  },
+  {
+    "id": "Sagar Amancherla",
+    "Portfolio_Name": "Digital (Ramiya Iyer)",
+    "Active Users (1-5 Days)": 0,
+    "Active Users (6-10 Days)": 0,
+    "Active Users (>10 Days)": 1,
+    "Inactive Users": 0,
+    "License Not Assigned": 1
+  },
+  {
+    "id": "Ian Long",
+    "Portfolio_Name": "COG (Jim Saber)",
+    "Active Users (1-5 Days)": 4,
+    "Active Users (6-10 Days)": 3,
+    "Active Users (>10 Days)": 0,
+    "Inactive Users": 1,
+    "License Not Assigned": 4
+  },
+  {
+    "id": "Goldi Goel",
+    "Portfolio_Name": "Digital (Ramiya Iyer)",
+    "Active Users (1-5 Days)": 54,
+    "Active Users (6-10 Days)": 3,
+    "Active Users (>10 Days)": 8,
+    "Inactive Users": 0,
+    "License Not Assigned": 15
+  },
+  {
+    "id": "David Thomas",
+    "Portfolio_Name": "Digital (Ramiya Iyer)",
+    "Active Users (1-5 Days)": 0,
+    "Active Users (6-10 Days)": 0,
+    "Active Users (>10 Days)": 0,
+    "Inactive Users": 0,
+    "License Not Assigned": 1
+  },
+  {
+    "id": "Prakash Kulkarni",
+    "Portfolio_Name": "Digital (Ramiya Iyer)",
+    "Active Users (1-5 Days)": 53,
+    "Active Users (6-10 Days)": 9,
+    "Active Users (>10 Days)": 10,
+    "Inactive Users": 3,
+    "License Not Assigned": 15
+  },
+  {
+    "id": "Ganesh Kenneth",
+    "Portfolio_Name": "Digital (Ramiya Iyer)",
+    "Active Users (1-5 Days)": 8,
+    "Active Users (6-10 Days)": 2,
+    "Active Users (>10 Days)": 0,
+    "Inactive Users": 0,
+    "License Not Assigned": 12
+  },
+  {
+    "id": "Paul Campbell",
+    "Portfolio_Name": "Digital (Ramiya Iyer)",
+    "Active Users (1-5 Days)": 0,
+    "Active Users (6-10 Days)": 0,
+    "Active Users (>10 Days)": 0,
+    "Inactive Users": 0,
+    "License Not Assigned": 3
+  },
+  {
+    "id": "Dragana Stamenkovic",
+    "Portfolio_Name": "Digital (Ramiya Iyer)",
+    "Active Users (1-5 Days)": 6,
+    "Active Users (6-10 Days)": 0,
+    "Active Users (>10 Days)": 2,
+    "Inactive Users": 0,
+    "License Not Assigned": 2
+  },
+  {
+    "id": "Rey Mendaros",
+    "Portfolio_Name": "Digital (Ramiya Iyer)",
+    "Active Users (1-5 Days)": 1,
+    "Active Users (6-10 Days)": 0,
+    "Active Users (>10 Days)": 0,
+    "Inactive Users": 0,
+    "License Not Assigned": 0
+  },
+  {
+    "id": "Akshatha Mohan",
+    "Portfolio_Name": "COG (Jim Saber)",
+    "Active Users (1-5 Days)": 3,
+    "Active Users (6-10 Days)": 0,
+    "Active Users (>10 Days)": 3,
+    "Inactive Users": 0,
+    "License Not Assigned": 9
+  },
+  {
+    "id": "Stephen Menaquale",
+    "Portfolio_Name": "Pharmacy and eCommerce (Business)",
+    "Active Users (1-5 Days)": 0,
+    "Active Users (6-10 Days)": 0,
+    "Active Users (>10 Days)": 0,
+    "Inactive Users": 0,
+    "License Not Assigned": 1
+  },
+  {
+    "id": "Mouli Sivam",
+    "Portfolio_Name": "COG (Jim Saber)",
+    "Active Users (1-5 Days)": 12,
+    "Active Users (6-10 Days)": 1,
+    "Active Users (>10 Days)": 2,
+    "Inactive Users": 0,
+    "License Not Assigned": 21
+  },
+  {
+    "id": "Raj Anand",
+    "Portfolio_Name": "Digital (Ramiya Iyer)",
+    "Active Users (1-5 Days)": 49,
+    "Active Users (6-10 Days)": 8,
+    "Active Users (>10 Days)": 8,
+    "Inactive Users": 0,
+    "License Not Assigned": 7
+  },
+  {
+    "id": "Behlul Saka",
+    "Portfolio_Name": "Merchandising (Business)",
+    "Active Users (1-5 Days)": 1,
+    "Active Users (6-10 Days)": 1,
+    "Active Users (>10 Days)": 1,
+    "Inactive Users": 0,
+    "License Not Assigned": 1
+  },
+  {
+    "id": "Nishant Menon",
+    "Portfolio_Name": "COG (Jim Saber)",
+    "Active Users (1-5 Days)": 0,
+    "Active Users (6-10 Days)": 0,
+    "Active Users (>10 Days)": 0,
+    "Inactive Users": 0,
+    "License Not Assigned": 1
+  },
+  {
+    "id": "Rahul Shah",
+    "Portfolio_Name": "Digital (Ramiya Iyer)",
+    "Active Users (1-5 Days)": 10,
+    "Active Users (6-10 Days)": 1,
+    "Active Users (>10 Days)": 2,
+    "Inactive Users": 0,
+    "License Not Assigned": 2
+  },
+  {
+    "id": "Donna Ahron",
+    "Portfolio_Name": "Digital (Ramiya Iyer)",
+    "Active Users (1-5 Days)": 13,
+    "Active Users (6-10 Days)": 0,
+    "Active Users (>10 Days)": 3,
+    "Inactive Users": 0,
+    "License Not Assigned": 13
+  },
+  {
+    "id": "Balasri Mekala",
+    "Portfolio_Name": "Digital (Ramiya Iyer)",
+    "Active Users (1-5 Days)": 9,
+    "Active Users (6-10 Days)": 0,
+    "Active Users (>10 Days)": 2,
+    "Inactive Users": 0,
+    "License Not Assigned": 11
+  },
+  {
+    "id": "Vikas Pathuri",
+    "Portfolio_Name": "Digital (Ramiya Iyer)",
+    "Active Users (1-5 Days)": 2,
+    "Active Users (6-10 Days)": 0,
+    "Active Users (>10 Days)": 0,
+    "Inactive Users": 0,
+    "License Not Assigned": 6
+  },
+  {
+    "id": "Vaikundamurthy Subbaraman",
+    "Portfolio_Name": "Digital (Ramiya Iyer)",
+    "Active Users (1-5 Days)": 25,
+    "Active Users (6-10 Days)": 2,
+    "Active Users (>10 Days)": 10,
+    "Inactive Users": 0,
+    "License Not Assigned": 7
+  },
+  {
+    "id": "Julian Ferrara",
+    "Portfolio_Name": "Supply Chain (Business)",
+    "Active Users (1-5 Days)": 0,
+    "Active Users (6-10 Days)": 0,
+    "Active Users (>10 Days)": 0,
+    "Inactive Users": 0,
+    "License Not Assigned": 1
+  },
+  {
+    "id": "Jeff Cranney",
+    "Portfolio_Name": "COG (Jim Saber)",
+    "Active Users (1-5 Days)": 3,
+    "Active Users (6-10 Days)": 0,
+    "Active Users (>10 Days)": 0,
+    "Inactive Users": 0,
+    "License Not Assigned": 3
+  },
+  {
+    "id": "Saju Sreekumar",
+    "Portfolio_Name": "Digital (Ramiya Iyer)",
+    "Active Users (1-5 Days)": 33,
+    "Active Users (6-10 Days)": 3,
+    "Active Users (>10 Days)": 6,
+    "Inactive Users": 0,
+    "License Not Assigned": 7
+  },
+  {
+    "id": "Neetu Sultan",
+    "Portfolio_Name": "Digital (Ramiya Iyer)",
+    "Active Users (1-5 Days)": 89,
+    "Active Users (6-10 Days)": 7,
+    "Active Users (>10 Days)": 13,
+    "Inactive Users": 0,
+    "License Not Assigned": 18
+  },
+  {
+    "id": "Karthik Balasubramanian",
+    "Portfolio_Name": "Digital (Ramiya Iyer)",
+    "Active Users (1-5 Days)": 34,
+    "Active Users (6-10 Days)": 1,
+    "Active Users (>10 Days)": 4,
+    "Inactive Users": 1,
+    "License Not Assigned": 5
+  }
+]

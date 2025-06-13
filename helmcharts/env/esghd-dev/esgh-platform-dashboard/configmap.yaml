@@ -1,0 +1,10 @@
+####ANNOUCEMENT_CONFIGMAPS####
+  announcement.js: ""
+  dashboard-sso-saml-data.json: |
+    {
+      "callbackUrl": "/auth/callback",
+      "tenantId": "b7f604a0-00a9-4188-9248-42f3a5aac2e9",
+      "issuer": "devops-dashboard-sso-nonprd",
+      "cert": "MIIC8DCCAdigAwIBAgIQPzCkbUtHmZ9BYwAtkYn9YjANBgkqhkiG9w0BAQsFADA0MTIwMAYDVQQDEylNaWNyb3NvZnQgQXp1cmUgRmVkZXJhdGVkIFNTTyBDZXJ0aWZpY2F0ZTAeFw0yNDA5MTAwMjQzNDVaFw0yNzA5MTAwMjQzNDRaMDQxMjAwBgNVBAMTKU1pY3Jvc29mdCBBenVyZSBGZWRlcmF0ZWQgU1NPIENlcnRpZmljYXRlMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnYNNHIPjbRmvN08IpkBv8T0Fbman1zmd6ZDjipRCCskdNFlvWaBkpSAPpwdCLj1qMsmlstOgdylIGfzKmHcymMXDlncbycwbFoOGUW/vBEeP8Da0K1j/CVQfOpfhT/i2nfcrBaNltEG19rAz17GH5bwi8u/7ZmbeFEu8Z3NChG7ZdkgaMpbcUKHgdi9x1xVqmg5bzsFJJHiciICzFNKmPIIwF+1hd2vY0WAwe7ahAZhKxK0EEd6JedOk02czjHDrDFiUEPB1W0U8uAr34rugWoNGpVk/u35V4GRVtjjksELwHjJLdF0sR52cJmGxpU3vcR8IzH1D5RotZMXLJhrJ8QIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQA6vY7alGtowoyrixhyCtbjSLtIltIpSSdv0GRpz2DAQD5qCJU5nUpEnGSYMFgy2fMPa/8aoa3GJx02L7ssT9VF2nupQMdwNf+nS2zk6JZca2ITj/n0g59KUlHPjXe83+H+ipiwRj2qWeGVnogIpLwgMI7x94oAqFBLMOk/+x8Opcwgnk/qbW4cUF/eiUbHrdM9+dT4M+TSMqWiQfI8dOy3TpWTTVC+kr/0X8hC5BOLoMv/eshGAC3rJ6BzobfcujLzU2Pb2f7RbQncdO70hLttyt9GlvGW7FJX9GL4WcbiMRU/uN7XGiQ8SMnarzAlfUpOXUr/ZEERUxP6lNLLEadc"
+    }
+  ENV_TYPE: "development"
